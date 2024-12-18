@@ -5,3 +5,8 @@ seaborn
 plotly
 dash
 streamlit-lottie
+mistralai
+transformers
+datasets
+peft
+accelerate

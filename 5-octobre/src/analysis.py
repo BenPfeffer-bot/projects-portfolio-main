@@ -3,24 +3,34 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 from config import CLEANED_DATA_DIR, CART_FILENAME, ORDER_FILENAME
+from config import load_logger
+
+logger = load_logger()
 
 
 def load_cleaned_data():
     """
     Load the cleaned cart and order datasets.
     """
+    logger.info("Loading cleaned data files...")
     cart_path = os.path.join(CLEANED_DATA_DIR, CART_FILENAME)
     order_path = os.path.join(CLEANED_DATA_DIR, ORDER_FILENAME)
 
     try:
         cart_df = pd.read_csv(cart_path)
         order_df = pd.read_csv(order_path)
+        logger.info("Successfully loaded cleaned data files")
+        logger.debug(f"Cart data shape: {cart_df.shape}")
+        logger.debug(f"Order data shape: {order_df.shape}")
         return cart_df, order_df
     except FileNotFoundError as e:
+        logger.error(f"File not found: {e}")
         print(f"File not found: {e}")
     except pd.errors.EmptyDataError:
+        logger.error("One of the cleaned files is empty")
         print("One of the cleaned files is empty.")
     except Exception as e:
+        logger.error(f"Error loading cleaned data: {e}")
         print(f"Error loading cleaned data: {e}")
 
     return None, None
@@ -34,85 +44,133 @@ def basic_kpis(order_df, total_col="Total", client_col="Client"):
     - Unique customers
     - Average orders per customer
     """
+    logger.info("Computing basic KPIs...")
     if total_col not in order_df.columns or client_col not in order_df.columns:
+        logger.error("Required columns for basic KPIs not found")
         print("Required columns for basic KPIs not found.")
         return {}
 
     total_orders = len(order_df)
     total_revenue = order_df[total_col].sum()
     unique_customers = order_df[client_col].nunique()
-    avg_orders_per_customer = total_orders / unique_customers if unique_customers > 0 else 0
+    avg_orders_per_customer = (
+        total_orders / unique_customers if unique_customers > 0 else 0
+    )
 
-    return {"total_orders": total_orders, "total_revenue": total_revenue, "unique_customers": unique_customers, "avg_orders_per_customer": avg_orders_per_customer}
+    kpis = {
+        "total_orders": total_orders,
+        "total_revenue": total_revenue,
+        "unique_customers": unique_customers,
+        "avg_orders_per_customer": avg_orders_per_customer,
+    }
+
+    logger.debug(f"Basic KPIs calculated: {kpis}")
+    logger.info("Basic KPIs computation complete")
+    return kpis
 
 
 def compute_revenue_over_time(order_df, freq="M", date_col="Date", total_col="Total"):
     """Compute total revenue aggregated by a specified time frequency."""
+    logger.info(f"Computing revenue over time with frequency {freq}...")
     if date_col not in order_df.columns or total_col not in order_df.columns:
+        logger.error("Required columns for revenue over time not found")
         print("Required columns for revenue over time not found.")
         return pd.Series(dtype=float)
     try:
         order_df[date_col] = pd.to_datetime(order_df[date_col], errors="coerce")
         revenue_series = order_df.set_index(date_col).resample(freq)[total_col].sum()
+        logger.debug(f"Revenue series shape: {revenue_series.shape}")
+        logger.info("Revenue over time computation complete")
         return revenue_series
     except Exception as e:
+        logger.error(f"Error computing revenue over time: {e}")
         print(f"Error computing revenue over time: {e}")
         return pd.Series(dtype=float)
 
 
 def compute_average_order_value(order_df, total_col="Total"):
     """Compute the Average Order Value (AOV)."""
+    logger.info("Computing average order value...")
     if total_col not in order_df.columns:
+        logger.error(f"Column {total_col} not found in orders data")
         print(f"Column {total_col} not found in orders data.")
         return np.nan
     try:
-        return order_df[total_col].mean()
+        aov = order_df[total_col].mean()
+        logger.debug(f"Calculated AOV: {aov}")
+        logger.info("AOV computation complete")
+        return aov
     except Exception as e:
+        logger.error(f"Error computing average order value: {e}")
         print(f"Error computing average order value: {e}")
         return np.nan
 
 
-def compute_cart_abandonment_rate(cart_df, order_df, cart_id_col="ID commande", order_ref_col="Référence"):
+def compute_cart_abandonment_rate(
+    cart_df, order_df, cart_id_col="ID commande", order_ref_col="Référence"
+):
     """Compute cart abandonment rate."""
+    logger.info("Computing cart abandonment rate...")
     if cart_id_col not in cart_df.columns:
+        logger.error(f"Column {cart_id_col} not found in cart data")
         print(f"Column {cart_id_col} not found in cart data.")
         return np.nan
     if order_ref_col not in order_df.columns:
+        logger.error(f"Column {order_ref_col} not found in order data")
         print(f"Column {order_ref_col} not found in order data.")
         return np.nan
 
     try:
         total_carts = cart_df[cart_id_col].nunique()
-        completed_orders = cart_df[cart_id_col].isin(order_df[order_ref_col].unique()).sum()
+        completed_orders = (
+            cart_df[cart_id_col].isin(order_df[order_ref_col].unique()).sum()
+        )
         if total_carts == 0:
+            logger.warning("No carts found in data")
             return 0.0
-        return (1 - (completed_orders / total_carts)) * 100
+        abandonment_rate = (1 - (completed_orders / total_carts)) * 100
+        logger.debug(f"Cart abandonment rate: {abandonment_rate}%")
+        logger.info("Cart abandonment rate computation complete")
+        return abandonment_rate
     except Exception as e:
+        logger.error(f"Error computing cart abandonment rate: {e}")
         print(f"Error computing cart abandonment rate: {e}")
         return np.nan
 
 
 def analyze_customer_count(order_df, date_col="Date", client_col="Client", freq="M"):
     """Analyze unique customers over time."""
+    logger.info(f"Analyzing customer count with frequency {freq}...")
     if date_col not in order_df.columns or client_col not in order_df.columns:
+        logger.error("Required columns for customer analysis not found")
         print("Required columns for customer analysis not found.")
         return pd.Series(dtype=float)
 
     try:
         order_df[date_col] = pd.to_datetime(order_df[date_col], errors="coerce")
-        return order_df.set_index(date_col).groupby(pd.Grouper(freq=freq))[client_col].nunique()
+        customer_series = (
+            order_df.set_index(date_col)
+            .groupby(pd.Grouper(freq=freq))[client_col]
+            .nunique()
+        )
+        logger.debug(f"Customer count series shape: {customer_series.shape}")
+        logger.info("Customer count analysis complete")
+        return customer_series
     except Exception as e:
+        logger.error(f"Error analyzing customer count: {e}")
         print(f"Error analyzing customer count: {e}")
         return pd.Series(dtype=float)
 
 
 def order_value_distribution(order_df, total_col="Total"):
     """Provide descriptive statistics for the order values."""
+    logger.info("Analyzing order value distribution...")
     if total_col not in order_df.columns:
+        logger.error(f"{total_col} not found in orders data")
         print(f"{total_col} not found in orders data.")
         return {}
     desc = order_df[total_col].describe()
-    return {
+    stats = {
         "min": desc["min"],
         "max": desc["max"],
         "median": desc["50%"],
@@ -121,67 +179,126 @@ def order_value_distribution(order_df, total_col="Total"):
         "25%_quartile": desc["25%"],
         "75%_quartile": desc["75%"],
     }
+    logger.debug(f"Order value distribution stats: {stats}")
+    logger.info("Order value distribution analysis complete")
+    return stats
 
 
 def revenue_growth(order_df, freq="M", date_col="Date", total_col="Total"):
     """Compute month-over-month (or chosen freq) revenue growth percentage."""
-    revenue_series = compute_revenue_over_time(order_df, freq=freq, date_col=date_col, total_col=total_col)
+    logger.info(f"Computing revenue growth with frequency {freq}...")
+    revenue_series = compute_revenue_over_time(
+        order_df, freq=freq, date_col=date_col, total_col=total_col
+    )
     if revenue_series.empty:
+        logger.warning("Empty revenue series - cannot compute growth")
         return pd.Series(dtype=float)
     growth = revenue_series.pct_change() * 100
+    logger.debug(f"Revenue growth series shape: {growth.shape}")
+    logger.info("Revenue growth computation complete")
     return growth
 
 
-def new_vs_returning_customers(order_df, date_col="Date", client_col="Client", freq="M"):
+def new_vs_returning_customers(
+    order_df, date_col="Date", client_col="Client", freq="M"
+):
     """Analyze new vs. returning customers over time."""
+    logger.info("Analyzing new vs returning customers...")
     if date_col not in order_df.columns or client_col not in order_df.columns:
+        logger.error("Required columns for new/returning customer analysis not found")
         print("Required columns for new/returning customer analysis not found.")
         return pd.DataFrame()
 
     try:
         order_df[date_col] = pd.to_datetime(order_df[date_col], errors="coerce")
         order_df = order_df.sort_values(date_col)
-        first_purchase = order_df.groupby(client_col)[date_col].min().reset_index().rename(columns={date_col: "FirstPurchaseDate"})
+        first_purchase = (
+            order_df.groupby(client_col)[date_col]
+            .min()
+            .reset_index()
+            .rename(columns={date_col: "FirstPurchaseDate"})
+        )
         order_df = order_df.merge(first_purchase, on=client_col, how="left")
 
         order_df["Cohort"] = order_df["FirstPurchaseDate"].dt.to_period(freq)
         order_df["OrderPeriod"] = order_df[date_col].dt.to_period(freq)
 
-        new_customers = order_df[order_df["Cohort"] == order_df["OrderPeriod"]].groupby("OrderPeriod")[client_col].nunique()
+        new_customers = (
+            order_df[order_df["Cohort"] == order_df["OrderPeriod"]]
+            .groupby("OrderPeriod")[client_col]
+            .nunique()
+        )
         total_customers = order_df.groupby("OrderPeriod")[client_col].nunique()
         returning_customers = total_customers - new_customers
 
-        df = pd.DataFrame({"new_customers": new_customers, "returning_customers": returning_customers}).fillna(0)
+        df = pd.DataFrame(
+            {"new_customers": new_customers, "returning_customers": returning_customers}
+        ).fillna(0)
+
+        logger.debug(f"New vs returning customers analysis shape: {df.shape}")
+        logger.info("New vs returning customers analysis complete")
         return df
     except Exception as e:
+        logger.error(f"Error analyzing new vs returning customers: {e}")
         print(f"Error analyzing new vs returning customers: {e}")
         return pd.DataFrame()
 
 
 def payment_method_analysis(order_df, total_col="Total", payment_col="Paiement"):
     """Analyze revenue and AOV by payment method."""
+    logger.info("Analyzing payment methods...")
     if total_col not in order_df.columns or payment_col not in order_df.columns:
+        logger.error("Required columns for payment method analysis not found")
         print("Required columns for payment method analysis not found.")
         return pd.DataFrame()
     try:
-        payment_stats = order_df.groupby(payment_col)[total_col].agg(["sum", "mean", "count"]).rename(columns={"sum": "total_revenue", "mean": "avg_order_value", "count": "order_count"})
-        return payment_stats.sort_values("total_revenue", ascending=False)
+        payment_stats = (
+            order_df.groupby(payment_col)[total_col]
+            .agg(["sum", "mean", "count"])
+            .rename(
+                columns={
+                    "sum": "total_revenue",
+                    "mean": "avg_order_value",
+                    "count": "order_count",
+                }
+            )
+        )
+        stats = payment_stats.sort_values("total_revenue", ascending=False)
+        logger.debug(f"Payment method analysis shape: {stats.shape}")
+        logger.info("Payment method analysis complete")
+        return stats
     except Exception as e:
+        logger.error(f"Error analyzing payment methods: {e}")
         print(f"Error analyzing payment methods: {e}")
         return pd.DataFrame()
 
 
-def country_analysis(order_df, total_col="Total", country_col="Livraison", client_col="Client"):
+def country_analysis(
+    order_df, total_col="Total", country_col="Livraison", client_col="Client"
+):
     """Analyze top countries by revenue, AOV, and unique customers."""
-    if total_col not in order_df.columns or country_col not in order_df.columns or client_col not in order_df.columns:
+    logger.info("Analyzing country data...")
+    if (
+        total_col not in order_df.columns
+        or country_col not in order_df.columns
+        or client_col not in order_df.columns
+    ):
+        logger.error("Required columns for country analysis not found")
         print("Required columns for country analysis not found.")
         return pd.DataFrame()
     try:
         country_stats = order_df.groupby(country_col).agg(
-            total_revenue=(total_col, "sum"), avg_order_value=(total_col, "mean"), unique_customers=(client_col, "nunique"), order_count=(total_col, "count")
+            total_revenue=(total_col, "sum"),
+            avg_order_value=(total_col, "mean"),
+            unique_customers=(client_col, "nunique"),
+            order_count=(total_col, "count"),
         )
-        return country_stats.sort_values("total_revenue", ascending=False)
+        stats = country_stats.sort_values("total_revenue", ascending=False)
+        logger.debug(f"Country analysis shape: {stats.shape}")
+        logger.info("Country analysis complete")
+        return stats
     except Exception as e:
+        logger.error(f"Error analyzing countries: {e}")
         print(f"Error analyzing countries: {e}")
         return pd.DataFrame()
 
@@ -193,12 +310,16 @@ def customer_segmentation_by_value(order_df, client_col="Client", total_col="Tot
     Mid-value: next 30%
     Low-value: bottom 50%
     """
+    logger.info("Performing customer segmentation...")
     if client_col not in order_df.columns or total_col not in order_df.columns:
+        logger.error("Required columns for customer segmentation not found")
         print("Required columns for customer segmentation not found.")
         return pd.DataFrame()
 
     try:
-        customer_spend = order_df.groupby(client_col)[total_col].sum().sort_values(ascending=False)
+        customer_spend = (
+            order_df.groupby(client_col)[total_col].sum().sort_values(ascending=False)
+        )
         total = customer_spend.sum()
         hv_threshold = total * 0.2
         mv_threshold = total * 0.5
@@ -215,17 +336,32 @@ def customer_segmentation_by_value(order_df, client_col="Client", total_col="Tot
                 return "Low-value"
 
         seg_df["segment"] = seg_df.apply(segment, axis=1)
+        logger.debug(f"Customer segmentation shape: {seg_df.shape}")
+        logger.info("Customer segmentation complete")
         return seg_df
     except Exception as e:
+        logger.error(f"Error in customer segmentation: {e}")
         print(f"Error in customer segmentation: {e}")
         return pd.DataFrame()
 
 
-def rfm_analysis(order_df, client_col="Client", date_col="Date", total_col="Total", analysis_date=None):
+def rfm_analysis(
+    order_df,
+    client_col="Client",
+    date_col="Date",
+    total_col="Total",
+    analysis_date=None,
+):
     """
     Conduct RFM analysis (Recency, Frequency, Monetary).
     """
-    if client_col not in order_df.columns or date_col not in order_df.columns or total_col not in order_df.columns:
+    logger.info("Performing RFM analysis...")
+    if (
+        client_col not in order_df.columns
+        or date_col not in order_df.columns
+        or total_col not in order_df.columns
+    ):
+        logger.error("Required columns for RFM analysis not found")
         print("Required columns for RFM analysis not found.")
         return pd.DataFrame()
 
@@ -236,8 +372,20 @@ def rfm_analysis(order_df, client_col="Client", date_col="Date", total_col="Tota
 
         rfm = (
             order_df.groupby(client_col)
-            .agg({date_col: lambda x: (analysis_date - x.max()).days, total_col: "sum", client_col: "count"})
-            .rename(columns={date_col: "Recency", total_col: "Monetary", client_col: "Frequency"})
+            .agg(
+                {
+                    date_col: lambda x: (analysis_date - x.max()).days,
+                    total_col: "sum",
+                    client_col: "count",
+                }
+            )
+            .rename(
+                columns={
+                    date_col: "Recency",
+                    total_col: "Monetary",
+                    client_col: "Frequency",
+                }
+            )
         )
 
         def score_rfm(x, col):
@@ -277,10 +425,17 @@ def rfm_analysis(order_df, client_col="Client", date_col="Date", total_col="Tota
         rfm["F_score"] = score_rev(rfm, "Frequency")
         rfm["M_score"] = score_rev(rfm, "Monetary")
 
-        rfm["RFM_score"] = rfm["R_score"].astype(str) + rfm["F_score"].astype(str) + rfm["M_score"].astype(str)
+        rfm["RFM_score"] = (
+            rfm["R_score"].astype(str)
+            + rfm["F_score"].astype(str)
+            + rfm["M_score"].astype(str)
+        )
 
+        logger.debug(f"RFM analysis shape: {rfm.shape}")
+        logger.info("RFM analysis complete")
         return rfm
     except Exception as e:
+        logger.error(f"Error in RFM analysis: {e}")
         print(f"Error in RFM analysis: {e}")
         return pd.DataFrame()
 
@@ -289,29 +444,50 @@ def refund_cancellation_analysis(order_df, state_col="État", total_col="Total")
     """
     Analyze refund and cancellation rates and revenue impact.
     """
+    logger.info("Analyzing refunds and cancellations...")
     if state_col not in order_df.columns or total_col not in order_df.columns:
+        logger.error("Required columns for refund/cancellation analysis not found")
         print("Required columns for refund/cancellation analysis not found.")
         return {}
 
     try:
+        logger.info("Starting refund and cancellation analysis...")
         total_orders = len(order_df)
         total_revenue = order_df[total_col].sum()
+
+        logger.debug(f"Total orders: {total_orders}, Total revenue: {total_revenue}")
 
         refunded = order_df[order_df[state_col].str.contains("Remboursé", na=False)]
         canceled = order_df[order_df[state_col].str.contains("Annulée", na=False)]
         delivered = order_df[order_df[state_col].str.contains("Livré", na=False)]
 
+        logger.debug(
+            f"Found {len(refunded)} refunded orders, {len(canceled)} canceled orders"
+        )
+
         refund_rate = (len(refunded) / total_orders * 100) if total_orders > 0 else 0
-        cancellation_rate = (len(canceled) / total_orders * 100) if total_orders > 0 else 0
+        cancellation_rate = (
+            (len(canceled) / total_orders * 100) if total_orders > 0 else 0
+        )
 
         revenue_lost_refunds = refunded[total_col].sum()
         revenue_lost_cancellations = canceled[total_col].sum()
 
-        # Percentage of revenue that was refunded or canceled
-        revenue_refund_pct = (revenue_lost_refunds / total_revenue * 100) if total_revenue > 0 else 0
-        revenue_cancel_pct = (revenue_lost_cancellations / total_revenue * 100) if total_revenue > 0 else 0
+        logger.debug(
+            f"Revenue lost to refunds: {revenue_lost_refunds}, to cancellations: {revenue_lost_cancellations}"
+        )
 
-        return {
+        # Percentage of revenue that was refunded or canceled
+        revenue_refund_pct = (
+            (revenue_lost_refunds / total_revenue * 100) if total_revenue > 0 else 0
+        )
+        revenue_cancel_pct = (
+            (revenue_lost_cancellations / total_revenue * 100)
+            if total_revenue > 0
+            else 0
+        )
+
+        results = {
             "refund_rate": refund_rate,
             "cancellation_rate": cancellation_rate,
             "revenue_lost_refunds": revenue_lost_refunds,
@@ -319,7 +495,13 @@ def refund_cancellation_analysis(order_df, state_col="État", total_col="Total")
             "revenue_lost_cancellations": revenue_lost_cancellations,
             "revenue_cancel_pct": revenue_cancel_pct,
         }
+
+        logger.info("Refund and cancellation analysis complete")
+        logger.debug(f"Analysis results: {results}")
+        return results
+
     except Exception as e:
+        logger.error(f"Error in refund/cancellation analysis: {e}")
         print(f"Error in refund/cancellation analysis: {e}")
         return {}
 
@@ -338,9 +520,21 @@ def order_state_analysis(order_df, state_col="État", total_col="Total"):
         total_orders = len(order_df)
         total_revenue = order_df[total_col].sum()
 
-        state_groups = order_df.groupby(state_col)[total_col].agg(["sum", "count"]).rename(columns={"sum": "total_revenue", "count": "order_count"})
-        state_groups["order_pct"] = (state_groups["order_count"] / total_orders) * 100 if total_orders > 0 else 0
-        state_groups["revenue_pct"] = (state_groups["total_revenue"] / total_revenue * 100) if total_revenue > 0 else 0
+        state_groups = (
+            order_df.groupby(state_col)[total_col]
+            .agg(["sum", "count"])
+            .rename(columns={"sum": "total_revenue", "count": "order_count"})
+        )
+        state_groups["order_pct"] = (
+            (state_groups["order_count"] / total_orders) * 100
+            if total_orders > 0
+            else 0
+        )
+        state_groups["revenue_pct"] = (
+            (state_groups["total_revenue"] / total_revenue * 100)
+            if total_revenue > 0
+            else 0
+        )
         return state_groups.sort_values("total_revenue", ascending=False)
     except Exception as e:
         print(f"Error in order state analysis: {e}")
@@ -359,7 +553,12 @@ def monthly_cancellation_refund_trends(order_df, state_col="État", date_col="Da
         order_df[date_col] = pd.to_datetime(order_df[date_col])
         order_df["Month"] = order_df[date_col].dt.to_period("M").astype(str)
 
-        monthly_data = order_df.groupby("Month")[state_col].apply(lambda x: x.value_counts()).unstack().fillna(0)
+        monthly_data = (
+            order_df.groupby("Month")[state_col]
+            .apply(lambda x: x.value_counts())
+            .unstack()
+            .fillna(0)
+        )
 
         # Calculate monthly percentages
         monthly_totals = monthly_data.sum(axis=1)
@@ -387,8 +586,12 @@ def revenue_concentration(order_df, total_col="Total"):
         sorted_orders = order_df[total_col].sort_values(ascending=False)
         total_revenue = sorted_orders.sum()
         top_10pct_count = int(len(sorted_orders) * 0.1)
-        top_10pct_revenue = sorted_orders.iloc[:top_10pct_count].sum() if top_10pct_count > 0 else 0
-        concentration_pct = (top_10pct_revenue / total_revenue * 100) if total_revenue > 0 else 0
+        top_10pct_revenue = (
+            sorted_orders.iloc[:top_10pct_count].sum() if top_10pct_count > 0 else 0
+        )
+        concentration_pct = (
+            (top_10pct_revenue / total_revenue * 100) if total_revenue > 0 else 0
+        )
         return {
             "top_10pct_revenue_concentration": concentration_pct,
             "top_10pct_revenue": top_10pct_revenue,
@@ -418,16 +621,24 @@ def repeat_vs_one_time_customers(order_df, client_col="Client"):
         if "Total" in order_df.columns:
             total_revenue = order_df["Total"].sum()
             multi_buyer_list = customer_counts[customer_counts > 1].index
-            multi_buyer_revenue = order_df[order_df[client_col].isin(multi_buyer_list)]["Total"].sum()
-            multi_buyer_revenue_pct = (multi_buyer_revenue / total_revenue * 100) if total_revenue > 0 else 0
+            multi_buyer_revenue = order_df[order_df[client_col].isin(multi_buyer_list)][
+                "Total"
+            ].sum()
+            multi_buyer_revenue_pct = (
+                (multi_buyer_revenue / total_revenue * 100) if total_revenue > 0 else 0
+            )
         else:
             multi_buyer_revenue_pct = np.nan
 
         return {
             "one_time_buyers": one_time_buyers,
             "multi_buyers": multi_buyers,
-            "one_time_buyers_pct": (one_time_buyers / total_customers * 100) if total_customers > 0 else 0,
-            "multi_buyers_pct": (multi_buyers / total_customers * 100) if total_customers > 0 else 0,
+            "one_time_buyers_pct": (one_time_buyers / total_customers * 100)
+            if total_customers > 0
+            else 0,
+            "multi_buyers_pct": (multi_buyers / total_customers * 100)
+            if total_customers > 0
+            else 0,
             "multi_buyer_revenue_pct": multi_buyer_revenue_pct,
         }
     except Exception as e:
@@ -446,13 +657,23 @@ def cohort_analysis(order_df, client_col="Client", date_col="Date", freq="M"):
 
     try:
         order_df[date_col] = pd.to_datetime(order_df[date_col])
-        order_df["CohortMonth"] = order_df.groupby(client_col)[date_col].transform("min").dt.to_period(freq)
+        order_df["CohortMonth"] = (
+            order_df.groupby(client_col)[date_col].transform("min").dt.to_period(freq)
+        )
         order_df["OrderMonth"] = order_df[date_col].dt.to_period(freq)
 
-        cohort_data = order_df.groupby(["CohortMonth", "OrderMonth"])[client_col].nunique().reset_index()
-        cohort_data["CohortIndex"] = (cohort_data["OrderMonth"] - cohort_data["CohortMonth"]).apply(lambda x: x.n)
+        cohort_data = (
+            order_df.groupby(["CohortMonth", "OrderMonth"])[client_col]
+            .nunique()
+            .reset_index()
+        )
+        cohort_data["CohortIndex"] = (
+            cohort_data["OrderMonth"] - cohort_data["CohortMonth"]
+        ).apply(lambda x: x.n)
 
-        cohort_pivot = cohort_data.pivot_table(index="CohortMonth", columns="CohortIndex", values=client_col)
+        cohort_pivot = cohort_data.pivot_table(
+            index="CohortMonth", columns="CohortIndex", values=client_col
+        )
         cohort_size = cohort_pivot.iloc[:, 0]
         retention = cohort_pivot.divide(cohort_size, axis=0) * 100
         return retention
@@ -469,7 +690,9 @@ def day_of_week_analysis(order_df, date_col="Date", total_col="Total"):
     try:
         order_df[date_col] = pd.to_datetime(order_df[date_col])
         order_df["DayOfWeek"] = order_df[date_col].dt.day_name()
-        return order_df.groupby("DayOfWeek")[total_col].sum().sort_values(ascending=False)
+        return (
+            order_df.groupby("DayOfWeek")[total_col].sum().sort_values(ascending=False)
+        )
     except Exception as e:
         print(f"Error in day_of_week analysis: {e}")
         return pd.Series(dtype=float)
@@ -505,13 +728,19 @@ def year_over_year_revenue(order_df, date_col="Date", total_col="Total"):
     try:
         order_df[date_col] = pd.to_datetime(order_df[date_col], errors="coerce")
         # Group by year
-        yearly_revenue = order_df.groupby(pd.Grouper(key=date_col, freq="Y")).agg({total_col: "sum"}).reset_index()
+        yearly_revenue = (
+            order_df.groupby(pd.Grouper(key=date_col, freq="Y"))
+            .agg({total_col: "sum"})
+            .reset_index()
+        )
         yearly_revenue["year"] = yearly_revenue[date_col].dt.year
         yearly_revenue = yearly_revenue.rename(columns={total_col: "total_revenue"})
         yearly_revenue.drop(columns=[date_col], inplace=True)
 
         # Compute YoY growth
-        yearly_revenue["yoy_growth"] = yearly_revenue["total_revenue"].pct_change() * 100
+        yearly_revenue["yoy_growth"] = (
+            yearly_revenue["total_revenue"].pct_change() * 100
+        )
         return yearly_revenue
     except Exception as e:
         print(f"Error in year_over_year_revenue: {e}")
@@ -533,7 +762,12 @@ def year_over_year_orders(order_df, date_col="Date"):
 
     try:
         order_df[date_col] = pd.to_datetime(order_df[date_col], errors="coerce")
-        yearly_orders = order_df.set_index(date_col).resample("Y").size().reset_index(name="total_orders")
+        yearly_orders = (
+            order_df.set_index(date_col)
+            .resample("Y")
+            .size()
+            .reset_index(name="total_orders")
+        )
         yearly_orders["year"] = yearly_orders[date_col].dt.year
         yearly_orders.drop(columns=[date_col], inplace=True)
 
@@ -560,10 +794,20 @@ def year_over_year_aov(order_df, date_col="Date", total_col="Total"):
     try:
         order_df[date_col] = pd.to_datetime(order_df[date_col], errors="coerce")
         # Compute yearly AOV = total revenue per year / total orders per year
-        yearly_data = order_df.set_index(date_col).resample("Y").agg({total_col: "sum", "Référence": "count"}).reset_index()
+        yearly_data = (
+            order_df.set_index(date_col)
+            .resample("Y")
+            .agg({total_col: "sum", "Référence": "count"})
+            .reset_index()
+        )
         yearly_data["year"] = yearly_data[date_col].dt.year
-        yearly_data.rename(columns={total_col: "total_revenue", "Référence": "total_orders"}, inplace=True)
-        yearly_data["yearly_aov"] = yearly_data["total_revenue"] / yearly_data["total_orders"]
+        yearly_data.rename(
+            columns={total_col: "total_revenue", "Référence": "total_orders"},
+            inplace=True,
+        )
+        yearly_data["yearly_aov"] = (
+            yearly_data["total_revenue"] / yearly_data["total_orders"]
+        )
 
         # Compute YoY growth for AOV
         yearly_data["yoy_growth"] = yearly_data["yearly_aov"].pct_change() * 100
@@ -584,7 +828,11 @@ def calculate_clv(order_df, total_col="Total", client_col="Client", date_col="Da
     A simplified model:
     CLV = Average Order Value * Purchase Frequency * Average Customer Lifetime in months (assume 12)
     """
-    if total_col not in order_df.columns or client_col not in order_df.columns or date_col not in order_df.columns:
+    if (
+        total_col not in order_df.columns
+        or client_col not in order_df.columns
+        or date_col not in order_df.columns
+    ):
         print("Required columns for CLV calculation not found.")
         return np.nan
     try:
@@ -611,48 +859,121 @@ def run_analysis():
     """
     Run a series of analyses on the cleaned data and return insights.
     """
+    logger.info("Starting comprehensive data analysis...")
+
+    # Load data
     cart_df, order_df = load_cleaned_data()
     if cart_df is None or order_df is None:
-        print("Could not load cleaned data. Analysis cannot proceed.")
+        logger.error("Could not load cleaned data. Analysis cannot proceed.")
         return {}
 
     insights = {}
 
-    # Existing Metrics
-    insights["basic_kpis"] = basic_kpis(order_df)
-    insights["monthly_revenue"] = compute_revenue_over_time(order_df, freq="M")
-    insights["average_order_value"] = compute_average_order_value(order_df)
-    insights["cart_abandonment_rate"] = compute_cart_abandonment_rate(cart_df, order_df)
-    insights["monthly_unique_customers"] = analyze_customer_count(order_df)
-    insights["order_value_distribution"] = order_value_distribution(order_df)
-    insights["monthly_revenue_growth"] = revenue_growth(order_df, freq="M")
-    insights["customer_cohorts"] = new_vs_returning_customers(order_df)
-    insights["payment_method_analysis"] = payment_method_analysis(order_df)
-    insights["country_analysis"] = country_analysis(order_df)
-    insights["customer_segmentation"] = customer_segmentation_by_value(order_df)
-    insights["rfm_analysis"] = rfm_analysis(order_df)
-    insights["refund_cancellation_analysis"] = refund_cancellation_analysis(order_df)
-    insights["order_state_analysis"] = order_state_analysis(order_df)
-    insights["monthly_cancellation_refund_trends"] = monthly_cancellation_refund_trends(order_df)
-    insights["cohort_retention"] = cohort_analysis(order_df)
-    insights["day_of_week_revenue"] = day_of_week_analysis(order_df)
-    insights["hour_of_day_revenue"] = hour_of_day_analysis(order_df)
-    insights["revenue_concentration"] = revenue_concentration(order_df)
-    insights["clv"] = calculate_clv(order_df)
-    insights["repeat_vs_one_time_customers"] = repeat_vs_one_time_customers(order_df)
+    try:
+        # Basic KPIs
+        logger.info("Computing basic KPIs...")
+        insights["basic_kpis"] = basic_kpis(order_df)
+        logger.debug(f"Basic KPIs results: {insights['basic_kpis']}")
 
-    # New Year-over-Year Metrics
-    insights["year_over_year_revenue"] = year_over_year_revenue(order_df)
-    insights["year_over_year_orders"] = year_over_year_orders(order_df)
-    insights["year_over_year_aov"] = year_over_year_aov(order_df)
+        # Revenue Analysis
+        logger.info("Analyzing revenue metrics...")
+        insights["monthly_revenue"] = compute_revenue_over_time(order_df, freq="M")
+        insights["average_order_value"] = compute_average_order_value(order_df)
+        insights["revenue_concentration"] = revenue_concentration(order_df)
+        logger.debug(f"Average order value: {insights['average_order_value']}")
+        logger.debug(f"Revenue concentration: {insights['revenue_concentration']}")
+
+        # Cart Analysis
+        logger.info("Analyzing cart metrics...")
+        insights["cart_abandonment_rate"] = compute_cart_abandonment_rate(
+            cart_df, order_df
+        )
+        logger.debug(f"Cart abandonment rate: {insights['cart_abandonment_rate']}%")
+
+        # Customer Analysis
+        logger.info("Analyzing customer metrics...")
+        insights["monthly_unique_customers"] = analyze_customer_count(order_df)
+        insights["customer_cohorts"] = new_vs_returning_customers(order_df)
+        insights["customer_segmentation"] = customer_segmentation_by_value(order_df)
+        insights["repeat_vs_one_time_customers"] = repeat_vs_one_time_customers(
+            order_df
+        )
+        insights["clv"] = calculate_clv(order_df)
+        logger.debug(f"Customer Lifetime Value: {insights['clv']}")
+        logger.debug(
+            f"Repeat vs One-time customers: {insights['repeat_vs_one_time_customers']}"
+        )
+
+        # Order Analysis
+        logger.info("Analyzing order patterns...")
+        insights["order_value_distribution"] = order_value_distribution(order_df)
+        insights["monthly_revenue_growth"] = revenue_growth(order_df, freq="M")
+        insights["day_of_week_revenue"] = day_of_week_analysis(order_df)
+        insights["hour_of_day_revenue"] = hour_of_day_analysis(order_df)
+        logger.debug(
+            f"Order value distribution: {insights['order_value_distribution']}"
+        )
+
+        # Payment and Geographic Analysis
+        logger.info("Analyzing payment and geographic distribution...")
+        insights["payment_method_analysis"] = payment_method_analysis(order_df)
+        insights["country_analysis"] = country_analysis(order_df)
+        logger.debug("Completed payment and geographic analysis")
+
+        # Advanced Analytics
+        logger.info("Performing advanced analytics...")
+        insights["rfm_analysis"] = rfm_analysis(order_df)
+        insights["cohort_retention"] = cohort_analysis(order_df)
+        logger.debug("Completed advanced analytics")
+
+        # Performance Analysis
+        logger.info("Analyzing performance metrics...")
+        insights["refund_cancellation_analysis"] = refund_cancellation_analysis(
+            order_df
+        )
+        insights["order_state_analysis"] = order_state_analysis(order_df)
+        insights["monthly_cancellation_refund_trends"] = (
+            monthly_cancellation_refund_trends(order_df)
+        )
+        logger.debug(f"Refund analysis: {insights['refund_cancellation_analysis']}")
+
+        # Year-over-Year Analysis
+        logger.info("Computing year-over-year metrics...")
+        insights["year_over_year_revenue"] = year_over_year_revenue(order_df)
+        insights["year_over_year_orders"] = year_over_year_orders(order_df)
+        insights["year_over_year_aov"] = year_over_year_aov(order_df)
+        logger.debug("Completed year-over-year analysis")
+
+        # Log summary statistics
+        logger.info("Analysis completed successfully")
+        logger.info(f"Total number of metrics computed: {len(insights)}")
+
+        # Log any empty or failed analyses
+        empty_analyses = [
+            k
+            for k, v in insights.items()
+            if v is None or (isinstance(v, (dict, pd.DataFrame)) and len(v) == 0)
+        ]
+        if empty_analyses:
+            logger.warning(
+                f"The following analyses returned empty results: {empty_analyses}"
+            )
+
+    except Exception as e:
+        logger.error(f"Error during analysis: {e}", exc_info=True)
+        return {}
 
     return insights
 
 
 if __name__ == "__main__":
+    logger.info("Starting analysis script execution")
     results = run_analysis()
+
     if results:
-        print("Enhanced Analysis Results with More Advanced Metrics:")
+        logger.info("Analysis completed successfully. Printing results...")
         for key, value in results.items():
-            print(f"{key}:")
-            print(value, "\n")
+            logger.debug(f"Result for {key}:")
+            logger.debug(f"{value}")
+    else:
+        logger.error("Analysis failed to produce results")
