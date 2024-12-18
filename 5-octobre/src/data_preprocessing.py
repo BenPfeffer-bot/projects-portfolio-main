@@ -30,7 +30,14 @@ def clean_total_column(df, total_col="Total"):
             return np.nan
         if isinstance(x, str):
             # Remove currency symbols and various whitespace/formatting characters
-            cleaned = x.replace("€", "").replace("$", "").replace("£", "").replace("¥", "").replace("\xa0", "").replace(" ", "")
+            cleaned = (
+                x.replace("€", "")
+                .replace("$", "")
+                .replace("£", "")
+                .replace("¥", "")
+                .replace("\xa0", "")
+                .replace(" ", "")
+            )
             cleaned = cleaned.replace(",", ".")
             # Attempt float conversion
             try:
@@ -43,7 +50,9 @@ def clean_total_column(df, total_col="Total"):
     original_nonnull_count = df[total_col].notnull().sum()
     df[total_col] = df[total_col].apply(clean_amount)
     converted_nonnull_count = df[total_col].notnull().sum()
-    print(f"Converted {converted_nonnull_count}/{original_nonnull_count} non-null '{total_col}' values to float successfully.")
+    print(
+        f"Converted {converted_nonnull_count}/{original_nonnull_count} non-null '{total_col}' values to float successfully."
+    )
 
     return df
 
@@ -60,14 +69,18 @@ def convert_date_column(df, date_col="Date"):
 
     # Try to convert with pandas default
     try:
-        df[date_col] = pd.to_datetime(df[date_col], errors="coerce", infer_datetime_format=True)
+        df[date_col] = pd.to_datetime(
+            df[date_col], errors="coerce", infer_datetime_format=True
+        )
     except Exception as e:
         print(f"Error converting {date_col} to datetime: {e}")
 
     # Count invalid dates
     invalid_dates = df[date_col].isna().sum()
     if invalid_dates > 0:
-        print(f"Warning: {invalid_dates} rows have invalid or missing {date_col} and will be dropped.")
+        print(
+            f"Warning: {invalid_dates} rows have invalid or missing {date_col} and will be dropped."
+        )
         df = df.dropna(subset=[date_col])
 
     return df
@@ -130,7 +143,9 @@ def remove_abandoned_carts(df, id_col="ID commande", total_col="Total"):
     Logs how many rows were removed.
     """
     if id_col not in df.columns or total_col not in df.columns:
-        print("Warning: Cannot remove abandoned carts since required columns are missing.")
+        print(
+            "Warning: Cannot remove abandoned carts since required columns are missing."
+        )
         return df
 
     condition = (df[id_col] == "Panier abandonné") & (df[total_col] == 0)
@@ -153,7 +168,9 @@ def handle_missing_values(df, required_columns):
     final_count = df.shape[0]
     dropped = initial_count - final_count
     if dropped > 0:
-        print(f"Dropped {dropped} rows due to missing required columns: {required_columns}")
+        print(
+            f"Dropped {dropped} rows due to missing required columns: {required_columns}"
+        )
     return df
 
 
@@ -245,7 +262,11 @@ def preprocess_data():
 
     # Handle missing values - assume these columns must be present
     required_cart_cols = ["ID commande", "Total", "Date"]
-    required_order_cols = ["id", "Total", "Date"]  # Adjust as needed based on your data schema
+    required_order_cols = [
+        "id",
+        "Total",
+        "Date",
+    ]  # Adjust as needed based on your data schema
 
     cart_df = handle_missing_values(cart_df, required_cart_cols)
     order_df = handle_missing_values(order_df, required_order_cols)
@@ -265,9 +286,7 @@ def preprocess_data():
         save_data(order_df, cleaned_order_path)
     except Exception as e:
         print(f"Error saving cleaned data: {e}")
-        return
-
-    print("Data preprocessing complete. Cleaned files saved.")
+        return None
 
 
 if __name__ == "__main__":

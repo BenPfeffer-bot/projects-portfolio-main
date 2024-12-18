@@ -102,3 +102,33 @@ Pour suggérer des améliorations ou signaler des problèmes :
 1. Ouvrir une issue décrivant l'amélioration/problème
 2. Fournir des exemples spécifiques si possible
 3. Inclure des échantillons de données pertinents si applicable
+
+## Chatbot Integration
+
+This dashboard includes a natural language chatbot powered by the Mistral LLM. Users can ask questions about sales, revenue trends, CLV, RFM segments, and more.
+
+### Features
+
+- **Natural Language Queries:** Ask questions in plain English and receive insightful answers.
+- **Retrieval-Augmented Generation (RAG):** When enabled, the chatbot retrieves relevant documents to provide accurate and context-aware responses.
+- **Interactive Chat Interface:** Seamlessly integrated within the Streamlit dashboard.
+
+### How to Use
+
+1. Navigate to the **Ask a Question** section in the dashboard.
+2. Enter your query in the input box.
+3. Click **Get Insights** to receive an answer.
+4. Optionally, enable **Retrieval (RAG)** to include additional context from your data.
+
+### Fine-Tuning the Model
+
+To fine-tune the Mistral model with your domain-specific data:
+
+1. Ensure you have the necessary GPU resources.
+2. Prepare your QA pairs in `training_data.jsonl`.
+3. Run the fine-tuning script using Hugging Face's transformers library with PEFT/LoRA.
+4. Update the `MistralClient` with the new model checkpoint.
+
+### Contributing
+
+For contributions, please refer to the [Contribution Guidelines](CONTRIBUTING.md).

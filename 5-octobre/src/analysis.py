@@ -2,6 +2,9 @@ import os
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
+import sys
+
+sys.path.append("5-octobre/src")
 from config import CLEANED_DATA_DIR, CART_FILENAME, ORDER_FILENAME
 from config import load_logger
 
