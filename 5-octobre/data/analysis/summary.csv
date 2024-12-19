@@ -17,7 +17,7 @@ order_value_distribution_min,0.0
 order_value_distribution_max,8650.0
 order_value_distribution_median,440.0
 order_value_distribution_mean,633.072794117647
-order_value_distribution_std,598.8152872066097
+order_value_distribution_std,598.8152872066096
 order_value_distribution_25%_quartile,260.0
 order_value_distribution_75%_quartile,730.0
 refund_cancellation_analysis_refund_rate,5.514705882352941
