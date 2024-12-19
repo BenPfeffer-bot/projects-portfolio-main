@@ -4,9 +4,11 @@ import numpy as np
 from datetime import datetime, timedelta
 import sys
 
-sys.path.append("5-octobre/src")
-from config import CLEANED_DATA_DIR, CART_FILENAME, ORDER_FILENAME
-from config import load_logger
+sys.path.append(
+    "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre"
+)
+from src.config import CLEANED_DATA_DIR, CART_FILENAME, ORDER_FILENAME
+from src.config import load_logger
 
 logger = load_logger()
 

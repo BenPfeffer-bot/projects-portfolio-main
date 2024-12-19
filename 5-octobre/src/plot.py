@@ -8,9 +8,11 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from analysis import run_analysis
 from config import BASE_DIR, load_logger
+from data_preprocessing import preprocess_data
 
 logger = load_logger()
-insights = run_analysis()
+cart_df, order_df = preprocess_data()
+insights = run_analysis(cart_df, order_df)
 
 # Set style parameters
 plt.style.use("ggplot")
@@ -333,7 +335,7 @@ def create_dashboard():
     }
 
     # Create output directory
-    output_dir = os.path.join(BASE_DIR, "output", "plots")
+    output_dir = os.path.join(BASE_DIR, "output", "fig")
     os.makedirs(output_dir, exist_ok=True)
 
     # Save plots with enhanced quality

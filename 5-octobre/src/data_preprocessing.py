@@ -2,7 +2,17 @@ import os
 import pandas as pd
 import numpy as np
 from datetime import datetime
-from config import PROCESSED_DATA_DIR, CLEANED_DATA_DIR, CART_FILENAME, ORDER_FILENAME
+import sys
+
+sys.path.append(
+    "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre"
+)
+from src.config import (
+    PROCESSED_DATA_DIR,
+    CLEANED_DATA_DIR,
+    CART_FILENAME,
+    ORDER_FILENAME,
+)
 
 
 def standardize_column_names(df):
@@ -69,9 +79,7 @@ def convert_date_column(df, date_col="Date"):
 
     # Try to convert with pandas default
     try:
-        df[date_col] = pd.to_datetime(
-            df[date_col], errors="coerce", infer_datetime_format=True
-        )
+        df[date_col] = pd.to_datetime(df[date_col], errors="coerce")
     except Exception as e:
         print(f"Error converting {date_col} to datetime: {e}")
 
