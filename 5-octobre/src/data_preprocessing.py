@@ -284,6 +284,7 @@ def preprocess_data():
 
         save_data(cart_df, cleaned_cart_path)
         save_data(order_df, cleaned_order_path)
+        return cart_df, order_df
     except Exception as e:
         print(f"Error saving cleaned data: {e}")
         return None
