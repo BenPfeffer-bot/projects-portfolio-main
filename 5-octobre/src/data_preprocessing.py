@@ -3,16 +3,63 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import sys
+from pydantic import BaseModel, Field, validator
+from typing import Optional, List
+from decimal import Decimal
 
-sys.path.append(
-    "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre"
-)
+sys.path.append("/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre")
 from src.config import (
     PROCESSED_DATA_DIR,
     CLEANED_DATA_DIR,
     CART_FILENAME,
     ORDER_FILENAME,
 )
+
+
+# Data Models for Validation
+class OrderData(BaseModel):
+    id: int
+    reference: str = Field(alias="Référence")
+    new_customer: int = Field(alias="Nouveau client")
+    delivery: str = Field(alias="Livraison")
+    client: Optional[str] = Field(alias="Client")
+    total: Decimal = Field(alias="Total")
+    payment: str = Field(alias="Paiement")
+    status: str = Field(alias="État")
+    date: datetime = Field(alias="Date")
+
+    @validator("total")
+    def validate_total(cls, v):
+        if v < 0:
+            raise ValueError("Total amount cannot be negative")
+        return v
+
+    @validator("date")
+    def validate_date(cls, v):
+        if v > datetime.now():
+            raise ValueError("Date cannot be in the future")
+        return v
+
+
+class CartData(BaseModel):
+    id: int
+    order_id: str = Field(alias="ID commande")
+    client: Optional[str] = Field(alias="Client")
+    total: Decimal = Field(alias="Total")
+    carrier: Optional[str] = Field(alias="Transporteur")
+    date: datetime = Field(alias="Date")
+
+    @validator("total")
+    def validate_total(cls, v):
+        if v < 0:
+            raise ValueError("Total amount cannot be negative")
+        return v
+
+    @validator("date")
+    def validate_date(cls, v):
+        if v > datetime.now():
+            raise ValueError("Date cannot be in the future")
+        return v
 
 
 def standardize_column_names(df):
@@ -40,14 +87,7 @@ def clean_total_column(df, total_col="Total"):
             return np.nan
         if isinstance(x, str):
             # Remove currency symbols and various whitespace/formatting characters
-            cleaned = (
-                x.replace("€", "")
-                .replace("$", "")
-                .replace("£", "")
-                .replace("¥", "")
-                .replace("\xa0", "")
-                .replace(" ", "")
-            )
+            cleaned = x.replace("€", "").replace("$", "").replace("£", "").replace("¥", "").replace("\xa0", "").replace(" ", "")
             cleaned = cleaned.replace(",", ".")
             # Attempt float conversion
             try:
@@ -60,9 +100,7 @@ def clean_total_column(df, total_col="Total"):
     original_nonnull_count = df[total_col].notnull().sum()
     df[total_col] = df[total_col].apply(clean_amount)
     converted_nonnull_count = df[total_col].notnull().sum()
-    print(
-        f"Converted {converted_nonnull_count}/{original_nonnull_count} non-null '{total_col}' values to float successfully."
-    )
+    print(f"Converted {converted_nonnull_count}/{original_nonnull_count} non-null '{total_col}' values to float successfully.")
 
     return df
 
@@ -86,9 +124,7 @@ def convert_date_column(df, date_col="Date"):
     # Count invalid dates
     invalid_dates = df[date_col].isna().sum()
     if invalid_dates > 0:
-        print(
-            f"Warning: {invalid_dates} rows have invalid or missing {date_col} and will be dropped."
-        )
+        print(f"Warning: {invalid_dates} rows have invalid or missing {date_col} and will be dropped.")
         df = df.dropna(subset=[date_col])
 
     return df
@@ -151,9 +187,7 @@ def remove_abandoned_carts(df, id_col="ID commande", total_col="Total"):
     Logs how many rows were removed.
     """
     if id_col not in df.columns or total_col not in df.columns:
-        print(
-            "Warning: Cannot remove abandoned carts since required columns are missing."
-        )
+        print("Warning: Cannot remove abandoned carts since required columns are missing.")
         return df
 
     condition = (df[id_col] == "Panier abandonné") & (df[total_col] == 0)
@@ -176,9 +210,7 @@ def handle_missing_values(df, required_columns):
     final_count = df.shape[0]
     dropped = initial_count - final_count
     if dropped > 0:
-        print(
-            f"Dropped {dropped} rows due to missing required columns: {required_columns}"
-        )
+        print(f"Dropped {dropped} rows due to missing required columns: {required_columns}")
     return df
 
 
@@ -224,17 +256,100 @@ def save_data(df, file_path):
         print(f"Error saving file {file_path}: {e}")
 
 
+def validate_data_schema(df, model_class, raise_errors=True):
+    """
+    Validate DataFrame against a Pydantic model schema.
+    Returns tuple (is_valid, error_records, error_messages)
+    """
+    errors = []
+    error_records = []
+
+    for idx, row in df.iterrows():
+        try:
+            model_class(**row.to_dict())
+        except Exception as e:
+            errors.append(f"Row {idx}: {str(e)}")
+            error_records.append(idx)
+            if raise_errors:
+                raise ValueError(f"Data validation error at row {idx}: {str(e)}")
+
+    return len(errors) == 0, error_records, errors
+
+
+def check_data_quality(df, required_cols=None, numeric_cols=None, date_cols=None):
+    """
+    Perform data quality checks on DataFrame
+    Returns tuple (quality_score, issues)
+    """
+    issues = []
+    checks_passed = 0
+    total_checks = 0
+
+    # Check for required columns
+    if required_cols:
+        total_checks += 1
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if not missing_cols:
+            checks_passed += 1
+        else:
+            issues.append(f"Missing required columns: {missing_cols}")
+
+    # Check for duplicate rows
+    total_checks += 1
+    duplicates = df.duplicated().sum()
+    if duplicates == 0:
+        checks_passed += 1
+    else:
+        issues.append(f"Found {duplicates} duplicate rows")
+
+    # Check numeric columns
+    if numeric_cols:
+        for col in numeric_cols:
+            if col in df.columns:
+                total_checks += 2
+                # Check for negative values
+                neg_values = (df[col] < 0).sum()
+                if neg_values == 0:
+                    checks_passed += 1
+                else:
+                    issues.append(f"Found {neg_values} negative values in {col}")
+
+                # Check for outliers (using IQR method)
+                Q1 = df[col].quantile(0.25)
+                Q3 = df[col].quantile(0.75)
+                IQR = Q3 - Q1
+                outliers = ((df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))).sum()
+                if outliers == 0:
+                    checks_passed += 1
+                else:
+                    issues.append(f"Found {outliers} potential outliers in {col}")
+
+    # Check date columns
+    if date_cols:
+        for col in date_cols:
+            if col in df.columns:
+                total_checks += 2
+                # Check for future dates
+                future_dates = (df[col] > datetime.now()).sum()
+                if future_dates == 0:
+                    checks_passed += 1
+                else:
+                    issues.append(f"Found {future_dates} future dates in {col}")
+
+                # Check for very old dates (before 2020)
+                old_dates = (df[col] < pd.Timestamp("2020-01-01")).sum()
+                if old_dates == 0:
+                    checks_passed += 1
+                else:
+                    issues.append(f"Found {old_dates} dates before 2020 in {col}")
+
+    quality_score = checks_passed / total_checks if total_checks > 0 else 0
+    return quality_score, issues
+
+
 def preprocess_data():
     """
-    Main preprocessing function:
-    1. Load cart and order data from the raw directory.
-    2. Standardize column names.
-    3. Clean the Total column and convert it to float.
-    4. Remove abandoned carts where Total = 0.
-    5. Convert Date column to datetime.
-    6. Handle missing required values.
-    7. Remove duplicates if needed.
-    8. Save cleaned data to the cleaned directory.
+    Main preprocessing function with enhanced validation and quality checks
     """
     cart_path = os.path.join(PROCESSED_DATA_DIR, CART_FILENAME)
     order_path = os.path.join(PROCESSED_DATA_DIR, ORDER_FILENAME)
@@ -254,32 +369,53 @@ def preprocess_data():
     cart_df = clean_total_column(cart_df, total_col="Total")
     order_df = clean_total_column(order_df, total_col="Total")
 
-    # Remove abandoned carts
-    cart_df = remove_abandoned_carts(cart_df, id_col="ID commande", total_col="Total")
+    # Validate data against schemas
+    print("\nValidating data schemas...")
+    try:
+        cart_valid, cart_error_records, cart_errors = validate_data_schema(cart_df, CartData, raise_errors=False)
+        order_valid, order_error_records, order_errors = validate_data_schema(order_df, OrderData, raise_errors=False)
 
-    # Convert dates
+        if not cart_valid:
+            print(f"Cart data validation issues found: {len(cart_errors)} errors")
+            for error in cart_errors[:5]:  # Show first 5 errors
+                print(error)
+
+        if not order_valid:
+            print(f"Order data validation issues found: {len(order_errors)} errors")
+            for error in order_errors[:5]:  # Show first 5 errors
+                print(error)
+    except Exception as e:
+        print(f"Schema validation error: {e}")
+
+    # Perform data quality checks
+    print("\nPerforming data quality checks...")
+    cart_quality_score, cart_issues = check_data_quality(cart_df, required_cols=["ID commande", "Total", "Date"], numeric_cols=["Total"], date_cols=["Date"])
+
+    order_quality_score, order_issues = check_data_quality(order_df, required_cols=["id", "Total", "Date"], numeric_cols=["Total", "Nouveau client"], date_cols=["Date"])
+
+    print(f"\nCart data quality score: {cart_quality_score:.2%}")
+    if cart_issues:
+        print("Cart data issues found:")
+        for issue in cart_issues:
+            print(f"- {issue}")
+
+    print(f"\nOrder data quality score: {order_quality_score:.2%}")
+    if order_issues:
+        print("Order data issues found:")
+        for issue in order_issues:
+            print(f"- {issue}")
+
+    # Continue with existing preprocessing steps
+    cart_df = remove_abandoned_carts(cart_df, id_col="ID commande", total_col="Total")
     cart_df = convert_date_column(cart_df, date_col="Date")
     order_df = convert_date_column(order_df, date_col="Date")
-
-    # Remove specific clients
     cart_df = remove_specific_clients(cart_df, client_col="Client")
     order_df = remove_specific_clients(order_df, client_col="Client")
-
-    # Remove old orders
     order_df = remove_old_orders(order_df, date_col="Date", cutoff_date="2021-03-31")
 
-    # Handle missing values - assume these columns must be present
-    required_cart_cols = ["ID commande", "Total", "Date"]
-    required_order_cols = [
-        "id",
-        "Total",
-        "Date",
-    ]  # Adjust as needed based on your data schema
+    cart_df = handle_missing_values(cart_df, ["ID commande", "Total", "Date"])
+    order_df = handle_missing_values(order_df, ["id", "Total", "Date"])
 
-    cart_df = handle_missing_values(cart_df, required_cart_cols)
-    order_df = handle_missing_values(order_df, required_order_cols)
-
-    # Remove duplicates if it makes sense (e.g., by 'ID commande')
     if "ID commande" in cart_df.columns:
         cart_df = remove_duplicates(cart_df, subset_cols=["ID commande", "Date"])
     if "id" in order_df.columns:

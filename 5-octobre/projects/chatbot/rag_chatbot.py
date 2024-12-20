@@ -329,7 +329,7 @@ def main():
 
         nlu_text = parse_query_nlu(user_query)
         augmented_query = f"{user_query}\n\n[NLU Interpretation: {nlu_text}]"
-        result = chain.invoke({"question": augmented_query})
+        result = chain({"question": augmented_query})
 
         if not result["answer"].strip():
             print("A: I'm not sure. Could you rephrase your question or specify the metric/time period?")
