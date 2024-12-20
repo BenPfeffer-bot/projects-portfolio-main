@@ -20,6 +20,127 @@ from sklearn.model_selection import TimeSeriesSplit
 logger = load_logger()
 
 
+def load_product_data(products_file_path):
+    """
+    Load product data from CSV containing product names, base prices, and possibly categories.
+    """
+    logger.info(f"Loading product data from {products_file_path}")
+    try:
+        products_df = pd.read_csv(products_file_path)
+        # Ensure columns: 'name', 'price'
+        # If categories or other attributes exist, they can be used for segmentation.
+        logger.debug(f"Products DataFrame shape: {products_df.shape}")
+        return products_df
+    except FileNotFoundError as e:
+        logger.error(f"Product file not found: {e}")
+        return pd.DataFrame()
+
+
+def load_order_items_data(order_items_path):
+    """
+    Load order items data linking orders to products and their sold price and quantity.
+    This file or table should contain columns like:
+    - 'order_id' or 'Référence'
+    - 'product_name' or product_id
+    - 'quantity'
+    - 'line_price' (the total price for that line)
+
+    If not currently available, this function returns empty or a placeholder.
+    """
+    # This is a placeholder. Adjust path and columns to your actual data structure.
+    if not os.path.exists(order_items_path):
+        logger.warning("Order items data not found. Product-level analysis won't be possible.")
+        return pd.DataFrame()
+
+    order_items_df = pd.read_csv(order_items_path)
+    # Ensure proper datetime conversion if there's a 'Date' or 'order_date' column
+    if "Date" in order_items_df.columns:
+        order_items_df["Date"] = pd.to_datetime(order_items_df["Date"], errors="coerce")
+    return order_items_df
+
+
+def compute_monthly_product_sales(order_items_df, date_col="Date", product_col="product_name", qty_col="quantity", price_col="line_price"):
+    """
+    Compute monthly units sold and monthly revenue for each product.
+    Returns two DataFrames:
+    - monthly_units: indexed by Month, columns=product, values=units sold
+    - monthly_revenue: indexed by Month, columns=product, values=revenue
+    """
+    if order_items_df.empty:
+        logger.warning("Order items data is empty. Cannot compute monthly product sales.")
+        return pd.DataFrame(), pd.DataFrame()
+
+    # Resample by month
+    order_items_df[date_col] = pd.to_datetime(order_items_df[date_col])
+    order_items_df["Month"] = order_items_df[date_col].dt.to_period("M").dt.to_timestamp()
+
+    monthly_units = order_items_df.groupby(["Month", product_col])[qty_col].sum().unstack(fill_value=0)
+    monthly_revenue = order_items_df.groupby(["Month", product_col])[price_col].sum().unstack(fill_value=0)
+
+    return monthly_units, monthly_revenue
+
+
+def compute_product_price_metrics(order_items_df, products_df, product_col="product_name", price_col="line_price", qty_col="quantity"):
+    """
+    Compute price-related metrics:
+    - Average selling price per product over time
+    - Discount rates = (Base Price - Actual Selling Price) / Base Price
+    Assuming 'price' in products_df is the base price.
+
+    Returns:
+    - monthly_avg_price: Average sold price per unit (line_price/quantity) by month and product
+    - monthly_discount_rate: Mean discount rate by month and product (if base price available)
+    """
+    if order_items_df.empty or products_df.empty:
+        logger.warning("Either order_items_df or products_df is empty. Cannot compute product price metrics.")
+        return pd.DataFrame(), pd.DataFrame()
+
+    # Merge base price info into order_items_df
+    # Ensure that 'name' in products_df matches 'product_name' in order_items_df
+    merged = order_items_df.merge(products_df, left_on=product_col, right_on="name", how="left", suffixes=("", "_base"))
+    if "price" not in merged.columns:
+        logger.warning("Base price column not found in products data. Cannot compute discount rates.")
+        return pd.DataFrame(), pd.DataFrame()
+
+    # Compute actual sold price per unit
+    merged["unit_sold_price"] = merged[price_col] / merged[qty_col]
+
+    # Discount = 1 - (unit_sold_price / base_price)
+    # If base_price = 0 (unlikely), handle gracefully
+    merged["discount_rate"] = np.where(merged["price"] > 0, 1 - (merged["unit_sold_price"] / merged["price"]), np.nan)
+
+    # Group by month and product
+    merged["Month"] = merged["Date"].dt.to_period("M").dt.to_timestamp()
+    monthly_avg_price = merged.groupby(["Month", product_col])["unit_sold_price"].mean().unstack(fill_value=np.nan)
+    monthly_discount_rate = merged.groupby(["Month", product_col])["discount_rate"].mean().unstack(fill_value=np.nan)
+
+    return monthly_avg_price, monthly_discount_rate
+
+
+def forecast_product_metric(metric_series, product_name, periods=6):
+    """
+    Given a monthly series for a particular product (e.g. monthly revenue),
+    forecast the next 6 periods using Prophet as an example.
+
+    metric_series: pd.Series indexed by datetime (Month), values = metric (e.g. revenue)
+    product_name: str, the product name for logging
+    """
+    df = metric_series.dropna().reset_index()
+    df.columns = ["ds", "y"]
+    df["ds"] = pd.to_datetime(df["ds"])
+    if len(df) < 12:
+        logger.info(f"Not enough data to forecast {product_name}. Returning empty.")
+        return pd.DataFrame()
+
+    # Simple Prophet model (could tune hyperparams as above)
+    model = Prophet(yearly_seasonality=True, daily_seasonality=False, weekly_seasonality=False)
+    model.fit(df)
+    future = model.make_future_dataframe(periods=periods, freq="M")
+    forecast = model.predict(future)
+    forecast["product"] = product_name
+    return forecast[["ds", "yhat", "yhat_lower", "yhat_upper", "product"]]
+
+
 def compute_monthly_orders(order_df, date_col="Date"):
     order_df[date_col] = pd.to_datetime(order_df[date_col])
     monthly_orders = order_df.set_index(date_col).resample("M")["Référence"].count()

@@ -1,1092 +1,1092 @@
-,Client,Total,cumsum_val,segment
-0,F. zanni,34092.0,34092.0,High-value
-1,M. Bonnet,16360.0,50452.0,High-value
-2,C. Tailleferd,14890.0,65342.0,High-value
-3,S. Ghermaoui,10150.0,75492.0,High-value
-4,C. Barnes,8650.0,84142.0,High-value
-5,C. vuillemenot,7354.0,91496.0,High-value
-6,A. Tournerie ,7065.0,98561.0,High-value
-7,S. Delprat,6750.0,105311.0,High-value
-8,L. Skanberg,6635.0,111946.0,High-value
-9,D. ANDERS LEDROIT,6380.0,118326.0,High-value
-10,S. Endler,5650.0,123976.0,High-value
-11,O. Anderson,5130.0,129106.0,High-value
-12,T. TAUPIN,4885.0,133991.0,High-value
-13,J. Melton,4720.0,138711.0,High-value
-14,F. Azais,4582.0,143293.0,High-value
-15,D. Wilkens,4475.0,147768.0,High-value
-16,J. Rizio-Hamilton,4200.0,151968.0,High-value
-17,C. ALVARO,4120.0,156088.0,High-value
-18,S. Santero,3980.0,160068.0,High-value
-19,G. Flament,3890.0,163958.0,High-value
-20,V. Carini,3820.0,167778.0,High-value
-21,C. Garret,3630.0,171408.0,High-value
-22,C. Kopp,3575.0,174983.0,Mid-value
-23,K. Sokolova,3390.0,178373.0,Mid-value
-24,P. DESBORDES,3370.0,181743.0,Mid-value
-25,M. DE RAFELIS,3350.0,185093.0,Mid-value
-26,G. Gordon,3320.0,188413.0,Mid-value
-27,J. Kling,3180.0,191593.0,Mid-value
-28,S. Baysse,3040.0,194633.0,Mid-value
-29,J. Kronberg,3015.0,197648.0,Mid-value
-30,A. Kiialainen,2998.0,200646.0,Mid-value
-31,A. Marg,2670.0,203316.0,Mid-value
-32,A. Ascanio ,2670.0,205986.0,Mid-value
-33,N. Romanova,2630.0,208616.0,Mid-value
-34,L. Sanzari,2570.0,211186.0,Mid-value
-35,D. Schulner,2570.0,213756.0,Mid-value
-36,j. BERNARD,2530.0,216286.0,Mid-value
-37,A. Garber,2530.0,218816.0,Mid-value
-38,G. May,2520.0,221336.0,Mid-value
-39,S. Goldstein,2495.0,223831.0,Mid-value
-40,D. Liljegren,2480.0,226311.0,Mid-value
-41,F. DEL TEDESCO,2480.0,228791.0,Mid-value
-42,C. Briseul,2467.0,231258.0,Mid-value
-43,P. Prasad,2408.0,233666.0,Mid-value
-44,S. LEHUT,2400.0,236066.0,Mid-value
-45,G. FERREUX,2350.0,238416.0,Mid-value
-46,K. Rubin,2340.0,240756.0,Mid-value
-47,C. Curran,2330.0,243086.0,Mid-value
-48,O. Beck,2322.0,245408.0,Mid-value
-49,M. Sezalory,2300.0,247708.0,Mid-value
-50,C. Lajous,2240.0,249948.0,Mid-value
-51,J. Hartmann,2230.0,252178.0,Mid-value
-52,e. yildiz,2230.0,254408.0,Mid-value
-53,v. marion,2196.0,256604.0,Mid-value
-54,N. Evans,2164.0,258768.0,Mid-value
-55,C. MANGIONE,2130.0,260898.0,Mid-value
-56,A. Murillo tapia ,2130.0,263028.0,Mid-value
-57,S. Miller,2130.0,265158.0,Mid-value
-58,T. Gnazzo ,2100.0,267258.0,Mid-value
-59,S. Gorton,2080.0,269338.0,Mid-value
-60,M. SCHERER,2075.0,271413.0,Mid-value
-61,C. Maclet,2030.0,273443.0,Mid-value
-62,G. Tskhadadze,1980.0,275423.0,Mid-value
-63,l. mikolajczak,1970.0,277393.0,Mid-value
-64,R. MANZANARES ZAMBRANA,1970.0,279363.0,Mid-value
-65,B. Ughetti,1960.0,281323.0,Mid-value
-66,A. Mukhanchikov,1960.0,283283.0,Mid-value
-67,J. Francais,1960.0,285243.0,Mid-value
-68,m. castells,1950.0,287193.0,Mid-value
-69,D. Alekniene,1940.0,289133.0,Mid-value
-70,H. OLIVEAU,1930.0,291063.0,Mid-value
-71,L. Roche,1930.0,292993.0,Mid-value
-72,E. Boase,1930.0,294923.0,Mid-value
-73,V. GRIS,1910.0,296833.0,Mid-value
-74,R. Cantin,1870.0,298703.0,Mid-value
-75,k. noel,1845.0,300548.0,Mid-value
-76,C. THIROUIN,1840.0,302388.0,Mid-value
-77,H. Carmean,1840.0,304228.0,Mid-value
-78,B. Landa,1838.0,306066.0,Mid-value
-79,N. Wong,1816.0,307882.0,Mid-value
-80,D. Glass,1810.0,309692.0,Mid-value
-81,s. veziat,1805.0,311497.0,Mid-value
-82,C. Meissonnier,1800.0,313297.0,Mid-value
-83,D. Borgis,1780.0,315077.0,Mid-value
-84,L. Monlezun,1780.0,316857.0,Mid-value
-85,T. SPEE,1780.0,318637.0,Mid-value
-86,C. Larzillière ,1780.0,320417.0,Mid-value
-87,B. CERBONESCHI,1780.0,322197.0,Mid-value
-88,G. RICONO,1780.0,323977.0,Mid-value
-89,P. de Trogoff,1780.0,325757.0,Mid-value
-90,G. Gashi,1780.0,327537.0,Mid-value
-91,L. Charrier,1780.0,329317.0,Mid-value
-92,G. Taillandier,1780.0,331097.0,Mid-value
-93,I. Radi,1770.0,332867.0,Mid-value
-94,Z. Burger,1740.0,334607.0,Mid-value
-95,G. Kunz,1720.0,336327.0,Mid-value
-96,A. Pecora,1690.0,338017.0,Mid-value
-97,C. Potiron ,1685.0,339702.0,Mid-value
-98,I. Crewdson ,1680.0,341382.0,Mid-value
-99,F. AMBERT,1670.0,343052.0,Mid-value
-100,E. Lucbernet,1660.0,344712.0,Mid-value
-101,F. Le Quéré,1650.0,346362.0,Mid-value
-102,A. Vernet,1650.0,348012.0,Mid-value
-103,n. mattioni,1645.0,349657.0,Mid-value
-104,A. Zengarini,1630.0,351287.0,Mid-value
-105,C. Patry,1625.0,352912.0,Mid-value
-106,G. Crozier,1610.0,354522.0,Mid-value
-107,A. Hachmi,1610.0,356132.0,Mid-value
-108,L. Branum,1600.0,357732.0,Mid-value
-109,S. FILLAUDEAU,1580.0,359312.0,Mid-value
-110,S. Webb,1570.0,360882.0,Mid-value
-111,C. Windus,1559.0,362441.0,Mid-value
-112,L. Copenhefer,1542.0,363983.0,Mid-value
-113,J. Nicholson,1530.0,365513.0,Mid-value
-114,P. Desfontaine,1530.0,367043.0,Mid-value
-115,G. Casamonti,1530.0,368573.0,Mid-value
-116,L. Lukic,1525.0,370098.0,Mid-value
-117,J. Šlepikiene,1520.0,371618.0,Mid-value
-118,G. Worthe,1520.0,373138.0,Mid-value
-119,S. Colson,1520.0,374658.0,Mid-value
-120,C. DELANNOY,1510.0,376168.0,Mid-value
-121,A. Brem,1500.0,377668.0,Mid-value
-122,F. Brisset,1490.0,379158.0,Mid-value
-123,L. Van Damme,1490.0,380648.0,Mid-value
-124,C. Peuchant,1490.0,382138.0,Mid-value
-125,G. Labouret,1485.0,383623.0,Mid-value
-126,C. Marchand,1475.0,385098.0,Mid-value
-127,M. Villeminey,1460.0,386558.0,Mid-value
-128,M. Mittag,1450.0,388008.0,Mid-value
-129,K. Nakatani,1440.0,389448.0,Mid-value
-130,I. Andreoli,1430.0,390878.0,Mid-value
-131,I. Hincu,1430.0,392308.0,Mid-value
-132,B. Hollinger,1420.0,393728.0,Mid-value
-133,A. Montagne,1420.0,395148.0,Mid-value
-134,O. Ponsonnet ,1420.0,396568.0,Mid-value
-135,A. Charpin,1415.0,397983.0,Mid-value
-136,d. castiglia,1410.0,399393.0,Mid-value
-137,s. sinclair,1410.0,400803.0,Mid-value
-138,P. Gallon,1400.0,402203.0,Mid-value
-139,V. nasser,1390.0,403593.0,Mid-value
-140,E. PIROUE,1390.0,404983.0,Mid-value
-141,F. DUSSOT,1390.0,406373.0,Mid-value
-142,A. Aires,1380.0,407753.0,Mid-value
-143,L. Sahai,1380.0,409133.0,Mid-value
-144,E. D'achon,1320.0,410453.0,Mid-value
-145,K. Fischer,1320.0,411773.0,Mid-value
-146,A. Edgington,1320.0,413093.0,Mid-value
-147,A. Aldrees,1320.0,414413.0,Mid-value
-148,L. Menten,1310.0,415723.0,Mid-value
-149,K. von Ankum,1310.0,417033.0,Mid-value
-150,D. Clode,1300.0,418333.0,Mid-value
-151,H. musikas,1300.0,419633.0,Mid-value
-152,D. McCaffary,1300.0,420933.0,Mid-value
-153,S. EVRARD,1295.0,422228.0,Mid-value
-154,U. Streichenberger,1280.0,423508.0,Mid-value
-155,D. Correll,1270.0,424778.0,Mid-value
-156,E. Klaver ,1260.0,426038.0,Mid-value
-157,B. Ruffenach,1250.0,427288.0,Mid-value
-158,D. Pollard,1250.0,428538.0,Mid-value
-159,A. Tribalet,1240.0,429778.0,Low-value
-160,S. Oliveró Soldevila,1240.0,431018.0,Low-value
-161,A. Verschelde ,1240.0,432258.0,Low-value
-162,Y. LAHAUSSOIS,1240.0,433498.0,Low-value
-163,S. Degiovannini,1240.0,434738.0,Low-value
-164,A. Baudrexl,1240.0,435978.0,Low-value
-165,c. delage,1240.0,437218.0,Low-value
-166,B. Orlandini,1240.0,438458.0,Low-value
-167,M. Takeh,1225.0,439683.0,Low-value
-168,S. Oeschger-Delautre,1210.0,440893.0,Low-value
-169,K. Bartin,1210.0,442103.0,Low-value
-170,O. Kolodenko,1200.0,443303.0,Low-value
-171,P. Paulazzo,1190.0,444493.0,Low-value
-172,E. Trieu,1190.0,445683.0,Low-value
-173,A. Perse,1170.0,446853.0,Low-value
-174,Q. Isidore,1160.0,448013.0,Low-value
-175,D. Kahn,1140.0,449153.0,Low-value
-176,A. Gutierrez,1140.0,450293.0,Low-value
-177,C. Tinker,1140.0,451433.0,Low-value
-178,P. Viana,1140.0,452573.0,Low-value
-179,E. Calut ,1140.0,453713.0,Low-value
-180,M. Angelakis,1130.0,454843.0,Low-value
-181,P. Finley,1110.0,455953.0,Low-value
-182,G. Lederman,1105.0,457058.0,Low-value
-183,M. Bernhard,1090.0,458148.0,Low-value
-184,R. FREMINET,1090.0,459238.0,Low-value
-185,S. Pinto,1090.0,460328.0,Low-value
-186,F. Defradas,1090.0,461418.0,Low-value
-187,P. Grillet,1090.0,462508.0,Low-value
-188,M. Pullicino,1080.0,463588.0,Low-value
-189,E. Greve ,1080.0,464668.0,Low-value
-190,M. von Holstein,1080.0,465748.0,Low-value
-191,V. Matton ,1080.0,466828.0,Low-value
-192,I. Brohet,1075.0,467903.0,Low-value
-193,B. Mathias,1070.0,468973.0,Low-value
-194,R. Gonzalez,1056.0,470029.0,Low-value
-195,C. Hossenbaccus,1050.0,471079.0,Low-value
-196,S. Thiebault,1040.0,472119.0,Low-value
-197,P. Rueping,1040.0,473159.0,Low-value
-198,N. JULIA,1040.0,474199.0,Low-value
-199,S. Borzakian,1040.0,475239.0,Low-value
-200,Q. Giroux,1030.0,476269.0,Low-value
-201,C. Picard,1030.0,477299.0,Low-value
-202,S. Bass,1030.0,478329.0,Low-value
-203,D. Chung,1030.0,479359.0,Low-value
-204,Y. Grunberger,1030.0,480389.0,Low-value
-205,A. Johnson,1030.0,481419.0,Low-value
-206,F. SALES,1010.0,482429.0,Low-value
-207,K. van Schijndel,1010.0,483439.0,Low-value
-208,D. Vujovic,1000.0,484439.0,Low-value
-209,S. Zimna,1000.0,485439.0,Low-value
-210,G. Stephane,1000.0,486439.0,Low-value
-211,L. Poivert,1000.0,487439.0,Low-value
-212,A. LAURENCON,990.0,488429.0,Low-value
-213,J. Lippman,980.0,489409.0,Low-value
-214,M. Teather,980.0,490389.0,Low-value
-215,L. Bozec,980.0,491369.0,Low-value
-216,C. Levit,980.0,492349.0,Low-value
-217,J. Breen,980.0,493329.0,Low-value
-218,M. Brodier,980.0,494309.0,Low-value
-219,s. bailly,965.0,495274.0,Low-value
-220,F. Denglehem,950.0,496224.0,Low-value
-221,P. Williamson,943.0,497167.0,Low-value
-222,C. DUPONT,940.0,498107.0,Low-value
-223,B. Tribble,940.0,499047.0,Low-value
-224,J. Peduzzi ,930.0,499977.0,Low-value
-225,F. Haqueberge,930.0,500907.0,Low-value
-226,J. Lamy,930.0,501837.0,Low-value
-227,S. Nicolas,930.0,502767.0,Low-value
-228,N. Fulconis,925.0,503692.0,Low-value
-229,R. Madden,925.0,504617.0,Low-value
-230,P. ROCHEREAU,925.0,505542.0,Low-value
-231,Y. Salles,920.0,506462.0,Low-value
-232,M. Tisch,900.0,507362.0,Low-value
-233,J. PUIBARAUD,900.0,508262.0,Low-value
-234,M. Santero,900.0,509162.0,Low-value
-235,M. Echevarria,900.0,510062.0,Low-value
-236,m. olsen,900.0,510962.0,Low-value
-237,A. Michelassi,900.0,511862.0,Low-value
-238,a. cazin,900.0,512762.0,Low-value
-239,O. D’ouitremont,885.0,513647.0,Low-value
-240,C. Vacchiani Marcuzzo,880.0,514527.0,Low-value
-241,c. Habart,880.0,515407.0,Low-value
-242,S. Chelloul,880.0,516287.0,Low-value
-243,S. CHANE-SAM,880.0,517167.0,Low-value
-244,c. sinclair,880.0,518047.0,Low-value
-245,k. maboa mbissa,880.0,518927.0,Low-value
-246,M. Lorne,880.0,519807.0,Low-value
-247,G. ANDREOLI,880.0,520687.0,Low-value
-248,M. Peneva,880.0,521567.0,Low-value
-249,L. Zourray,880.0,522447.0,Low-value
-250,L. Lequeux,880.0,523327.0,Low-value
-251,f. Abdalan,880.0,524207.0,Low-value
-252,L. Turner,870.0,525077.0,Low-value
-253,O. Sortun,860.0,525937.0,Low-value
-254,E. Rogers,860.0,526797.0,Low-value
-255,E. Fitzgerald,860.0,527657.0,Low-value
-256,E. Solignac,854.0,528511.0,Low-value
-257,L. LAURENTI,850.0,529361.0,Low-value
-258,J. BARRÈS,845.0,530206.0,Low-value
-259,M. Mouazan,840.0,531046.0,Low-value
-260,A. TAESCH,840.0,531886.0,Low-value
-261,V. Gautier,840.0,532726.0,Low-value
-262,L. Feyssac,840.0,533566.0,Low-value
-263,D. Barron,840.0,534406.0,Low-value
-264,C. David,835.0,535241.0,Low-value
-265,A. BERTIN,830.0,536071.0,Low-value
-266,F. Tarrant,820.0,536891.0,Low-value
-267,A. Monnier,815.0,537706.0,Low-value
-268,F. Taxil,810.0,538516.0,Low-value
-269,D. Pret,810.0,539326.0,Low-value
-270,d. spinosa,810.0,540136.0,Low-value
-271,N. Bernard,800.0,540936.0,Low-value
-272,A. Jaspersen,800.0,541736.0,Low-value
-273,A. Rosson,800.0,542536.0,Low-value
-274,F. Bernardeau,800.0,543336.0,Low-value
-275,M. Tripier,800.0,544136.0,Low-value
-276,J. Videira,795.0,544931.0,Low-value
-277,J. Heukmes,790.0,545721.0,Low-value
-278,M. Migdal,780.0,546501.0,Low-value
-279,O. Voortman,780.0,547281.0,Low-value
-280,O. Akin,780.0,548061.0,Low-value
-281,A. Lacam,780.0,548841.0,Low-value
-282,L. Bautista,775.0,549616.0,Low-value
-283,N. Alixant,775.0,550391.0,Low-value
-284,j. david,770.0,551161.0,Low-value
-285,J. Joachim,770.0,551931.0,Low-value
-286,A. Vignault,765.0,552696.0,Low-value
-287,M. Palumbo,760.0,553456.0,Low-value
-288,J. Gozal,750.0,554206.0,Low-value
-289,M. RONFARD,740.0,554946.0,Low-value
-290,D. Utemuratova,740.0,555686.0,Low-value
-291,J. BRINO,740.0,556426.0,Low-value
-292,R. Valentina ,733.0,557159.0,Low-value
-293,a. mora-svane,733.0,557892.0,Low-value
-294,E. Braekkan,730.0,558622.0,Low-value
-295,H. Greiner Baumgaertner,730.0,559352.0,Low-value
-296,P. Larzilliere,730.0,560082.0,Low-value
-297,a. MARTINENQ,730.0,560812.0,Low-value
-298,A. Steinert,730.0,561542.0,Low-value
-299,c. lemarquand,725.0,562267.0,Low-value
-300,A. Delage,720.0,562987.0,Low-value
-301,B. dauchy ,720.0,563707.0,Low-value
-302,M. Pisarek ,720.0,564427.0,Low-value
-303,M. Gambié,720.0,565147.0,Low-value
-304,m. bonelli,720.0,565867.0,Low-value
-305,Y. Malinge,720.0,566587.0,Low-value
-306,f. DEPIGNY,720.0,567307.0,Low-value
-307,C. Jacques,720.0,568027.0,Low-value
-308,R. Demessence,720.0,568747.0,Low-value
-309,R. ARNOULD,720.0,569467.0,Low-value
-310,C. Broche ,720.0,570187.0,Low-value
-311,L. ROBERT,720.0,570907.0,Low-value
-312,S. Bronquart,720.0,571627.0,Low-value
-313,A. BOILLOT,720.0,572347.0,Low-value
-314,T. Tambon,720.0,573067.0,Low-value
-315,C. Selosse ,720.0,573787.0,Low-value
-316,N. Merindol,720.0,574507.0,Low-value
-317,C. Yu,720.0,575227.0,Low-value
-318,n. becker,715.0,575942.0,Low-value
-319,M. Ota,710.0,576652.0,Low-value
-320,C. Van hintum ,710.0,577362.0,Low-value
-321,N. Borg,710.0,578072.0,Low-value
-322,E. King ,710.0,578782.0,Low-value
-323,B. Schmitt,705.0,579487.0,Low-value
-324,M. Lozinguez,705.0,580192.0,Low-value
-325,L. Winka ,705.0,580897.0,Low-value
-326,A. Savoy,700.0,581597.0,Low-value
-327,G. Tam,700.0,582297.0,Low-value
-328,p. vuillemenot,700.0,582997.0,Low-value
-329,M. Fayet,700.0,583697.0,Low-value
-330,E. Altan,700.0,584397.0,Low-value
-331,R. LI,690.0,585087.0,Low-value
-332,L. BOUCHEZ,690.0,585777.0,Low-value
-333,N. Brobecker,690.0,586467.0,Low-value
-334,L. Lacaze,690.0,587157.0,Low-value
-335,M. Bernad,690.0,587847.0,Low-value
-336,X. Dreyfuss,690.0,588537.0,Low-value
-337,C. Bazerque ,690.0,589227.0,Low-value
-338,C. Sperlich,690.0,589917.0,Low-value
-339,L. Bourot,680.0,590597.0,Low-value
-340,L. Calvi,680.0,591277.0,Low-value
-341,F. GIRAUD,680.0,591957.0,Low-value
-342,F. Coulaud,680.0,592637.0,Low-value
-343,R. LABROYE,680.0,593317.0,Low-value
-344,Y. Benzekri,680.0,593997.0,Low-value
-345,I. Reynier-bayle,680.0,594677.0,Low-value
-346,A. Pholoppe,680.0,595357.0,Low-value
-347,T. Gosselin,680.0,596037.0,Low-value
-348,T. Chassagnard,680.0,596717.0,Low-value
-349,A. Baer,680.0,597397.0,Low-value
-350,M. HOMBOURGER,680.0,598077.0,Low-value
-351,O. MELOT,680.0,598757.0,Low-value
-352,L. Bloyer,680.0,599437.0,Low-value
-353,C. Rubi,680.0,600117.0,Low-value
-354,E. Curran,680.0,600797.0,Low-value
-355,C. De Michiel,680.0,601477.0,Low-value
-356,K. WALLERSTEIN,680.0,602157.0,Low-value
-357,P. Fosse,680.0,602837.0,Low-value
-358,S. Marsais,680.0,603517.0,Low-value
-359,I. Jimenez ,680.0,604197.0,Low-value
-360,C. Esquerdo Inareta,680.0,604877.0,Low-value
-361,D. Salaud,680.0,605557.0,Low-value
-362,V. Hourblin,665.0,606222.0,Low-value
-363,d. Meistermann,660.0,606882.0,Low-value
-364,M. Chiono,660.0,607542.0,Low-value
-365,G. Grégoire,660.0,608202.0,Low-value
-366,M. Arfi,660.0,608862.0,Low-value
-367,I. Wunder,660.0,609522.0,Low-value
-368,E. Aubin,660.0,610182.0,Low-value
-369,C. Vardinogianni,660.0,610842.0,Low-value
-370,M. Langrand,660.0,611502.0,Low-value
-371,L. Chauffaille,650.0,612152.0,Low-value
-372,A. Sharma,650.0,612802.0,Low-value
-373,G. Des Cognets,650.0,613452.0,Low-value
-374,J. SANTANA CLIMENT,650.0,614102.0,Low-value
-375,A. Montesi,650.0,614752.0,Low-value
-376,A. Montaigne,650.0,615402.0,Low-value
-377,V. ARTAUD,650.0,616052.0,Low-value
-378,N. Häring,640.0,616692.0,Low-value
-379,r. perrotte,640.0,617332.0,Low-value
-380,G. RIGAUDIE,635.0,617967.0,Low-value
-381,P. Rossi ,630.0,618597.0,Low-value
-382,C. Geissler,630.0,619227.0,Low-value
-383,S. CONENNA,630.0,619857.0,Low-value
-384,N. SAMMUT,630.0,620487.0,Low-value
-385,J. LORENTE,630.0,621117.0,Low-value
-386,A. Jodal,625.0,621742.0,Low-value
-387,P. Scheefhals,620.0,622362.0,Low-value
-388,K. Andersen,620.0,622982.0,Low-value
-389,C. Holzer,620.0,623602.0,Low-value
-390,G. Cabras,620.0,624222.0,Low-value
-391,O. Larsen,620.0,624842.0,Low-value
-392,J. Kraft,620.0,625462.0,Low-value
-393,A. Pitula,620.0,626082.0,Low-value
-394,M. Augereau,620.0,626702.0,Low-value
-395,k. lounis,620.0,627322.0,Low-value
-396,P. OMODEI,615.0,627937.0,Low-value
-397,B. Milne,612.0,628549.0,Low-value
-398,C. Dupoux,610.0,629159.0,Low-value
-399,K. Rasmussen,610.0,629769.0,Low-value
-400,A. Traup,610.0,630379.0,Low-value
-401,J. Carrard,610.0,630989.0,Low-value
-402,B. Chaulin,610.0,631599.0,Low-value
-403,R. TRIPARD,610.0,632209.0,Low-value
-404,s. hemidi,610.0,632819.0,Low-value
-405,D. Saltiel,610.0,633429.0,Low-value
-406,J. Imbert,610.0,634039.0,Low-value
-407,O. Barbey,610.0,634649.0,Low-value
-408,E. Lehuger,610.0,635259.0,Low-value
-409,T. Teo,610.0,635869.0,Low-value
-410,G. Bouaud,610.0,636479.0,Low-value
-411,M. Suillaud,605.0,637084.0,Low-value
-412,R. Gibbs,602.0,637686.0,Low-value
-413,Y. Pinchover,600.0,638286.0,Low-value
-414,C. Dumas,600.0,638886.0,Low-value
-415,R. Bagnara,590.0,639476.0,Low-value
-416,a. puigcercos,590.0,640066.0,Low-value
-417,R. Delannoy,590.0,640656.0,Low-value
-418,I. Sery,590.0,641246.0,Low-value
-419,D. RENGER,590.0,641836.0,Low-value
-420,M. Billon Galland,590.0,642426.0,Low-value
-421,B. GIAQUINTO,590.0,643016.0,Low-value
-422,C. CLEMENT-CRESPEL,590.0,643606.0,Low-value
-423,A. Cochran,590.0,644196.0,Low-value
-424,C. Fournier,590.0,644786.0,Low-value
-425,A. Derain,580.0,645366.0,Low-value
-426,M. Laplace,580.0,645946.0,Low-value
-427,J. DUVAL,580.0,646526.0,Low-value
-428,U. Scheer,580.0,647106.0,Low-value
-429,S. Cavassa,580.0,647686.0,Low-value
-430,A. Mathey,580.0,648266.0,Low-value
-431,g. toledano,580.0,648846.0,Low-value
-432,A. Preusker,580.0,649426.0,Low-value
-433,A. Carnec,580.0,650006.0,Low-value
-434,J. Perochon,580.0,650586.0,Low-value
-435,P. HAHN,580.0,651166.0,Low-value
-436,M. Rios Piñol,580.0,651746.0,Low-value
-437,E. Vauleon ,580.0,652326.0,Low-value
-438,H. Leray,580.0,652906.0,Low-value
-439,M. Brisset,580.0,653486.0,Low-value
-440,E. Dayre,580.0,654066.0,Low-value
-441,A. Di Maggio,575.0,654641.0,Low-value
-442,C. Michel,570.0,655211.0,Low-value
-443,C. SAMIERI,570.0,655781.0,Low-value
-444,M. Loeffler,567.0,656348.0,Low-value
-445,C. Morin,565.0,656913.0,Low-value
-446,C. Nache,560.0,657473.0,Low-value
-447,T. CHARRIA,550.0,658023.0,Low-value
-448,S. Alaimo,550.0,658573.0,Low-value
-449,H. Bokobza,550.0,659123.0,Low-value
-450,B. Fleetwood,550.0,659673.0,Low-value
-451,L. Barbe,550.0,660223.0,Low-value
-452,C. Lacroix,550.0,660773.0,Low-value
-453,G. Loud,550.0,661323.0,Low-value
-454,A. Ellena,550.0,661873.0,Low-value
-455,M. Baisez,550.0,662423.0,Low-value
-456,T. Ramos,550.0,662973.0,Low-value
-457,B. JOSEPH,550.0,663523.0,Low-value
-458,c. Montigny,545.0,664068.0,Low-value
-459,A. Schmitt,540.0,664608.0,Low-value
-460,O. Cottereau,540.0,665148.0,Low-value
-461,N. Prokofieff,540.0,665688.0,Low-value
-462,o. shahin,540.0,666228.0,Low-value
-463,S. HOPPE,540.0,666768.0,Low-value
-464,A. Mongodin,540.0,667308.0,Low-value
-465,C. Ardon,540.0,667848.0,Low-value
-466,A. Perez,540.0,668388.0,Low-value
-467,m. ROY,540.0,668928.0,Low-value
-468,E. Cain,533.0,669461.0,Low-value
-469,S. Apocale,530.0,669991.0,Low-value
-470,J. McGrath,530.0,670521.0,Low-value
-471,J. VITRE,530.0,671051.0,Low-value
-472,E. D'ACHON,525.0,671576.0,Low-value
-473,F. LOBILLO VILELA,520.0,672096.0,Low-value
-474,T. Cole,520.0,672616.0,Low-value
-475,C. Lacombe,515.0,673131.0,Low-value
-476,M. Sina,510.0,673641.0,Low-value
-477,L. Moynier,510.0,674151.0,Low-value
-478,C. McGee,510.0,674661.0,Low-value
-479,A. Jacob,510.0,675171.0,Low-value
-480,N. LAVAL,510.0,675681.0,Low-value
-481,M. GEORGES,510.0,676191.0,Low-value
-482,S. Roche,510.0,676701.0,Low-value
-483,C. Perier,510.0,677211.0,Low-value
-484,H. Guilbert,510.0,677721.0,Low-value
-485,P. Le cacheux,510.0,678231.0,Low-value
-486,I. Cooper,508.0,678739.0,Low-value
-487,a. felix,508.0,679247.0,Low-value
-488,A. BERNARD LAFAURIE,500.0,679747.0,Low-value
-489,a. stanguennec,500.0,680247.0,Low-value
-490,I. TREILLEUX,500.0,680747.0,Low-value
-491,V. Dellon,500.0,681247.0,Low-value
-492,N. Marie Dit Asse,500.0,681747.0,Low-value
-493,M. Curnier,500.0,682247.0,Low-value
-494,P. BARJAVEL,500.0,682747.0,Low-value
-495,R. Donneux,500.0,683247.0,Low-value
-496,O. Carter,500.0,683747.0,Low-value
-497,M. Royer,495.0,684242.0,Low-value
-498,L. PERRET,495.0,684737.0,Low-value
-499,A. Régnier,495.0,685232.0,Low-value
-500,J. Bonnet,495.0,685727.0,Low-value
-501,L. Borgne,495.0,686222.0,Low-value
-502,a. achache,490.0,686712.0,Low-value
-503,L. Lajoinie,490.0,687202.0,Low-value
-504,L. Curtiss,490.0,687692.0,Low-value
-505,O. Perault,490.0,688182.0,Low-value
-506,M. van der Zwan,490.0,688672.0,Low-value
-507,A. Collins,490.0,689162.0,Low-value
-508,P. Boucherat,490.0,689652.0,Low-value
-509,A. Teisseire,490.0,690142.0,Low-value
-510,C. BEAUFILS,490.0,690632.0,Low-value
-511,B. VILLIÉ,490.0,691122.0,Low-value
-512,C. Pons,490.0,691612.0,Low-value
-513,I. Révolat,490.0,692102.0,Low-value
-514,S. Zimmer,490.0,692592.0,Low-value
-515,M. COUTAND,490.0,693082.0,Low-value
-516,S. REHOUDJ,490.0,693572.0,Low-value
-517,B. Lerat,480.0,694052.0,Low-value
-518,R. Jeanjean,480.0,694532.0,Low-value
-519,Y. Su,480.0,695012.0,Low-value
-520,J. Losson ,480.0,695492.0,Low-value
-521,E. Ouvrard,480.0,695972.0,Low-value
-522,S. Severi,480.0,696452.0,Low-value
-523,C. Huber,480.0,696932.0,Low-value
-524,Z. LENOIR,480.0,697412.0,Low-value
-525,J. Rethiers,480.0,697892.0,Low-value
-526,G. Casanova,475.0,698367.0,Low-value
-527,I. Bourquin,475.0,698842.0,Low-value
-528,L. Cecillon,475.0,699317.0,Low-value
-529,j. lachowski,475.0,699792.0,Low-value
-530,L. Goddard,475.0,700267.0,Low-value
-531,E. Thebault,475.0,700742.0,Low-value
-532,A. HERY,475.0,701217.0,Low-value
-533,M. Lefèvre,475.0,701692.0,Low-value
-534,T. Griffin,470.0,702162.0,Low-value
-535,A. Spreafico,470.0,702632.0,Low-value
-536,A. Garlipp,470.0,703102.0,Low-value
-537,a. champsaur,470.0,703572.0,Low-value
-538,Z. BEN ABBES,462.0,704034.0,Low-value
-539,G. Duchesne,460.0,704494.0,Low-value
-540,a. bois,460.0,704954.0,Low-value
-541,F. Hägen,460.0,705414.0,Low-value
-542,P. Comtat,460.0,705874.0,Low-value
-543,A. Jullien,460.0,706334.0,Low-value
-544,B. Kulik,460.0,706794.0,Low-value
-545,G. Roqueplo,460.0,707254.0,Low-value
-546,R. Actis Grosso,460.0,707714.0,Low-value
-547,M. Hautsch,460.0,708174.0,Low-value
-548,A. Threlfall,450.0,708624.0,Low-value
-549,C. Baribaud,450.0,709074.0,Low-value
-550,L. Cottet,450.0,709524.0,Low-value
-551,B. Eckenroth,450.0,709974.0,Low-value
-552,V. Henry,450.0,710424.0,Low-value
-553,E. Teurquetil ,450.0,710874.0,Low-value
-554,N. Collon,450.0,711324.0,Low-value
-555,A. ELLENA,450.0,711774.0,Low-value
-556,M. Bonnin,450.0,712224.0,Low-value
-557,L. Soum,450.0,712674.0,Low-value
-558,A. GINESTET,450.0,713124.0,Low-value
-559,A. GENIN,450.0,713574.0,Low-value
-560,R. LLANAS,450.0,714024.0,Low-value
-561,S. BONUCCHI,445.0,714469.0,Low-value
-562,L. Terraz,440.0,714909.0,Low-value
-563,M. Queinnec,440.0,715349.0,Low-value
-564,C. Pinson ,440.0,715789.0,Low-value
-565,J. Singh,440.0,716229.0,Low-value
-566,P. Dehaye,440.0,716669.0,Low-value
-567,F. Quilhac,440.0,717109.0,Low-value
-568,C. ROGER,435.0,717544.0,Low-value
-569,L. Bingham,432.0,717976.0,Low-value
-570,T. Pavlova,432.0,718408.0,Low-value
-571,R. Heflin,430.0,718838.0,Low-value
-572,J. Monahan,430.0,719268.0,Low-value
-573,S. Barb,430.0,719698.0,Low-value
-574,L. Barbarit,430.0,720128.0,Low-value
-575,S. Gouazé,430.0,720558.0,Low-value
-576,C. Gillette,430.0,720988.0,Low-value
-577,C. NICOLAS,430.0,721418.0,Low-value
-578,B. Nicklaus,430.0,721848.0,Low-value
-579,J. DEWAILLY,430.0,722278.0,Low-value
-580,S. Pichon ,425.0,722703.0,Low-value
-581,H. Pfefferlé,425.0,723128.0,Low-value
-582,B. GENY,425.0,723553.0,Low-value
-583,N. Thorez,420.0,723973.0,Low-value
-584,A. BALOIU,420.0,724393.0,Low-value
-585,r. lecomte,420.0,724813.0,Low-value
-586,R. Ribeiro Gomes,420.0,725233.0,Low-value
-587,M. Bruncevic,420.0,725653.0,Low-value
-588,C. Ramani Schmid,417.0,726070.0,Low-value
-589,H. Justice,412.0,726482.0,Low-value
-590,P. Kiersted,412.0,726894.0,Low-value
-591,K. Macernyte,410.0,727304.0,Low-value
-592,C. HARDOUIN,410.0,727714.0,Low-value
-593,M. Bel Haj,408.0,728122.0,Low-value
-594,t. garbe,402.0,728524.0,Low-value
-595,e. Genty ,400.0,728924.0,Low-value
-596,A. Bourrut Lacouture,400.0,729324.0,Low-value
-597,M. Wood,392.0,729716.0,Low-value
-598,N. Shahbaz,392.0,730108.0,Low-value
-599,H. Folliot,390.0,730498.0,Low-value
-600,S. LIPSZYC,390.0,730888.0,Low-value
-601,R. Baillis,390.0,731278.0,Low-value
-602,T. Hansen,390.0,731668.0,Low-value
-603,F. Rouvière ,390.0,732058.0,Low-value
-604,M. CANETTA,390.0,732448.0,Low-value
-605,f. napoli,390.0,732838.0,Low-value
-606,Y. ARNOLD,390.0,733228.0,Low-value
-607,R. Gras,390.0,733618.0,Low-value
-608,B. Brett,388.0,734006.0,Low-value
-609,L. BERTUZZO,380.0,734386.0,Low-value
-610,V. brosseron,380.0,734766.0,Low-value
-611,A. Harwal,380.0,735146.0,Low-value
-612,n. HERDT,380.0,735526.0,Low-value
-613,T. Lefranc,380.0,735906.0,Low-value
-614,R. Raberger ,380.0,736286.0,Low-value
-615,G. Mercier-Tonneau,380.0,736666.0,Low-value
-616,G. Alesi ,380.0,737046.0,Low-value
-617,R. Emanuela,380.0,737426.0,Low-value
-618,L. Aussant,380.0,737806.0,Low-value
-619,L. DENIS-MOTTE,380.0,738186.0,Low-value
-620,P. Stawinski,380.0,738566.0,Low-value
-621,m. sultan,380.0,738946.0,Low-value
-622,k. messaoudi,380.0,739326.0,Low-value
-623,R. Troletti-Cottet,380.0,739706.0,Low-value
-624,M. Carrasco,380.0,740086.0,Low-value
-625,N. Gavin,380.0,740466.0,Low-value
-626,P. Milon,380.0,740846.0,Low-value
-627,E. Chapelain,380.0,741226.0,Low-value
-628,N. Sicot,380.0,741606.0,Low-value
-629,E. Paluniene,380.0,741986.0,Low-value
-630,M. LEROY,380.0,742366.0,Low-value
-631,P. MARTIN,380.0,742746.0,Low-value
-632,C. Bauder,380.0,743126.0,Low-value
-633,S. Barbey,380.0,743506.0,Low-value
-634,R. Dubrecq ,380.0,743886.0,Low-value
-635,C. Brun ,380.0,744266.0,Low-value
-636,M. Pédebernade,380.0,744646.0,Low-value
-637,E. BLONDEAU,380.0,745026.0,Low-value
-638,E. Gandia,380.0,745406.0,Low-value
-639,O. Dahan,378.0,745784.0,Low-value
-640,G. Battistella,372.0,746156.0,Low-value
-641,D. Raskind,372.0,746528.0,Low-value
-642,n. dagan masson,368.0,746896.0,Low-value
-643,J. Grégoire ,360.0,747256.0,Low-value
-644,N. GIBERNE SARAHOUI,360.0,747616.0,Low-value
-645,A. Bourland,360.0,747976.0,Low-value
-646,G. Garzon de la Roza,360.0,748336.0,Low-value
-647,L. Hellegouarch,360.0,748696.0,Low-value
-648,S. Pensa,360.0,749056.0,Low-value
-649,S. BADR,360.0,749416.0,Low-value
-650,L. Schilte,360.0,749776.0,Low-value
-651,J. Stumbles,360.0,750136.0,Low-value
-652,A. Egoo,360.0,750496.0,Low-value
-653,N. Gerardin,360.0,750856.0,Low-value
-654,A. Laurent,360.0,751216.0,Low-value
-655,L. Sidner,352.0,751568.0,Low-value
-656,N. Woodhull,352.0,751920.0,Low-value
-657,R. Voisin ,350.0,752270.0,Low-value
-658,C. Rocourt,350.0,752620.0,Low-value
-659,A. CANTIN,350.0,752970.0,Low-value
-660,T. Rubio,350.0,753320.0,Low-value
-661,P. Quenehen,350.0,753670.0,Low-value
-662,M. Milet,350.0,754020.0,Low-value
-663,I. Nikles Marian,350.0,754370.0,Low-value
-664,W. Marian,350.0,754720.0,Low-value
-665,M. Fuentes,340.0,755060.0,Low-value
-666,D. Mathieu,340.0,755400.0,Low-value
-667,M. NOSMAS,340.0,755740.0,Low-value
-668,P. Pradin,340.0,756080.0,Low-value
-669,M. Patry,340.0,756420.0,Low-value
-670,D. Afanasenkov ,335.0,756755.0,Low-value
-671,A. Huet,335.0,757090.0,Low-value
-672,N. Lerman,332.0,757422.0,Low-value
-673,M. Garris,330.0,757752.0,Low-value
-674,C. Ollivier,330.0,758082.0,Low-value
-675,K. Brown,325.0,758407.0,Low-value
-676,L. ALLIX,325.0,758732.0,Low-value
-677,B. BALOUKA,325.0,759057.0,Low-value
-678,S. Dorcier,325.0,759382.0,Low-value
-679,B. SAUVEUR,325.0,759707.0,Low-value
-680,B. MUSSARD,325.0,760032.0,Low-value
-681,E. Le Breton,320.0,760352.0,Low-value
-682,M. Meyer,320.0,760672.0,Low-value
-683,P. Fiorenzano,320.0,760992.0,Low-value
-684,T. De turckheim,320.0,761312.0,Low-value
-685,F. Tosoni,320.0,761632.0,Low-value
-686,S. LEYDIE,320.0,761952.0,Low-value
-687,L. Gerschel,320.0,762272.0,Low-value
-688,A. Roudel,320.0,762592.0,Low-value
-689,I. TRZCINSKA,320.0,762912.0,Low-value
-690,k. Cahierre,320.0,763232.0,Low-value
-691,S. Bardin,320.0,763552.0,Low-value
-692,X. Besse,315.0,763867.0,Low-value
-693,V. Kartashkina,315.0,764182.0,Low-value
-694,S. DOYEN,315.0,764497.0,Low-value
-695,G. Bouffard,315.0,764812.0,Low-value
-696,c. schaegis,315.0,765127.0,Low-value
-697,V. Sol Dourdin,315.0,765442.0,Low-value
-698,J. Thomas,312.0,765754.0,Low-value
-699,T. Tarin,310.0,766064.0,Low-value
-700,M. Halby,310.0,766374.0,Low-value
-701,L. Titus,310.0,766684.0,Low-value
-702,c. vacher,310.0,766994.0,Low-value
-703,M. Rimbault,310.0,767304.0,Low-value
-704,S. GIRARDON,310.0,767614.0,Low-value
-705,A. Martinelli,310.0,767924.0,Low-value
-706,F. Hamayon,310.0,768234.0,Low-value
-707,O. Bougon,310.0,768544.0,Low-value
-708,V. Tselukh,310.0,768854.0,Low-value
-709,J. Le Borgne,310.0,769164.0,Low-value
-710,J. GUILLON,310.0,769474.0,Low-value
-711,J. GONZALEZ,310.0,769784.0,Low-value
-712,S. De Lambert,310.0,770094.0,Low-value
-713,M. Garcia,310.0,770404.0,Low-value
-714,A. Dhuy,310.0,770714.0,Low-value
-715,M. Goriatcheff-Madsen,304.0,771018.0,Low-value
-716,L. Le Boulanger,300.0,771318.0,Low-value
-717,B. Heyman,300.0,771618.0,Low-value
-718,T. Locret,300.0,771918.0,Low-value
-719,J. Dr. Brunk,300.0,772218.0,Low-value
-720,M. perthuis,300.0,772518.0,Low-value
-721,A. Renoux-fontaine,300.0,772818.0,Low-value
-722,S. Daynes,300.0,773118.0,Low-value
-723,C. LAPEYRE,300.0,773418.0,Low-value
-724,F. Parnaud,300.0,773718.0,Low-value
-725,J. Briday,300.0,774018.0,Low-value
-726,C. Lubas,290.0,774308.0,Low-value
-727,A. Rougier,285.0,774593.0,Low-value
-728,A. LARIVIERE,285.0,774878.0,Low-value
-729,J. Pina Agullet,285.0,775163.0,Low-value
-730,G. Andre,285.0,775448.0,Low-value
-731,S. Banaitis,280.0,775728.0,Low-value
-732,C. Ripeau,280.0,776008.0,Low-value
-733,L. TODOROV,280.0,776288.0,Low-value
-734,S. Folliet,280.0,776568.0,Low-value
-735,D. Remack ,280.0,776848.0,Low-value
-736,I. RYBALKINA,280.0,777128.0,Low-value
-737,K. Munkholm,280.0,777408.0,Low-value
-738,C. Lusignan,280.0,777688.0,Low-value
-739,V. Meurice,280.0,777968.0,Low-value
-740,F. Vincent,280.0,778248.0,Low-value
-741,R. NDOUMBOUK,280.0,778528.0,Low-value
-742,A. Ichbia,280.0,778808.0,Low-value
-743,C. Nollet,280.0,779088.0,Low-value
-744,S. Mathey,280.0,779368.0,Low-value
-745,E. Faucher,280.0,779648.0,Low-value
-746,L. Clara,280.0,779928.0,Low-value
-747,R. Ciccia,280.0,780208.0,Low-value
-748,D. Langumier,280.0,780488.0,Low-value
-749,V. Benezra,280.0,780768.0,Low-value
-750,E. Lansu,270.0,781038.0,Low-value
-751,C. Wedam-Liegler,270.0,781308.0,Low-value
-752,A. FABRE-DELLAC,270.0,781578.0,Low-value
-753,F. Groves-Raines,270.0,781848.0,Low-value
-754,E. Wright,270.0,782118.0,Low-value
-755,P. Preham,270.0,782388.0,Low-value
-756,M. Entenza Davila,270.0,782658.0,Low-value
-757,R. Ringot,270.0,782928.0,Low-value
-758,C. Luca,270.0,783198.0,Low-value
-759,A. ESPANOL,270.0,783468.0,Low-value
-760,c. tharaud,270.0,783738.0,Low-value
-761,R. Peignier,270.0,784008.0,Low-value
-762,K. Matthews,270.0,784278.0,Low-value
-763,Y. WEI,270.0,784548.0,Low-value
-764,C. Fribourg-Blanc,270.0,784818.0,Low-value
-765,L. Rouxeville,270.0,785088.0,Low-value
-766,C. Sebon,270.0,785358.0,Low-value
-767,M. Granier,270.0,785628.0,Low-value
-768,T. Christou,270.0,785898.0,Low-value
-769,E. COPPOLANI ,270.0,786168.0,Low-value
-770,L. Loewy,267.0,786435.0,Low-value
-771,D. West-Wilson,267.0,786702.0,Low-value
-772,y. zhang,263.0,786965.0,Low-value
-773,B. Dardon,262.0,787227.0,Low-value
-774,S. PRESTI,260.0,787487.0,Low-value
-775,J. Smogorzewska,260.0,787747.0,Low-value
-776,C. BIBRING,260.0,788007.0,Low-value
-777,J. Hoefs,260.0,788267.0,Low-value
-778,B. Martin,260.0,788527.0,Low-value
-779,J. Mellish,260.0,788787.0,Low-value
-780,J. Noujarede,260.0,789047.0,Low-value
-781,A. Van huffel,260.0,789307.0,Low-value
-782,J. Ponsoye,260.0,789567.0,Low-value
-783,J. Wagner,260.0,789827.0,Low-value
-784,A. Duval,260.0,790087.0,Low-value
-785,R. SERVET,260.0,790347.0,Low-value
-786,K. Jezzine,260.0,790607.0,Low-value
-787,A. Mortensen,260.0,790867.0,Low-value
-788,A. Monteiro,260.0,791127.0,Low-value
-789,L. Coquant,260.0,791387.0,Low-value
-790,L. GEILLER,260.0,791647.0,Low-value
-791,R. Bigot,260.0,791907.0,Low-value
-792,L. Sallée,260.0,792167.0,Low-value
-793,J. DUVERGNE ,260.0,792427.0,Low-value
-794,J. Corey,260.0,792687.0,Low-value
-795,C. BRABEC-LAGRANGE,260.0,792947.0,Low-value
-796,C. Bouchet,260.0,793207.0,Low-value
-797,D. Ratcliffe,260.0,793467.0,Low-value
-798,D. Mateos ,260.0,793727.0,Low-value
-799,T. Schiffers,260.0,793987.0,Low-value
-800,D. Hjorth Jensen,260.0,794247.0,Low-value
-801,E. Durand,260.0,794507.0,Low-value
-802,D. Dimke,260.0,794767.0,Low-value
-803,D. Calvo Mayo,260.0,795027.0,Low-value
-804,C. RICHARD ,260.0,795287.0,Low-value
-805,F. Grandry,260.0,795547.0,Low-value
-806,F. Karimova,260.0,795807.0,Low-value
-807,F. Marques,260.0,796067.0,Low-value
-808,C. Penn,260.0,796327.0,Low-value
-809,G. Hadji,260.0,796587.0,Low-value
-810,X. Chauchaix,260.0,796847.0,Low-value
-811,G. Legin,260.0,797107.0,Low-value
-812,H. Marteau,260.0,797367.0,Low-value
-813,C. Hallereau,260.0,797627.0,Low-value
-814,A. GASMI,260.0,797887.0,Low-value
-815,A. Saib,260.0,798147.0,Low-value
-816,M. Lescanne,260.0,798407.0,Low-value
-817,N. Morin,260.0,798667.0,Low-value
-818,M. LE BALC'H,260.0,798927.0,Low-value
-819,M. Grelier,260.0,799187.0,Low-value
-820,O. Clairet,260.0,799447.0,Low-value
-821,M. Mortensen,260.0,799707.0,Low-value
-822,N. MAUNIER,260.0,799967.0,Low-value
-823,M. Zarkauskas,260.0,800227.0,Low-value
-824,M. TRIDON,260.0,800487.0,Low-value
-825,T. Pasteur,255.0,800742.0,Low-value
-826,S. Lago Goce,255.0,800997.0,Low-value
-827,C. Morgan,255.0,801252.0,Low-value
-828,M. HENAFF,255.0,801507.0,Low-value
-829,L. Bruder,255.0,801762.0,Low-value
-830,C. Linder,255.0,802017.0,Low-value
-831,a. behr,255.0,802272.0,Low-value
-832,H. Gnann,255.0,802527.0,Low-value
-833,J. Barczyk Oesch ,255.0,802782.0,Low-value
-834,M. Zitterl,255.0,803037.0,Low-value
-835,S. Archambault,255.0,803292.0,Low-value
-836,J. Debruge-Escobar,255.0,803547.0,Low-value
-837,J. Petersen,255.0,803802.0,Low-value
-838,M. LE GAL,255.0,804057.0,Low-value
-839,C. Patarin,255.0,804312.0,Low-value
-840,S. McCarron,255.0,804567.0,Low-value
-841,A. Gotkovski ,255.0,804822.0,Low-value
-842,D. Mac Suibhne,255.0,805077.0,Low-value
-843,S. Schmitz,255.0,805332.0,Low-value
-844,S. Ropert,255.0,805587.0,Low-value
-845,T. Chuck,255.0,805842.0,Low-value
-846,L. Louison,255.0,806097.0,Low-value
-847,M. Englund,255.0,806352.0,Low-value
-848,T. HERAULT,255.0,806607.0,Low-value
-849,M. Dhoyer,250.0,806857.0,Low-value
-850,Y. Bahi,250.0,807107.0,Low-value
-851,E. Dichas ,250.0,807357.0,Low-value
-852,C. Belleguic ,250.0,807607.0,Low-value
-853,T. Knudsen,250.0,807857.0,Low-value
-854,S. Faran,250.0,808107.0,Low-value
-855,H. Noon,250.0,808357.0,Low-value
-856,A. Arrighi de Casanova,250.0,808607.0,Low-value
-857,L. LACAS,250.0,808857.0,Low-value
-858,C. Hecht,250.0,809107.0,Low-value
-859,S. Boucher,250.0,809357.0,Low-value
-860,L. Pichot,250.0,809607.0,Low-value
-861,N. ANGELE,250.0,809857.0,Low-value
-862,S. Proust,250.0,810107.0,Low-value
-863,A. Jouhet,250.0,810357.0,Low-value
-864,S. Massiot,250.0,810607.0,Low-value
-865,A. Paslieva,250.0,810857.0,Low-value
-866,C. Stere,250.0,811107.0,Low-value
-867,C. Nicolaïdis,245.0,811352.0,Low-value
-868,M. Lefebvre,245.0,811597.0,Low-value
-869,C. Louis,245.0,811842.0,Low-value
-870,S. Husson,245.0,812087.0,Low-value
-871,G. DEROUDILHE,245.0,812332.0,Low-value
-872,D. Grand,245.0,812577.0,Low-value
-873,N. Keller ,245.0,812822.0,Low-value
-874,C. HOHLWEG-JOFES,245.0,813067.0,Low-value
-875,F. HOLLEVILLE,245.0,813312.0,Low-value
-876,S. Roos,245.0,813557.0,Low-value
-877,A. Brunel,245.0,813802.0,Low-value
-878,S. Dacier,245.0,814047.0,Low-value
-879,M. Mercier,245.0,814292.0,Low-value
-880,A. Portejoie,245.0,814537.0,Low-value
-881,P. LIGIER,245.0,814782.0,Low-value
-882,p. nollet,245.0,815027.0,Low-value
-883,K. Guiet,245.0,815272.0,Low-value
-884,m. cocaud,245.0,815517.0,Low-value
-885,M. Den boogert,245.0,815762.0,Low-value
-886,C. Anne-Sophie ,240.0,816002.0,Low-value
-887,C. Hardouin,240.0,816242.0,Low-value
-888,A. Guillet,240.0,816482.0,Low-value
-889,M. von Joest,240.0,816722.0,Low-value
-890,A. Hallak,240.0,816962.0,Low-value
-891,K. Canisius,240.0,817202.0,Low-value
-892,E. Delalleau,240.0,817442.0,Low-value
-893,E. Serriere,240.0,817682.0,Low-value
-894,G. Quentinet,240.0,817922.0,Low-value
-895,R. Martineau,240.0,818162.0,Low-value
-896,M. Farkas,240.0,818402.0,Low-value
-897,n. kugel,240.0,818642.0,Low-value
-898,S. Damms,240.0,818882.0,Low-value
-899,A. DERHEE,240.0,819122.0,Low-value
-900,N. Nguyen,240.0,819362.0,Low-value
-901,l. fulton,237.0,819599.0,Low-value
-902,M. Laurec,235.0,819834.0,Low-value
-903,O. Takhar,235.0,820069.0,Low-value
-904,h. ledoux,235.0,820304.0,Low-value
-905,L. Bourgeois,235.0,820539.0,Low-value
-906,v. USQUELIS,235.0,820774.0,Low-value
-907,R. LAFOURCADE,235.0,821009.0,Low-value
-908,B. Le Metais,235.0,821244.0,Low-value
-909,L. Itey,235.0,821479.0,Low-value
-910,J. Wienholt ,235.0,821714.0,Low-value
-911,D. Patricia,235.0,821949.0,Low-value
-912,A. Rousseau,235.0,822184.0,Low-value
-913,C. FANJAT,235.0,822419.0,Low-value
-914,C. Dumont,235.0,822654.0,Low-value
-915,s. pierdonà,235.0,822889.0,Low-value
-916,A. HERVIEU,235.0,823124.0,Low-value
-917,s. pierdona ,235.0,823359.0,Low-value
-918,J. Reinders Folmer,235.0,823594.0,Low-value
-919,C. Proskurova,232.0,823826.0,Low-value
-920,A. Delorme,230.0,824056.0,Low-value
-921,L. Mirabel,230.0,824286.0,Low-value
-922,L. Mons,230.0,824516.0,Low-value
-923,A. Jochem,230.0,824746.0,Low-value
-924,N. GRANGE,230.0,824976.0,Low-value
-925,D. Zouyene,230.0,825206.0,Low-value
-926,n. biffi,230.0,825436.0,Low-value
-927,L. saada,230.0,825666.0,Low-value
-928,M. Eskinazi,230.0,825896.0,Low-value
-929,O. Kichenko,230.0,826126.0,Low-value
-930,p. lesaffre,230.0,826356.0,Low-value
-931,L. Vleming,230.0,826586.0,Low-value
-932,T. Whelan,230.0,826816.0,Low-value
-933,J. Lemoine,230.0,827046.0,Low-value
-934,A. Juan,230.0,827276.0,Low-value
-935,M. Roquette,230.0,827506.0,Low-value
-936,B. van der Heijde,230.0,827736.0,Low-value
-937,s. desjardins,230.0,827966.0,Low-value
-938,M. Luini,230.0,828196.0,Low-value
-939,S. Cheklab,230.0,828426.0,Low-value
-940,d. borron-fayolle,230.0,828656.0,Low-value
-941,M. Kieber,230.0,828886.0,Low-value
-942,Z. Renier-Druilhe,230.0,829116.0,Low-value
-943,C. Buisseret,230.0,829346.0,Low-value
-944,C. Gougne,230.0,829576.0,Low-value
-945,I. Gross,230.0,829806.0,Low-value
-946,I. Ceintrey,230.0,830036.0,Low-value
-947,A. DUCHERON,230.0,830266.0,Low-value
-948,A. De Lamotte ,230.0,830496.0,Low-value
-949,A. Pérez Lillo,230.0,830726.0,Low-value
-950,S. JIN,230.0,830956.0,Low-value
-951,C. LEBOIS,230.0,831186.0,Low-value
-952,A. Pravaz,230.0,831416.0,Low-value
-953,L. Andrieu,230.0,831646.0,Low-value
-954,j. louvencourt,230.0,831876.0,Low-value
-955,L. Cauchois,230.0,832106.0,Low-value
-956,C. MUSSET,230.0,832336.0,Low-value
-957,M. Ducachet ,230.0,832566.0,Low-value
-958,C. JACQUET,227.0,832793.0,Low-value
-959,A. De Pracomtal,220.0,833013.0,Low-value
-960,A. ROHART,220.0,833233.0,Low-value
-961,B. REYSS,220.0,833453.0,Low-value
-962,K. Porten,220.0,833673.0,Low-value
-963,S. Brackenridge,220.0,833893.0,Low-value
-964,L. Coinus,220.0,834113.0,Low-value
-965,L. Ana ,220.0,834333.0,Low-value
-966,J. Facomprez,220.0,834553.0,Low-value
-967,J. Plocinski,220.0,834773.0,Low-value
-968,A. de Pourtalès Thurnherr,217.0,834990.0,Low-value
-969,E. Lamoitier,215.0,835205.0,Low-value
-970,G. Blanco,215.0,835420.0,Low-value
-971,A. DEIANA,215.0,835635.0,Low-value
-972,S. Chartier,210.0,835845.0,Low-value
-973,M. Newton,210.0,836055.0,Low-value
-974,C. Viale,210.0,836265.0,Low-value
-975,R. Kirszbaum,210.0,836475.0,Low-value
-976,J. Cohade,210.0,836685.0,Low-value
-977,C. Perochon,210.0,836895.0,Low-value
-978,M. SICART,210.0,837105.0,Low-value
-979,T. DUPLEICH,210.0,837315.0,Low-value
-980,S. Derrick,210.0,837525.0,Low-value
-981,V. VARASCHIN,210.0,837735.0,Low-value
-982,v. LAMI,210.0,837945.0,Low-value
-983,O. Berné,210.0,838155.0,Low-value
-984,L. Vandelle,210.0,838365.0,Low-value
-985,H. Kim,208.0,838573.0,Low-value
-986,E. Sanguinetti,208.0,838781.0,Low-value
-987,S. Behnia,205.0,838986.0,Low-value
-988,B. Guisembert,205.0,839191.0,Low-value
-989,D. Scorey,205.0,839396.0,Low-value
-990,S. Hieron ,205.0,839601.0,Low-value
-991,L. Tinant ,205.0,839806.0,Low-value
-992,K. Edwards,205.0,840011.0,Low-value
-993,L. Paris Calo,205.0,840216.0,Low-value
-994,K. Kybartaite,205.0,840421.0,Low-value
-995,P. MAMANE,205.0,840626.0,Low-value
-996,g. tarozzi,205.0,840831.0,Low-value
-997,i. damarey,205.0,841036.0,Low-value
-998,A. de la CruzGarcia-Plata,205.0,841241.0,Low-value
-999,J. HERY,205.0,841446.0,Low-value
-1000,V. Kraujalytė,205.0,841651.0,Low-value
-1001,E. Cabooter,205.0,841856.0,Low-value
-1002,F. FORVEILLE,205.0,842061.0,Low-value
-1003,V. Delmas,205.0,842266.0,Low-value
-1004,E. Marcote,205.0,842471.0,Low-value
-1005,A. Chabanas,205.0,842676.0,Low-value
-1006,D. SAFFAR,205.0,842881.0,Low-value
-1007,C. Legendre,205.0,843086.0,Low-value
-1008,A. BOUCHARLAT,200.0,843286.0,Low-value
-1009,R. Liefooghe,200.0,843486.0,Low-value
-1010,A. Reid,200.0,843686.0,Low-value
-1011,A. Gerin,200.0,843886.0,Low-value
-1012,D. Cochard,200.0,844086.0,Low-value
-1013,J. PILTE,200.0,844286.0,Low-value
-1014,A. Naudin-Mercier,200.0,844486.0,Low-value
-1015,N. Turner,200.0,844686.0,Low-value
-1016,C. Beck,200.0,844886.0,Low-value
-1017,L. Wildenberg,200.0,845086.0,Low-value
-1018,M. Kamir,200.0,845286.0,Low-value
-1019,C. Monteil,200.0,845486.0,Low-value
-1020,S. Mazurkiewicz,200.0,845686.0,Low-value
-1021,C. Colon,200.0,845886.0,Low-value
-1022,A. Sexton,198.0,846084.0,Low-value
-1023,D. Cottereau,195.0,846279.0,Low-value
-1024,H. Jarden,195.0,846474.0,Low-value
-1025,L. Boyadjian,195.0,846669.0,Low-value
-1026,H. Khalkanian ,195.0,846864.0,Low-value
-1027,T. Hababou,195.0,847059.0,Low-value
-1028,K. Worner,195.0,847254.0,Low-value
-1029,A. Puvis de Chavannes,195.0,847449.0,Low-value
-1030,S. Mametz,195.0,847644.0,Low-value
-1031,H. Michel,195.0,847839.0,Low-value
-1032,V. Van Den Haute,195.0,848034.0,Low-value
-1033,P. Nowak,195.0,848229.0,Low-value
-1034,J. Auplat,195.0,848424.0,Low-value
-1035,C. Bonvalet,195.0,848619.0,Low-value
-1036,S. MONZIOLS,195.0,848814.0,Low-value
-1037,S. Druelles,195.0,849009.0,Low-value
-1038,M. Facquet,195.0,849204.0,Low-value
-1039,F. MUSSET,195.0,849399.0,Low-value
-1040,M. De Bolle,195.0,849594.0,Low-value
-1041,F. Pignanelli,195.0,849789.0,Low-value
-1042,F. TEDALDI,195.0,849984.0,Low-value
-1043,A. Janvier,191.0,850175.0,Low-value
-1044,N. Gressot,190.0,850365.0,Low-value
-1045,A. Noirot,190.0,850555.0,Low-value
-1046,S. Joye,190.0,850745.0,Low-value
-1047,M. Kruglova,185.0,850930.0,Low-value
-1048,s. bousquet,185.0,851115.0,Low-value
-1049,Q. Pierre,185.0,851300.0,Low-value
-1050,M. Roche,185.0,851485.0,Low-value
-1051,M. Belaich,185.0,851670.0,Low-value
-1052,M. Giovannetti ,185.0,851855.0,Low-value
-1053,D. Tarantino ,185.0,852040.0,Low-value
-1054,R. Huteau,185.0,852225.0,Low-value
-1055,J. Tripard,185.0,852410.0,Low-value
-1056,E. Ayçoberry ,185.0,852595.0,Low-value
-1057,E. Damon,185.0,852780.0,Low-value
-1058,J. COISSAC,185.0,852965.0,Low-value
-1059,N. van der Ven,185.0,853150.0,Low-value
-1060,S. Duverger,180.0,853330.0,Low-value
-1061,D. Teurquetil,180.0,853510.0,Low-value
-1062,C. Barbosa,180.0,853690.0,Low-value
-1063,J. Blanchet,180.0,853870.0,Low-value
-1064,A. GILLE,180.0,854050.0,Low-value
-1065,Z. Cointot,180.0,854230.0,Low-value
-1066,I. LEBEC,180.0,854410.0,Low-value
-1067,S. ACCHIAPPATI,180.0,854590.0,Low-value
-1068,M. LAKE,175.0,854765.0,Low-value
-1069,C. Elie,170.0,854935.0,Low-value
-1070,E. Lund,170.0,855105.0,Low-value
-1071,C. Roux,170.0,855275.0,Low-value
-1072,F. Rodamel ,170.0,855445.0,Low-value
-1073,I. Le Bihan,170.0,855615.0,Low-value
-1074,R. Alonso,170.0,855785.0,Low-value
-1075,M. BARBAZA,170.0,855955.0,Low-value
-1076,L. de La Bouralière,170.0,856125.0,Low-value
-1077,J. Micoud,170.0,856295.0,Low-value
-1078,M. Desautez ,170.0,856465.0,Low-value
-1079,L. Hughes,165.0,856630.0,Low-value
-1080,C. Paris,162.0,856792.0,Low-value
-1081,K. Fyfe,162.0,856954.0,Low-value
-1082,T. Postill,157.0,857111.0,Low-value
-1083,Y. Domain,155.0,857266.0,Low-value
-1084,L. RICCA,155.0,857421.0,Low-value
-1085,C. Boutillier,135.0,857556.0,Low-value
-1086,A. Denaux,125.0,857681.0,Low-value
-1087,E. Barbosa,125.0,857806.0,Low-value
-1088,L. RENAUD,115.0,857921.0,Low-value
-1089,J. Alken-Theasby,110.0,858031.0,Low-value
-1090,S. Store,78.0,858109.0,Low-value
+Client,Total,cumsum_val,segment
+F. zanni,34092.0,34092.0,High-value
+M. Bonnet,16360.0,50452.0,High-value
+C. Tailleferd,14890.0,65342.0,High-value
+S. Ghermaoui,10150.0,75492.0,High-value
+C. Barnes,8650.0,84142.0,High-value
+C. vuillemenot,7354.0,91496.0,High-value
+A. Tournerie ,7065.0,98561.0,High-value
+S. Delprat,6750.0,105311.0,High-value
+L. Skanberg,6635.0,111946.0,High-value
+D. ANDERS LEDROIT,6380.0,118326.0,High-value
+S. Endler,5650.0,123976.0,High-value
+O. Anderson,5130.0,129106.0,High-value
+T. TAUPIN,4885.0,133991.0,High-value
+J. Melton,4720.0,138711.0,High-value
+F. Azais,4582.0,143293.0,High-value
+D. Wilkens,4475.0,147768.0,High-value
+J. Rizio-Hamilton,4200.0,151968.0,High-value
+C. ALVARO,4120.0,156088.0,High-value
+S. Santero,3980.0,160068.0,High-value
+G. Flament,3890.0,163958.0,High-value
+V. Carini,3820.0,167778.0,High-value
+C. Garret,3630.0,171408.0,High-value
+C. Kopp,3575.0,174983.0,Mid-value
+K. Sokolova,3390.0,178373.0,Mid-value
+P. DESBORDES,3370.0,181743.0,Mid-value
+M. DE RAFELIS,3350.0,185093.0,Mid-value
+G. Gordon,3320.0,188413.0,Mid-value
+J. Kling,3180.0,191593.0,Mid-value
+S. Baysse,3040.0,194633.0,Mid-value
+J. Kronberg,3015.0,197648.0,Mid-value
+A. Kiialainen,2998.0,200646.0,Mid-value
+A. Marg,2670.0,203316.0,Mid-value
+A. Ascanio ,2670.0,205986.0,Mid-value
+N. Romanova,2630.0,208616.0,Mid-value
+L. Sanzari,2570.0,211186.0,Mid-value
+D. Schulner,2570.0,213756.0,Mid-value
+j. BERNARD,2530.0,216286.0,Mid-value
+A. Garber,2530.0,218816.0,Mid-value
+G. May,2520.0,221336.0,Mid-value
+S. Goldstein,2495.0,223831.0,Mid-value
+D. Liljegren,2480.0,226311.0,Mid-value
+F. DEL TEDESCO,2480.0,228791.0,Mid-value
+C. Briseul,2467.0,231258.0,Mid-value
+P. Prasad,2408.0,233666.0,Mid-value
+S. LEHUT,2400.0,236066.0,Mid-value
+G. FERREUX,2350.0,238416.0,Mid-value
+K. Rubin,2340.0,240756.0,Mid-value
+C. Curran,2330.0,243086.0,Mid-value
+O. Beck,2322.0,245408.0,Mid-value
+M. Sezalory,2300.0,247708.0,Mid-value
+C. Lajous,2240.0,249948.0,Mid-value
+J. Hartmann,2230.0,252178.0,Mid-value
+e. yildiz,2230.0,254408.0,Mid-value
+v. marion,2196.0,256604.0,Mid-value
+N. Evans,2164.0,258768.0,Mid-value
+C. MANGIONE,2130.0,260898.0,Mid-value
+A. Murillo tapia ,2130.0,263028.0,Mid-value
+S. Miller,2130.0,265158.0,Mid-value
+T. Gnazzo ,2100.0,267258.0,Mid-value
+S. Gorton,2080.0,269338.0,Mid-value
+M. SCHERER,2075.0,271413.0,Mid-value
+C. Maclet,2030.0,273443.0,Mid-value
+G. Tskhadadze,1980.0,275423.0,Mid-value
+l. mikolajczak,1970.0,277393.0,Mid-value
+R. MANZANARES ZAMBRANA,1970.0,279363.0,Mid-value
+B. Ughetti,1960.0,281323.0,Mid-value
+A. Mukhanchikov,1960.0,283283.0,Mid-value
+J. Francais,1960.0,285243.0,Mid-value
+m. castells,1950.0,287193.0,Mid-value
+D. Alekniene,1940.0,289133.0,Mid-value
+H. OLIVEAU,1930.0,291063.0,Mid-value
+L. Roche,1930.0,292993.0,Mid-value
+E. Boase,1930.0,294923.0,Mid-value
+V. GRIS,1910.0,296833.0,Mid-value
+R. Cantin,1870.0,298703.0,Mid-value
+k. noel,1845.0,300548.0,Mid-value
+C. THIROUIN,1840.0,302388.0,Mid-value
+H. Carmean,1840.0,304228.0,Mid-value
+B. Landa,1838.0,306066.0,Mid-value
+N. Wong,1816.0,307882.0,Mid-value
+D. Glass,1810.0,309692.0,Mid-value
+s. veziat,1805.0,311497.0,Mid-value
+C. Meissonnier,1800.0,313297.0,Mid-value
+D. Borgis,1780.0,315077.0,Mid-value
+L. Monlezun,1780.0,316857.0,Mid-value
+T. SPEE,1780.0,318637.0,Mid-value
+C. Larzillière ,1780.0,320417.0,Mid-value
+B. CERBONESCHI,1780.0,322197.0,Mid-value
+G. RICONO,1780.0,323977.0,Mid-value
+P. de Trogoff,1780.0,325757.0,Mid-value
+G. Gashi,1780.0,327537.0,Mid-value
+L. Charrier,1780.0,329317.0,Mid-value
+G. Taillandier,1780.0,331097.0,Mid-value
+I. Radi,1770.0,332867.0,Mid-value
+Z. Burger,1740.0,334607.0,Mid-value
+G. Kunz,1720.0,336327.0,Mid-value
+A. Pecora,1690.0,338017.0,Mid-value
+C. Potiron ,1685.0,339702.0,Mid-value
+I. Crewdson ,1680.0,341382.0,Mid-value
+F. AMBERT,1670.0,343052.0,Mid-value
+E. Lucbernet,1660.0,344712.0,Mid-value
+F. Le Quéré,1650.0,346362.0,Mid-value
+A. Vernet,1650.0,348012.0,Mid-value
+n. mattioni,1645.0,349657.0,Mid-value
+A. Zengarini,1630.0,351287.0,Mid-value
+C. Patry,1625.0,352912.0,Mid-value
+G. Crozier,1610.0,354522.0,Mid-value
+A. Hachmi,1610.0,356132.0,Mid-value
+L. Branum,1600.0,357732.0,Mid-value
+S. FILLAUDEAU,1580.0,359312.0,Mid-value
+S. Webb,1570.0,360882.0,Mid-value
+C. Windus,1559.0,362441.0,Mid-value
+L. Copenhefer,1542.0,363983.0,Mid-value
+J. Nicholson,1530.0,365513.0,Mid-value
+P. Desfontaine,1530.0,367043.0,Mid-value
+G. Casamonti,1530.0,368573.0,Mid-value
+L. Lukic,1525.0,370098.0,Mid-value
+J. Šlepikiene,1520.0,371618.0,Mid-value
+G. Worthe,1520.0,373138.0,Mid-value
+S. Colson,1520.0,374658.0,Mid-value
+C. DELANNOY,1510.0,376168.0,Mid-value
+A. Brem,1500.0,377668.0,Mid-value
+F. Brisset,1490.0,379158.0,Mid-value
+L. Van Damme,1490.0,380648.0,Mid-value
+C. Peuchant,1490.0,382138.0,Mid-value
+G. Labouret,1485.0,383623.0,Mid-value
+C. Marchand,1475.0,385098.0,Mid-value
+M. Villeminey,1460.0,386558.0,Mid-value
+M. Mittag,1450.0,388008.0,Mid-value
+K. Nakatani,1440.0,389448.0,Mid-value
+I. Andreoli,1430.0,390878.0,Mid-value
+I. Hincu,1430.0,392308.0,Mid-value
+B. Hollinger,1420.0,393728.0,Mid-value
+A. Montagne,1420.0,395148.0,Mid-value
+O. Ponsonnet ,1420.0,396568.0,Mid-value
+A. Charpin,1415.0,397983.0,Mid-value
+d. castiglia,1410.0,399393.0,Mid-value
+s. sinclair,1410.0,400803.0,Mid-value
+P. Gallon,1400.0,402203.0,Mid-value
+V. nasser,1390.0,403593.0,Mid-value
+E. PIROUE,1390.0,404983.0,Mid-value
+F. DUSSOT,1390.0,406373.0,Mid-value
+A. Aires,1380.0,407753.0,Mid-value
+L. Sahai,1380.0,409133.0,Mid-value
+E. D'achon,1320.0,410453.0,Mid-value
+K. Fischer,1320.0,411773.0,Mid-value
+A. Edgington,1320.0,413093.0,Mid-value
+A. Aldrees,1320.0,414413.0,Mid-value
+L. Menten,1310.0,415723.0,Mid-value
+K. von Ankum,1310.0,417033.0,Mid-value
+D. Clode,1300.0,418333.0,Mid-value
+H. musikas,1300.0,419633.0,Mid-value
+D. McCaffary,1300.0,420933.0,Mid-value
+S. EVRARD,1295.0,422228.0,Mid-value
+U. Streichenberger,1280.0,423508.0,Mid-value
+D. Correll,1270.0,424778.0,Mid-value
+E. Klaver ,1260.0,426038.0,Mid-value
+B. Ruffenach,1250.0,427288.0,Mid-value
+D. Pollard,1250.0,428538.0,Mid-value
+A. Tribalet,1240.0,429778.0,Low-value
+S. Oliveró Soldevila,1240.0,431018.0,Low-value
+A. Verschelde ,1240.0,432258.0,Low-value
+Y. LAHAUSSOIS,1240.0,433498.0,Low-value
+S. Degiovannini,1240.0,434738.0,Low-value
+A. Baudrexl,1240.0,435978.0,Low-value
+c. delage,1240.0,437218.0,Low-value
+B. Orlandini,1240.0,438458.0,Low-value
+M. Takeh,1225.0,439683.0,Low-value
+S. Oeschger-Delautre,1210.0,440893.0,Low-value
+K. Bartin,1210.0,442103.0,Low-value
+O. Kolodenko,1200.0,443303.0,Low-value
+P. Paulazzo,1190.0,444493.0,Low-value
+E. Trieu,1190.0,445683.0,Low-value
+A. Perse,1170.0,446853.0,Low-value
+Q. Isidore,1160.0,448013.0,Low-value
+D. Kahn,1140.0,449153.0,Low-value
+A. Gutierrez,1140.0,450293.0,Low-value
+C. Tinker,1140.0,451433.0,Low-value
+P. Viana,1140.0,452573.0,Low-value
+E. Calut ,1140.0,453713.0,Low-value
+M. Angelakis,1130.0,454843.0,Low-value
+P. Finley,1110.0,455953.0,Low-value
+G. Lederman,1105.0,457058.0,Low-value
+M. Bernhard,1090.0,458148.0,Low-value
+R. FREMINET,1090.0,459238.0,Low-value
+S. Pinto,1090.0,460328.0,Low-value
+F. Defradas,1090.0,461418.0,Low-value
+P. Grillet,1090.0,462508.0,Low-value
+M. Pullicino,1080.0,463588.0,Low-value
+E. Greve ,1080.0,464668.0,Low-value
+M. von Holstein,1080.0,465748.0,Low-value
+V. Matton ,1080.0,466828.0,Low-value
+I. Brohet,1075.0,467903.0,Low-value
+B. Mathias,1070.0,468973.0,Low-value
+R. Gonzalez,1056.0,470029.0,Low-value
+C. Hossenbaccus,1050.0,471079.0,Low-value
+S. Thiebault,1040.0,472119.0,Low-value
+P. Rueping,1040.0,473159.0,Low-value
+N. JULIA,1040.0,474199.0,Low-value
+S. Borzakian,1040.0,475239.0,Low-value
+Q. Giroux,1030.0,476269.0,Low-value
+C. Picard,1030.0,477299.0,Low-value
+S. Bass,1030.0,478329.0,Low-value
+D. Chung,1030.0,479359.0,Low-value
+Y. Grunberger,1030.0,480389.0,Low-value
+A. Johnson,1030.0,481419.0,Low-value
+F. SALES,1010.0,482429.0,Low-value
+K. van Schijndel,1010.0,483439.0,Low-value
+D. Vujovic,1000.0,484439.0,Low-value
+S. Zimna,1000.0,485439.0,Low-value
+G. Stephane,1000.0,486439.0,Low-value
+L. Poivert,1000.0,487439.0,Low-value
+A. LAURENCON,990.0,488429.0,Low-value
+J. Lippman,980.0,489409.0,Low-value
+M. Teather,980.0,490389.0,Low-value
+L. Bozec,980.0,491369.0,Low-value
+C. Levit,980.0,492349.0,Low-value
+J. Breen,980.0,493329.0,Low-value
+M. Brodier,980.0,494309.0,Low-value
+s. bailly,965.0,495274.0,Low-value
+F. Denglehem,950.0,496224.0,Low-value
+P. Williamson,943.0,497167.0,Low-value
+C. DUPONT,940.0,498107.0,Low-value
+B. Tribble,940.0,499047.0,Low-value
+J. Peduzzi ,930.0,499977.0,Low-value
+F. Haqueberge,930.0,500907.0,Low-value
+J. Lamy,930.0,501837.0,Low-value
+S. Nicolas,930.0,502767.0,Low-value
+N. Fulconis,925.0,503692.0,Low-value
+R. Madden,925.0,504617.0,Low-value
+P. ROCHEREAU,925.0,505542.0,Low-value
+Y. Salles,920.0,506462.0,Low-value
+M. Tisch,900.0,507362.0,Low-value
+J. PUIBARAUD,900.0,508262.0,Low-value
+M. Santero,900.0,509162.0,Low-value
+M. Echevarria,900.0,510062.0,Low-value
+m. olsen,900.0,510962.0,Low-value
+A. Michelassi,900.0,511862.0,Low-value
+a. cazin,900.0,512762.0,Low-value
+O. D’ouitremont,885.0,513647.0,Low-value
+C. Vacchiani Marcuzzo,880.0,514527.0,Low-value
+c. Habart,880.0,515407.0,Low-value
+S. Chelloul,880.0,516287.0,Low-value
+S. CHANE-SAM,880.0,517167.0,Low-value
+c. sinclair,880.0,518047.0,Low-value
+k. maboa mbissa,880.0,518927.0,Low-value
+M. Lorne,880.0,519807.0,Low-value
+G. ANDREOLI,880.0,520687.0,Low-value
+M. Peneva,880.0,521567.0,Low-value
+L. Zourray,880.0,522447.0,Low-value
+L. Lequeux,880.0,523327.0,Low-value
+f. Abdalan,880.0,524207.0,Low-value
+L. Turner,870.0,525077.0,Low-value
+O. Sortun,860.0,525937.0,Low-value
+E. Rogers,860.0,526797.0,Low-value
+E. Fitzgerald,860.0,527657.0,Low-value
+E. Solignac,854.0,528511.0,Low-value
+L. LAURENTI,850.0,529361.0,Low-value
+J. BARRÈS,845.0,530206.0,Low-value
+M. Mouazan,840.0,531046.0,Low-value
+A. TAESCH,840.0,531886.0,Low-value
+V. Gautier,840.0,532726.0,Low-value
+L. Feyssac,840.0,533566.0,Low-value
+D. Barron,840.0,534406.0,Low-value
+C. David,835.0,535241.0,Low-value
+A. BERTIN,830.0,536071.0,Low-value
+F. Tarrant,820.0,536891.0,Low-value
+A. Monnier,815.0,537706.0,Low-value
+F. Taxil,810.0,538516.0,Low-value
+D. Pret,810.0,539326.0,Low-value
+d. spinosa,810.0,540136.0,Low-value
+N. Bernard,800.0,540936.0,Low-value
+A. Jaspersen,800.0,541736.0,Low-value
+A. Rosson,800.0,542536.0,Low-value
+F. Bernardeau,800.0,543336.0,Low-value
+M. Tripier,800.0,544136.0,Low-value
+J. Videira,795.0,544931.0,Low-value
+J. Heukmes,790.0,545721.0,Low-value
+M. Migdal,780.0,546501.0,Low-value
+O. Voortman,780.0,547281.0,Low-value
+O. Akin,780.0,548061.0,Low-value
+A. Lacam,780.0,548841.0,Low-value
+L. Bautista,775.0,549616.0,Low-value
+N. Alixant,775.0,550391.0,Low-value
+j. david,770.0,551161.0,Low-value
+J. Joachim,770.0,551931.0,Low-value
+A. Vignault,765.0,552696.0,Low-value
+M. Palumbo,760.0,553456.0,Low-value
+J. Gozal,750.0,554206.0,Low-value
+M. RONFARD,740.0,554946.0,Low-value
+D. Utemuratova,740.0,555686.0,Low-value
+J. BRINO,740.0,556426.0,Low-value
+R. Valentina ,733.0,557159.0,Low-value
+a. mora-svane,733.0,557892.0,Low-value
+E. Braekkan,730.0,558622.0,Low-value
+H. Greiner Baumgaertner,730.0,559352.0,Low-value
+P. Larzilliere,730.0,560082.0,Low-value
+a. MARTINENQ,730.0,560812.0,Low-value
+A. Steinert,730.0,561542.0,Low-value
+c. lemarquand,725.0,562267.0,Low-value
+A. Delage,720.0,562987.0,Low-value
+B. dauchy ,720.0,563707.0,Low-value
+M. Pisarek ,720.0,564427.0,Low-value
+M. Gambié,720.0,565147.0,Low-value
+m. bonelli,720.0,565867.0,Low-value
+Y. Malinge,720.0,566587.0,Low-value
+f. DEPIGNY,720.0,567307.0,Low-value
+C. Jacques,720.0,568027.0,Low-value
+R. Demessence,720.0,568747.0,Low-value
+R. ARNOULD,720.0,569467.0,Low-value
+C. Broche ,720.0,570187.0,Low-value
+L. ROBERT,720.0,570907.0,Low-value
+S. Bronquart,720.0,571627.0,Low-value
+A. BOILLOT,720.0,572347.0,Low-value
+T. Tambon,720.0,573067.0,Low-value
+C. Selosse ,720.0,573787.0,Low-value
+N. Merindol,720.0,574507.0,Low-value
+C. Yu,720.0,575227.0,Low-value
+n. becker,715.0,575942.0,Low-value
+M. Ota,710.0,576652.0,Low-value
+C. Van hintum ,710.0,577362.0,Low-value
+N. Borg,710.0,578072.0,Low-value
+E. King ,710.0,578782.0,Low-value
+B. Schmitt,705.0,579487.0,Low-value
+M. Lozinguez,705.0,580192.0,Low-value
+L. Winka ,705.0,580897.0,Low-value
+A. Savoy,700.0,581597.0,Low-value
+G. Tam,700.0,582297.0,Low-value
+p. vuillemenot,700.0,582997.0,Low-value
+M. Fayet,700.0,583697.0,Low-value
+E. Altan,700.0,584397.0,Low-value
+R. LI,690.0,585087.0,Low-value
+L. BOUCHEZ,690.0,585777.0,Low-value
+N. Brobecker,690.0,586467.0,Low-value
+L. Lacaze,690.0,587157.0,Low-value
+M. Bernad,690.0,587847.0,Low-value
+X. Dreyfuss,690.0,588537.0,Low-value
+C. Bazerque ,690.0,589227.0,Low-value
+C. Sperlich,690.0,589917.0,Low-value
+L. Bourot,680.0,590597.0,Low-value
+L. Calvi,680.0,591277.0,Low-value
+F. GIRAUD,680.0,591957.0,Low-value
+F. Coulaud,680.0,592637.0,Low-value
+R. LABROYE,680.0,593317.0,Low-value
+Y. Benzekri,680.0,593997.0,Low-value
+I. Reynier-bayle,680.0,594677.0,Low-value
+A. Pholoppe,680.0,595357.0,Low-value
+T. Gosselin,680.0,596037.0,Low-value
+T. Chassagnard,680.0,596717.0,Low-value
+A. Baer,680.0,597397.0,Low-value
+M. HOMBOURGER,680.0,598077.0,Low-value
+O. MELOT,680.0,598757.0,Low-value
+L. Bloyer,680.0,599437.0,Low-value
+C. Rubi,680.0,600117.0,Low-value
+E. Curran,680.0,600797.0,Low-value
+C. De Michiel,680.0,601477.0,Low-value
+K. WALLERSTEIN,680.0,602157.0,Low-value
+P. Fosse,680.0,602837.0,Low-value
+S. Marsais,680.0,603517.0,Low-value
+I. Jimenez ,680.0,604197.0,Low-value
+C. Esquerdo Inareta,680.0,604877.0,Low-value
+D. Salaud,680.0,605557.0,Low-value
+V. Hourblin,665.0,606222.0,Low-value
+d. Meistermann,660.0,606882.0,Low-value
+M. Chiono,660.0,607542.0,Low-value
+G. Grégoire,660.0,608202.0,Low-value
+M. Arfi,660.0,608862.0,Low-value
+I. Wunder,660.0,609522.0,Low-value
+E. Aubin,660.0,610182.0,Low-value
+C. Vardinogianni,660.0,610842.0,Low-value
+M. Langrand,660.0,611502.0,Low-value
+L. Chauffaille,650.0,612152.0,Low-value
+A. Sharma,650.0,612802.0,Low-value
+G. Des Cognets,650.0,613452.0,Low-value
+J. SANTANA CLIMENT,650.0,614102.0,Low-value
+A. Montesi,650.0,614752.0,Low-value
+A. Montaigne,650.0,615402.0,Low-value
+V. ARTAUD,650.0,616052.0,Low-value
+N. Häring,640.0,616692.0,Low-value
+r. perrotte,640.0,617332.0,Low-value
+G. RIGAUDIE,635.0,617967.0,Low-value
+P. Rossi ,630.0,618597.0,Low-value
+C. Geissler,630.0,619227.0,Low-value
+S. CONENNA,630.0,619857.0,Low-value
+N. SAMMUT,630.0,620487.0,Low-value
+J. LORENTE,630.0,621117.0,Low-value
+A. Jodal,625.0,621742.0,Low-value
+P. Scheefhals,620.0,622362.0,Low-value
+K. Andersen,620.0,622982.0,Low-value
+C. Holzer,620.0,623602.0,Low-value
+G. Cabras,620.0,624222.0,Low-value
+O. Larsen,620.0,624842.0,Low-value
+J. Kraft,620.0,625462.0,Low-value
+A. Pitula,620.0,626082.0,Low-value
+M. Augereau,620.0,626702.0,Low-value
+k. lounis,620.0,627322.0,Low-value
+P. OMODEI,615.0,627937.0,Low-value
+B. Milne,612.0,628549.0,Low-value
+C. Dupoux,610.0,629159.0,Low-value
+K. Rasmussen,610.0,629769.0,Low-value
+A. Traup,610.0,630379.0,Low-value
+J. Carrard,610.0,630989.0,Low-value
+B. Chaulin,610.0,631599.0,Low-value
+R. TRIPARD,610.0,632209.0,Low-value
+s. hemidi,610.0,632819.0,Low-value
+D. Saltiel,610.0,633429.0,Low-value
+J. Imbert,610.0,634039.0,Low-value
+O. Barbey,610.0,634649.0,Low-value
+E. Lehuger,610.0,635259.0,Low-value
+T. Teo,610.0,635869.0,Low-value
+G. Bouaud,610.0,636479.0,Low-value
+M. Suillaud,605.0,637084.0,Low-value
+R. Gibbs,602.0,637686.0,Low-value
+Y. Pinchover,600.0,638286.0,Low-value
+C. Dumas,600.0,638886.0,Low-value
+R. Bagnara,590.0,639476.0,Low-value
+a. puigcercos,590.0,640066.0,Low-value
+R. Delannoy,590.0,640656.0,Low-value
+I. Sery,590.0,641246.0,Low-value
+D. RENGER,590.0,641836.0,Low-value
+M. Billon Galland,590.0,642426.0,Low-value
+B. GIAQUINTO,590.0,643016.0,Low-value
+C. CLEMENT-CRESPEL,590.0,643606.0,Low-value
+A. Cochran,590.0,644196.0,Low-value
+C. Fournier,590.0,644786.0,Low-value
+A. Derain,580.0,645366.0,Low-value
+M. Laplace,580.0,645946.0,Low-value
+J. DUVAL,580.0,646526.0,Low-value
+U. Scheer,580.0,647106.0,Low-value
+S. Cavassa,580.0,647686.0,Low-value
+A. Mathey,580.0,648266.0,Low-value
+g. toledano,580.0,648846.0,Low-value
+A. Preusker,580.0,649426.0,Low-value
+A. Carnec,580.0,650006.0,Low-value
+J. Perochon,580.0,650586.0,Low-value
+P. HAHN,580.0,651166.0,Low-value
+M. Rios Piñol,580.0,651746.0,Low-value
+E. Vauleon ,580.0,652326.0,Low-value
+H. Leray,580.0,652906.0,Low-value
+M. Brisset,580.0,653486.0,Low-value
+E. Dayre,580.0,654066.0,Low-value
+A. Di Maggio,575.0,654641.0,Low-value
+C. Michel,570.0,655211.0,Low-value
+C. SAMIERI,570.0,655781.0,Low-value
+M. Loeffler,567.0,656348.0,Low-value
+C. Morin,565.0,656913.0,Low-value
+C. Nache,560.0,657473.0,Low-value
+T. CHARRIA,550.0,658023.0,Low-value
+S. Alaimo,550.0,658573.0,Low-value
+H. Bokobza,550.0,659123.0,Low-value
+B. Fleetwood,550.0,659673.0,Low-value
+L. Barbe,550.0,660223.0,Low-value
+C. Lacroix,550.0,660773.0,Low-value
+G. Loud,550.0,661323.0,Low-value
+A. Ellena,550.0,661873.0,Low-value
+M. Baisez,550.0,662423.0,Low-value
+T. Ramos,550.0,662973.0,Low-value
+B. JOSEPH,550.0,663523.0,Low-value
+c. Montigny,545.0,664068.0,Low-value
+A. Schmitt,540.0,664608.0,Low-value
+O. Cottereau,540.0,665148.0,Low-value
+N. Prokofieff,540.0,665688.0,Low-value
+o. shahin,540.0,666228.0,Low-value
+S. HOPPE,540.0,666768.0,Low-value
+A. Mongodin,540.0,667308.0,Low-value
+C. Ardon,540.0,667848.0,Low-value
+A. Perez,540.0,668388.0,Low-value
+m. ROY,540.0,668928.0,Low-value
+E. Cain,533.0,669461.0,Low-value
+S. Apocale,530.0,669991.0,Low-value
+J. McGrath,530.0,670521.0,Low-value
+J. VITRE,530.0,671051.0,Low-value
+E. D'ACHON,525.0,671576.0,Low-value
+F. LOBILLO VILELA,520.0,672096.0,Low-value
+T. Cole,520.0,672616.0,Low-value
+C. Lacombe,515.0,673131.0,Low-value
+M. Sina,510.0,673641.0,Low-value
+L. Moynier,510.0,674151.0,Low-value
+C. McGee,510.0,674661.0,Low-value
+A. Jacob,510.0,675171.0,Low-value
+N. LAVAL,510.0,675681.0,Low-value
+M. GEORGES,510.0,676191.0,Low-value
+S. Roche,510.0,676701.0,Low-value
+C. Perier,510.0,677211.0,Low-value
+H. Guilbert,510.0,677721.0,Low-value
+P. Le cacheux,510.0,678231.0,Low-value
+I. Cooper,508.0,678739.0,Low-value
+a. felix,508.0,679247.0,Low-value
+A. BERNARD LAFAURIE,500.0,679747.0,Low-value
+a. stanguennec,500.0,680247.0,Low-value
+I. TREILLEUX,500.0,680747.0,Low-value
+V. Dellon,500.0,681247.0,Low-value
+N. Marie Dit Asse,500.0,681747.0,Low-value
+M. Curnier,500.0,682247.0,Low-value
+P. BARJAVEL,500.0,682747.0,Low-value
+R. Donneux,500.0,683247.0,Low-value
+O. Carter,500.0,683747.0,Low-value
+M. Royer,495.0,684242.0,Low-value
+L. PERRET,495.0,684737.0,Low-value
+A. Régnier,495.0,685232.0,Low-value
+J. Bonnet,495.0,685727.0,Low-value
+L. Borgne,495.0,686222.0,Low-value
+a. achache,490.0,686712.0,Low-value
+L. Lajoinie,490.0,687202.0,Low-value
+L. Curtiss,490.0,687692.0,Low-value
+O. Perault,490.0,688182.0,Low-value
+M. van der Zwan,490.0,688672.0,Low-value
+A. Collins,490.0,689162.0,Low-value
+P. Boucherat,490.0,689652.0,Low-value
+A. Teisseire,490.0,690142.0,Low-value
+C. BEAUFILS,490.0,690632.0,Low-value
+B. VILLIÉ,490.0,691122.0,Low-value
+C. Pons,490.0,691612.0,Low-value
+I. Révolat,490.0,692102.0,Low-value
+S. Zimmer,490.0,692592.0,Low-value
+M. COUTAND,490.0,693082.0,Low-value
+S. REHOUDJ,490.0,693572.0,Low-value
+B. Lerat,480.0,694052.0,Low-value
+R. Jeanjean,480.0,694532.0,Low-value
+Y. Su,480.0,695012.0,Low-value
+J. Losson ,480.0,695492.0,Low-value
+E. Ouvrard,480.0,695972.0,Low-value
+S. Severi,480.0,696452.0,Low-value
+C. Huber,480.0,696932.0,Low-value
+Z. LENOIR,480.0,697412.0,Low-value
+J. Rethiers,480.0,697892.0,Low-value
+G. Casanova,475.0,698367.0,Low-value
+I. Bourquin,475.0,698842.0,Low-value
+L. Cecillon,475.0,699317.0,Low-value
+j. lachowski,475.0,699792.0,Low-value
+L. Goddard,475.0,700267.0,Low-value
+E. Thebault,475.0,700742.0,Low-value
+A. HERY,475.0,701217.0,Low-value
+M. Lefèvre,475.0,701692.0,Low-value
+T. Griffin,470.0,702162.0,Low-value
+A. Spreafico,470.0,702632.0,Low-value
+A. Garlipp,470.0,703102.0,Low-value
+a. champsaur,470.0,703572.0,Low-value
+Z. BEN ABBES,462.0,704034.0,Low-value
+G. Duchesne,460.0,704494.0,Low-value
+a. bois,460.0,704954.0,Low-value
+F. Hägen,460.0,705414.0,Low-value
+P. Comtat,460.0,705874.0,Low-value
+A. Jullien,460.0,706334.0,Low-value
+B. Kulik,460.0,706794.0,Low-value
+G. Roqueplo,460.0,707254.0,Low-value
+R. Actis Grosso,460.0,707714.0,Low-value
+M. Hautsch,460.0,708174.0,Low-value
+A. Threlfall,450.0,708624.0,Low-value
+C. Baribaud,450.0,709074.0,Low-value
+L. Cottet,450.0,709524.0,Low-value
+B. Eckenroth,450.0,709974.0,Low-value
+V. Henry,450.0,710424.0,Low-value
+E. Teurquetil ,450.0,710874.0,Low-value
+N. Collon,450.0,711324.0,Low-value
+A. ELLENA,450.0,711774.0,Low-value
+M. Bonnin,450.0,712224.0,Low-value
+L. Soum,450.0,712674.0,Low-value
+A. GINESTET,450.0,713124.0,Low-value
+A. GENIN,450.0,713574.0,Low-value
+R. LLANAS,450.0,714024.0,Low-value
+S. BONUCCHI,445.0,714469.0,Low-value
+L. Terraz,440.0,714909.0,Low-value
+M. Queinnec,440.0,715349.0,Low-value
+C. Pinson ,440.0,715789.0,Low-value
+J. Singh,440.0,716229.0,Low-value
+P. Dehaye,440.0,716669.0,Low-value
+F. Quilhac,440.0,717109.0,Low-value
+C. ROGER,435.0,717544.0,Low-value
+L. Bingham,432.0,717976.0,Low-value
+T. Pavlova,432.0,718408.0,Low-value
+R. Heflin,430.0,718838.0,Low-value
+J. Monahan,430.0,719268.0,Low-value
+S. Barb,430.0,719698.0,Low-value
+L. Barbarit,430.0,720128.0,Low-value
+S. Gouazé,430.0,720558.0,Low-value
+C. Gillette,430.0,720988.0,Low-value
+C. NICOLAS,430.0,721418.0,Low-value
+B. Nicklaus,430.0,721848.0,Low-value
+J. DEWAILLY,430.0,722278.0,Low-value
+S. Pichon ,425.0,722703.0,Low-value
+H. Pfefferlé,425.0,723128.0,Low-value
+B. GENY,425.0,723553.0,Low-value
+N. Thorez,420.0,723973.0,Low-value
+A. BALOIU,420.0,724393.0,Low-value
+r. lecomte,420.0,724813.0,Low-value
+R. Ribeiro Gomes,420.0,725233.0,Low-value
+M. Bruncevic,420.0,725653.0,Low-value
+C. Ramani Schmid,417.0,726070.0,Low-value
+H. Justice,412.0,726482.0,Low-value
+P. Kiersted,412.0,726894.0,Low-value
+K. Macernyte,410.0,727304.0,Low-value
+C. HARDOUIN,410.0,727714.0,Low-value
+M. Bel Haj,408.0,728122.0,Low-value
+t. garbe,402.0,728524.0,Low-value
+e. Genty ,400.0,728924.0,Low-value
+A. Bourrut Lacouture,400.0,729324.0,Low-value
+M. Wood,392.0,729716.0,Low-value
+N. Shahbaz,392.0,730108.0,Low-value
+H. Folliot,390.0,730498.0,Low-value
+S. LIPSZYC,390.0,730888.0,Low-value
+R. Baillis,390.0,731278.0,Low-value
+T. Hansen,390.0,731668.0,Low-value
+F. Rouvière ,390.0,732058.0,Low-value
+M. CANETTA,390.0,732448.0,Low-value
+f. napoli,390.0,732838.0,Low-value
+Y. ARNOLD,390.0,733228.0,Low-value
+R. Gras,390.0,733618.0,Low-value
+B. Brett,388.0,734006.0,Low-value
+L. BERTUZZO,380.0,734386.0,Low-value
+V. brosseron,380.0,734766.0,Low-value
+A. Harwal,380.0,735146.0,Low-value
+n. HERDT,380.0,735526.0,Low-value
+T. Lefranc,380.0,735906.0,Low-value
+R. Raberger ,380.0,736286.0,Low-value
+G. Mercier-Tonneau,380.0,736666.0,Low-value
+G. Alesi ,380.0,737046.0,Low-value
+R. Emanuela,380.0,737426.0,Low-value
+L. Aussant,380.0,737806.0,Low-value
+L. DENIS-MOTTE,380.0,738186.0,Low-value
+P. Stawinski,380.0,738566.0,Low-value
+m. sultan,380.0,738946.0,Low-value
+k. messaoudi,380.0,739326.0,Low-value
+R. Troletti-Cottet,380.0,739706.0,Low-value
+M. Carrasco,380.0,740086.0,Low-value
+N. Gavin,380.0,740466.0,Low-value
+P. Milon,380.0,740846.0,Low-value
+E. Chapelain,380.0,741226.0,Low-value
+N. Sicot,380.0,741606.0,Low-value
+E. Paluniene,380.0,741986.0,Low-value
+M. LEROY,380.0,742366.0,Low-value
+P. MARTIN,380.0,742746.0,Low-value
+C. Bauder,380.0,743126.0,Low-value
+S. Barbey,380.0,743506.0,Low-value
+R. Dubrecq ,380.0,743886.0,Low-value
+C. Brun ,380.0,744266.0,Low-value
+M. Pédebernade,380.0,744646.0,Low-value
+E. BLONDEAU,380.0,745026.0,Low-value
+E. Gandia,380.0,745406.0,Low-value
+O. Dahan,378.0,745784.0,Low-value
+G. Battistella,372.0,746156.0,Low-value
+D. Raskind,372.0,746528.0,Low-value
+n. dagan masson,368.0,746896.0,Low-value
+J. Grégoire ,360.0,747256.0,Low-value
+N. GIBERNE SARAHOUI,360.0,747616.0,Low-value
+A. Bourland,360.0,747976.0,Low-value
+G. Garzon de la Roza,360.0,748336.0,Low-value
+L. Hellegouarch,360.0,748696.0,Low-value
+S. Pensa,360.0,749056.0,Low-value
+S. BADR,360.0,749416.0,Low-value
+L. Schilte,360.0,749776.0,Low-value
+J. Stumbles,360.0,750136.0,Low-value
+A. Egoo,360.0,750496.0,Low-value
+N. Gerardin,360.0,750856.0,Low-value
+A. Laurent,360.0,751216.0,Low-value
+L. Sidner,352.0,751568.0,Low-value
+N. Woodhull,352.0,751920.0,Low-value
+R. Voisin ,350.0,752270.0,Low-value
+C. Rocourt,350.0,752620.0,Low-value
+A. CANTIN,350.0,752970.0,Low-value
+T. Rubio,350.0,753320.0,Low-value
+P. Quenehen,350.0,753670.0,Low-value
+M. Milet,350.0,754020.0,Low-value
+I. Nikles Marian,350.0,754370.0,Low-value
+W. Marian,350.0,754720.0,Low-value
+M. Fuentes,340.0,755060.0,Low-value
+D. Mathieu,340.0,755400.0,Low-value
+M. NOSMAS,340.0,755740.0,Low-value
+P. Pradin,340.0,756080.0,Low-value
+M. Patry,340.0,756420.0,Low-value
+D. Afanasenkov ,335.0,756755.0,Low-value
+A. Huet,335.0,757090.0,Low-value
+N. Lerman,332.0,757422.0,Low-value
+M. Garris,330.0,757752.0,Low-value
+C. Ollivier,330.0,758082.0,Low-value
+K. Brown,325.0,758407.0,Low-value
+L. ALLIX,325.0,758732.0,Low-value
+B. BALOUKA,325.0,759057.0,Low-value
+S. Dorcier,325.0,759382.0,Low-value
+B. SAUVEUR,325.0,759707.0,Low-value
+B. MUSSARD,325.0,760032.0,Low-value
+E. Le Breton,320.0,760352.0,Low-value
+M. Meyer,320.0,760672.0,Low-value
+P. Fiorenzano,320.0,760992.0,Low-value
+T. De turckheim,320.0,761312.0,Low-value
+F. Tosoni,320.0,761632.0,Low-value
+S. LEYDIE,320.0,761952.0,Low-value
+L. Gerschel,320.0,762272.0,Low-value
+A. Roudel,320.0,762592.0,Low-value
+I. TRZCINSKA,320.0,762912.0,Low-value
+k. Cahierre,320.0,763232.0,Low-value
+S. Bardin,320.0,763552.0,Low-value
+X. Besse,315.0,763867.0,Low-value
+V. Kartashkina,315.0,764182.0,Low-value
+S. DOYEN,315.0,764497.0,Low-value
+G. Bouffard,315.0,764812.0,Low-value
+c. schaegis,315.0,765127.0,Low-value
+V. Sol Dourdin,315.0,765442.0,Low-value
+J. Thomas,312.0,765754.0,Low-value
+T. Tarin,310.0,766064.0,Low-value
+M. Halby,310.0,766374.0,Low-value
+L. Titus,310.0,766684.0,Low-value
+c. vacher,310.0,766994.0,Low-value
+M. Rimbault,310.0,767304.0,Low-value
+S. GIRARDON,310.0,767614.0,Low-value
+A. Martinelli,310.0,767924.0,Low-value
+F. Hamayon,310.0,768234.0,Low-value
+O. Bougon,310.0,768544.0,Low-value
+V. Tselukh,310.0,768854.0,Low-value
+J. Le Borgne,310.0,769164.0,Low-value
+J. GUILLON,310.0,769474.0,Low-value
+J. GONZALEZ,310.0,769784.0,Low-value
+S. De Lambert,310.0,770094.0,Low-value
+M. Garcia,310.0,770404.0,Low-value
+A. Dhuy,310.0,770714.0,Low-value
+M. Goriatcheff-Madsen,304.0,771018.0,Low-value
+L. Le Boulanger,300.0,771318.0,Low-value
+B. Heyman,300.0,771618.0,Low-value
+T. Locret,300.0,771918.0,Low-value
+J. Dr. Brunk,300.0,772218.0,Low-value
+M. perthuis,300.0,772518.0,Low-value
+A. Renoux-fontaine,300.0,772818.0,Low-value
+S. Daynes,300.0,773118.0,Low-value
+C. LAPEYRE,300.0,773418.0,Low-value
+F. Parnaud,300.0,773718.0,Low-value
+J. Briday,300.0,774018.0,Low-value
+C. Lubas,290.0,774308.0,Low-value
+A. Rougier,285.0,774593.0,Low-value
+A. LARIVIERE,285.0,774878.0,Low-value
+J. Pina Agullet,285.0,775163.0,Low-value
+G. Andre,285.0,775448.0,Low-value
+S. Banaitis,280.0,775728.0,Low-value
+C. Ripeau,280.0,776008.0,Low-value
+L. TODOROV,280.0,776288.0,Low-value
+S. Folliet,280.0,776568.0,Low-value
+D. Remack ,280.0,776848.0,Low-value
+I. RYBALKINA,280.0,777128.0,Low-value
+K. Munkholm,280.0,777408.0,Low-value
+C. Lusignan,280.0,777688.0,Low-value
+V. Meurice,280.0,777968.0,Low-value
+F. Vincent,280.0,778248.0,Low-value
+R. NDOUMBOUK,280.0,778528.0,Low-value
+A. Ichbia,280.0,778808.0,Low-value
+C. Nollet,280.0,779088.0,Low-value
+S. Mathey,280.0,779368.0,Low-value
+E. Faucher,280.0,779648.0,Low-value
+L. Clara,280.0,779928.0,Low-value
+R. Ciccia,280.0,780208.0,Low-value
+D. Langumier,280.0,780488.0,Low-value
+V. Benezra,280.0,780768.0,Low-value
+E. Lansu,270.0,781038.0,Low-value
+C. Wedam-Liegler,270.0,781308.0,Low-value
+A. FABRE-DELLAC,270.0,781578.0,Low-value
+F. Groves-Raines,270.0,781848.0,Low-value
+E. Wright,270.0,782118.0,Low-value
+P. Preham,270.0,782388.0,Low-value
+M. Entenza Davila,270.0,782658.0,Low-value
+R. Ringot,270.0,782928.0,Low-value
+C. Luca,270.0,783198.0,Low-value
+A. ESPANOL,270.0,783468.0,Low-value
+c. tharaud,270.0,783738.0,Low-value
+R. Peignier,270.0,784008.0,Low-value
+K. Matthews,270.0,784278.0,Low-value
+Y. WEI,270.0,784548.0,Low-value
+C. Fribourg-Blanc,270.0,784818.0,Low-value
+L. Rouxeville,270.0,785088.0,Low-value
+C. Sebon,270.0,785358.0,Low-value
+M. Granier,270.0,785628.0,Low-value
+T. Christou,270.0,785898.0,Low-value
+E. COPPOLANI ,270.0,786168.0,Low-value
+L. Loewy,267.0,786435.0,Low-value
+D. West-Wilson,267.0,786702.0,Low-value
+y. zhang,263.0,786965.0,Low-value
+B. Dardon,262.0,787227.0,Low-value
+S. PRESTI,260.0,787487.0,Low-value
+J. Smogorzewska,260.0,787747.0,Low-value
+C. BIBRING,260.0,788007.0,Low-value
+J. Hoefs,260.0,788267.0,Low-value
+B. Martin,260.0,788527.0,Low-value
+J. Mellish,260.0,788787.0,Low-value
+J. Noujarede,260.0,789047.0,Low-value
+A. Van huffel,260.0,789307.0,Low-value
+J. Ponsoye,260.0,789567.0,Low-value
+J. Wagner,260.0,789827.0,Low-value
+A. Duval,260.0,790087.0,Low-value
+R. SERVET,260.0,790347.0,Low-value
+K. Jezzine,260.0,790607.0,Low-value
+A. Mortensen,260.0,790867.0,Low-value
+A. Monteiro,260.0,791127.0,Low-value
+L. Coquant,260.0,791387.0,Low-value
+L. GEILLER,260.0,791647.0,Low-value
+R. Bigot,260.0,791907.0,Low-value
+L. Sallée,260.0,792167.0,Low-value
+J. DUVERGNE ,260.0,792427.0,Low-value
+J. Corey,260.0,792687.0,Low-value
+C. BRABEC-LAGRANGE,260.0,792947.0,Low-value
+C. Bouchet,260.0,793207.0,Low-value
+D. Ratcliffe,260.0,793467.0,Low-value
+D. Mateos ,260.0,793727.0,Low-value
+T. Schiffers,260.0,793987.0,Low-value
+D. Hjorth Jensen,260.0,794247.0,Low-value
+E. Durand,260.0,794507.0,Low-value
+D. Dimke,260.0,794767.0,Low-value
+D. Calvo Mayo,260.0,795027.0,Low-value
+C. RICHARD ,260.0,795287.0,Low-value
+F. Grandry,260.0,795547.0,Low-value
+F. Karimova,260.0,795807.0,Low-value
+F. Marques,260.0,796067.0,Low-value
+C. Penn,260.0,796327.0,Low-value
+G. Hadji,260.0,796587.0,Low-value
+X. Chauchaix,260.0,796847.0,Low-value
+G. Legin,260.0,797107.0,Low-value
+H. Marteau,260.0,797367.0,Low-value
+C. Hallereau,260.0,797627.0,Low-value
+A. GASMI,260.0,797887.0,Low-value
+A. Saib,260.0,798147.0,Low-value
+M. Lescanne,260.0,798407.0,Low-value
+N. Morin,260.0,798667.0,Low-value
+M. LE BALC'H,260.0,798927.0,Low-value
+M. Grelier,260.0,799187.0,Low-value
+O. Clairet,260.0,799447.0,Low-value
+M. Mortensen,260.0,799707.0,Low-value
+N. MAUNIER,260.0,799967.0,Low-value
+M. Zarkauskas,260.0,800227.0,Low-value
+M. TRIDON,260.0,800487.0,Low-value
+T. Pasteur,255.0,800742.0,Low-value
+S. Lago Goce,255.0,800997.0,Low-value
+C. Morgan,255.0,801252.0,Low-value
+M. HENAFF,255.0,801507.0,Low-value
+L. Bruder,255.0,801762.0,Low-value
+C. Linder,255.0,802017.0,Low-value
+a. behr,255.0,802272.0,Low-value
+H. Gnann,255.0,802527.0,Low-value
+J. Barczyk Oesch ,255.0,802782.0,Low-value
+M. Zitterl,255.0,803037.0,Low-value
+S. Archambault,255.0,803292.0,Low-value
+J. Debruge-Escobar,255.0,803547.0,Low-value
+J. Petersen,255.0,803802.0,Low-value
+M. LE GAL,255.0,804057.0,Low-value
+C. Patarin,255.0,804312.0,Low-value
+S. McCarron,255.0,804567.0,Low-value
+A. Gotkovski ,255.0,804822.0,Low-value
+D. Mac Suibhne,255.0,805077.0,Low-value
+S. Schmitz,255.0,805332.0,Low-value
+S. Ropert,255.0,805587.0,Low-value
+T. Chuck,255.0,805842.0,Low-value
+L. Louison,255.0,806097.0,Low-value
+M. Englund,255.0,806352.0,Low-value
+T. HERAULT,255.0,806607.0,Low-value
+M. Dhoyer,250.0,806857.0,Low-value
+Y. Bahi,250.0,807107.0,Low-value
+E. Dichas ,250.0,807357.0,Low-value
+C. Belleguic ,250.0,807607.0,Low-value
+T. Knudsen,250.0,807857.0,Low-value
+S. Faran,250.0,808107.0,Low-value
+H. Noon,250.0,808357.0,Low-value
+A. Arrighi de Casanova,250.0,808607.0,Low-value
+L. LACAS,250.0,808857.0,Low-value
+C. Hecht,250.0,809107.0,Low-value
+S. Boucher,250.0,809357.0,Low-value
+L. Pichot,250.0,809607.0,Low-value
+N. ANGELE,250.0,809857.0,Low-value
+S. Proust,250.0,810107.0,Low-value
+A. Jouhet,250.0,810357.0,Low-value
+S. Massiot,250.0,810607.0,Low-value
+A. Paslieva,250.0,810857.0,Low-value
+C. Stere,250.0,811107.0,Low-value
+C. Nicolaïdis,245.0,811352.0,Low-value
+M. Lefebvre,245.0,811597.0,Low-value
+C. Louis,245.0,811842.0,Low-value
+S. Husson,245.0,812087.0,Low-value
+G. DEROUDILHE,245.0,812332.0,Low-value
+D. Grand,245.0,812577.0,Low-value
+N. Keller ,245.0,812822.0,Low-value
+C. HOHLWEG-JOFES,245.0,813067.0,Low-value
+F. HOLLEVILLE,245.0,813312.0,Low-value
+S. Roos,245.0,813557.0,Low-value
+A. Brunel,245.0,813802.0,Low-value
+S. Dacier,245.0,814047.0,Low-value
+M. Mercier,245.0,814292.0,Low-value
+A. Portejoie,245.0,814537.0,Low-value
+P. LIGIER,245.0,814782.0,Low-value
+p. nollet,245.0,815027.0,Low-value
+K. Guiet,245.0,815272.0,Low-value
+m. cocaud,245.0,815517.0,Low-value
+M. Den boogert,245.0,815762.0,Low-value
+C. Anne-Sophie ,240.0,816002.0,Low-value
+C. Hardouin,240.0,816242.0,Low-value
+A. Guillet,240.0,816482.0,Low-value
+M. von Joest,240.0,816722.0,Low-value
+A. Hallak,240.0,816962.0,Low-value
+K. Canisius,240.0,817202.0,Low-value
+E. Delalleau,240.0,817442.0,Low-value
+E. Serriere,240.0,817682.0,Low-value
+G. Quentinet,240.0,817922.0,Low-value
+R. Martineau,240.0,818162.0,Low-value
+M. Farkas,240.0,818402.0,Low-value
+n. kugel,240.0,818642.0,Low-value
+S. Damms,240.0,818882.0,Low-value
+A. DERHEE,240.0,819122.0,Low-value
+N. Nguyen,240.0,819362.0,Low-value
+l. fulton,237.0,819599.0,Low-value
+M. Laurec,235.0,819834.0,Low-value
+O. Takhar,235.0,820069.0,Low-value
+h. ledoux,235.0,820304.0,Low-value
+L. Bourgeois,235.0,820539.0,Low-value
+v. USQUELIS,235.0,820774.0,Low-value
+R. LAFOURCADE,235.0,821009.0,Low-value
+B. Le Metais,235.0,821244.0,Low-value
+L. Itey,235.0,821479.0,Low-value
+J. Wienholt ,235.0,821714.0,Low-value
+D. Patricia,235.0,821949.0,Low-value
+A. Rousseau,235.0,822184.0,Low-value
+C. FANJAT,235.0,822419.0,Low-value
+C. Dumont,235.0,822654.0,Low-value
+s. pierdonà,235.0,822889.0,Low-value
+A. HERVIEU,235.0,823124.0,Low-value
+s. pierdona ,235.0,823359.0,Low-value
+J. Reinders Folmer,235.0,823594.0,Low-value
+C. Proskurova,232.0,823826.0,Low-value
+A. Delorme,230.0,824056.0,Low-value
+L. Mirabel,230.0,824286.0,Low-value
+L. Mons,230.0,824516.0,Low-value
+A. Jochem,230.0,824746.0,Low-value
+N. GRANGE,230.0,824976.0,Low-value
+D. Zouyene,230.0,825206.0,Low-value
+n. biffi,230.0,825436.0,Low-value
+L. saada,230.0,825666.0,Low-value
+M. Eskinazi,230.0,825896.0,Low-value
+O. Kichenko,230.0,826126.0,Low-value
+p. lesaffre,230.0,826356.0,Low-value
+L. Vleming,230.0,826586.0,Low-value
+T. Whelan,230.0,826816.0,Low-value
+J. Lemoine,230.0,827046.0,Low-value
+A. Juan,230.0,827276.0,Low-value
+M. Roquette,230.0,827506.0,Low-value
+B. van der Heijde,230.0,827736.0,Low-value
+s. desjardins,230.0,827966.0,Low-value
+M. Luini,230.0,828196.0,Low-value
+S. Cheklab,230.0,828426.0,Low-value
+d. borron-fayolle,230.0,828656.0,Low-value
+M. Kieber,230.0,828886.0,Low-value
+Z. Renier-Druilhe,230.0,829116.0,Low-value
+C. Buisseret,230.0,829346.0,Low-value
+C. Gougne,230.0,829576.0,Low-value
+I. Gross,230.0,829806.0,Low-value
+I. Ceintrey,230.0,830036.0,Low-value
+A. DUCHERON,230.0,830266.0,Low-value
+A. De Lamotte ,230.0,830496.0,Low-value
+A. Pérez Lillo,230.0,830726.0,Low-value
+S. JIN,230.0,830956.0,Low-value
+C. LEBOIS,230.0,831186.0,Low-value
+A. Pravaz,230.0,831416.0,Low-value
+L. Andrieu,230.0,831646.0,Low-value
+j. louvencourt,230.0,831876.0,Low-value
+L. Cauchois,230.0,832106.0,Low-value
+C. MUSSET,230.0,832336.0,Low-value
+M. Ducachet ,230.0,832566.0,Low-value
+C. JACQUET,227.0,832793.0,Low-value
+A. De Pracomtal,220.0,833013.0,Low-value
+A. ROHART,220.0,833233.0,Low-value
+B. REYSS,220.0,833453.0,Low-value
+K. Porten,220.0,833673.0,Low-value
+S. Brackenridge,220.0,833893.0,Low-value
+L. Coinus,220.0,834113.0,Low-value
+L. Ana ,220.0,834333.0,Low-value
+J. Facomprez,220.0,834553.0,Low-value
+J. Plocinski,220.0,834773.0,Low-value
+A. de Pourtalès Thurnherr,217.0,834990.0,Low-value
+E. Lamoitier,215.0,835205.0,Low-value
+G. Blanco,215.0,835420.0,Low-value
+A. DEIANA,215.0,835635.0,Low-value
+S. Chartier,210.0,835845.0,Low-value
+M. Newton,210.0,836055.0,Low-value
+C. Viale,210.0,836265.0,Low-value
+R. Kirszbaum,210.0,836475.0,Low-value
+J. Cohade,210.0,836685.0,Low-value
+C. Perochon,210.0,836895.0,Low-value
+M. SICART,210.0,837105.0,Low-value
+T. DUPLEICH,210.0,837315.0,Low-value
+S. Derrick,210.0,837525.0,Low-value
+V. VARASCHIN,210.0,837735.0,Low-value
+v. LAMI,210.0,837945.0,Low-value
+O. Berné,210.0,838155.0,Low-value
+L. Vandelle,210.0,838365.0,Low-value
+H. Kim,208.0,838573.0,Low-value
+E. Sanguinetti,208.0,838781.0,Low-value
+S. Behnia,205.0,838986.0,Low-value
+B. Guisembert,205.0,839191.0,Low-value
+D. Scorey,205.0,839396.0,Low-value
+S. Hieron ,205.0,839601.0,Low-value
+L. Tinant ,205.0,839806.0,Low-value
+K. Edwards,205.0,840011.0,Low-value
+L. Paris Calo,205.0,840216.0,Low-value
+K. Kybartaite,205.0,840421.0,Low-value
+P. MAMANE,205.0,840626.0,Low-value
+g. tarozzi,205.0,840831.0,Low-value
+i. damarey,205.0,841036.0,Low-value
+A. de la CruzGarcia-Plata,205.0,841241.0,Low-value
+J. HERY,205.0,841446.0,Low-value
+V. Kraujalytė,205.0,841651.0,Low-value
+E. Cabooter,205.0,841856.0,Low-value
+F. FORVEILLE,205.0,842061.0,Low-value
+V. Delmas,205.0,842266.0,Low-value
+E. Marcote,205.0,842471.0,Low-value
+A. Chabanas,205.0,842676.0,Low-value
+D. SAFFAR,205.0,842881.0,Low-value
+C. Legendre,205.0,843086.0,Low-value
+A. BOUCHARLAT,200.0,843286.0,Low-value
+R. Liefooghe,200.0,843486.0,Low-value
+A. Reid,200.0,843686.0,Low-value
+A. Gerin,200.0,843886.0,Low-value
+D. Cochard,200.0,844086.0,Low-value
+J. PILTE,200.0,844286.0,Low-value
+A. Naudin-Mercier,200.0,844486.0,Low-value
+N. Turner,200.0,844686.0,Low-value
+C. Beck,200.0,844886.0,Low-value
+L. Wildenberg,200.0,845086.0,Low-value
+M. Kamir,200.0,845286.0,Low-value
+C. Monteil,200.0,845486.0,Low-value
+S. Mazurkiewicz,200.0,845686.0,Low-value
+C. Colon,200.0,845886.0,Low-value
+A. Sexton,198.0,846084.0,Low-value
+D. Cottereau,195.0,846279.0,Low-value
+H. Jarden,195.0,846474.0,Low-value
+L. Boyadjian,195.0,846669.0,Low-value
+H. Khalkanian ,195.0,846864.0,Low-value
+T. Hababou,195.0,847059.0,Low-value
+K. Worner,195.0,847254.0,Low-value
+A. Puvis de Chavannes,195.0,847449.0,Low-value
+S. Mametz,195.0,847644.0,Low-value
+H. Michel,195.0,847839.0,Low-value
+V. Van Den Haute,195.0,848034.0,Low-value
+P. Nowak,195.0,848229.0,Low-value
+J. Auplat,195.0,848424.0,Low-value
+C. Bonvalet,195.0,848619.0,Low-value
+S. MONZIOLS,195.0,848814.0,Low-value
+S. Druelles,195.0,849009.0,Low-value
+M. Facquet,195.0,849204.0,Low-value
+F. MUSSET,195.0,849399.0,Low-value
+M. De Bolle,195.0,849594.0,Low-value
+F. Pignanelli,195.0,849789.0,Low-value
+F. TEDALDI,195.0,849984.0,Low-value
+A. Janvier,191.0,850175.0,Low-value
+N. Gressot,190.0,850365.0,Low-value
+A. Noirot,190.0,850555.0,Low-value
+S. Joye,190.0,850745.0,Low-value
+M. Kruglova,185.0,850930.0,Low-value
+s. bousquet,185.0,851115.0,Low-value
+Q. Pierre,185.0,851300.0,Low-value
+M. Roche,185.0,851485.0,Low-value
+M. Belaich,185.0,851670.0,Low-value
+M. Giovannetti ,185.0,851855.0,Low-value
+D. Tarantino ,185.0,852040.0,Low-value
+R. Huteau,185.0,852225.0,Low-value
+J. Tripard,185.0,852410.0,Low-value
+E. Ayçoberry ,185.0,852595.0,Low-value
+E. Damon,185.0,852780.0,Low-value
+J. COISSAC,185.0,852965.0,Low-value
+N. van der Ven,185.0,853150.0,Low-value
+S. Duverger,180.0,853330.0,Low-value
+D. Teurquetil,180.0,853510.0,Low-value
+C. Barbosa,180.0,853690.0,Low-value
+J. Blanchet,180.0,853870.0,Low-value
+A. GILLE,180.0,854050.0,Low-value
+Z. Cointot,180.0,854230.0,Low-value
+I. LEBEC,180.0,854410.0,Low-value
+S. ACCHIAPPATI,180.0,854590.0,Low-value
+M. LAKE,175.0,854765.0,Low-value
+C. Elie,170.0,854935.0,Low-value
+E. Lund,170.0,855105.0,Low-value
+C. Roux,170.0,855275.0,Low-value
+F. Rodamel ,170.0,855445.0,Low-value
+I. Le Bihan,170.0,855615.0,Low-value
+R. Alonso,170.0,855785.0,Low-value
+M. BARBAZA,170.0,855955.0,Low-value
+L. de La Bouralière,170.0,856125.0,Low-value
+J. Micoud,170.0,856295.0,Low-value
+M. Desautez ,170.0,856465.0,Low-value
+L. Hughes,165.0,856630.0,Low-value
+C. Paris,162.0,856792.0,Low-value
+K. Fyfe,162.0,856954.0,Low-value
+T. Postill,157.0,857111.0,Low-value
+Y. Domain,155.0,857266.0,Low-value
+L. RICCA,155.0,857421.0,Low-value
+C. Boutillier,135.0,857556.0,Low-value
+A. Denaux,125.0,857681.0,Low-value
+E. Barbosa,125.0,857806.0,Low-value
+L. RENAUD,115.0,857921.0,Low-value
+J. Alken-Theasby,110.0,858031.0,Low-value
+S. Store,78.0,858109.0,Low-value
