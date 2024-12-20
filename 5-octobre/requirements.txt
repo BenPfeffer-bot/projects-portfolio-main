@@ -11,6 +11,11 @@ huggingface_hub
 transformers
 accelerate
 sentence_transformers
-langchain>=0.1.0
-langchain-community>=0.0.10
+langchain-community
 torch
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch
+torchvision
+torchaudio
+streamlit-community-navigation-bar
+streamlit

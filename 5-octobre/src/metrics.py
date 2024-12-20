@@ -870,11 +870,34 @@ def refined_clv(
 ):
     """
     Refine CLV calculation by using average order value * purchase frequency * lifetime_months.
+
+    This function takes into account the average order value, purchase frequency and lifetime in months
+    to calculate the Customer Lifetime Value (CLV). CLV is a critical metric that helps predict the total
+    revenue a business can expect from a single customer account throughout the business relationship.
+    This enables better decisions around customer acquisition costs, retention strategies, and identifying
+    high-value customer segments.
+
+    Args:
+        order_df (pd.DataFrame): Orders dataframe with columns 'Total', 'Client', 'Date'
+        total_col (str): Column name for total revenue
+        client_col (str): Column name for client/customer identifier
+        date_col (str): Column name for date
+        lifetime_months (int): Average customer lifetime in months
+
+    Returns:
+        float: Customer Lifetime Value
     """
     if total_col not in order_df.columns or client_col not in order_df.columns:
         logger.error("Required columns for CLV calculation not found.")
         return np.nan
+
+    # Calculate average order value
     avg_order_value = order_df[total_col].mean()
+
+    # Calculate purchase frequency (average number of orders per customer)
     purchase_frequency = order_df.groupby(client_col).size().mean()
+
+    # Calculate CLV
     clv = avg_order_value * purchase_frequency * lifetime_months
+
     return clv

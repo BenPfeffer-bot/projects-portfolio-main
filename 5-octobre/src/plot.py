@@ -59,9 +59,7 @@ def plot_revenue_over_time(insights):
 
         # Calculate and plot moving average
         ma = monthly_revenue.rolling(window=3).mean()
-        plt.plot(
-            monthly_revenue.index, ma, color=COLORS[2], label="3-Month Moving Average"
-        )
+        plt.plot(monthly_revenue.index, ma, color=COLORS[2], label="3-Month Moving Average")
 
         plt.title("Monthly Revenue Trends with Moving Average", fontsize=16, pad=20)
         plt.xlabel("Date", fontsize=12)
@@ -92,14 +90,12 @@ def plot_customer_segments_enhanced(insights):
 
         # Customer count by segment
         segment_counts = segmentation["segment"].value_counts()
-        sns.barplot(
-            x=segment_counts.index, y=segment_counts.values, ax=ax1, palette="husl"
-        )
+        sns.barplot(x=segment_counts.index, y=segment_counts.values, ax=ax1, hue=segment_counts.index, legend=False)
         ax1.set_title("Customer Distribution by Segment")
         ax1.set_ylabel("Number of Customers")
 
         # Value distribution by segment
-        sns.boxplot(x="segment", y="Total", data=segmentation, ax=ax2, palette="husl")
+        sns.boxplot(x="segment", y="Total", data=segmentation, ax=ax2, hue="segment", legend=False)
         ax2.set_title("Value Distribution by Segment")
         ax2.set_ylabel("Customer Value (€)")
 
@@ -124,7 +120,7 @@ def plot_rfm_analysis_dashboard(insights):
         # Distribution of R, F, M scores
         ax2 = fig.add_subplot(gs[0, 1])
         rfm_melted = pd.melt(rfm_scores)
-        sns.boxplot(x="variable", y="value", data=rfm_melted, ax=ax2)
+        sns.boxplot(x="variable", y="value", data=rfm_melted, ax=ax2, hue="variable", legend=False)
         ax2.set_title("Distribution of RFM Scores")
 
         # Scatter plot of Frequency vs Monetary
@@ -197,9 +193,7 @@ def plot_payment_and_geography_dashboard(insights):
         # Top countries by revenue
         ax3 = fig.add_subplot(gs[1, :])
         top_countries = country_analysis.nlargest(10, "total_revenue")
-        sns.barplot(
-            data=top_countries, x=top_countries.index, y="total_revenue", ax=ax3
-        )
+        sns.barplot(data=top_countries, x=top_countries.index, y="total_revenue", ax=ax3, hue=top_countries.index, legend=False)
         ax3.set_title("Top 10 Countries by Revenue")
         ax3.set_xlabel("Country")
         ax3.set_ylabel("Total Revenue (€)")
@@ -222,7 +216,7 @@ def plot_order_patterns_dashboard(insights):
 
         # Daily pattern
         ax1 = fig.add_subplot(gs[0, 0])
-        sns.barplot(x=day_revenue.index, y=day_revenue.values, ax=ax1)
+        sns.barplot(x=day_revenue.index, y=day_revenue.values, ax=ax1, hue=day_revenue.index, legend=False)
         ax1.set_title("Revenue by Day of Week")
         ax1.tick_params(axis="x", rotation=45)
 
@@ -318,6 +312,119 @@ def plot_refund_trends(insights):
     return None
 
 
+def plot_forecasts_dashboard(insights):
+    """Plot comprehensive forecast dashboard including revenue, orders, and customers."""
+    revenue_forecast = insights.get("revenue_forecast")
+    orders_forecast = insights.get("orders_forecast")
+    customers_forecast = insights.get("customers_forecast")
+    multi_metric_forecast = insights.get("multi_metric_forecast")
+
+    if any(x is not None for x in [revenue_forecast, orders_forecast, customers_forecast, multi_metric_forecast]):
+        fig = plt.figure(figsize=(15, 12))
+        gs = fig.add_gridspec(3, 2)
+
+        # Revenue Forecast
+        if revenue_forecast is not None:
+            ax1 = fig.add_subplot(gs[0, :])
+            # Plot historical data
+            historical_data = insights.get("monthly_revenue")
+            if historical_data is not None:
+                ax1.plot(
+                    historical_data.index,
+                    historical_data.values,
+                    label="Historical Revenue",
+                    color=COLORS[0],
+                    linewidth=2,
+                )
+
+            # Plot forecast
+            forecast_dates = pd.to_datetime(revenue_forecast["ds"])
+            ax1.plot(
+                forecast_dates,
+                revenue_forecast["yhat"],
+                label="Revenue Forecast",
+                color=COLORS[1],
+                linestyle="--",
+                linewidth=2,
+            )
+
+            # Add confidence intervals
+            ax1.fill_between(forecast_dates, revenue_forecast["yhat_lower"], revenue_forecast["yhat_upper"], alpha=0.2, color=COLORS[1], label="95% Confidence Interval")
+
+            ax1.set_title("Revenue Forecast")
+            ax1.set_xlabel("Date")
+            ax1.set_ylabel("Revenue (€)")
+            ax1.legend()
+
+        # Orders Forecast
+        if orders_forecast is not None:
+            ax2 = fig.add_subplot(gs[1, 0])
+            forecast_dates = pd.to_datetime(orders_forecast["ds"])
+            ax2.plot(
+                forecast_dates,
+                orders_forecast["yhat"],
+                label="Orders Forecast",
+                color=COLORS[2],
+                linestyle="--",
+            )
+            ax2.fill_between(
+                forecast_dates,
+                orders_forecast["yhat_lower"],
+                orders_forecast["yhat_upper"],
+                alpha=0.2,
+                color=COLORS[2],
+            )
+            ax2.set_title("Orders Forecast")
+            ax2.set_xlabel("Date")
+            ax2.set_ylabel("Number of Orders")
+            ax2.legend()
+
+        # Customers Forecast
+        if customers_forecast is not None:
+            ax3 = fig.add_subplot(gs[1, 1])
+            forecast_dates = pd.to_datetime(customers_forecast["ds"])
+            ax3.plot(
+                forecast_dates,
+                customers_forecast["yhat"],
+                label="Customer Forecast",
+                color=COLORS[3],
+                linestyle="--",
+            )
+            ax3.fill_between(
+                forecast_dates,
+                customers_forecast["yhat_lower"],
+                customers_forecast["yhat_upper"],
+                alpha=0.2,
+                color=COLORS[3],
+            )
+            ax3.set_title("Customer Forecast")
+            ax3.set_xlabel("Date")
+            ax3.set_ylabel("Number of Customers")
+            ax3.legend()
+
+        # Multi-metric comparison
+        if multi_metric_forecast is not None:
+            ax4 = fig.add_subplot(gs[2, :])
+            metrics = ["revenue", "orders", "unique_customers"]
+            for i, metric in enumerate(metrics):
+                if f"{metric}_yhat" in multi_metric_forecast.columns:
+                    ax4.plot(
+                        pd.to_datetime(multi_metric_forecast["ds"]),
+                        multi_metric_forecast[f"{metric}_yhat"],
+                        label=f"{metric.capitalize()} Forecast",
+                        color=COLORS[i],
+                        linestyle="--",
+                    )
+            ax4.set_title("Multi-metric Forecast Comparison")
+            ax4.set_xlabel("Date")
+            ax4.set_ylabel("Normalized Values")
+            ax4.legend()
+
+        plt.tight_layout()
+        return plt
+    return None
+
+
 def create_dashboard():
     """Create and save enhanced plots."""
     logger.info("Starting to create enhanced dashboard...")
@@ -332,6 +439,7 @@ def create_dashboard():
         "cohort_retention": plot_cohort_retention(insights),
         "yoy_metrics": plot_yoy_metrics(insights),
         "refund_trends": plot_refund_trends(insights),
+        "forecasts": plot_forecasts_dashboard(insights),
     }
 
     # Create output directory
