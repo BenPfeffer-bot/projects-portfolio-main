@@ -296,17 +296,41 @@ def forecast_with_arima(series, periods=6):
     """
     series = series.dropna()
     if len(series) < 24:
+        logger.warning(f"Not enough data for ARIMA forecast (minimum 24 points required, got {len(series)})")
         return None, None
 
-    y = series.values
-    # Fit ARIMA model using pmdarima
-    arima_model = pm.auto_arima(y, seasonal=False, trace=False, error_action="ignore", suppress_warnings=True)
-    # Forecast
-    fc = arima_model.predict(n_periods=periods)
-    # Construct a DataFrame for consistency
-    future_index = pd.date_range(start=series.index[-1] + pd.offsets.MonthEnd(), periods=periods, freq="M")
-    fc_df = pd.DataFrame({"ds": future_index, "yhat_arima": fc})
-    return fc_df, arima_model
+    try:
+        # Fit ARIMA model using pmdarima
+        arima_model = pm.auto_arima(
+            series.values,
+            start_p=1,
+            start_q=1,
+            max_p=3,
+            max_q=3,
+            m=12,  # Monthly seasonality
+            seasonal=True,
+            d=None,  # Let the model determine the differencing order
+            D=None,
+            trace=False,
+            error_action="ignore",
+            suppress_warnings=True,
+            stepwise=True,
+        )
+
+        # Generate forecasts with confidence intervals
+        fc, conf_int = arima_model.predict(n_periods=periods, return_conf_int=True, alpha=0.05)
+
+        # Create future dates for the forecast
+        future_index = pd.date_range(start=series.index[-1] + pd.offsets.MonthEnd(), periods=periods, freq="M")
+
+        # Create forecast DataFrame with confidence intervals
+        fc_df = pd.DataFrame({"ds": future_index, "yhat_arima": fc, "yhat_lower": conf_int[:, 0], "yhat_upper": conf_int[:, 1]})
+
+        return fc_df, arima_model
+
+    except Exception as e:
+        logger.error(f"Error in ARIMA forecasting: {str(e)}")
+        return None, None
 
 
 def forecast_with_xgboost(series, periods=6):
