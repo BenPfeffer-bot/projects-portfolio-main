@@ -1,6 +1,5 @@
 .DS_Store
 
 env.yaml
-model/venv/
 logs/
-
+venv/

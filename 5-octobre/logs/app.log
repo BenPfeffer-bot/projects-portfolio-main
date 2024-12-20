@@ -836,3 +836,591 @@ DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/F
 DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Academy Engraved LET Fonts.ttf', name='Academy Engraved LET', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
 DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W1.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 10.24
 DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 12921118048 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/3ae9e77f2c4686a4f20abb556b1d35b861eb7a5d.lock
+DEBUG:filelock:Lock 12921118048 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/3ae9e77f2c4686a4f20abb556b1d35b861eb7a5d.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/tapas-base-finetuned-wtq/resolve/main/tokenizer_config.json HTTP/11" 200 490
+DEBUG:filelock:Attempting to release lock 12921118048 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/3ae9e77f2c4686a4f20abb556b1d35b861eb7a5d.lock
+DEBUG:filelock:Lock 12921118048 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/3ae9e77f2c4686a4f20abb556b1d35b861eb7a5d.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/vocab.txt HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 12903870736 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/42cd1e5b88722bb58fcae401ef7d4d01378e2960.lock
+DEBUG:filelock:Lock 12903870736 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/42cd1e5b88722bb58fcae401ef7d4d01378e2960.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/tapas-base-finetuned-wtq/resolve/main/vocab.txt HTTP/11" 200 262028
+DEBUG:filelock:Attempting to release lock 12903870736 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/42cd1e5b88722bb58fcae401ef7d4d01378e2960.lock
+DEBUG:filelock:Lock 12903870736 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/42cd1e5b88722bb58fcae401ef7d4d01378e2960.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/added_tokens.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/special_tokens_map.json HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 12931487296 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/b7c5cb2a430e9f71d381f09e9a367394856aeb5a.lock
+DEBUG:filelock:Lock 12931487296 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/b7c5cb2a430e9f71d381f09e9a367394856aeb5a.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/tapas-base-finetuned-wtq/resolve/main/special_tokens_map.json HTTP/11" 200 154
+DEBUG:filelock:Attempting to release lock 12931487296 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/b7c5cb2a430e9f71d381f09e9a367394856aeb5a.lock
+DEBUG:filelock:Lock 12931487296 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/b7c5cb2a430e9f71d381f09e9a367394856aeb5a.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/tokenizer.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/config.json HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 12989098768 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/d88aae27ef9ad9e836bdf62cb0e866760df39524.lock
+DEBUG:filelock:Lock 12989098768 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/d88aae27ef9ad9e836bdf62cb0e866760df39524.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/tapas-base-finetuned-wtq/resolve/main/config.json HTTP/11" 200 1657
+DEBUG:filelock:Attempting to release lock 12989098768 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/d88aae27ef9ad9e836bdf62cb0e866760df39524.lock
+DEBUG:filelock:Lock 12989098768 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/d88aae27ef9ad9e836bdf62cb0e866760df39524.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/model.safetensors HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/pytorch_model.bin HTTP/11" 302 0
+DEBUG:filelock:Attempting to acquire lock 12989103280 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/2062cd99b44d4c0cf361fa1ab56c0c147b1cb687c23f369dae9474d72f451f70.lock
+DEBUG:filelock:Lock 12989103280 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/2062cd99b44d4c0cf361fa1ab56c0c147b1cb687c23f369dae9474d72f451f70.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cdn-lfs.hf.co:443
+DEBUG:urllib3.connectionpool:https://cdn-lfs.hf.co:443 "GET /google/tapas-base-finetuned-wtq/2062cd99b44d4c0cf361fa1ab56c0c147b1cb687c23f369dae9474d72f451f70?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1734912387&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNDkxMjM4N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9nb29nbGUvdGFwYXMtYmFzZS1maW5ldHVuZWQtd3RxLzIwNjJjZDk5YjQ0ZDRjMGNmMzYxZmExYWI1NmMwYzE0N2IxY2I2ODdjMjNmMzY5ZGFlOTQ3NGQ3MmY0NTFmNzA~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=JsU~hshZOO~8m0zqzVV7jJlvB0WG6EWs4QTdHZYX0XR0xCIdBUzKSKIPIQ8mt3tyUVmYLKZRjgqfQky2ARqGzfQ4ZUN7YIkcuwckxrvbzXQXty0SxjHfpLznRoqwDp-K2imU4IKlBguJTao6BxtzxQPtiDhUyxPeXQt2CNUxKoH6QYNkHzkx9uijK8bAJTG1WNtNX1hAXDhZjRrbvHpRoVymPH9zK5zNXYfh5Qh-C2mGMNEpwQZD9bvKJBPjDkEUAspHmAhXWD68EPuyE5CuEJheB2oxQSe8YTJ7OPEOdn2wveV8lvf7-6koCEuQEopR4ykTgw9fWY2e4VTm04G30g__&Key-Pair-Id=K3RPWS32NSSJCE HTTP/11" 200 442791751
+DEBUG:filelock:Attempting to release lock 12989103280 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/2062cd99b44d4c0cf361fa1ab56c0c147b1cb687c23f369dae9474d72f451f70.lock
+DEBUG:filelock:Lock 12989103280 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--tapas-base-finetuned-wtq/2062cd99b44d4c0cf361fa1ab56c0c147b1cb687c23f369dae9474d72f451f70.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/model.safetensors HTTP/11" 404 0
+INFO:src.config:Computing basic KPIs...
+DEBUG:src.config:Basic KPIs calculated: {'total_orders': 1360, 'total_revenue': 860979.0, 'unique_customers': 1091, 'avg_orders_per_customer': 1.2465627864344637}
+INFO:src.config:Basic KPIs computation complete
+INFO:src.config:Computing revenue over time with frequency M...
+DEBUG:src.config:Revenue series shape: (45,)
+INFO:src.config:Revenue over time computation complete
+INFO:src.config:Computing average order value...
+DEBUG:src.config:Calculated AOV: 633.072794117647
+INFO:src.config:AOV computation complete
+INFO:src.config:Computing cart abandonment rate...
+DEBUG:src.config:Cart abandonment rate: 100.0%
+INFO:src.config:Cart abandonment rate computation complete
+INFO:src.config:Analyzing customer count with frequency M...
+DEBUG:src.config:Customer count series shape: (45,)
+INFO:src.config:Customer count analysis complete
+INFO:src.config:Analyzing new vs returning customers...
+DEBUG:src.config:New vs returning customers analysis shape: (45, 2)
+INFO:src.config:New vs returning customers analysis complete
+INFO:src.config:Performing customer segmentation...
+DEBUG:src.config:Customer segmentation shape: (1091, 4)
+INFO:src.config:Customer segmentation complete
+INFO:src.config:Analyzing order value distribution...
+DEBUG:src.config:Order value distribution stats: {'min': 0.0, 'max': 8650.0, 'median': 440.0, 'mean': 633.072794117647, 'std': 598.8152872066096, '25%_quartile': 260.0, '75%_quartile': 730.0}
+INFO:src.config:Order value distribution analysis complete
+INFO:src.config:Computing revenue growth with frequency M...
+INFO:src.config:Computing revenue over time with frequency M...
+DEBUG:src.config:Revenue series shape: (45,)
+INFO:src.config:Revenue over time computation complete
+DEBUG:src.config:Revenue growth series shape: (45,)
+INFO:src.config:Revenue growth computation complete
+INFO:src.config:Analyzing payment methods...
+DEBUG:src.config:Payment method analysis shape: (9, 3)
+INFO:src.config:Payment method analysis complete
+INFO:src.config:Analyzing country data...
+DEBUG:src.config:Country analysis shape: (29, 4)
+INFO:src.config:Country analysis complete
+INFO:src.config:Performing RFM analysis...
+DEBUG:src.config:RFM analysis shape: (1091, 7)
+INFO:src.config:RFM analysis complete
+INFO:src.config:Analyzing refunds and cancellations...
+INFO:src.config:Starting refund and cancellation analysis...
+DEBUG:src.config:Total orders: 1360, Total revenue: 860979.0
+DEBUG:src.config:Found 75 refunded orders, 15 canceled orders
+DEBUG:src.config:Revenue lost to refunds: 54142.0, to cancellations: 10732.0
+INFO:src.config:Refund and cancellation analysis complete
+DEBUG:src.config:Analysis results: {'refund_rate': 5.514705882352941, 'cancellation_rate': 1.1029411764705883, 'revenue_lost_refunds': 54142.0, 'revenue_refund_pct': 6.288422830289705, 'revenue_lost_cancellations': 10732.0, 'revenue_cancel_pct': 1.2464880095797923}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/tapas-base-finetuned-wtq/resolve/main/model.safetensors HTTP/11" 404 0
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:chromadb.config:Starting component LocalHnswSegment
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 13723956528 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/e3685b0cb5c8909cf3e7d72ffc16ca94c861bdfb.lock
+DEBUG:filelock:Lock 13723956528 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/e3685b0cb5c8909cf3e7d72ffc16ca94c861bdfb.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 2537
+DEBUG:filelock:Attempting to release lock 13723956528 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/e3685b0cb5c8909cf3e7d72ffc16ca94c861bdfb.lock
+DEBUG:filelock:Lock 13723956528 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/e3685b0cb5c8909cf3e7d72ffc16ca94c861bdfb.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/spiece.model HTTP/11" 302 0
+DEBUG:filelock:Attempting to acquire lock 15226498672 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86.lock
+DEBUG:filelock:Lock 15226498672 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cdn-lfs.hf.co:443
+DEBUG:urllib3.connectionpool:https://cdn-lfs.hf.co:443 "GET /repos/bf/6f/bf6f650b464b29d0010bd25d18d9ebb545383704c670af1fcceac81468c7d8c3/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27spiece.model%3B+filename%3D%22spiece.model%22%3B&Expires=1734913062&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNDkxMzA2Mn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy9iZi82Zi9iZjZmNjUwYjQ2NGIyOWQwMDEwYmQyNWQxOGQ5ZWJiNTQ1MzgzNzA0YzY3MGFmMWZjY2VhYzgxNDY4YzdkOGMzL2Q2MGFjYjEyOGNmN2I3ZjI1MzZlOGYzOGE1YjE4YTA1NTM1YzllMTRjN2EzNTU5MDQyNzBlMTViMDk0NWVhODY~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=HjcC-FMRWJek4SzM9EJ2ya1jB~WQvrNwh7v8Yc4g04cUu-1eUygM3xreyb9LKzvtqkCxivWvB1utRDzwmGMnzN8fs0B8nbATfFqI5SgLfhRjocXs9SOMIjbhmSzqcYAeiK8JQ9ItJzjdQBSLPPD2uWir55aWTpDV-kVTFUyHQFXDwleL9Ols1E9mNJ-iiNLlUkahCaW3pLuZrQC7MJ9ZS4yJmWAynUAn0d4RAzFFqtxgOUNdHe9Qjn5xD3eZsHNH4sGl88TReahuHWiCMNPlMIO6Q6MF7nOs4S6P-rodd28e7fpATuMbKkWyHvMthmEsrW-TG83G-pq7bGCkkarhYg__&Key-Pair-Id=K3RPWS32NSSJCE HTTP/11" 200 791656
+DEBUG:filelock:Attempting to release lock 15226498672 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86.lock
+DEBUG:filelock:Lock 15226498672 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer.json HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 15226498672 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/fc669fbad1a6a82119ca3e1fa75db33ee22ca47d.lock
+DEBUG:filelock:Lock 15226498672 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/fc669fbad1a6a82119ca3e1fa75db33ee22ca47d.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/flan-t5-base/resolve/main/tokenizer.json HTTP/11" 200 2424064
+DEBUG:filelock:Attempting to release lock 15226498672 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/fc669fbad1a6a82119ca3e1fa75db33ee22ca47d.lock
+DEBUG:filelock:Lock 15226498672 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/fc669fbad1a6a82119ca3e1fa75db33ee22ca47d.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/added_tokens.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/special_tokens_map.json HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 15226661744 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/2c19eb6e3b583f52d34b903b5978d3d30b6b7682.lock
+DEBUG:filelock:Lock 15226661744 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/2c19eb6e3b583f52d34b903b5978d3d30b6b7682.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/flan-t5-base/resolve/main/special_tokens_map.json HTTP/11" 200 2201
+DEBUG:filelock:Attempting to release lock 15226661744 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/2c19eb6e3b583f52d34b903b5978d3d30b6b7682.lock
+DEBUG:filelock:Lock 15226661744 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/2c19eb6e3b583f52d34b903b5978d3d30b6b7682.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 15224667744 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d41e16cd4cd58621695da4f94132f516d07251af.lock
+DEBUG:filelock:Lock 15224667744 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d41e16cd4cd58621695da4f94132f516d07251af.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 1404
+DEBUG:filelock:Attempting to release lock 15224667744 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d41e16cd4cd58621695da4f94132f516d07251af.lock
+DEBUG:filelock:Lock 15224667744 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d41e16cd4cd58621695da4f94132f516d07251af.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/model.safetensors HTTP/11" 302 0
+DEBUG:filelock:Attempting to acquire lock 15226921104 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/1dfb70afdcedceb9f9fae2f9b68e004ad934361fb35b9b2bd50b45ea90790fc8.lock
+DEBUG:filelock:Lock 15226921104 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/1dfb70afdcedceb9f9fae2f9b68e004ad934361fb35b9b2bd50b45ea90790fc8.lock
+DEBUG:urllib3.connectionpool:https://cdn-lfs.hf.co:443 "GET /repos/bf/6f/bf6f650b464b29d0010bd25d18d9ebb545383704c670af1fcceac81468c7d8c3/1dfb70afdcedceb9f9fae2f9b68e004ad934361fb35b9b2bd50b45ea90790fc8?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1734914576&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNDkxNDU3Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy9iZi82Zi9iZjZmNjUwYjQ2NGIyOWQwMDEwYmQyNWQxOGQ5ZWJiNTQ1MzgzNzA0YzY3MGFmMWZjY2VhYzgxNDY4YzdkOGMzLzFkZmI3MGFmZGNlZGNlYjlmOWZhZTJmOWI2OGUwMDRhZDkzNDM2MWZiMzViOWIyYmQ1MGI0NWVhOTA3OTBmYzg~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=EH32Op4NKW8GPYUz-6ENKfNKj8331DxQmwn88rbvvHWefTNzK8T-5MhEjKpD8Dlcpw~ydlZ10Q1Q0GqZ86fdY1m83m5JeYmqw63PbElh8kkFbetQ7KjfHs5iFetR2qR-WgZqLeohaYwXLSs6GNLI3nGd~XKEB4zaCdZbm~WylFPwTLMT4ZoHarTY~HbuyrtGBLtr1whMlwyen5qIfLQinzD~IvWbZA3vjKr5vBheDIk3KRLBjljImezYJNN8TN7bCMNvwpdv1E5w8DxCGuE9NkoZeYClfuoM9CcSmMZZrK6I~ToMPR-wR9Py828skyoAyi5~DlN9TQKBc1ac4CYEKA__&Key-Pair-Id=K3RPWS32NSSJCE HTTP/11" 200 990345061
+DEBUG:filelock:Attempting to release lock 15226921104 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/1dfb70afdcedceb9f9fae2f9b68e004ad934361fb35b9b2bd50b45ea90790fc8.lock
+DEBUG:filelock:Lock 15226921104 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/1dfb70afdcedceb9f9fae2f9b68e004ad934361fb35b9b2bd50b45ea90790fc8.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG:filelock:Attempting to acquire lock 15226919136 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d52815623b46b7db1c4b957b5a83a8ad30b0146a.lock
+DEBUG:filelock:Lock 15226919136 acquired on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d52815623b46b7db1c4b957b5a83a8ad30b0146a.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 147
+DEBUG:filelock:Attempting to release lock 15226919136 on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d52815623b46b7db1c4b957b5a83a8ad30b0146a.lock
+DEBUG:filelock:Lock 15226919136 released on /Users/benpfeffer/.cache/huggingface/hub/.locks/models--google--flan-t5-base/d52815623b46b7db1c4b957b5a83a8ad30b0146a.lock
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.config:Starting component LocalHnswSegment
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.config:Starting component LocalHnswSegment
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.config:Starting component LocalHnswSegment
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+ERROR:src.config:Error processing query: Missing some input keys: {'query'}
+Traceback (most recent call last):
+  File "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/projects/chatbot/rag_chatbot.py", line 106, in main
+    response = chain({"question": user_query})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain_core/_api/deprecation.py", line 182, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 389, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 170, in invoke
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 158, in invoke
+    self._validate_inputs(inputs)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 290, in _validate_inputs
+    raise ValueError(f"Missing some input keys: {missing_keys}")
+ValueError: Missing some input keys: {'query'}
+ERROR:src.config:Error processing query: Missing some input keys: {'query'}
+Traceback (most recent call last):
+  File "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/projects/chatbot/rag_chatbot.py", line 106, in main
+    response = chain({"question": user_query})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain_core/_api/deprecation.py", line 182, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 389, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 170, in invoke
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 158, in invoke
+    self._validate_inputs(inputs)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 290, in _validate_inputs
+    raise ValueError(f"Missing some input keys: {missing_keys}")
+ValueError: Missing some input keys: {'query'}
+ERROR:src.config:Error processing query: Missing some input keys: {'query'}
+Traceback (most recent call last):
+  File "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/projects/chatbot/rag_chatbot.py", line 106, in main
+    try:
+         
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain_core/_api/deprecation.py", line 182, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 389, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 170, in invoke
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 158, in invoke
+    self._validate_inputs(inputs)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 290, in _validate_inputs
+    raise ValueError(f"Missing some input keys: {missing_keys}")
+ValueError: Missing some input keys: {'query'}
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.config:Starting component LocalHnswSegment
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+ERROR:src.config:Error processing query: Missing some input keys: {'query'}
+Traceback (most recent call last):
+  File "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/projects/chatbot/rag_chatbot.py", line 108, in main
+    response = chain.invoke({"question": user_query})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 170, in invoke
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 158, in invoke
+    self._validate_inputs(inputs)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 290, in _validate_inputs
+    raise ValueError(f"Missing some input keys: {missing_keys}")
+ValueError: Missing some input keys: {'query'}
+ERROR:src.config:Error processing query: Missing some input keys: {'query'}
+Traceback (most recent call last):
+  File "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/projects/chatbot/rag_chatbot.py", line 108, in main
+    response = chain.invoke({"question": user_query})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 170, in invoke
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 158, in invoke
+    self._validate_inputs(inputs)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 290, in _validate_inputs
+    raise ValueError(f"Missing some input keys: {missing_keys}")
+ValueError: Missing some input keys: {'query'}
+ERROR:src.config:Error processing query: Missing some input keys: {'query'}
+Traceback (most recent call last):
+  File "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/projects/chatbot/rag_chatbot.py", line 108, in main
+    if __name__ == "__main__":
+                           ^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 170, in invoke
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 158, in invoke
+    self._validate_inputs(inputs)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/langchain/chains/base.py", line 290, in _validate_inputs
+    raise ValueError(f"Missing some input keys: {missing_keys}")
+ValueError: Missing some input keys: {'query'}
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.config:Starting component LocalHnswSegment
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.config:Starting component LocalHnswSegment
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+INFO:src.config:Loading analysis documents...
+INFO:src.config:Building vectorstore...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.config:Starting component LocalHnswSegment
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+INFO:src.config:Loading and preparing documents...
+INFO:src.config:Building vector store at /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/data/embeddings/analysis_docs with embedding model sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:chromadb.config:Starting component PersistentLocalHnswSegment
+INFO:src.config:Loading LLM: google/flan-t5-base
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+INFO:src.config:Loading and preparing documents...
+INFO:src.config:Loading existing vector store from /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/data/embeddings/analysis_docs
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.api.segment:Collection analysis_docs already exists, returning existing collection.
+INFO:src.config:Loading LLM: google/flan-t5-base
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG:chromadb.config:Starting component PersistentLocalHnswSegment
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+INFO:src.config:Loading and preparing documents...
+INFO:src.config:Loading existing vector store from /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/data/embeddings/analysis_docs
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6704
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6704
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:chromadb.config:Starting component System
+DEBUG:chromadb.config:Starting component Posthog
+DEBUG:chromadb.config:Starting component OpenTelemetryClient
+DEBUG:chromadb.config:Starting component SqliteDB
+DEBUG:chromadb.config:Starting component SimpleQuotaEnforcer
+DEBUG:chromadb.config:Starting component SimpleRateLimitEnforcer
+DEBUG:chromadb.config:Starting component LocalSegmentManager
+DEBUG:chromadb.config:Starting component LocalExecutor
+DEBUG:chromadb.config:Starting component SegmentAPI
+DEBUG:chromadb.api.segment:Collection analysis_docs already exists, returning existing collection.
+INFO:src.config:Loading LLM: google/flan-t5-base
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us.i.posthog.com:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
+DEBUG:chromadb.config:Starting component PersistentLocalHnswSegment
+DEBUG:urllib3.connectionpool:https://us.i.posthog.com:443 "POST /batch/ HTTP/11" 200 15
