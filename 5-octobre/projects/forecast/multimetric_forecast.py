@@ -5,17 +5,20 @@ from prophet import Prophet
 from prophet.diagnostics import cross_validation, performance_metrics
 import logging
 import sys
+from scipy import stats
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.model_selection import TimeSeriesSplit
+import pmdarima as pm
+from xgboost import XGBRegressor
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from statsmodels.tsa.stattools import adfuller
+from statsmodels.stats.diagnostic import acorr_ljungbox
+from sklearn.preprocessing import StandardScaler
 
 sys.path.append("/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre")
 from src.data_preprocessing import preprocess_data
 from src.metrics import compute_revenue_over_time
 from src.config import BASE_DIR, load_logger
-
-# Additional imports for advanced forecasting
-from pmdarima import auto_arima
-from xgboost import XGBRegressor
-from sklearn.metrics import mean_absolute_error
-from sklearn.model_selection import TimeSeriesSplit
 
 logger = load_logger()
 
@@ -296,8 +299,8 @@ def forecast_with_arima(series, periods=6):
         return None, None
 
     y = series.values
-    # Fit ARIMA model
-    arima_model = auto_arima(y, seasonal=False, trace=False, error_action="ignore")
+    # Fit ARIMA model using pmdarima
+    arima_model = pm.auto_arima(y, seasonal=False, trace=False, error_action="ignore", suppress_warnings=True)
     # Forecast
     fc = arima_model.predict(n_periods=periods)
     # Construct a DataFrame for consistency
@@ -366,57 +369,225 @@ def forecast_with_xgboost(series, periods=6):
     return fc_xgb, best_model
 
 
+def create_features(df):
+    """
+    Create time series features for XGBoost model.
+    """
+    df = df.copy()
+    df["year"] = df.index.year
+    df["month"] = df.index.month
+    df["quarter"] = df.index.quarter
+    df["day_of_year"] = df.index.dayofyear
+
+    # Add lag features
+    for lag in [1, 2, 3, 6, 12]:
+        df[f"lag_{lag}"] = df["y"].shift(lag)
+
+    # Add rolling mean features
+    for window in [3, 6, 12]:
+        df[f"rolling_mean_{window}"] = df["y"].rolling(window=window).mean()
+        df[f"rolling_std_{window}"] = df["y"].rolling(window=window).std()
+
+    return df
+
+
+def forecast_with_sarima(series, periods=6):
+    """
+    Forecast using SARIMA model with automatic order selection.
+    Returns forecasts and confidence intervals.
+    """
+    # Convert series to dataframe with datetime index
+    df = pd.DataFrame(series)
+    df.columns = ["y"]
+
+    # Fit SARIMA model using pmdarima's auto_arima
+    model = pm.auto_arima(
+        df["y"],
+        seasonal=True,
+        m=12,  # Monthly seasonality
+        start_p=0,
+        start_q=0,
+        max_p=3,
+        max_q=3,
+        start_P=0,
+        start_Q=0,
+        max_P=2,
+        max_Q=2,
+        d=None,
+        D=None,
+        trace=False,
+        error_action="ignore",
+        suppress_warnings=True,
+        stepwise=True,
+    )
+
+    # Generate forecasts with confidence intervals
+    forecasts, conf_int = model.predict(n_periods=periods, return_conf_int=True, alpha=0.05)
+
+    forecast_index = pd.date_range(start=df.index[-1], periods=periods + 1, freq="M")[1:]
+    forecast_df = pd.DataFrame({"forecast": forecasts, "lower_bound": conf_int[:, 0], "upper_bound": conf_int[:, 1]}, index=forecast_index)
+
+    return forecast_df
+
+
+def forecast_with_xgboost_enhanced(series, periods=6):
+    """
+    Enhanced XGBoost forecasting with feature engineering and confidence intervals.
+    """
+    df = pd.DataFrame(series)
+    df.columns = ["y"]
+
+    # Create features
+    df_features = create_features(df)
+    df_features = df_features.dropna()  # Remove rows with NaN from lag features
+
+    # Prepare training data
+    X = df_features.drop("y", axis=1)
+    y = df_features["y"]
+
+    # Split data for validation
+    tscv = TimeSeriesSplit(n_splits=5)
+
+    # Train model with cross-validation
+    model = XGBRegressor(n_estimators=100, learning_rate=0.1, max_depth=5, random_state=42)
+
+    # Store cross-validation predictions
+    cv_predictions = []
+    for train_idx, val_idx in tscv.split(X):
+        X_train, X_val = X.iloc[train_idx], X.iloc[val_idx]
+        y_train, y_val = y.iloc[train_idx], y.iloc[val_idx]
+
+        model.fit(X_train, y_train)
+        pred = model.predict(X_val)
+        cv_predictions.extend(list(zip(y_val, pred)))
+
+    # Calculate prediction intervals based on CV errors
+    cv_errors = np.array([actual - pred for actual, pred in cv_predictions])
+    error_std = np.std(cv_errors)
+
+    # Fit final model on all data
+    model.fit(X, y)
+
+    # Generate future features
+    future_dates = pd.date_range(start=df.index[-1], periods=periods + 1, freq="M")[1:]
+    future_df = pd.DataFrame(index=future_dates)
+    future_df["year"] = future_df.index.year
+    future_df["month"] = future_df.index.month
+    future_df["quarter"] = future_df.index.quarter
+    future_df["day_of_year"] = future_df.index.dayofyear
+
+    # Add lag features using last known values
+    last_values = df["y"].tail(12).values  # Get last 12 values
+    for i, lag in enumerate([1, 2, 3, 6, 12]):
+        future_df[f"lag_{lag}"] = np.roll(last_values, i)[:periods]
+
+    # Add rolling features using last known values
+    for window in [3, 6, 12]:
+        future_df[f"rolling_mean_{window}"] = df["y"].tail(window).mean()
+        future_df[f"rolling_std_{window}"] = df["y"].tail(window).std()
+
+    # Generate predictions with confidence intervals
+    predictions = model.predict(future_df)
+    conf_level = 0.95
+    z_score = stats.norm.ppf((1 + conf_level) / 2)
+
+    forecast_df = pd.DataFrame({"forecast": predictions, "lower_bound": predictions - z_score * error_std, "upper_bound": predictions + z_score * error_std}, index=future_dates)
+
+    return forecast_df
+
+
+def evaluate_forecast_model(model_forecasts, actual_values):
+    """
+    Evaluate forecast model performance using multiple metrics.
+    """
+    metrics = {}
+    metrics["mae"] = mean_absolute_error(actual_values, model_forecasts)
+    metrics["rmse"] = np.sqrt(mean_squared_error(actual_values, model_forecasts))
+    metrics["mape"] = np.mean(np.abs((actual_values - model_forecasts) / actual_values)) * 100
+    metrics["r2"] = r2_score(actual_values, model_forecasts)
+
+    return metrics
+
+
+def validate_forecast_assumptions(series):
+    """
+    Validate time series assumptions and return recommendations.
+    """
+    from statsmodels.stats.diagnostic import acorr_ljungbox
+    from statsmodels.tsa.stattools import adfuller
+
+    recommendations = []
+
+    # Check for stationarity
+    adf_result = adfuller(series.dropna())
+    if adf_result[1] > 0.05:
+        recommendations.append("Series may be non-stationary. Consider differencing or detrending.")
+
+    # Check for autocorrelation
+    lb_result = acorr_ljungbox(series.dropna(), lags=10)
+    if (lb_result["lb_pvalue"] < 0.05).any():
+        recommendations.append("Significant autocorrelation detected. SARIMA or Prophet might be more suitable.")
+
+    # Check for seasonality
+    if len(series) >= 24:  # Need at least 2 years of data
+        seasonal_diff = series.diff(12).dropna()
+        adf_seasonal = adfuller(seasonal_diff)
+        if adf_seasonal[1] > 0.05:
+            recommendations.append("Seasonal patterns detected. Consider using seasonal models.")
+
+    # Check for missing values
+    missing_pct = series.isna().mean() * 100
+    if missing_pct > 0:
+        recommendations.append(f"Series contains {missing_pct:.1f}% missing values. Consider imputation.")
+
+    return recommendations
+
+
 def select_best_forecast_method(series, periods=6):
     """
-    Try Prophet (with tuning), ARIMA, and XGBoost and pick the best based on a simple backtest (if possible).
-    For simplicity, we'll just do a quick backtest with each model and choose best by MAE.
+    Enhanced model selection using cross-validation and multiple evaluation metrics.
+    Includes validation of assumptions and automatic model recommendations.
     """
-    # Prepare a backtest: last 6 months as test
-    if len(series.dropna()) < 30:
-        # Not enough data for full evaluation, just return Prophet as default
-        fc_prophet, _ = prepare_metric_for_prophet(series, periods=periods)
-        return fc_prophet, "Prophet"
+    # First, validate assumptions
+    recommendations = validate_forecast_assumptions(series)
+    for rec in recommendations:
+        logger.info(f"Forecast recommendation: {rec}")
 
-    train = series.iloc[:-6]
-    test = series.iloc[-6:]
+    # Prepare validation data
+    train_size = int(len(series) * 0.8)
+    train_series = series[:train_size]
+    test_series = series[train_size:]
 
-    # Evaluate Prophet
-    fc_p, mp = prepare_metric_for_prophet(train, periods=6)
-    fc_p = fc_p.set_index("ds")
-    prophet_preds = fc_p["yhat"].iloc[-6:]
-    prophet_mae = mean_absolute_error(test.values, prophet_preds.values)
+    models = {"prophet": (prepare_metric_for_prophet, None), "sarima": (forecast_with_sarima, None), "xgboost": (forecast_with_xgboost_enhanced, None)}
 
-    # Evaluate ARIMA
-    fc_a, ma = forecast_with_arima(train, periods=6)
-    if fc_a is not None:
-        fc_a = fc_a.set_index("ds")
-        arima_preds = fc_a["yhat_arima"]
-        arima_mae = mean_absolute_error(test.values, arima_preds.values)
-    else:
-        arima_mae = float("inf")
+    results = {}
+    for model_name, (model_func, _) in models.items():
+        try:
+            # Generate forecasts
+            forecast_df = model_func(train_series, periods=len(test_series))
 
-    # Evaluate XGBoost
-    fc_x, mx = forecast_with_xgboost(train, periods=6)
-    if fc_x is not None:
-        fc_x = fc_x.set_index("ds")
-        xgb_preds = fc_x["yhat_xgb"]
-        xgb_mae = mean_absolute_error(test.values, xgb_preds.values)
-    else:
-        xgb_mae = float("inf")
+            # Evaluate model
+            metrics = evaluate_forecast_model(forecast_df["forecast"], test_series)
+            results[model_name] = {"metrics": metrics, "forecast_func": model_func}
 
-    # Choose best
-    maes = {"Prophet": prophet_mae, "ARIMA": arima_mae, "XGBoost": xgb_mae}
-    best_method = min(maes, key=maes.get)
+            # Log performance metrics
+            logger.info(f"{model_name} performance metrics:")
+            for metric_name, value in metrics.items():
+                logger.info(f"  {metric_name}: {value:.4f}")
 
-    # Now refit best model on full series
-    if best_method == "Prophet":
-        fc_final, _ = prepare_metric_for_prophet(series, periods=periods)
-    elif best_method == "ARIMA":
-        fc_final, _ = forecast_with_arima(series, periods=periods)
-    else:
-        fc_final, _ = forecast_with_xgboost(series, periods=periods)
+        except Exception as e:
+            logger.warning(f"Error fitting {model_name}: {str(e)}")
+            continue
 
-    return fc_final, best_method
+    if not results:
+        logger.warning("No models were successfully fit. Defaulting to Prophet.")
+        return prepare_metric_for_prophet
+
+    # Select best model based on RMSE
+    best_model = min(results.items(), key=lambda x: x[1]["metrics"]["rmse"])[0]
+    logger.info(f"Selected {best_model} as best model based on validation metrics")
+
+    return results[best_model]["forecast_func"]
 
 
 def run_multi_metric_analysis_and_forecasting(cart_df, order_df, output_dir=None, periods=6):

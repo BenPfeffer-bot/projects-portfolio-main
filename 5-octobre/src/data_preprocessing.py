@@ -329,19 +329,25 @@ def check_data_quality(df, required_cols=None, numeric_cols=None, date_cols=None
         for col in date_cols:
             if col in df.columns:
                 total_checks += 2
-                # Check for future dates
-                future_dates = (df[col] > datetime.now()).sum()
-                if future_dates == 0:
-                    checks_passed += 1
-                else:
-                    issues.append(f"Found {future_dates} future dates in {col}")
+                # Convert dates if they're not already datetime
+                try:
+                    dates = pd.to_datetime(df[col], errors="coerce")
+                    # Check for future dates
+                    future_dates = (dates > pd.Timestamp.now()).sum()
+                    if future_dates == 0:
+                        checks_passed += 1
+                    else:
+                        issues.append(f"Found {future_dates} future dates in {col}")
 
-                # Check for very old dates (before 2020)
-                old_dates = (df[col] < pd.Timestamp("2020-01-01")).sum()
-                if old_dates == 0:
-                    checks_passed += 1
-                else:
-                    issues.append(f"Found {old_dates} dates before 2020 in {col}")
+                    # Check for very old dates (before 2020)
+                    old_dates = (dates < pd.Timestamp("2020-01-01")).sum()
+                    if old_dates == 0:
+                        checks_passed += 1
+                    else:
+                        issues.append(f"Found {old_dates} dates before 2020 in {col}")
+                except Exception as e:
+                    issues.append(f"Error processing dates in column {col}: {str(e)}")
+                    total_checks -= 2  # Subtract these checks since they couldn't be performed
 
     quality_score = checks_passed / total_checks if total_checks > 0 else 0
     return quality_score, issues

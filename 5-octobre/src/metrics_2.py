@@ -360,7 +360,7 @@ def calculate_clv(order_df, total_col="Total", client_col="Client", date_col="Da
 ##############################################################
 if __name__ == "__main__":
     logger.info("Starting metrics computation test...")
-    products_df = load_product_data("/path/to/5octobre_products.csv")
+    products_df = load_product_data("/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/5octobre_products.csv")
     cart_df, order_df = load_cleaned_data()
 
     if order_df is not None and not order_df.empty:

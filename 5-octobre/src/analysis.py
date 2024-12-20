@@ -1,9 +1,8 @@
 import sys
 
-sys.path.append(
-    "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre"
-)
-from src.metrics import *
+
+sys.path.append("/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre")
+
 from src.data_preprocessing import preprocess_data
 import os
 import pandas as pd
@@ -12,62 +11,39 @@ import pandas as pd
 def run_analysis(cart_df, order_df):
     """
     Run a series of analyses on the provided cart and order dataframes and return insights as a dictionary.
-
-    Assumes that:
-    - cart_df and order_df are already loaded pandas DataFrames.
-    - You have defined all metric functions (basic_kpis, compute_revenue_over_time, etc.) elsewhere.
+    Organizes metrics by category: basic, customer, revenue, and time-based analytics.
     """
     insights = {}
 
-    # Compute various metrics (assuming these functions are defined)
-    # Basic KPIs
+    # Basic Metrics
     insights["basic_kpis"] = basic_kpis(order_df)
-
-    # Revenue metrics
-    insights["monthly_revenue"] = compute_revenue_over_time(order_df, freq="M")
     insights["average_order_value"] = compute_average_order_value(order_df)
-    insights["revenue_concentration"] = revenue_concentration(order_df)
-
-    # Cart metrics
-    insights["cart_abandonment_rate"] = compute_cart_abandonment_rate(cart_df, order_df)
-
-    # Customer metrics
-    insights["monthly_unique_customers"] = analyze_customer_count(order_df)
-    insights["customer_cohorts"] = new_vs_returning_customers(order_df)
-    insights["customer_segmentation"] = customer_segmentation_by_value(order_df)
-    insights["repeat_vs_one_time_customers"] = repeat_vs_one_time_customers(order_df)
-    insights["clv"] = calculate_clv(order_df)
-
-    # Order analysis
     insights["order_value_distribution"] = order_value_distribution(order_df)
-    insights["monthly_revenue_growth"] = revenue_growth(order_df, freq="M")
-    insights["day_of_week_revenue"] = day_of_week_analysis(order_df)
-    insights["hour_of_day_revenue"] = hour_of_day_analysis(order_df)
-
-    # Payment and Geographic Analysis
-    insights["payment_method_analysis"] = payment_method_analysis(order_df)
-    insights["country_analysis"] = country_analysis(order_df)
-
-    # Advanced analytics
-    insights["rfm_analysis"] = rfm_analysis(order_df)
-    insights["cohort_retention"] = cohort_analysis(order_df)
-
-    # Performance Analysis
-    insights["refund_cancellation_analysis"] = refund_cancellation_analysis(order_df)
+    insights["cart_abandonment_rate"] = compute_cart_abandonment_rate(cart_df, order_df)
     insights["order_state_analysis"] = order_state_analysis(order_df)
-    insights["monthly_cancellation_refund_trends"] = monthly_cancellation_refund_trends(
-        order_df
-    )
 
-    # Year-over-year Analysis
-    insights["year_over_year_revenue"] = year_over_year_revenue(order_df)
-    insights["year_over_year_orders"] = year_over_year_orders(order_df)
-    insights["year_over_year_aov"] = year_over_year_aov(order_df)
-
-    # New metrics
-    insights["repeat_purchase_interval_days"] = repeat_purchase_interval(order_df)
+    # Customer Analytics
+    insights["rfm_analysis"] = rfm_analysis(order_df)
+    insights["customer_segmentation"] = customer_segmentation_by_value(order_df)
+    insights["customer_lifetime_value"] = calculate_clv(order_df)
+    insights["repeat_vs_one_time"] = repeat_vs_one_time_customers(order_df)
     insights["churn_rate"] = churn_rate(order_df)
-    insights["refined_clv"] = refined_clv(order_df)
+
+    # Revenue Analytics
+    insights["revenue_concentration"] = revenue_concentration(order_df)
+    insights["payment_methods"] = payment_method_analysis(order_df)
+    insights["country_analysis"] = country_analysis(order_df)
+    insights["refund_analysis"] = refund_cancellation_analysis(order_df)
+    insights["monthly_refund_trends"] = monthly_cancellation_refund_trends(order_df)
+
+    # Time-based Analytics
+    insights["revenue_over_time"] = compute_revenue_over_time(order_df, freq="M")
+    insights["revenue_growth"] = revenue_growth(order_df, freq="M")
+    insights["customer_count_trend"] = analyze_customer_count(order_df)
+    insights["cohort_retention"] = cohort_analysis(order_df)
+    insights["daily_patterns"] = day_of_week_analysis(order_df)
+    insights["hourly_patterns"] = hour_of_day_analysis(order_df)
+    insights["year_over_year"] = year_over_year_metrics(order_df)
 
     return insights
 
@@ -112,9 +88,7 @@ def save_to_csv(
 
     # Save summary data
     if summary_data:
-        summary_df = pd.DataFrame(
-            list(summary_data.items()), columns=["metric", "value"]
-        )
+        summary_df = pd.DataFrame(list(summary_data.items()), columns=["metric", "value"])
         summary_df.to_csv(os.path.join(output_dir, "summary.csv"), index=False)
 
 
