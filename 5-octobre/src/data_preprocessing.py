@@ -7,7 +7,9 @@ from pydantic import BaseModel, Field, validator
 from typing import Optional, List
 from decimal import Decimal
 
-sys.path.append("/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre")
+sys.path.append(
+    "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre"
+)
 from src.config import (
     PROCESSED_DATA_DIR,
     CLEANED_DATA_DIR,
@@ -62,6 +64,57 @@ class CartData(BaseModel):
         return v
 
 
+class InventoryData(BaseModel):
+    id: int
+    sfa: str
+    lib: str
+    ean: str
+    qty: int
+    factory_price: Decimal
+    retail: Decimal
+    retail_us: Decimal
+
+    @validator("qty")
+    def validate_qty(cls, v):
+        if not isinstance(v, int):
+            raise ValueError("Quantity must be an integer")
+        return v
+
+    @validator("factory_price", "retail", "retail_us")
+    def validate_prices(cls, v):
+        if v < 0:
+            raise ValueError("Price cannot be negative")
+        return v
+
+
+class RetailData(BaseModel):
+    date: datetime = Field(alias="Date")
+    ref: str = Field(alias="Ref")
+    libelle: str = Field(alias="Libellé")
+    customer: str = Field(alias="Cust")
+    quantity: int = Field(alias="Qté")
+    pv_ttc: Decimal = Field(alias="PV TTC")
+    ca_ttc: Decimal = Field(alias="CA TTC")
+
+    @validator("date")
+    def validate_date(cls, v):
+        if v > datetime.now():
+            raise ValueError("Date cannot be in the future")
+        return v
+
+    @validator("quantity")
+    def validate_quantity(cls, v):
+        if v <= 0:
+            raise ValueError("Quantity must be positive")
+        return v
+
+    @validator("pv_ttc", "ca_ttc")
+    def validate_amounts(cls, v):
+        if v < 0:
+            raise ValueError("Amount cannot be negative")
+        return v
+
+
 def standardize_column_names(df):
     """
     Standardize column names by stripping whitespace and possibly renaming columns
@@ -87,7 +140,14 @@ def clean_total_column(df, total_col="Total"):
             return np.nan
         if isinstance(x, str):
             # Remove currency symbols and various whitespace/formatting characters
-            cleaned = x.replace("€", "").replace("$", "").replace("£", "").replace("¥", "").replace("\xa0", "").replace(" ", "")
+            cleaned = (
+                x.replace("€", "")
+                .replace("$", "")
+                .replace("£", "")
+                .replace("¥", "")
+                .replace("\xa0", "")
+                .replace(" ", "")
+            )
             cleaned = cleaned.replace(",", ".")
             # Attempt float conversion
             try:
@@ -100,7 +160,9 @@ def clean_total_column(df, total_col="Total"):
     original_nonnull_count = df[total_col].notnull().sum()
     df[total_col] = df[total_col].apply(clean_amount)
     converted_nonnull_count = df[total_col].notnull().sum()
-    print(f"Converted {converted_nonnull_count}/{original_nonnull_count} non-null '{total_col}' values to float successfully.")
+    print(
+        f"Converted {converted_nonnull_count}/{original_nonnull_count} non-null '{total_col}' values to float successfully."
+    )
 
     return df
 
@@ -124,7 +186,9 @@ def convert_date_column(df, date_col="Date"):
     # Count invalid dates
     invalid_dates = df[date_col].isna().sum()
     if invalid_dates > 0:
-        print(f"Warning: {invalid_dates} rows have invalid or missing {date_col} and will be dropped.")
+        print(
+            f"Warning: {invalid_dates} rows have invalid or missing {date_col} and will be dropped."
+        )
         df = df.dropna(subset=[date_col])
 
     return df
@@ -187,7 +251,9 @@ def remove_abandoned_carts(df, id_col="ID commande", total_col="Total"):
     Logs how many rows were removed.
     """
     if id_col not in df.columns or total_col not in df.columns:
-        print("Warning: Cannot remove abandoned carts since required columns are missing.")
+        print(
+            "Warning: Cannot remove abandoned carts since required columns are missing."
+        )
         return df
 
     condition = (df[id_col] == "Panier abandonné") & (df[total_col] == 0)
@@ -210,7 +276,9 @@ def handle_missing_values(df, required_columns):
     final_count = df.shape[0]
     dropped = initial_count - final_count
     if dropped > 0:
-        print(f"Dropped {dropped} rows due to missing required columns: {required_columns}")
+        print(
+            f"Dropped {dropped} rows due to missing required columns: {required_columns}"
+        )
     return df
 
 
@@ -318,7 +386,9 @@ def check_data_quality(df, required_cols=None, numeric_cols=None, date_cols=None
                 Q1 = df[col].quantile(0.25)
                 Q3 = df[col].quantile(0.75)
                 IQR = Q3 - Q1
-                outliers = ((df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))).sum()
+                outliers = (
+                    (df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))
+                ).sum()
                 if outliers == 0:
                     checks_passed += 1
                 else:
@@ -347,71 +417,82 @@ def check_data_quality(df, required_cols=None, numeric_cols=None, date_cols=None
                         issues.append(f"Found {old_dates} dates before 2020 in {col}")
                 except Exception as e:
                     issues.append(f"Error processing dates in column {col}: {str(e)}")
-                    total_checks -= 2  # Subtract these checks since they couldn't be performed
+                    total_checks -= (
+                        2  # Subtract these checks since they couldn't be performed
+                    )
 
     quality_score = checks_passed / total_checks if total_checks > 0 else 0
     return quality_score, issues
+
+
+def preprocess_retail_data(df):
+    """
+    Preprocess retail dataset by cleaning currency values and dates
+    """
+    # Convert currency columns
+    currency_cols = ["PV TTC", "CA TTC"]
+    for col in currency_cols:
+        # Remove currency symbols and extract numeric values
+        df[col] = df[col].str.replace("€", "").str.replace("$", "")
+        df[col] = df[col].apply(lambda x: x.split("(")[0] if "(" in str(x) else x)
+        # Convert to float, replacing commas with periods
+        df[col] = df[col].str.replace(",", ".").astype(float)
+
+    # Convert Date column to datetime
+    df["Date"] = pd.to_datetime(df["Date"], format="%d %b %Y")
+
+    # Remove duplicates
+    df.drop_duplicates(inplace=True)
+
+    return df
+
+
+def preprocess_inventory_data(df):
+    """
+    Preprocess inventory dataset by cleaning currency values and standardizing column names
+    """
+    # Clean Factory Price column
+    df["Factory Price"] = df["Factory Price"].str.replace(",", ".").astype(float)
+
+    # Normalize column names to snake_case
+    df.columns = df.columns.str.lower().str.replace(" ", "_")
+
+    # Drop unnecessary columns
+    if "group_price" in df.columns:
+        df = df.drop(columns=["group_price"])
+
+    # Remove duplicates
+    df.drop_duplicates(inplace=True)
+
+    return df
 
 
 def preprocess_data():
     """
     Main preprocessing function with enhanced validation and quality checks
     """
+    # Load both retail and inventory data
     cart_path = os.path.join(PROCESSED_DATA_DIR, CART_FILENAME)
     order_path = os.path.join(PROCESSED_DATA_DIR, ORDER_FILENAME)
+    inventory_path = os.path.join(PROCESSED_DATA_DIR, "inventory.csv")
+    retail_path = os.path.join(PROCESSED_DATA_DIR, "retail.csv")
 
     cart_df = load_data(cart_path)
     order_df = load_data(order_path)
+    inventory_df = load_data(inventory_path)
+    retail_df = load_data(retail_path)
 
-    if cart_df is None or order_df is None:
+    if any(df is None for df in [cart_df, order_df, inventory_df, retail_df]):
         print("Data loading failed. Cannot proceed with preprocessing.")
         return
 
-    # Standardize columns
-    cart_df = standardize_column_names(cart_df)
-    order_df = standardize_column_names(order_df)
+    # Process retail data
+    retail_df = preprocess_retail_data(retail_df)
 
-    # Clean Total columns
-    cart_df = clean_total_column(cart_df, total_col="Total")
-    order_df = clean_total_column(order_df, total_col="Total")
+    # Process inventory data
+    inventory_df = preprocess_inventory_data(inventory_df)
 
-    # Validate data against schemas
-    print("\nValidating data schemas...")
-    try:
-        cart_valid, cart_error_records, cart_errors = validate_data_schema(cart_df, CartData, raise_errors=False)
-        order_valid, order_error_records, order_errors = validate_data_schema(order_df, OrderData, raise_errors=False)
-
-        if not cart_valid:
-            print(f"Cart data validation issues found: {len(cart_errors)} errors")
-            for error in cart_errors[:5]:  # Show first 5 errors
-                print(error)
-
-        if not order_valid:
-            print(f"Order data validation issues found: {len(order_errors)} errors")
-            for error in order_errors[:5]:  # Show first 5 errors
-                print(error)
-    except Exception as e:
-        print(f"Schema validation error: {e}")
-
-    # Perform data quality checks
-    print("\nPerforming data quality checks...")
-    cart_quality_score, cart_issues = check_data_quality(cart_df, required_cols=["ID commande", "Total", "Date"], numeric_cols=["Total"], date_cols=["Date"])
-
-    order_quality_score, order_issues = check_data_quality(order_df, required_cols=["id", "Total", "Date"], numeric_cols=["Total", "Nouveau client"], date_cols=["Date"])
-
-    print(f"\nCart data quality score: {cart_quality_score:.2%}")
-    if cart_issues:
-        print("Cart data issues found:")
-        for issue in cart_issues:
-            print(f"- {issue}")
-
-    print(f"\nOrder data quality score: {order_quality_score:.2%}")
-    if order_issues:
-        print("Order data issues found:")
-        for issue in order_issues:
-            print(f"- {issue}")
-
-    # Continue with existing preprocessing steps
+    # Continue with existing preprocessing steps for cart and order data
     cart_df = remove_abandoned_carts(cart_df, id_col="ID commande", total_col="Total")
     cart_df = convert_date_column(cart_df, date_col="Date")
     order_df = convert_date_column(order_df, date_col="Date")
@@ -427,14 +508,19 @@ def preprocess_data():
     if "id" in order_df.columns:
         order_df = remove_duplicates(order_df, subset_cols=["id", "Date"])
 
-    # Save cleaned data
     try:
+        # Save all cleaned datasets
         cleaned_cart_path = os.path.join(CLEANED_DATA_DIR, CART_FILENAME)
         cleaned_order_path = os.path.join(CLEANED_DATA_DIR, ORDER_FILENAME)
+        cleaned_inventory_path = os.path.join(CLEANED_DATA_DIR, "inventory.csv")
+        cleaned_retail_path = os.path.join(CLEANED_DATA_DIR, "retail.csv")
 
         save_data(cart_df, cleaned_cart_path)
         save_data(order_df, cleaned_order_path)
-        return cart_df, order_df
+        save_data(inventory_df, cleaned_inventory_path)
+        save_data(retail_df, cleaned_retail_path)
+
+        return cart_df, order_df, inventory_df, retail_df
     except Exception as e:
         print(f"Error saving cleaned data: {e}")
         return None
