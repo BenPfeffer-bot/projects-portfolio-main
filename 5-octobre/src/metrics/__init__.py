@@ -14,7 +14,7 @@ from .customer_analytics import (
     rfm_analysis,
     customer_segmentation_by_value,
     calculate_clv,
-    repeat_vs_one_time_customers,
+    analyze_customer_behavior,
     churn_rate,
 )
 

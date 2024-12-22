@@ -1,0 +1,10 @@
+Paiement,total_revenue,avg_order_value,order_count
+Card via Stripe,753718.0,612.7788617886179,1230
+Alma - Paiement en 3 fois,57570.0,899.53125,64
+Transfert bancaire,33249.0,810.9512195121952,41
+Bank transfer,8942.0,638.7142857142857,14
+Alma - 3 monthly installments,2740.0,913.3333333333334,3
+Module de paiement Stripe,1420.0,473.3333333333333,3
+Alma - Paiement en 1 fois,1310.0,655.0,2
+Alma - Paiement en 4 fois,1260.0,630.0,2
+"1x 2x 3x 4x, J+15 ou J+30 Alma — Paiement en plusieurs fois et différé",770.0,770.0,1

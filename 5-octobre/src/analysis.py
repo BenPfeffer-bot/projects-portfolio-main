@@ -1,8 +1,13 @@
 import sys
 
 
-sys.path.append("/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre")
-
+sys.path.append(
+    "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre"
+)
+from src.metrics.basic_metrics import *
+from src.metrics.customer_analytics import *
+from src.metrics.revenue_analytics import *
+from src.metrics.time_analytics import *
 from src.data_preprocessing import preprocess_data
 import os
 import pandas as pd
@@ -26,7 +31,7 @@ def run_analysis(cart_df, order_df):
     insights["rfm_analysis"] = rfm_analysis(order_df)
     insights["customer_segmentation"] = customer_segmentation_by_value(order_df)
     insights["customer_lifetime_value"] = calculate_clv(order_df)
-    insights["repeat_vs_one_time"] = repeat_vs_one_time_customers(order_df)
+    insights["repeat_vs_one_time"] = analyze_customer_behavior(order_df)
     insights["churn_rate"] = churn_rate(order_df)
 
     # Revenue Analytics
@@ -44,6 +49,10 @@ def run_analysis(cart_df, order_df):
     insights["daily_patterns"] = day_of_week_analysis(order_df)
     insights["hourly_patterns"] = hour_of_day_analysis(order_df)
     insights["year_over_year"] = year_over_year_metrics(order_df)
+
+    # TODO: Add Web Analytics
+
+    # TODO: Add Products analytics & Pricing analysis
 
     return insights
 
@@ -88,7 +97,9 @@ def save_to_csv(
 
     # Save summary data
     if summary_data:
-        summary_df = pd.DataFrame(list(summary_data.items()), columns=["metric", "value"])
+        summary_df = pd.DataFrame(
+            list(summary_data.items()), columns=["metric", "value"]
+        )
         summary_df.to_csv(os.path.join(output_dir, "summary.csv"), index=False)
 
 
