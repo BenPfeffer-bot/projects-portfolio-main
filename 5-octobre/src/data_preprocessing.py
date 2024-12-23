@@ -15,6 +15,8 @@ from src.config import (
     CLEANED_DATA_DIR,
     CART_FILENAME,
     ORDER_FILENAME,
+    INVENTORY_FILENAME,
+    RETAIL_FILENAME,
 )
 
 
@@ -298,30 +300,28 @@ def remove_duplicates(df, subset_cols):
 
 def load_data(file_path):
     """
-    Load CSV data from a specified file path.
-    Handles various common errors.
+    Load data from CSV file with proper error handling
     """
     try:
-        df = pd.read_csv(file_path, encoding="utf-8", low_memory=False)
+        if "savs.csv" in file_path:  # For retail data
+            df = pd.read_csv(file_path)
+        else:
+            df = pd.read_csv(file_path, delimiter=";")
         return df
-    except FileNotFoundError:
-        print(f"File not found: {file_path}")
-    except pd.errors.EmptyDataError:
-        print(f"No data: {file_path} is empty.")
     except Exception as e:
-        print(f"Error loading file {file_path}: {e}")
-    return None
+        print(f"Error loading data from {file_path}: {e}")
+        return None
 
 
 def save_data(df, file_path):
     """
-    Save a dataframe to a CSV file at the specified file path.
+    Save DataFrame to CSV with proper error handling
     """
     try:
         df.to_csv(file_path, index=False)
-        print(f"Data saved to: {file_path}")
+        print(f"Successfully saved data to {file_path}")
     except Exception as e:
-        print(f"Error saving file {file_path}: {e}")
+        print(f"Error saving data to {file_path}: {e}")
 
 
 def validate_data_schema(df, model_class, raise_errors=True):
@@ -471,11 +471,11 @@ def preprocess_data():
     """
     Main preprocessing function with enhanced validation and quality checks
     """
-    # Load both retail and inventory data
+    # Load all data files
     cart_path = os.path.join(PROCESSED_DATA_DIR, CART_FILENAME)
     order_path = os.path.join(PROCESSED_DATA_DIR, ORDER_FILENAME)
-    inventory_path = os.path.join(PROCESSED_DATA_DIR, "inventory.csv")
-    retail_path = os.path.join(PROCESSED_DATA_DIR, "retail.csv")
+    inventory_path = os.path.join(PROCESSED_DATA_DIR, INVENTORY_FILENAME)
+    retail_path = os.path.join(PROCESSED_DATA_DIR, RETAIL_FILENAME)
 
     cart_df = load_data(cart_path)
     order_df = load_data(order_path)
@@ -487,12 +487,20 @@ def preprocess_data():
         return
 
     # Process retail data
+    retail_df = standardize_column_names(retail_df)
     retail_df = preprocess_retail_data(retail_df)
+    retail_df = handle_missing_values(retail_df, ["Date", "PV TTC", "CA TTC"])
+    retail_df = remove_duplicates(retail_df)
 
     # Process inventory data
+    inventory_df = standardize_column_names(inventory_df)
     inventory_df = preprocess_inventory_data(inventory_df)
+    inventory_df = handle_missing_values(
+        inventory_df, ["id", "factory_price", "retail"]
+    )
+    inventory_df = remove_duplicates(inventory_df)
 
-    # Continue with existing preprocessing steps for cart and order data
+    # Process cart and order data
     cart_df = remove_abandoned_carts(cart_df, id_col="ID commande", total_col="Total")
     cart_df = convert_date_column(cart_df, date_col="Date")
     order_df = convert_date_column(order_df, date_col="Date")
@@ -500,20 +508,20 @@ def preprocess_data():
     order_df = remove_specific_clients(order_df, client_col="Client")
     order_df = remove_old_orders(order_df, date_col="Date", cutoff_date="2021-03-31")
 
+    # Handle missing values
     cart_df = handle_missing_values(cart_df, ["ID commande", "Total", "Date"])
     order_df = handle_missing_values(order_df, ["id", "Total", "Date"])
 
-    if "ID commande" in cart_df.columns:
-        cart_df = remove_duplicates(cart_df, subset_cols=["ID commande", "Date"])
-    if "id" in order_df.columns:
-        order_df = remove_duplicates(order_df, subset_cols=["id", "Date"])
+    # Remove duplicates
+    cart_df = remove_duplicates(cart_df, subset_cols=["ID commande", "Date"])
+    order_df = remove_duplicates(order_df, subset_cols=["id", "Date"])
 
     try:
         # Save all cleaned datasets
         cleaned_cart_path = os.path.join(CLEANED_DATA_DIR, CART_FILENAME)
         cleaned_order_path = os.path.join(CLEANED_DATA_DIR, ORDER_FILENAME)
-        cleaned_inventory_path = os.path.join(CLEANED_DATA_DIR, "inventory.csv")
-        cleaned_retail_path = os.path.join(CLEANED_DATA_DIR, "retail.csv")
+        cleaned_inventory_path = os.path.join(CLEANED_DATA_DIR, INVENTORY_FILENAME)
+        cleaned_retail_path = os.path.join(CLEANED_DATA_DIR, RETAIL_FILENAME)
 
         save_data(cart_df, cleaned_cart_path)
         save_data(order_df, cleaned_order_path)

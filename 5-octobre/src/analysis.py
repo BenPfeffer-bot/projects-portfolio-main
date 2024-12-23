@@ -8,15 +8,30 @@ from src.metrics.basic_metrics import *
 from src.metrics.customer_analytics import *
 from src.metrics.revenue_analytics import *
 from src.metrics.time_analytics import *
+from src.metrics.performance_analytics import (
+    margins,
+    gross_margin_rate,
+    calculate_inventory_metrics,
+    enrich_retail_data,
+    product_profitability_analysis,
+    abc_inventory_analysis,
+    calculate_stock_recommendations,
+    analyze_product_movement,
+)
 from src.data_preprocessing import preprocess_data
 import os
 import pandas as pd
 
 
-def run_analysis(cart_df, order_df):
+def run_analysis(cart_df, order_df, inventory_df=None):
     """
     Run a series of analyses on the provided cart and order dataframes and return insights as a dictionary.
-    Organizes metrics by category: basic, customer, revenue, and time-based analytics.
+    Organizes metrics by category: basic, customer, revenue, time-based analytics, and performance metrics.
+
+    Args:
+        cart_df: DataFrame containing cart data
+        order_df: DataFrame containing order data
+        inventory_df: DataFrame containing inventory data (optional)
     """
     insights = {}
 
@@ -50,9 +65,45 @@ def run_analysis(cart_df, order_df):
     insights["hourly_patterns"] = hour_of_day_analysis(order_df)
     insights["year_over_year"] = year_over_year_metrics(order_df)
 
-    # TODO: Add Web Analytics
+    # Performance and Inventory Analytics (if inventory data is available)
+    if inventory_df is not None:
+        # Enrich retail data with inventory information
+        enriched_retail = enrich_retail_data(order_df, inventory_df)
 
-    # TODO: Add Products analytics & Pricing analysis
+        # Margin Analysis
+        insights["margins"] = margins(enriched_retail)
+        insights["margin_analysis"], insights["margin_stats"] = gross_margin_rate(
+            enriched_retail, groupby="Ref", time_freq="M"
+        )
+
+        # Product Performance Analysis
+        insights["product_metrics"], insights["product_stats"] = (
+            product_profitability_analysis(
+                order_df, inventory_df, period="M", min_sales=1
+            )
+        )
+
+        # Inventory Analysis
+        insights["inventory_metrics"] = calculate_inventory_metrics(
+            order_df, inventory_df, period="W"
+        )
+
+        # ABC Analysis
+        insights["abc_analysis"], insights["abc_stats"] = abc_inventory_analysis(
+            order_df, inventory_df, period="M"
+        )
+
+        # Stock Recommendations
+        insights["stock_recommendations"] = calculate_stock_recommendations(
+            order_df, inventory_df, period="D"
+        )
+
+        # Product Movement Analysis
+        insights["product_movement"], insights["movement_stats"] = (
+            analyze_product_movement(
+                order_df, inventory_df, analysis_period="M", stock_coverage_days=90
+            )
+        )
 
     return insights
 
@@ -104,6 +155,6 @@ def save_to_csv(
 
 
 if __name__ == "__main__":
-    cart_df, order_df = preprocess_data()
-    df = run_analysis(cart_df, order_df)
-    save_to_csv(df)
+    cart_df, order_df, inventory_df, retail_df = preprocess_data()
+    insights = run_analysis(cart_df, order_df, inventory_df)
+    save_to_csv(insights)

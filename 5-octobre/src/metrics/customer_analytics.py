@@ -14,6 +14,7 @@ from .utils import (
     parallelize_dataframe,
     batch_process,
 )
+from .performance_analytics import margins
 
 logger = logging.getLogger(__name__)
 
@@ -135,21 +136,54 @@ def calculate_clv(
     total_col: str = "Total",
     client_col: str = "Client",
     date_col: str = "Date",
+    cost_col: str = "factory_price",
+    price_col: str = "retail",
+    quantity_col: str = "qty",
     lifetime_months: int = 12,
 ) -> float:
     """
-    Calculate Customer Lifetime Value (CLV) using vectorized operations.
+    Calculate Customer Lifetime Value (CLV) using gross profit instead of revenue.
+    Uses margins per transaction for a more accurate profitability-based CLV.
+
+    Args:
+        order_df: DataFrame containing order data
+        total_col: Column name for total amount
+        client_col: Column name for client identifier
+        date_col: Column name for order date
+        cost_col: Column name for cost/factory price
+        price_col: Column name for retail price
+        quantity_col: Column name for quantity
+        lifetime_months: Number of months to project CLV
+
+    Returns:
+        float: Customer Lifetime Value based on gross profit
     """
-    if total_col not in order_df.columns or client_col not in order_df.columns:
+    required_cols = [client_col, cost_col, price_col, quantity_col]
+    if not all(col in order_df.columns for col in required_cols):
         logger.error("Required columns for CLV calculation not found")
         return np.nan
 
     try:
-        # Vectorized calculations
-        avg_order_value = order_df[total_col].mean()
-        purchase_frequency = order_df.groupby(client_col).size().mean()
-        clv = avg_order_value * purchase_frequency * lifetime_months
+        # Calculate gross profit per transaction using margins function
+        gross_profits = margins(
+            order_df, cost_col=cost_col, price_col=price_col, quantity_col=quantity_col
+        )
+
+        # Add gross profit to order DataFrame
+        order_df_with_margins = order_df.copy()
+        order_df_with_margins["gross_profit"] = gross_profits
+
+        # Calculate average profit per order
+        avg_order_profit = order_df_with_margins["gross_profit"].mean()
+
+        # Calculate purchase frequency (orders per customer)
+        purchase_frequency = order_df_with_margins.groupby(client_col).size().mean()
+
+        # Calculate CLV based on gross profit
+        clv = avg_order_profit * purchase_frequency * lifetime_months
+
         return clv
+
     except Exception as e:
         logger.error(f"Error calculating CLV: {e}")
         return np.nan
