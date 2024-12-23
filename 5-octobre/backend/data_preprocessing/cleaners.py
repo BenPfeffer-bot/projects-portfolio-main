@@ -1,5 +1,3 @@
-# my_project/backend/data_preprocessing/cleaners.py
-
 import pandas as pd
 import numpy as np
 from datetime import datetime

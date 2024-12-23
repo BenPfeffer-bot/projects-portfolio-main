@@ -18,11 +18,18 @@ def load_csv(file_path: str, delimiter: str = ";") -> Optional[pd.DataFrame]:
 
 def load_data(file_path: str) -> Optional[pd.DataFrame]:
     """
-    A more specialized loader that detects the file name and chooses
-    an appropriate delimiter or logic. For example, we might handle
-    'retail.csv' differently than the others.
+    Load data with proper encoding for French characters
     """
-    if "retail.csv" in os.path.basename(file_path).lower():
-        return load_csv(file_path, delimiter=",")
-    else:
-        return load_csv(file_path, delimiter=";")
+    try:
+        # Try UTF-8 first
+        df = pd.read_csv(file_path, encoding="utf-8")
+    except UnicodeDecodeError:
+        try:
+            # Fall back to Latin-1 encoding
+            df = pd.read_csv(file_path, encoding="latin-1")
+        except Exception as e:
+            print(f"[ERROR] Could not load file {file_path}: {e}")
+            return None
+
+    print(f"[INFO] Successfully loaded {file_path} with {len(df)} rows")
+    return df
