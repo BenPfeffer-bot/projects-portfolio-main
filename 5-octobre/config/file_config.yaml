@@ -1,0 +1,13 @@
+files:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+  cleaned_data_dir: data/cleaned
+  analysis_data_dir: data/analysis
+  output_data_dir: data/output
+  logs_dir: logs
+
+external_data:
+  retail_path: "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/data/processed/retail.csv"
+  cart_path: "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/data/processed/cart.csv"
+  order_path: "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/data/processed/order.csv"
+  inventory_path: "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/data/processed/inventory.csv"
