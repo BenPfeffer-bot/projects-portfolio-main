@@ -1,297 +1,87 @@
 id,order_id,customer,total_amount,carrier,order_date
-8183,Panier abandonné,,0.0,,2024-05-06 22:45:26
-8182,Panier abandonné,,0.0,,2024-05-06 22:33:58
-8181,Panier abandonné,,0.0,,2024-05-06 22:33:14
-8180,Panier abandonné,,0.0,,2024-05-06 22:18:28
-8179,Panier abandonné,,0.0,,2024-05-06 21:54:45
-8178,Panier abandonné,,0.0,,2024-05-06 21:45:17
 8177,Panier abandonné,,720.0,,2024-05-06 21:40:17
 8176,1232,L. Zourray,0.0,DHL,2024-05-06 20:38:47
-8175,Panier abandonné,,0.0,,2024-05-06 19:46:56
-8174,Panier abandonné,,0.0,,2024-05-06 19:44:08
-8173,Panier abandonné,,0.0,,2024-05-06 19:32:26
-8172,Panier abandonné,,0.0,,2024-05-06 19:27:32
-8171,Panier abandonné,,0.0,,2024-05-06 19:21:11
-8170,Panier abandonné,,0.0,,2024-05-06 19:20:47
-8169,Panier abandonné,,0.0,,2024-05-06 19:13:49
-8168,Panier abandonné,,0.0,,2024-05-06 19:12:15
-8167,Panier abandonné,,0.0,,2024-05-06 19:00:42
-8166,Panier abandonné,,0.0,,2024-05-06 18:44:41
-8165,Panier abandonné,,0.0,,2024-05-06 18:32:21
-8164,Panier abandonné,,0.0,,2024-05-06 18:31:41
-8163,Panier abandonné,,0.0,,2024-05-06 18:26:13
-8162,Panier abandonné,,0.0,,2024-05-06 18:01:36
-8161,Panier abandonné,,0.0,,2024-05-06 17:50:32
-8160,Panier abandonné,,0.0,,2024-05-06 17:25:08
-8159,Panier abandonné,,0.0,,2024-05-06 16:51:30
 8158,Panier abandonné,S. Naamneh,880.0,,2024-05-06 16:30:35
-8157,Panier abandonné,,0.0,,2024-05-06 15:46:57
-8156,Panier abandonné,,0.0,,2024-05-06 15:34:19
-8155,Panier abandonné,,0.0,,2024-05-06 15:13:49
-8154,Panier abandonné,,0.0,,2024-05-06 14:26:41
 8153,Panier abandonné,,7490.0,,2024-05-06 14:21:06
-8152,Panier abandonné,,0.0,,2024-05-06 14:05:18
-8151,Panier abandonné,,0.0,,2024-05-06 14:03:54
-8150,Panier abandonné,,0.0,,2024-05-06 13:54:53
 8149,Panier abandonné,,7935.0,,2024-05-06 13:50:24
-8148,Panier abandonné,,0.0,,2024-05-06 13:28:31
-8147,Panier abandonné,,0.0,,2024-05-06 12:56:06
 8146,Panier abandonné,Y. ALFONSI,2870.0,DHL,2024-05-06 12:32:15
-8145,Panier abandonné,,0.0,,2024-05-06 12:28:54
-8144,Panier abandonné,,0.0,,2024-05-06 11:41:47
 8143,Panier abandonné,,2150.0,,2024-05-06 10:38:24
-8142,Panier abandonné,,0.0,,2024-05-06 10:15:47
-8141,Panier abandonné,,0.0,,2024-05-06 09:24:50
-8140,Panier abandonné,,0.0,,2024-05-06 08:09:12
-8139,Panier abandonné,,0.0,,2024-05-06 07:07:20
-8138,Panier abandonné,,0.0,,2024-05-06 06:43:38
-8137,Panier abandonné,,0.0,,2024-05-06 06:15:48
-8136,Panier abandonné,,0.0,,2024-05-06 02:59:58
-8135,Panier abandonné,,0.0,,2024-05-06 02:53:29
-8134,Panier abandonné,,0.0,,2024-05-06 02:39:08
 8133,Panier abandonné,,1350.0,,2024-05-06 02:02:46
-8132,Panier abandonné,,0.0,,2024-05-06 01:37:37
 8131,Panier abandonné,,708.0,,2024-05-06 00:25:20
-8130,Panier abandonné,,0.0,,2024-05-06 00:19:56
-8129,Panier abandonné,,0.0,,2024-05-05 21:47:11
-8128,Panier abandonné,,0.0,,2024-05-05 21:33:23
-8127,Panier abandonné,,0.0,,2024-05-05 20:56:27
-8126,Panier abandonné,,0.0,,2024-05-05 20:33:33
-8125,Panier abandonné,,0.0,,2024-05-05 20:21:50
-8124,Panier abandonné,,0.0,,2024-05-05 20:12:21
-8123,Panier abandonné,,0.0,,2024-05-05 19:57:03
 8122,Panier abandonné,,740.0,,2024-05-05 19:03:22
-8121,Panier abandonné,,0.0,,2024-05-05 18:51:18
-8120,Panier abandonné,,0.0,,2024-05-05 18:50:30
-8119,Panier abandonné,,0.0,,2024-05-05 17:12:05
-8118,Panier abandonné,,0.0,,2024-05-05 15:29:45
-8117,Panier abandonné,,0.0,,2024-05-05 15:09:57
-8116,Panier abandonné,,0.0,,2024-05-05 13:08:12
-8115,Panier abandonné,L. Zourray,0.0,,2024-05-05 13:01:15
 8114,Panier abandonné,,1840.0,,2024-05-05 11:44:24
-8113,Panier abandonné,,0.0,,2024-05-05 11:14:51
 8112,1231,J. Petersen,255.0,DHL,2024-05-05 07:18:19
-8111,Panier abandonné,,0.0,,2024-05-05 04:11:41
-8110,Panier abandonné,,0.0,,2024-05-05 02:04:29
-8109,Panier abandonné,,0.0,,2024-05-05 01:39:56
 8108,Panier abandonné,,1188.0,,2024-05-05 00:49:53
-8107,Panier abandonné,,0.0,,2024-05-05 00:48:08
-8106,Panier abandonné,,0.0,,2024-05-05 00:13:14
-8105,Panier abandonné,,0.0,,2024-05-04 22:36:17
-8104,Panier abandonné,,0.0,,2024-05-04 22:36:06
-8103,Panier abandonné,,0.0,,2024-05-04 22:13:13
-8102,Panier abandonné,,0.0,,2024-05-04 22:12:04
-8101,Panier abandonné,,0.0,,2024-05-04 20:46:44
-8100,Panier abandonné,,0.0,,2024-05-04 20:34:58
 8099,Panier abandonné,,680.0,,2024-05-04 20:28:12
-8098,Panier abandonné,,0.0,,2024-05-04 20:16:37
-8097,Panier abandonné,,0.0,,2024-05-04 18:31:51
 8096,Panier abandonné,,1220.0,,2024-05-04 17:34:44
 8095,Panier abandonné,,730.0,,2024-05-04 17:25:07
 8094,Panier abandonné,G. Bouaud,3010.0,,2024-05-04 17:05:52
-8093,Panier abandonné,,0.0,,2024-05-04 15:11:23
-8092,Panier abandonné,,0.0,,2024-05-04 12:12:44
 8091,1230,G. Andre,285.0,DHL,2024-05-04 10:45:42
 8090,Panier abandonné,,770.0,,2024-05-04 08:48:59
-8089,Panier abandonné,,0.0,,2024-05-04 06:06:02
-8088,Panier abandonné,,0.0,,2024-05-04 04:02:35
-8087,Panier abandonné,,0.0,,2024-05-04 02:15:20
-8086,Panier abandonné,,0.0,,2024-05-04 00:36:48
-8085,Panier abandonné,,0.0,,2024-05-04 00:27:42
 8084,Panier abandonné,,420.0,,2024-05-04 00:06:55
-8083,Panier abandonné,,0.0,,2024-05-03 22:32:53
 8082,Panier abandonné,,7260.0,,2024-05-03 22:24:39
-8081,Panier abandonné,,0.0,,2024-05-03 22:14:06
-8080,Panier abandonné,,0.0,,2024-05-03 21:38:09
-8079,Panier abandonné,,0.0,,2024-05-03 21:32:55
-8078,Panier abandonné,,0.0,,2024-05-03 19:48:23
-8077,Panier abandonné,,0.0,,2024-05-03 18:07:07
-8076,Panier abandonné,,0.0,,2024-05-03 17:59:04
-8075,Panier abandonné,,0.0,,2024-05-03 17:52:32
-8071,Panier abandonné,,0.0,,2024-05-03 15:58:21
-8070,Panier abandonné,,0.0,,2024-05-03 12:22:50
 8069,Panier abandonné,L. DUVAL,1780.0,DHL,2024-05-03 11:55:56
-8068,Panier abandonné,,0.0,,2024-05-03 10:52:16
-8067,Panier abandonné,,0.0,,2024-05-03 06:18:22
-8066,Panier abandonné,,0.0,,2024-05-03 04:59:10
-8065,Panier abandonné,,0.0,,2024-05-03 04:25:50
-8064,Panier abandonné,,0.0,,2024-05-03 01:10:02
-8063,Panier abandonné,,0.0,,2024-05-03 01:07:37
-8062,Panier abandonné,,0.0,,2024-05-02 23:32:16
-8061,Panier abandonné,,0.0,,2024-05-02 23:26:39
-8060,Panier abandonné,,0.0,,2024-05-02 22:18:36
-8059,Panier abandonné,,0.0,,2024-05-02 21:24:16
-8058,Panier abandonné,,0.0,,2024-05-02 18:35:45
-8057,Panier abandonné,,0.0,,2024-05-02 18:33:23
 8056,Panier abandonné,,1610.0,,2024-05-02 18:02:47
-8055,Panier abandonné,,0.0,,2024-05-02 17:29:55
-8054,Panier abandonné,,0.0,,2024-05-02 15:47:47
-8053,Panier abandonné,,0.0,,2024-05-02 14:45:57
 8052,Panier abandonné,S. Lalardie,250.0,DHL,2024-05-02 13:51:36
-8051,Panier abandonné,,0.0,,2024-05-02 08:25:03
-8050,Panier abandonné,,0.0,,2024-05-02 07:15:26
-8049,Panier abandonné,,0.0,,2024-05-02 06:19:07
 8048,Panier abandonné,,444.0,,2024-05-02 05:56:01
 8047,Panier abandonné,,612.0,,2024-05-02 05:55:46
-8046,Panier abandonné,,0.0,,2024-05-02 05:47:24
-8045,Panier abandonné,,0.0,,2024-05-02 04:55:12
-8044,Panier abandonné,,0.0,,2024-05-02 03:07:26
-8043,Panier abandonné,,0.0,,2024-05-02 02:44:14
-8042,Panier abandonné,,0.0,,2024-05-02 02:38:11
-8041,Panier abandonné,,0.0,,2024-05-02 00:51:04
-8040,Panier abandonné,,0.0,,2024-05-02 00:43:35
 8039,Panier abandonné,,1830.0,,2024-05-01 22:54:25
-8038,Panier abandonné,,0.0,,2024-05-01 22:38:56
-8037,Panier abandonné,,0.0,,2024-05-01 21:46:44
 8036,Panier abandonné,,1650.0,,2024-05-01 21:27:59
 8035,Panier abandonné,,190.0,,2024-05-01 19:40:33
-8034,Panier abandonné,,0.0,,2024-05-01 19:34:16
 8033,Panier abandonné,,180.0,,2024-05-01 18:51:23
-8032,Panier abandonné,,0.0,,2024-05-01 18:49:54
-8031,Panier abandonné,,0.0,,2024-05-01 16:22:36
 8030,1228,C. Peuchant,1490.0,DHL,2024-05-01 13:36:32
-8029,Panier abandonné,,0.0,,2024-05-01 11:20:41
 8028,Panier abandonné,,6075.0,,2024-05-01 10:50:11
-8027,Panier abandonné,,0.0,,2024-05-01 09:02:04
 8026,Panier abandonné,,570.0,,2024-05-01 08:35:29
-8025,Panier abandonné,,0.0,,2024-05-01 06:31:41
-8024,Panier abandonné,,0.0,,2024-05-01 05:38:23
-8023,Panier abandonné,,0.0,,2024-05-01 04:25:39
-8022,Panier abandonné,,0.0,,2024-05-01 02:41:56
-8021,Panier abandonné,,0.0,,2024-05-01 02:32:36
-8020,Panier abandonné,,0.0,,2024-05-01 02:20:04
-8019,Panier abandonné,,0.0,,2024-04-30 23:18:42
-8018,Panier abandonné,,0.0,,2024-04-30 22:54:33
 8017,Panier abandonné,,650.0,,2024-04-30 22:46:02
-8016,Panier abandonné,,0.0,,2024-04-30 22:34:38
-8015,Panier abandonné,,0.0,,2024-04-30 21:53:12
-8014,Panier abandonné,,0.0,,2024-04-30 20:30:31
-8013,Panier abandonné,,0.0,,2024-04-30 20:19:37
 8012,1227,A. Derain,580.0,DHL,2024-04-30 19:53:47
-8011,Panier abandonné,,0.0,,2024-04-30 19:43:30
-8010,Panier abandonné,,0.0,,2024-04-30 18:41:02
 8009,Panier abandonné,,550.0,,2024-04-30 18:16:54
-8008,Panier abandonné,,0.0,,2024-04-30 15:56:15
-8007,Panier abandonné,,0.0,,2024-04-30 15:34:45
-8006,Panier abandonné,,0.0,,2024-04-30 15:11:51
-8005,Panier abandonné,,0.0,,2024-04-30 14:59:11
-8004,Panier abandonné,,0.0,,2024-04-30 13:13:36
-8003,Panier abandonné,,0.0,,2024-04-30 12:32:19
 8002,Panier abandonné,,320.0,,2024-04-30 11:44:56
 8001,Panier abandonné,G. Molina ,260.0,DHL,2024-04-30 09:44:07
-8000,Panier abandonné,,0.0,,2024-04-30 08:44:53
 7999,Panier abandonné,,340.0,,2024-04-30 08:12:39
-7998,Panier abandonné,,0.0,,2024-04-30 08:00:38
-7997,Panier abandonné,,0.0,,2024-04-30 05:02:31
-7996,Panier abandonné,,0.0,,2024-04-30 02:35:03
-7995,Panier abandonné,,0.0,,2024-04-30 01:57:13
 7994,Panier abandonné,,280.0,,2024-04-30 00:17:34
-7993,Panier abandonné,,0.0,,2024-04-29 23:23:29
-7992,Panier abandonné,G. Molina ,0.0,,2024-04-29 22:29:46
-7991,Panier abandonné,,0.0,,2024-04-29 22:21:50
-7990,Panier abandonné,,0.0,,2024-04-29 21:39:44
-7989,Panier abandonné,,0.0,,2024-04-29 21:39:03
-7988,Panier abandonné,,0.0,,2024-04-29 21:24:10
 7987,Panier abandonné,,1690.0,,2024-04-29 21:13:08
-7986,Panier abandonné,,0.0,,2024-04-29 21:03:34
 7985,Panier abandonné,,740.0,,2024-04-29 17:56:00
 7984,Panier abandonné,,9200.0,,2024-04-29 17:50:16
 7983,Panier abandonné,,2670.0,,2024-04-29 17:35:48
-7982,Panier abandonné,,0.0,,2024-04-29 16:47:13
 7981,Panier abandonné,,1610.0,,2024-04-29 15:11:34
-7980,Panier abandonné,,0.0,,2024-04-29 14:26:20
 7979,Panier abandonné,,660.0,,2024-04-29 13:23:42
-7978,Panier abandonné,,0.0,,2024-04-29 12:09:57
-7977,Panier abandonné,,0.0,,2024-04-29 12:05:52
-7976,Panier abandonné,,0.0,,2024-04-29 05:20:15
-7975,Panier abandonné,,0.0,,2024-04-29 02:12:45
 7974,Panier abandonné,,590.0,,2024-04-29 00:07:35
 7973,Panier abandonné,,860.0,,2024-04-28 22:44:08
 7972,Panier abandonné,,2790.0,,2024-04-28 21:49:25
-7971,Panier abandonné,,0.0,,2024-04-28 20:47:01
-7970,Panier abandonné,,0.0,,2024-04-28 20:23:53
-7969,Panier abandonné,,0.0,,2024-04-28 19:04:04
-7968,Panier abandonné,,0.0,,2024-04-28 18:51:48
 7967,Panier abandonné,,260.0,,2024-04-28 18:08:07
 7966,Panier abandonné,,2090.0,,2024-04-28 16:27:14
-7965,Panier abandonné,,0.0,,2024-04-28 15:17:28
-7964,Panier abandonné,,0.0,,2024-04-28 14:15:50
 7963,Panier abandonné,,680.0,,2024-04-28 13:23:17
-7962,Panier abandonné,G. Molina ,0.0,,2024-04-28 11:36:38
 7961,Panier abandonné,,2040.0,,2024-04-28 11:34:52
 7960,Panier abandonné,A. Marzal Alfaro,1090.0,DHL,2024-04-28 11:03:00
 7959,1226,F. Groves-Raines,270.0,DHL,2024-04-28 10:04:21
-7958,Panier abandonné,,0.0,,2024-04-28 09:14:04
-7957,Panier abandonné,,0.0,,2024-04-28 05:15:16
 7956,Panier abandonné,,720.0,,2024-04-28 00:02:40
 7955,Panier abandonné,,270.0,,2024-04-28 00:01:42
 7954,Panier abandonné,,4500.0,,2024-04-27 22:56:01
-7953,Panier abandonné,,0.0,,2024-04-27 22:32:56
-7952,Panier abandonné,,0.0,,2024-04-27 21:35:31
 7951,Panier abandonné,,1050.0,,2024-04-27 21:06:21
 7950,1229,A. Jodal,190.0,DHL,2024-04-27 21:02:17
-7949,Panier abandonné,,0.0,,2024-04-27 21:00:25
-7948,Panier abandonné,,0.0,,2024-04-27 19:44:07
 7947,Panier abandonné,,260.0,,2024-04-27 19:33:00
-7946,Panier abandonné,,0.0,,2024-04-27 18:19:57
-7945,Panier abandonné,,0.0,,2024-04-27 16:58:57
-7944,Panier abandonné,,0.0,,2024-04-27 13:51:41
 7943,1225,S. Oeschger-Delautre,350.0,DHL,2024-04-27 13:04:20
-7942,Panier abandonné,,0.0,,2024-04-27 09:40:54
-7941,Panier abandonné,,0.0,,2024-04-27 01:04:17
-7940,Panier abandonné,,0.0,,2024-04-27 00:46:51
-7939,Panier abandonné,,0.0,,2024-04-26 22:18:14
 7938,1224,B. Mathias,1070.0,DHL,2024-04-26 19:16:56
 7937,Panier abandonné,,1820.0,,2024-04-26 16:53:31
 7936,Panier abandonné,,380.0,,2024-04-26 15:49:38
-7935,Panier abandonné,,0.0,,2024-04-26 15:02:06
-7934,Panier abandonné,,0.0,,2024-04-26 14:28:59
-7933,Panier abandonné,,0.0,,2024-04-26 14:00:21
 7932,Panier abandonné,,888.0,,2024-04-26 10:07:59
 7931,Panier abandonné,,650.0,,2024-04-26 08:48:00
-7930,Panier abandonné,,0.0,,2024-04-26 03:07:27
-7929,Panier abandonné,,0.0,,2024-04-26 00:40:01
-7928,Panier abandonné,,0.0,,2024-04-25 22:29:42
-7927,Panier abandonné,J. BARRÈS,0.0,,2024-04-25 21:08:39
 7926,Panier abandonné,,260.0,,2024-04-25 21:05:13
 7925,Panier abandonné,M. Venethong,350.0,DHL,2024-04-25 20:08:24
-7924,Panier abandonné,,0.0,,2024-04-25 19:57:36
-7923,Panier abandonné,,0.0,,2024-04-25 19:40:39
 7922,Panier abandonné,t. test,630.0,CLICK AND COLLECT ,2024-04-25 19:04:10
-7921,Panier abandonné,,0.0,,2024-04-25 18:19:36
-7920,Panier abandonné,,0.0,,2024-04-25 16:50:25
-7918,Panier abandonné,,0.0,,2024-04-25 07:50:48
-7917,Panier abandonné,,0.0,,2024-04-24 23:53:10
 7916,Panier abandonné,,380.0,,2024-04-24 22:14:52
-7915,Panier abandonné,,0.0,,2024-04-24 21:42:23
 7914,Panier abandonné,,260.0,,2024-04-24 21:33:39
-7913,Panier abandonné,,0.0,,2024-04-24 20:33:33
-7912,Panier abandonné,,0.0,,2024-04-24 20:19:37
-7911,Panier abandonné,,0.0,,2024-04-24 20:10:21
-7910,Panier abandonné,,0.0,,2024-04-24 19:03:41
-7909,Panier abandonné,,0.0,,2024-04-24 18:46:46
-7908,Panier abandonné,,0.0,,2024-04-24 17:55:15
 7907,Panier abandonné,,580.0,,2024-04-24 17:11:54
-7906,Panier abandonné,,0.0,,2024-04-24 16:25:15
 7905,Panier abandonné,,270.0,,2024-04-24 16:04:45
-7904,Panier abandonné,L. Pfeffer,0.0,,2024-04-24 15:38:16
-7903,Panier abandonné,L. Pfeffer,0.0,,2024-04-24 15:36:41
-7902,Panier abandonné,,0.0,,2024-04-24 15:27:47
-7901,Panier abandonné,,0.0,,2024-04-24 14:30:34
 7900,Panier abandonné,,7476.0,,2024-04-24 14:01:48
-7899,Panier abandonné,,0.0,,2024-04-24 13:59:53
-7898,Panier abandonné,,0.0,,2024-04-24 13:12:32
 7897,Panier abandonné,,240.0,,2024-04-24 11:23:49
-7896,Panier abandonné,,0.0,,2024-04-24 06:51:43
 7895,Panier abandonné,,190.0,,2024-04-23 23:47:05
-7894,Panier abandonné,,0.0,,2024-04-23 22:13:00
 7893,Panier abandonné,,830.0,,2024-04-23 21:56:20
 7892,Panier abandonné,,220.0,,2024-04-23 16:07:46
 7891,Panier abandonné,M. Vincent,2670.0,,2024-04-23 15:17:14
 7890,1221,c. lemarquand,490.0,DHL,2024-04-23 14:06:55
 7885,Panier abandonné,,260.0,,2024-04-22 23:33:20
 7883,Panier abandonné,,6220.0,,2024-04-22 18:50:38
-7882,Panier abandonné,I. Benetti ,0.0,,2024-04-22 15:11:59
 7881,1223,L. Rouxeville,270.0,DHL,2024-04-22 12:49:57
 7879,Panier abandonné,H. Marteau,875.0,,2024-04-21 18:38:20
 7878,Panier abandonné,,325.0,,2024-04-21 18:37:24
@@ -299,49 +89,31 @@ id,order_id,customer,total_amount,carrier,order_date
 7873,Panier abandonné,,610.0,,2024-04-21 16:14:43
 7872,Panier abandonné,,350.0,,2024-04-21 16:14:38
 7870,Panier abandonné,,540.0,,2024-04-21 15:56:21
-7869,Panier abandonné,C. Morin,0.0,,2024-04-21 13:56:06
 7868,Panier abandonné,S. LEYDIE,180.0,,2024-04-21 13:50:58
 7867,1220,S. LEYDIE,320.0,DHL,2024-04-21 13:23:01
 7864,Panier abandonné,A. Jacob,510.0,DHL,2024-04-20 22:31:44
 7863,Panier abandonné,,1120.0,,2024-04-20 19:33:25
 7862,Panier abandonné,,1930.0,,2024-04-20 19:17:32
-7861,Panier abandonné,,0.0,,2024-04-20 17:54:16
 7860,Panier abandonné,J. straus,390.0,DHL,2024-04-20 17:53:44
 7859,Panier abandonné,,468.0,,2024-04-20 17:50:59
 7858,Panier abandonné,,27140.0,,2024-04-20 17:49:41
 7857,Panier abandonné,,7044.0,,2024-04-20 15:11:34
-7856,Panier abandonné,,0.0,,2024-04-20 10:41:05
-7855,Panier abandonné,,0.0,,2024-04-20 09:18:28
-7854,Panier abandonné,,0.0,,2024-04-20 01:11:08
 7853,Panier abandonné,,1500.0,,2024-04-20 00:25:37
 7852,1219,L. Calvi,0.0,DHL,2024-04-19 20:03:33
-7851,Panier abandonné,,0.0,,2024-04-19 18:43:24
-7850,Panier abandonné,,0.0,,2024-04-19 18:13:39
-7849,Panier abandonné,,0.0,,2024-04-19 18:03:44
 7848,Panier abandonné,,720.0,,2024-04-19 12:17:15
 7847,Panier abandonné,,1100.0,,2024-04-19 11:42:53
 7846,Panier abandonné,,1572.0,,2024-04-19 07:20:15
-7845,Panier abandonné,,0.0,,2024-04-19 05:54:02
-7844,Panier abandonné,,0.0,,2024-04-19 05:04:23
-7843,Panier abandonné,,0.0,,2024-04-18 23:58:51
-7842,Panier abandonné,,0.0,,2024-04-18 23:11:41
 7841,Panier abandonné,,830.0,,2024-04-18 16:57:05
 7840,1218,J. BARRÈS,220.0,DHL,2024-04-18 13:59:40
 7839,Panier abandonné,,900.0,,2024-04-18 11:31:12
-7838,Panier abandonné,,0.0,,2024-04-18 10:09:06
-7837,Panier abandonné,,0.0,,2024-04-18 09:52:04
 7836,Panier abandonné,,500.0,,2024-04-18 08:37:56
-7835,Panier abandonné,,0.0,,2024-04-18 06:13:13
-7834,Panier abandonné,,0.0,,2024-04-18 03:36:53
 7833,Panier abandonné,,420.0,,2024-04-17 22:45:40
 7832,Panier abandonné,,3700.0,,2024-04-17 20:51:18
 7831,Panier abandonné,,330.0,,2024-04-17 20:42:16
 7830,1217,A. Bourland,360.0,CLICK AND COLLECT ,2024-04-17 15:47:22
 7829,Panier abandonné,,360.0,,2024-04-17 15:47:05
 7828,Panier abandonné,,1150.0,,2024-04-17 15:45:52
-7827,Panier abandonné,S. Flaherty,0.0,,2024-04-17 05:02:02
 7825,Panier abandonné,,2270.0,,2024-04-16 18:51:47
-7824,Panier abandonné,,0.0,,2024-04-16 18:36:41
 7823,Panier abandonné,C. Morin,1220.0,,2024-04-16 17:13:06
 7821,Panier abandonné,,550.0,,2024-04-16 01:14:02
 7820,Panier abandonné,,550.0,,2024-04-16 01:13:52
@@ -351,324 +123,106 @@ id,order_id,customer,total_amount,carrier,order_date
 7816,Panier abandonné,,250.0,,2024-04-15 20:17:17
 7815,Panier abandonné,,2364.0,,2024-04-15 17:28:55
 7807,Panier abandonné,,1056.0,,2024-04-15 00:56:21
-7803,Panier abandonné,M. Bonnet,0.0,,2024-04-14 22:36:07
 7800,Panier abandonné,,630.0,,2024-04-14 20:29:17
 7796,Panier abandonné,,2870.0,,2024-04-14 14:17:49
 7784,Panier abandonné,,580.0,,2024-04-13 23:49:09
 7783,Panier abandonné,,1008.0,,2024-04-13 23:48:56
-7781,Panier abandonné,,0.0,,2024-04-13 22:58:20
 7780,Panier abandonné,,1236.0,,2024-04-13 22:02:11
-7779,Panier abandonné,I. Paradis,0.0,,2024-04-13 22:01:37
 7764,Panier abandonné,,260.0,,2024-04-13 11:18:09
-7763,Panier abandonné,,0.0,,2024-04-13 11:01:01
-7762,Panier abandonné,,0.0,,2024-04-13 10:51:29
-7761,Panier abandonné,,0.0,,2024-04-13 06:08:29
-7760,Panier abandonné,,0.0,,2024-04-13 05:32:06
-7759,Panier abandonné,,0.0,,2024-04-13 05:16:43
 7758,Panier abandonné,,5292.0,,2024-04-13 04:16:42
-7757,Panier abandonné,,0.0,,2024-04-13 02:53:28
-7756,Panier abandonné,,0.0,,2024-04-13 02:46:59
-7755,Panier abandonné,,0.0,,2024-04-13 02:14:29
-7754,Panier abandonné,,0.0,,2024-04-13 01:03:36
-7753,Panier abandonné,,0.0,,2024-04-13 00:59:43
-7752,Panier abandonné,,0.0,,2024-04-12 23:58:57
-7751,Panier abandonné,,0.0,,2024-04-12 22:58:57
-7750,Panier abandonné,,0.0,,2024-04-12 22:11:57
-7749,Panier abandonné,,0.0,,2024-04-12 21:57:17
-7748,Panier abandonné,,0.0,,2024-04-12 21:32:29
-7747,Panier abandonné,,0.0,,2024-04-12 21:16:24
-7746,Panier abandonné,,0.0,,2024-04-12 21:13:33
-7745,Panier abandonné,,0.0,,2024-04-12 20:25:36
-7744,Panier abandonné,,0.0,,2024-04-12 20:09:26
-7743,Panier abandonné,,0.0,,2024-04-12 18:58:48
-7742,Panier abandonné,,0.0,,2024-04-12 18:35:10
-7741,Panier abandonné,,0.0,,2024-04-12 16:46:04
 7740,Panier abandonné,,990.0,,2024-04-12 16:04:49
-7739,Panier abandonné,,0.0,,2024-04-12 14:26:49
-7738,Panier abandonné,,0.0,,2024-04-12 14:17:54
 7737,1213,I. Radi,890.0,DHL,2024-04-12 12:49:07
-7736,Panier abandonné,,0.0,,2024-04-12 11:05:43
-7735,Panier abandonné,,0.0,,2024-04-12 10:53:19
-7734,Panier abandonné,,0.0,,2024-04-12 10:40:01
-7733,Panier abandonné,,0.0,,2024-04-12 10:00:52
-7732,Panier abandonné,,0.0,,2024-04-12 09:59:34
-7731,Panier abandonné,,0.0,,2024-04-12 08:33:33
-7730,Panier abandonné,,0.0,,2024-04-12 06:19:21
-7729,Panier abandonné,,0.0,,2024-04-12 06:15:20
-7728,Panier abandonné,,0.0,,2024-04-12 03:57:38
-7727,Panier abandonné,,0.0,,2024-04-12 03:53:01
-7726,Panier abandonné,,0.0,,2024-04-12 01:33:57
-7725,Panier abandonné,,0.0,,2024-04-12 01:11:32
-7724,Panier abandonné,,0.0,,2024-04-12 00:19:03
-7723,Panier abandonné,,0.0,,2024-04-11 23:45:30
-7722,Panier abandonné,,0.0,,2024-04-11 23:16:14
-7721,Panier abandonné,,0.0,,2024-04-11 22:40:17
-7720,Panier abandonné,,0.0,,2024-04-11 22:31:13
-7719,Panier abandonné,,0.0,,2024-04-11 22:14:22
 7718,Panier abandonné,,680.0,,2024-04-11 19:28:34
 7716,Panier abandonné,,1284.0,,2024-04-11 16:06:33
-7701,Panier abandonné,,0.0,,2024-04-10 21:43:14
 7686,Panier abandonné,,1150.0,,2024-04-10 11:31:17
 7684,Panier abandonné,,350.0,,2024-04-10 11:09:54
 7681,Panier abandonné,,18468.0,,2024-04-10 04:52:52
 7672,Panier abandonné,,880.0,,2024-04-09 22:05:47
 7668,Panier abandonné,,1490.0,,2024-04-09 18:21:23
 7667,Panier abandonné,,2670.0,,2024-04-09 18:18:18
-7666,Panier abandonné,,0.0,,2024-04-09 18:14:59
-7665,Panier abandonné,,0.0,,2024-04-09 17:09:53
 7664,Panier abandonné,,5280.0,,2024-04-09 17:05:18
-7663,Panier abandonné,,0.0,,2024-04-09 16:32:46
-7662,Panier abandonné,,0.0,,2024-04-09 16:22:19
-7661,Panier abandonné,C. Patarin,0.0,,2024-04-09 16:21:30
-7660,Panier abandonné,,0.0,,2024-04-09 15:35:07
-7659,Panier abandonné,,0.0,,2024-04-09 15:09:19
-7658,Panier abandonné,,0.0,,2024-04-09 15:02:15
-7657,Panier abandonné,,0.0,,2024-04-09 11:33:44
-7656,Panier abandonné,,0.0,,2024-04-09 10:15:56
-7655,Panier abandonné,,0.0,,2024-04-09 10:03:11
-7654,Panier abandonné,,0.0,,2024-04-09 09:10:33
 7653,Panier abandonné,,2150.0,,2024-04-09 09:09:34
 7652,Panier abandonné,L. Mullins,8472.0,,2024-04-09 07:04:24
-7651,Panier abandonné,,0.0,,2024-04-09 06:58:12
-7650,Panier abandonné,,0.0,,2024-04-09 06:39:14
 7649,Panier abandonné,,240.0,,2024-04-09 04:09:14
 7648,Panier abandonné,,1800.0,,2024-04-09 03:34:26
-7647,Panier abandonné,,0.0,,2024-04-09 02:07:55
 7646,Panier abandonné,,1284.0,,2024-04-09 01:43:36
-7645,Panier abandonné,,0.0,,2024-04-09 00:15:48
-7644,Panier abandonné,,0.0,,2024-04-09 00:14:52
 7643,Panier abandonné,,200.0,,2024-04-08 23:35:51
-7642,Panier abandonné,,0.0,,2024-04-08 23:11:13
-7641,Panier abandonné,,0.0,,2024-04-08 23:10:11
 7640,1212,S. Dacier,230.0,DHL,2024-04-08 22:09:07
 7639,Panier abandonné,,230.0,,2024-04-08 22:00:04
-7638,Panier abandonné,,0.0,,2024-04-08 21:57:32
 7637,Panier abandonné,,230.0,,2024-04-08 21:55:33
-7636,Panier abandonné,,0.0,,2024-04-08 21:54:09
-7635,Panier abandonné,,0.0,,2024-04-08 20:57:20
-7634,Panier abandonné,,0.0,,2024-04-08 18:52:36
-7633,Panier abandonné,,0.0,,2024-04-08 18:33:00
-7632,Panier abandonné,,0.0,,2024-04-08 18:31:59
-7631,Panier abandonné,,0.0,,2024-04-08 18:24:59
-7630,Panier abandonné,,0.0,,2024-04-08 18:24:55
-7629,Panier abandonné,,0.0,,2024-04-08 17:34:46
-7628,Panier abandonné,,0.0,,2024-04-08 17:00:29
 7627,Panier abandonné,,2304.0,,2024-04-08 15:49:33
-7626,Panier abandonné,,0.0,,2024-04-08 15:48:22
 7625,Panier abandonné,,230.0,,2024-04-08 14:27:37
-7624,Panier abandonné,,0.0,,2024-04-08 14:03:01
-7623,Panier abandonné,,0.0,,2024-04-08 13:08:50
-7622,Panier abandonné,,0.0,,2024-04-08 13:08:16
-7621,Panier abandonné,,0.0,,2024-04-08 13:00:32
-7620,Panier abandonné,,0.0,,2024-04-08 12:14:42
-7619,Panier abandonné,,0.0,,2024-04-08 12:10:27
-7618,Panier abandonné,,0.0,,2024-04-08 12:10:26
-7617,Panier abandonné,,0.0,,2024-04-08 12:04:35
-7616,Panier abandonné,,0.0,,2024-04-08 12:02:53
-7615,Panier abandonné,R. Ormándy,0.0,,2024-04-08 09:40:15
 7614,Panier abandonné,,7164.0,,2024-04-08 04:25:16
-7613,Panier abandonné,,0.0,,2024-04-08 03:41:53
-7612,Panier abandonné,,0.0,,2024-04-07 23:41:53
-7611,Panier abandonné,,0.0,,2024-04-07 23:20:57
-7610,Panier abandonné,,0.0,,2024-04-07 22:50:14
-7609,Panier abandonné,,0.0,,2024-04-07 22:07:46
-7608,Panier abandonné,,0.0,,2024-04-07 21:53:36
-7607,Panier abandonné,,0.0,,2024-04-07 21:46:43
 7606,Panier abandonné,,190.0,,2024-04-07 21:36:16
-7605,Panier abandonné,,0.0,,2024-04-07 21:25:46
-7604,Panier abandonné,,0.0,,2024-04-07 21:04:21
-7603,Panier abandonné,,0.0,,2024-04-07 20:39:45
-7602,Panier abandonné,,0.0,,2024-04-07 20:28:32
-7601,Panier abandonné,,0.0,,2024-04-07 20:20:13
-7600,Panier abandonné,,0.0,,2024-04-07 19:32:42
-7599,Panier abandonné,,0.0,,2024-04-07 19:32:24
-7598,Panier abandonné,,0.0,,2024-04-07 19:02:23
-7597,Panier abandonné,,0.0,,2024-04-07 17:09:57
 7596,Panier abandonné,,740.0,,2024-04-07 16:49:02
-7595,Panier abandonné,,0.0,,2024-04-07 15:20:09
-7594,Panier abandonné,,0.0,,2024-04-07 14:39:09
 7593,Panier abandonné,,7180.0,,2024-04-07 13:53:47
-7592,Panier abandonné,C. Morin,0.0,,2024-04-07 13:42:08
 7591,Panier abandonné,M. DIGNET,4745.0,,2024-04-07 13:03:59
 7590,Panier abandonné,,1610.0,,2024-04-07 12:44:58
-7589,Panier abandonné,,0.0,,2024-04-07 12:39:08
 7588,1211,A. Pholoppe,0.0,DHL,2024-04-07 10:48:21
-7587,Panier abandonné,,0.0,,2024-04-07 04:27:35
 7586,Panier abandonné,,1500.0,,2024-04-07 04:01:22
 7585,Panier abandonné,,468.0,,2024-04-07 04:01:03
 7584,Panier abandonné,,1780.0,,2024-04-07 03:10:48
-7583,Panier abandonné,,0.0,,2024-04-07 02:32:24
-7582,Panier abandonné,,0.0,,2024-04-07 01:38:12
-7581,Panier abandonné,,0.0,,2024-04-07 01:28:18
-7580,Panier abandonné,,0.0,,2024-04-07 00:36:01
-7579,Panier abandonné,,0.0,,2024-04-07 00:33:16
-7578,Panier abandonné,,0.0,,2024-04-07 00:16:54
-7577,Panier abandonné,,0.0,,2024-04-07 00:13:04
 7576,Panier abandonné,,260.0,,2024-04-07 00:01:08
-7575,Panier abandonné,,0.0,,2024-04-06 23:26:36
-7574,Panier abandonné,,0.0,,2024-04-06 18:23:50
-7573,Panier abandonné,,0.0,,2024-04-06 18:04:37
-7572,Panier abandonné,,0.0,,2024-04-06 16:54:13
-7571,Panier abandonné,,0.0,,2024-04-06 16:17:50
 7570,Panier abandonné,,400.0,,2024-04-06 16:12:44
-7569,Panier abandonné,,0.0,,2024-04-06 15:46:52
-7568,Panier abandonné,,0.0,,2024-04-06 15:09:23
-7567,Panier abandonné,,0.0,,2024-04-06 14:06:56
-7566,Panier abandonné,,0.0,,2024-04-06 13:37:51
-7565,Panier abandonné,,0.0,,2024-04-06 13:27:53
-7564,Panier abandonné,,0.0,,2024-04-06 13:13:29
-7563,Panier abandonné,,0.0,,2024-04-06 13:02:45
-7562,Panier abandonné,,0.0,,2024-04-06 12:53:28
-7561,Panier abandonné,,0.0,,2024-04-06 12:41:34
-7560,Panier abandonné,,0.0,,2024-04-06 12:33:46
-7559,Panier abandonné,,0.0,,2024-04-06 11:32:33
 7558,Panier abandonné,,380.0,,2024-04-06 10:48:16
-7557,Panier abandonné,,0.0,,2024-04-06 10:15:01
-7556,Panier abandonné,,0.0,,2024-04-06 09:51:31
 7555,Panier abandonné,C. Martins,1930.0,,2024-04-06 09:30:27
-7554,Panier abandonné,,0.0,,2024-04-06 08:03:35
-7553,Panier abandonné,c. yeomans,0.0,,2024-04-06 04:17:52
-7552,Panier abandonné,,0.0,,2024-04-06 02:09:36
-7551,Panier abandonné,,0.0,,2024-04-06 00:59:55
 7550,Panier abandonné,,720.0,,2024-04-05 22:40:29
-7549,Panier abandonné,,0.0,,2024-04-05 22:05:20
 7548,Panier abandonné,C. Martins,1930.0,DHL,2024-04-05 21:18:05
 7547,Panier abandonné,,630.0,,2024-04-05 21:12:57
 7546,Panier abandonné,,660.0,,2024-04-05 21:03:27
-7545,Panier abandonné,S. McCarron,0.0,,2024-04-05 20:49:11
-7544,Panier abandonné,,0.0,,2024-04-05 19:13:01
 7543,Panier abandonné,,1610.0,,2024-04-05 17:56:10
-7542,Panier abandonné,,0.0,,2024-04-05 17:31:15
-7541,Panier abandonné,C. Martins,0.0,,2024-04-05 17:25:57
-7540,Panier abandonné,,0.0,,2024-04-05 17:22:11
-7539,Panier abandonné,,0.0,,2024-04-05 16:36:09
 7538,Panier abandonné,,2960.0,,2024-04-05 15:59:39
-7537,Panier abandonné,,0.0,,2024-04-05 11:52:37
-7536,Panier abandonné,,0.0,,2024-04-05 09:19:04
 7535,1210,L. Van Damme,1490.0,DHL,2024-04-05 09:08:09
-7534,Panier abandonné,,0.0,,2024-04-05 05:29:45
-7533,Panier abandonné,,0.0,,2024-04-05 03:14:08
-7532,Panier abandonné,,0.0,,2024-04-04 23:51:19
-7531,Panier abandonné,,0.0,,2024-04-04 23:12:51
-7530,Panier abandonné,,0.0,,2024-04-04 21:32:34
-7529,Panier abandonné,,0.0,,2024-04-04 21:00:26
-7528,Panier abandonné,,0.0,,2024-04-04 20:44:32
 7527,Panier abandonné,,190.0,,2024-04-04 20:08:25
-7526,Panier abandonné,,0.0,,2024-04-04 20:07:55
-7525,Panier abandonné,,0.0,,2024-04-04 19:59:01
-7524,Panier abandonné,,0.0,,2024-04-04 19:28:48
-7523,Panier abandonné,,0.0,,2024-04-04 18:35:51
 7522,Panier abandonné,,980.0,,2024-04-04 18:11:55
-7521,Panier abandonné,,0.0,,2024-04-04 17:23:11
-7520,Panier abandonné,C. BEAUFILS,0.0,,2024-04-04 16:59:30
-7519,Panier abandonné,,0.0,,2024-04-04 16:59:22
-7518,Panier abandonné,,0.0,,2024-04-04 16:49:29
-7517,Panier abandonné,,0.0,,2024-04-04 15:39:15
 7516,Panier abandonné,,180.0,,2024-04-04 13:31:51
 7515,Panier abandonné,,2670.0,,2024-04-04 12:29:59
-7514,Panier abandonné,,0.0,,2024-04-04 02:25:00
-7513,Panier abandonné,,0.0,,2024-04-04 01:39:54
-7512,Panier abandonné,,0.0,,2024-04-03 23:14:29
-7511,Panier abandonné,,0.0,,2024-04-03 23:03:42
-7510,Panier abandonné,,0.0,,2024-04-03 23:01:31
 7509,1209,A. Hachmi,1610.0,CLICK AND COLLECT ,2024-04-03 22:57:26
-7508,Panier abandonné,,0.0,,2024-04-03 20:36:51
-7507,Panier abandonné,,0.0,,2024-04-03 20:20:50
-7506,Panier abandonné,,0.0,,2024-04-03 19:58:10
-7505,Panier abandonné,,0.0,,2024-04-03 19:04:15
-7504,Panier abandonné,,0.0,,2024-04-03 18:47:31
-7503,Panier abandonné,,0.0,,2024-04-03 17:51:25
 7502,Panier abandonné,J. Hutson,680.0,,2024-04-03 17:45:51
 7501,Panier abandonné,,830.0,,2024-04-03 15:42:42
-7500,Panier abandonné,,0.0,,2024-04-03 15:20:27
-7499,Panier abandonné,,0.0,,2024-04-03 13:18:09
 7498,1208,M. Hautsch,460.0,CLICK AND COLLECT ,2024-04-03 12:36:32
-7497,Panier abandonné,A. TAESCH,0.0,,2024-04-03 12:01:01
-7496,Panier abandonné,,0.0,,2024-04-03 10:29:32
 7495,Panier abandonné,,1200.0,,2024-04-03 10:06:05
 7494,Panier abandonné,,460.0,,2024-04-03 09:42:46
 7493,Panier abandonné,,220.0,,2024-04-03 08:16:06
 7492,Panier abandonné,,190.0,,2024-04-03 06:43:42
 7491,Panier abandonné,,190.0,,2024-04-03 06:43:32
-7490,Panier abandonné,,0.0,,2024-04-03 05:49:12
-7489,Panier abandonné,,0.0,,2024-04-03 01:47:35
 7488,Panier abandonné,,4550.0,,2024-04-03 00:33:09
 7486,Panier abandonné,,564.0,,2024-04-03 00:13:42
-7485,Panier abandonné,,0.0,,2024-04-02 22:03:11
 7484,Panier abandonné,C. Elissalde,270.0,DHL,2024-04-02 21:38:00
-7483,Panier abandonné,M. Jouanno,0.0,DHL,2024-04-02 18:49:16
 7482,Panier abandonné,L. Van Damme,1490.0,DHL,2024-04-02 15:43:46
-7481,Panier abandonné,,0.0,,2024-04-02 15:06:45
-7480,Panier abandonné,,0.0,,2024-04-02 13:55:33
-7479,Panier abandonné,,0.0,,2024-04-02 05:32:04
 7478,Panier abandonné,,1780.0,,2024-04-01 20:14:07
-7477,Panier abandonné,,0.0,,2024-04-01 19:11:27
-7476,Panier abandonné,,0.0,,2024-04-01 18:19:07
-7475,Panier abandonné,S. Santero,0.0,,2024-04-01 15:38:17
-7474,Panier abandonné,,0.0,,2024-04-01 14:38:27
-7473,Panier abandonné,,0.0,,2024-04-01 14:13:45
-7472,Panier abandonné,,0.0,,2024-04-01 10:12:37
-7471,Panier abandonné,,0.0,,2024-04-01 06:37:46
-7470,Panier abandonné,S. Gouliard,0.0,,2024-04-01 00:32:53
-7469,Panier abandonné,,0.0,,2024-03-31 23:21:50
 7468,Panier abandonné,,1050.0,,2024-03-31 17:29:52
 7467,Panier abandonné,,240.0,,2024-03-31 15:20:32
-7466,Panier abandonné,,0.0,,2024-03-31 10:11:47
 7465,Panier abandonné,,2050.0,,2024-03-31 08:21:07
-7464,Panier abandonné,,0.0,,2024-03-31 05:47:43
-7463,Panier abandonné,,0.0,,2024-03-31 04:00:27
-7462,Panier abandonné,,0.0,,2024-03-31 01:00:00
 7461,Panier abandonné,,740.0,,2024-03-30 20:46:44
 7460,Panier abandonné,,2240.0,,2024-03-30 19:57:18
-7459,Panier abandonné,,0.0,,2024-03-30 15:27:04
 7458,1206,O. Perault,490.0,DHL,2024-03-30 15:02:07
-7457,Panier abandonné,,0.0,,2024-03-30 06:47:23
-7456,Panier abandonné,,0.0,,2024-03-30 05:11:03
-7455,Panier abandonné,F. Chiu,0.0,,2024-03-30 04:07:44
 7454,Panier abandonné,,280.0,,2024-03-30 01:30:05
-7453,Panier abandonné,,0.0,,2024-03-29 21:17:54
-7452,Panier abandonné,,0.0,,2024-03-29 20:22:54
-7451,Panier abandonné,,0.0,,2024-03-29 19:48:44
 7450,Panier abandonné,,180.0,,2024-03-29 18:54:59
 7449,1214,C. Morin,190.0,DHL,2024-03-29 18:44:03
 7448,Panier abandonné,,690.0,,2024-03-29 15:13:52
 7447,Panier abandonné,,280.0,,2024-03-29 14:28:18
-7446,Panier abandonné,S. LIPSZYC,0.0,,2024-03-29 13:55:31
 7445,Panier abandonné,,310.0,,2024-03-29 11:58:36
 7444,Panier abandonné,C. Tailleferd,2070.0,,2024-03-29 09:08:21
-7443,Panier abandonné,,0.0,,2024-03-29 07:16:39
 7442,Panier abandonné,,3312.0,,2024-03-29 04:20:44
 7441,Panier abandonné,,5004.0,,2024-03-29 03:08:43
 7440,Panier abandonné,,2892.0,,2024-03-28 23:38:22
 7439,Panier abandonné,,3624.0,,2024-03-28 21:01:15
 7438,1204,r. lecomte,420.0,DHL,2024-03-28 18:58:17
 7437,Panier abandonné,,190.0,,2024-03-28 18:39:45
-7436,Panier abandonné,C. Tailleferd,0.0,,2024-03-28 17:23:02
 7435,Panier abandonné,,240.0,,2024-03-28 15:31:11
 7434,Panier abandonné,,1780.0,,2024-03-28 07:57:01
 7433,1207,S. Santero,1720.0,DHL,2024-03-28 01:44:30
-7432,Panier abandonné,,0.0,,2024-03-27 23:50:27
 7431,Panier abandonné,,180.0,,2024-03-27 21:50:09
 7430,Panier abandonné,L. Jean,830.0,DHL,2024-03-27 19:03:07
-7429,Panier abandonné,,0.0,,2024-03-27 18:24:03
 7427,1202,S. LIPSZYC,390.0,DHL,2024-03-27 12:15:17
 7426,Panier abandonné,A. Hachmi,1610.0,CLICK AND COLLECT ,2024-03-27 10:32:54
 7423,1201,S. McCarron,240.0,DHL,2024-03-27 09:16:18
 7422,Panier abandonné,,830.0,,2024-03-26 21:36:13
-7421,Panier abandonné,n. becker,0.0,,2024-03-26 18:38:07
-7420,Panier abandonné,,0.0,,2024-03-26 15:56:16
 7419,Panier abandonné,P. DIDIER,580.0,,2024-03-26 12:27:02
-7418,Panier abandonné,,0.0,,2024-03-26 12:14:42
-7417,Panier abandonné,,0.0,,2024-03-26 10:40:59
 7416,Panier abandonné,,260.0,,2024-03-26 10:02:18
 7415,1200,S. Pinto,1090.0,DHL,2024-03-26 08:36:52
-7414,Panier abandonné,,0.0,,2024-03-26 07:08:51
-7413,Panier abandonné,,0.0,,2024-03-26 05:17:48
-7412,Panier abandonné,,0.0,,2024-03-26 02:51:11
-7411,Panier abandonné,,0.0,,2024-03-26 02:45:00
-7410,Panier abandonné,,0.0,,2024-03-26 00:42:45
 7409,Panier abandonné,,2680.0,,2024-03-25 21:21:15
-7408,Panier abandonné,,0.0,,2024-03-25 20:43:31
 7407,Panier abandonné,,470.0,,2024-03-25 20:06:14
 7406,Panier abandonné,,980.0,,2024-03-25 20:06:13
 7405,Panier abandonné,,470.0,,2024-03-25 20:05:33
@@ -683,179 +237,40 @@ id,order_id,customer,total_amount,carrier,order_date
 7392,Panier abandonné,,900.0,,2024-03-24 15:25:13
 7391,Panier abandonné,,840.0,,2024-03-24 15:18:49
 7390,Panier abandonné,L. Guerchanok ,610.0,DHL,2024-03-24 05:05:06
-7387,Panier abandonné,,0.0,,2024-03-23 13:04:54
 7384,Panier abandonné,,3888.0,,2024-03-23 04:09:40
 7379,Panier abandonné,,2880.0,,2024-03-22 23:26:31
-7378,Panier abandonné,,0.0,,2024-03-22 23:10:04
-7377,Panier abandonné,,0.0,,2024-03-22 23:05:16
-7376,Panier abandonné,,0.0,,2024-03-22 22:50:15
-7375,Panier abandonné,,0.0,,2024-03-22 22:50:05
 7374,Panier abandonné,B. Chenesseau,730.0,,2024-03-22 22:32:13
-7373,Panier abandonné,,0.0,,2024-03-22 22:05:41
-7372,Panier abandonné,,0.0,,2024-03-22 21:37:36
-7371,Panier abandonné,,0.0,,2024-03-22 21:16:01
-7370,Panier abandonné,,0.0,,2024-03-22 20:05:23
-7369,Panier abandonné,,0.0,,2024-03-22 19:41:46
-7368,Panier abandonné,,0.0,,2024-03-22 19:38:25
-7367,Panier abandonné,,0.0,,2024-03-22 19:25:05
-7366,Panier abandonné,,0.0,,2024-03-22 19:21:26
-7365,Panier abandonné,,0.0,,2024-03-22 19:17:41
 7364,Panier abandonné,,390.0,,2024-03-22 18:56:17
-7363,Panier abandonné,,0.0,,2024-03-22 18:23:59
-7362,Panier abandonné,,0.0,,2024-03-22 17:55:21
-7361,Panier abandonné,,0.0,,2024-03-22 17:43:12
-7360,Panier abandonné,,0.0,,2024-03-22 17:31:23
-7359,Panier abandonné,,0.0,,2024-03-22 17:30:04
-7358,Panier abandonné,,0.0,,2024-03-22 17:13:36
-7357,Panier abandonné,,0.0,,2024-03-22 17:02:04
-7356,Panier abandonné,,0.0,,2024-03-22 16:59:59
-7355,Panier abandonné,,0.0,,2024-03-22 16:07:02
-7354,Panier abandonné,,0.0,,2024-03-22 15:40:59
-7353,Panier abandonné,,0.0,,2024-03-22 15:31:22
-7352,Panier abandonné,,0.0,,2024-03-22 15:15:45
-7351,Panier abandonné,,0.0,,2024-03-22 15:10:16
-7350,Panier abandonné,,0.0,,2024-03-22 15:05:12
-7349,Panier abandonné,,0.0,,2024-03-22 14:07:59
-7348,Panier abandonné,,0.0,,2024-03-22 13:26:16
-7347,Panier abandonné,,0.0,,2024-03-22 13:08:55
-7346,Panier abandonné,,0.0,,2024-03-22 12:59:34
-7345,Panier abandonné,,0.0,,2024-03-22 12:56:31
-7344,Panier abandonné,M. Mejuto Alonso,0.0,,2024-03-22 12:30:08
-7343,Panier abandonné,,0.0,,2024-03-22 12:00:07
-7342,Panier abandonné,,0.0,,2024-03-22 11:23:49
-7341,Panier abandonné,,0.0,,2024-03-22 10:55:34
-7340,Panier abandonné,,0.0,,2024-03-22 10:49:26
-7339,Panier abandonné,,0.0,,2024-03-22 10:31:15
-7338,Panier abandonné,,0.0,,2024-03-22 09:38:42
 7337,Panier abandonné,,1250.0,,2024-03-22 09:16:43
-7336,Panier abandonné,,0.0,,2024-03-22 09:06:38
-7335,Panier abandonné,,0.0,,2024-03-22 08:55:16
-7334,Panier abandonné,,0.0,,2024-03-22 07:02:24
-7333,Panier abandonné,,0.0,,2024-03-22 06:49:06
-7332,Panier abandonné,,0.0,,2024-03-22 06:37:54
-7331,Panier abandonné,,0.0,,2024-03-22 05:44:43
-7330,Panier abandonné,,0.0,,2024-03-22 04:59:04
 7329,Panier abandonné,,880.0,,2024-03-22 04:26:02
 7328,Panier abandonné,,880.0,,2024-03-22 04:16:01
-7327,Panier abandonné,,0.0,,2024-03-22 03:38:14
-7326,Panier abandonné,,0.0,,2024-03-22 02:36:40
-7325,Panier abandonné,,0.0,,2024-03-22 02:06:09
-7324,Panier abandonné,,0.0,,2024-03-22 01:31:22
-7323,Panier abandonné,,0.0,,2024-03-22 00:59:31
-7322,Panier abandonné,,0.0,,2024-03-22 00:26:13
-7321,Panier abandonné,,0.0,,2024-03-22 00:23:54
-7320,Panier abandonné,,0.0,,2024-03-21 23:18:01
-7319,Panier abandonné,,0.0,,2024-03-21 23:03:50
-7318,Panier abandonné,,0.0,,2024-03-21 22:44:40
-7317,Panier abandonné,,0.0,,2024-03-21 22:39:58
-7316,Panier abandonné,,0.0,,2024-03-21 22:37:23
-7315,Panier abandonné,,0.0,,2024-03-21 22:29:50
-7314,Panier abandonné,,0.0,,2024-03-21 22:21:11
-7313,Panier abandonné,,0.0,,2024-03-21 21:00:00
-7312,Panier abandonné,,0.0,,2024-03-21 20:55:44
-7311,Panier abandonné,,0.0,,2024-03-21 20:13:22
 7310,Panier abandonné,,3980.0,,2024-03-21 20:12:09
-7309,Panier abandonné,,0.0,,2024-03-21 19:58:48
-7308,Panier abandonné,,0.0,,2024-03-21 19:43:32
-7307,Panier abandonné,,0.0,,2024-03-21 19:08:04
-7306,Panier abandonné,,0.0,,2024-03-21 18:25:58
-7305,Panier abandonné,,0.0,,2024-03-21 18:00:47
-7304,Panier abandonné,,0.0,,2024-03-21 17:43:56
-7303,Panier abandonné,,0.0,,2024-03-21 17:25:58
-7302,Panier abandonné,,0.0,,2024-03-21 17:20:42
-7301,Panier abandonné,,0.0,,2024-03-21 17:10:34
-7300,Panier abandonné,,0.0,,2024-03-21 16:48:05
-7299,Panier abandonné,,0.0,,2024-03-21 16:43:02
-7298,Panier abandonné,,0.0,,2024-03-21 16:24:16
 7297,Panier abandonné,,190.0,,2024-03-21 15:26:13
-7296,Panier abandonné,,0.0,,2024-03-21 15:13:27
-7295,Panier abandonné,,0.0,,2024-03-21 15:09:29
-7294,Panier abandonné,,0.0,,2024-03-21 14:24:50
-7293,Panier abandonné,,0.0,,2024-03-21 13:58:19
-7292,Panier abandonné,,0.0,,2024-03-21 13:27:51
-7291,Panier abandonné,,0.0,,2024-03-21 10:40:01
-7290,Panier abandonné,,0.0,,2024-03-21 09:34:46
-7289,Panier abandonné,,0.0,,2024-03-21 09:27:45
-7288,Panier abandonné,,0.0,,2024-03-21 08:09:06
-7287,Panier abandonné,,0.0,,2024-03-21 07:36:27
-7286,Panier abandonné,,0.0,,2024-03-21 06:52:58
-7285,Panier abandonné,,0.0,,2024-03-21 05:34:46
 7284,Panier abandonné,,690.0,,2024-03-21 04:17:02
-7283,Panier abandonné,,0.0,,2024-03-21 04:13:10
 7282,Panier abandonné,,690.0,,2024-03-21 04:08:23
 7281,Panier abandonné,,690.0,,2024-03-21 04:00:25
-7280,Panier abandonné,,0.0,,2024-03-21 03:49:22
 7279,Panier abandonné,,690.0,,2024-03-21 03:38:16
-7278,Panier abandonné,,0.0,,2024-03-21 02:22:02
-7277,Panier abandonné,,0.0,,2024-03-21 01:33:52
-7276,Panier abandonné,,0.0,,2024-03-21 00:53:49
-7275,Panier abandonné,,0.0,,2024-03-21 00:52:22
-7274,Panier abandonné,,0.0,,2024-03-21 00:32:32
-7273,Panier abandonné,,0.0,,2024-03-21 00:28:45
-7272,Panier abandonné,,0.0,,2024-03-21 00:21:30
-7271,Panier abandonné,,0.0,,2024-03-21 00:07:44
-7270,Panier abandonné,,0.0,,2024-03-21 00:06:45
-7269,Panier abandonné,,0.0,,2024-03-20 23:57:34
-7268,Panier abandonné,,0.0,,2024-03-20 23:50:12
-7267,Panier abandonné,,0.0,,2024-03-20 23:45:11
-7266,Panier abandonné,,0.0,,2024-03-20 23:14:06
-7265,Panier abandonné,,0.0,,2024-03-20 22:48:57
 7264,Panier abandonné,,270.0,,2024-03-20 21:45:32
 7263,Panier abandonné,,270.0,,2024-03-20 21:39:21
-7262,Panier abandonné,,0.0,,2024-03-20 21:31:36
-7261,Panier abandonné,,0.0,,2024-03-20 21:25:30
 7260,Panier abandonné,,270.0,,2024-03-20 21:23:32
-7259,Panier abandonné,,0.0,,2024-03-20 21:10:11
-7258,Panier abandonné,,0.0,,2024-03-20 20:53:54
-7257,Panier abandonné,,0.0,,2024-03-20 20:52:38
-7256,Panier abandonné,,0.0,,2024-03-20 20:34:14
-7255,Panier abandonné,,0.0,,2024-03-20 20:20:34
-7254,Panier abandonné,,0.0,,2024-03-20 19:55:09
-7253,Panier abandonné,,0.0,,2024-03-20 19:49:31
 7252,Panier abandonné,,320.0,,2024-03-20 19:47:47
-7251,Panier abandonné,,0.0,,2024-03-20 19:41:07
-7250,Panier abandonné,,0.0,,2024-03-20 19:39:57
 7249,Panier abandonné,,320.0,,2024-03-20 19:35:13
-7248,Panier abandonné,,0.0,,2024-03-20 19:26:46
 7247,Panier abandonné,e. grzgz,830.0,,2024-03-20 18:45:53
-7246,Panier abandonné,,0.0,,2024-03-20 18:40:11
-7245,Panier abandonné,,0.0,,2024-03-20 17:59:20
-7244,Panier abandonné,,0.0,,2024-03-20 17:47:30
-7243,Panier abandonné,,0.0,,2024-03-20 17:45:56
-7242,Panier abandonné,,0.0,,2024-03-20 17:45:14
-7241,Panier abandonné,,0.0,,2024-03-20 17:45:02
-7240,Panier abandonné,,0.0,,2024-03-20 17:17:53
-7239,Panier abandonné,,0.0,,2024-03-20 16:25:10
-7238,Panier abandonné,,0.0,,2024-03-20 16:20:18
-7237,Panier abandonné,,0.0,,2024-03-20 16:16:02
 7235,Panier abandonné,,1110.0,,2024-03-20 15:37:42
 7234,Panier abandonné,,1110.0,,2024-03-20 15:32:17
-7233,Panier abandonné,,0.0,,2024-03-20 15:06:20
-7232,Panier abandonné,,0.0,,2024-03-20 14:35:15
-7231,Panier abandonné,,0.0,,2024-03-20 14:32:22
-7230,Panier abandonné,,0.0,,2024-03-20 14:27:53
-7229,Panier abandonné,,0.0,,2024-03-20 14:01:37
-7228,Panier abandonné,,0.0,,2024-03-20 12:36:29
-7227,Panier abandonné,,0.0,,2024-03-20 12:32:04
 7226,Panier abandonné,,336.0,,2024-03-20 12:02:55
-7225,Panier abandonné,,0.0,,2024-03-20 11:47:10
-7224,Panier abandonné,,0.0,,2024-03-20 11:44:45
 7222,Panier abandonné,D. Hjorth Jensen,610.0,,2024-03-20 09:18:05
-7219,Panier abandonné,E. Klaver ,0.0,,2024-03-20 06:14:08
 7205,Panier abandonné,,320.0,,2024-03-19 22:58:50
 7194,Panier abandonné,,7450.0,,2024-03-19 21:10:03
 7192,1196,L. PERRET,495.0,DHL,2024-03-19 20:52:25
 7190,Panier abandonné,,1200.0,,2024-03-19 20:27:30
 7188,Panier abandonné,,1690.0,,2024-03-19 19:53:12
-7185,Panier abandonné,,0.0,,2024-03-19 18:50:38
 7183,Panier abandonné,A. TAESCH,560.0,DHL,2024-03-19 18:26:44
 7172,1195,N. Fulconis,0.0,DHL,2024-03-19 13:59:27
 7168,Panier abandonné,,620.0,,2024-03-18 21:54:44
 7162,1197,A. TAESCH,840.0,DHL,2024-03-18 20:17:25
 7158,Panier abandonné,,490.0,,2024-03-18 19:54:47
 7147,Panier abandonné,,2870.0,,2024-03-18 16:23:35
-7145,Panier abandonné,M. Bonnet,0.0,,2024-03-18 14:08:26
-7144,Panier abandonné,,0.0,,2024-03-18 14:06:44
 7138,Panier abandonné,,740.0,,2024-03-18 11:22:58
 7133,Panier abandonné,,770.0,,2024-03-18 09:46:53
 7131,Panier abandonné,,984.0,,2024-03-18 05:26:45
@@ -869,27 +284,8 @@ id,order_id,customer,total_amount,carrier,order_date
 7098,Panier abandonné,A. CHENELAT,720.0,DHL,2024-03-17 10:03:51
 7059,Panier abandonné,,910.0,,2024-03-16 07:50:41
 7056,Panier abandonné,,420.0,,2024-03-16 07:17:55
-7049,Panier abandonné,,0.0,,2024-03-16 01:22:31
-7048,Panier abandonné,,0.0,,2024-03-16 01:09:17
-7047,Panier abandonné,,0.0,,2024-03-16 01:05:16
-7046,Panier abandonné,,0.0,,2024-03-16 01:03:51
-7045,Panier abandonné,,0.0,,2024-03-16 00:47:45
-7044,Panier abandonné,,0.0,,2024-03-16 00:37:10
-7043,Panier abandonné,,0.0,,2024-03-16 00:30:38
-7042,Panier abandonné,,0.0,,2024-03-16 00:25:17
-7041,Panier abandonné,,0.0,,2024-03-16 00:22:31
-7040,Panier abandonné,,0.0,,2024-03-15 23:57:39
-7039,Panier abandonné,,0.0,,2024-03-15 23:12:54
-7038,Panier abandonné,,0.0,,2024-03-15 22:21:22
 7037,Panier abandonné,,492.0,,2024-03-15 22:15:23
-7036,Panier abandonné,,0.0,,2024-03-15 22:13:06
-7035,Panier abandonné,,0.0,,2024-03-15 22:00:24
-7034,Panier abandonné,,0.0,,2024-03-15 21:55:41
-7033,Panier abandonné,,0.0,,2024-03-15 21:44:58
-7032,Panier abandonné,,0.0,,2024-03-15 21:28:03
-7031,Panier abandonné,,0.0,,2024-03-15 20:25:01
 7030,Panier abandonné,,620.0,,2024-03-15 19:16:20
-7029,Panier abandonné,,0.0,,2024-03-15 12:02:01
 7028,Panier abandonné,,600.0,,2024-03-15 09:15:14
 7027,Panier abandonné,,350.0,,2024-03-15 09:14:43
 7026,1192,E. Klaver ,1260.0,DHL,2024-03-15 01:06:23
@@ -899,14 +295,11 @@ id,order_id,customer,total_amount,carrier,order_date
 7022,Panier abandonné,,260.0,,2024-03-14 22:34:47
 7021,Panier abandonné,,260.0,,2024-03-14 22:33:19
 7020,Panier abandonné,M. Ethuin,540.0,DHL,2024-03-14 22:19:50
-7019,Panier abandonné,E. Paluniene,0.0,,2024-03-14 09:58:47
-7018,Panier abandonné,E. Paluniene,0.0,,2024-03-14 09:58:46
 7017,Panier abandonné,,1260.0,,2024-03-14 03:59:01
 7016,Panier abandonné,,1260.0,,2024-03-14 03:57:41
 7015,Panier abandonné,,1260.0,,2024-03-14 03:55:53
 7014,1191,M. Sezalory,2300.0,DHL,2024-03-13 23:23:44
 7013,Panier abandonné,,2300.0,,2024-03-13 23:23:33
-7012,Panier abandonné,,0.0,,2024-03-13 22:10:28
 7011,Panier abandonné,,2230.0,,2024-03-13 21:01:13
 7010,Panier abandonné,,2090.0,,2024-03-13 20:48:08
 7009,Panier abandonné,,260.0,,2024-03-13 19:23:31
@@ -915,7 +308,6 @@ id,order_id,customer,total_amount,carrier,order_date
 7006,Panier abandonné,,380.0,,2024-03-13 09:54:59
 7005,Panier abandonné,,240.0,,2024-03-13 06:57:02
 7004,Panier abandonné,,270.0,,2024-03-13 06:56:22
-7003,Panier abandonné,,0.0,,2024-03-12 17:51:41
 7002,1189,A. Perse,590.0,DHL,2024-03-12 15:03:16
 7001,Panier abandonné,,1650.0,,2024-03-12 11:41:14
 7000,1188,d. spinosa,810.0,DHL,2024-03-12 11:05:00
@@ -926,14 +318,10 @@ id,order_id,customer,total_amount,carrier,order_date
 6995,Panier abandonné,A. Boilard,740.0,,2024-03-11 17:10:06
 6994,Panier abandonné,,3010.0,,2024-03-11 14:56:11
 6993,Panier abandonné,,1960.0,,2024-03-10 23:37:26
-6992,Panier abandonné,,0.0,,2024-03-10 22:57:58
 6991,Panier abandonné,,3010.0,,2024-03-10 21:56:02
-6990,Panier abandonné,C. PAOLETTI,0.0,,2024-03-10 17:55:22
 6989,Panier abandonné,,740.0,,2024-03-10 16:45:22
 6988,Panier abandonné,,3480.0,,2024-03-10 12:00:07
-6987,Panier abandonné,c. yeomans,0.0,,2024-03-09 22:40:59
 6986,Panier abandonné,,460.0,,2024-03-09 14:14:14
-6985,Panier abandonné,,0.0,,2024-03-09 13:26:29
 6984,Panier abandonné,,1440.0,,2024-03-08 23:43:58
 6983,Panier abandonné,,2270.0,,2024-03-08 21:59:45
 6982,Panier abandonné,,8290.0,,2024-03-08 19:10:26
@@ -945,23 +333,16 @@ id,order_id,customer,total_amount,carrier,order_date
 6976,Panier abandonné,,2300.0,,2024-03-07 15:02:49
 6975,Panier abandonné,,260.0,,2024-03-07 13:09:03
 6974,1222,L. Pfeffer,59.0,DHL,2024-03-07 10:36:48
-6973,Panier abandonné,L. Pfeffer,0.0,DHL,2024-03-07 10:36:37
 6972,1187,J. BARRÈS,610.0,DHL,2024-03-07 10:04:21
 6971,Panier abandonné,,2885.0,,2024-03-07 04:15:24
 6970,Panier abandonné,,590.0,,2024-03-06 22:18:42
-6969,Panier abandonné,,0.0,,2024-03-06 15:52:01
-6968,Panier abandonné,I. Jimenez ,0.0,,2024-03-06 14:54:09
-6967,Panier abandonné,,0.0,,2024-03-06 13:15:13
-6966,Panier abandonné,,0.0,,2024-03-06 02:30:24
 6965,Panier abandonné,,2150.0,,2024-03-05 22:54:19
 6964,Panier abandonné,,1150.0,,2024-03-05 16:54:57
-6963,Panier abandonné,,0.0,,2024-03-05 16:54:51
 6962,1186,F. zanni,510.0,DHL,2024-03-05 16:42:18
 6961,1185,L. Pfeffer,60.0,CLICK AND COLLECT ,2024-03-05 15:37:06
 6960,1203,C. Tailleferd,1000.0,DHL,2024-03-05 14:01:40
 6959,Panier abandonné,,1272.0,,2024-03-05 13:12:10
 6958,Panier abandonné,,285.0,,2024-03-05 12:35:51
-6957,Panier abandonné,S. Van Vliet,0.0,,2024-03-05 11:47:36
 6956,Panier abandonné,,2470.0,,2024-03-05 11:47:27
 6955,Panier abandonné,M. SCHAUB,460.0,,2024-03-05 11:42:25
 6954,Panier abandonné,,1140.0,,2024-03-05 05:07:04
@@ -969,19 +350,11 @@ id,order_id,customer,total_amount,carrier,order_date
 6952,Panier abandonné,,240.0,,2024-03-04 22:40:57
 6951,Panier abandonné,,490.0,,2024-03-04 22:28:46
 6950,Panier abandonné,,260.0,,2024-03-04 14:02:31
-6949,Panier abandonné,C. Duros,0.0,,2024-03-04 00:44:57
-6948,Panier abandonné,C. Duros,0.0,,2024-03-04 00:39:08
 6947,Panier abandonné,V. Mazzucotelli ,460.0,DHL,2024-03-03 17:17:41
-6946,Panier abandonné,,0.0,,2024-03-03 14:29:16
-6945,Panier abandonné,H. Marteau,0.0,,2024-03-03 13:51:30
-6944,Panier abandonné,A. Hordern,0.0,,2024-03-02 23:19:35
 6943,Panier abandonné,G. Urban,2165.0,,2024-03-02 22:07:10
-6942,Panier abandonné,,0.0,,2024-03-02 21:46:12
-6941,Panier abandonné,,0.0,,2024-03-02 18:39:56
 6940,Panier abandonné,A. Samuelson,280.0,,2024-03-02 17:24:59
 6939,Panier abandonné,,500.0,,2024-03-02 09:19:43
 6938,1293,M. DE RAFELIS,1390.0,DHL,2024-03-01 17:58:12
-6937,Panier abandonné,C. Lacombe,0.0,,2024-03-01 15:20:17
 6936,1182,C. Lacombe,220.0,DHL,2024-03-01 15:16:44
 6935,Panier abandonné,,220.0,,2024-03-01 14:50:45
 6934,1183,G. Garzon de la Roza,0.0,DHL,2024-03-01 14:48:57
@@ -993,7 +366,6 @@ id,order_id,customer,total_amount,carrier,order_date
 6928,Panier abandonné,,336.0,,2024-03-01 09:01:54
 6927,Panier abandonné,,190.0,,2024-03-01 09:01:52
 6926,Panier abandonné,,550.0,,2024-02-29 23:35:41
-6925,Panier abandonné,,0.0,,2024-02-29 20:26:48
 6924,Panier abandonné,J. Raddatz ,510.0,DHL,2024-02-29 20:16:47
 6923,Panier abandonné,,1272.0,,2024-02-29 18:28:28
 6922,Panier abandonné,M. Letellier,980.0,,2024-02-29 18:27:31
@@ -1003,27 +375,21 @@ id,order_id,customer,total_amount,carrier,order_date
 9183,Panier abandonné,,560.0,,2024-09-13 20:36:56
 9182,1329,M. RONFARD,740.0,DHL,2024-09-13 09:43:13
 9181,Panier abandonné,,690.0,,2024-09-12 23:55:07
-9180,Panier abandonné,R. DeMaris,0.0,,2024-09-12 18:46:39
 9179,Panier abandonné,,2710.0,,2024-09-12 15:51:06
 9178,1334,A. Tournerie ,550.0,DHL,2024-09-12 15:32:36
-9177,Panier abandonné,s. hemidi,0.0,,2024-09-12 11:33:04
 9176,Panier abandonné,,360.0,,2024-09-12 11:29:18
 9175,Panier abandonné,,510.0,,2024-09-12 10:25:51
 9174,1328,M. Mortensen,260.0,DHL,2024-09-12 10:07:18
 9173,Panier abandonné,I. Rebolo,500.0,DHL,2024-09-12 09:39:29
 9172,Panier abandonné,,5670.0,,2024-09-11 21:27:11
-9171,Panier abandonné,H. AZIZ,0.0,,2024-09-11 17:52:08
 9170,Panier abandonné,,20550.0,,2024-09-11 15:52:37
 9169,1326,P. Boucherat,490.0,DHL,2024-09-11 08:37:47
 9168,Panier abandonné,,490.0,,2024-09-11 08:37:33
-9167,Panier abandonné,J. Andes,0.0,,2024-09-11 04:47:37
-9166,Panier abandonné,M. Desclaud,0.0,,2024-09-10 20:26:27
 9165,Panier abandonné,,1780.0,,2024-09-10 16:47:17
 9164,1324,M. LAKE,160.0,DHL,2024-09-10 15:23:29
 9163,Panier abandonné,M. LAKE,276.0,,2024-09-10 15:18:19
 9162,Panier abandonné,M. LAKE,276.0,,2024-09-10 15:14:18
 9161,Panier abandonné,,864.0,,2024-09-10 15:12:12
-9160,Panier abandonné,R. Ormándy,0.0,,2024-09-10 14:04:27
 9159,Panier abandonné,,690.0,,2024-09-10 11:23:00
 9158,Panier abandonné,,220.0,,2024-09-10 11:22:47
 9157,Panier abandonné,,220.0,,2024-09-10 11:22:46
@@ -1032,7 +398,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9154,Panier abandonné,,200.0,,2024-09-10 10:56:18
 9153,Panier abandonné,,200.0,,2024-09-10 10:56:03
 9152,Panier abandonné,,1650.0,,2024-09-09 21:16:52
-9151,Panier abandonné,,0.0,,2024-09-09 15:41:02
 9150,Panier abandonné,,4728.0,,2024-09-09 15:27:05
 9149,1322,A. Mukhanchikov,1640.0,DHL,2024-09-09 13:21:11
 9148,Panier abandonné,,360.0,,2024-09-09 08:34:33
@@ -1043,13 +408,10 @@ id,order_id,customer,total_amount,carrier,order_date
 9143,Panier abandonné,,190.0,,2024-09-08 17:00:54
 9142,Panier abandonné,,285.0,,2024-09-08 15:10:43
 9141,Panier abandonné,C. Tailleferd,2110.0,,2024-09-08 08:55:34
-9140,Panier abandonné,r. etvhqSrY,0.0,,2024-09-08 08:21:32
-9139,Panier abandonné,,0.0,,2024-09-08 01:40:15
 9138,Panier abandonné,,4810.0,,2024-09-08 01:13:23
 9137,Panier abandonné,,610.0,,2024-09-07 14:33:37
 9136,1321,P. Stawinski,380.0,DHL,2024-09-07 10:30:24
 9135,Panier abandonné,E. Gràcia,700.0,,2024-09-07 09:53:01
-9134,Panier abandonné,,0.0,,2024-09-07 09:43:18
 9133,Panier abandonné,,270.0,,2024-09-07 08:24:08
 9132,Panier abandonné,s. hemidi,1495.0,,2024-09-06 22:23:46
 9131,Panier abandonné,,6305.0,,2024-09-06 21:01:43
@@ -1059,15 +421,11 @@ id,order_id,customer,total_amount,carrier,order_date
 9127,Panier abandonné,,4308.0,,2024-09-06 15:34:27
 9126,Panier abandonné,F. DEL TEDESCO,2480.0,,2024-09-06 15:23:51
 9125,Panier abandonné,,580.0,,2024-09-06 15:03:18
-9124,Panier abandonné,M. TestOrange,0.0,,2024-09-06 13:35:28
 9123,1317,M. Pédebernade,380.0,DHL,2024-09-06 12:14:27
 9122,1319,C. Meissonnier,1800.0,DHL,2024-09-06 11:55:12
-9121,Panier abandonné,J. Šlepikiene,0.0,,2024-09-06 10:40:41
 9120,Panier abandonné,,250.0,,2024-09-06 10:15:41
 9119,Panier abandonné,,260.0,,2024-09-06 09:02:30
-9118,Panier abandonné,,0.0,,2024-09-06 01:54:50
 9117,Panier abandonné,,11985.0,,2024-09-06 00:20:21
-9116,Panier abandonné,C. Bouhamou,0.0,,2024-09-05 21:14:07
 9115,Panier abandonné,,1250.0,,2024-09-05 20:32:01
 9114,Panier abandonné,F. DEL TEDESCO,2480.0,DHL,2024-09-05 17:23:39
 9113,Panier abandonné,,2148.0,,2024-09-05 16:20:43
@@ -1081,20 +439,16 @@ id,order_id,customer,total_amount,carrier,order_date
 9105,Panier abandonné,,190.0,,2024-09-04 14:26:39
 9104,Panier abandonné,,260.0,,2024-09-04 14:23:52
 9103,1315,F. Vincent,280.0,DHL,2024-09-04 11:31:55
-9102,Panier abandonné,F. Vincent,0.0,,2024-09-04 11:23:52
 9101,Panier abandonné,,640.0,,2024-09-04 00:09:15
 9100,Panier abandonné,,880.0,,2024-09-03 22:45:44
 9099,Panier abandonné,,1880.0,,2024-09-03 22:24:39
-9098,Panier abandonné,R. Ormándy,0.0,,2024-09-03 16:17:18
 9097,1314,S. Ropert,255.0,CLICK AND COLLECT ,2024-09-03 14:51:11
 9096,Panier abandonné,,255.0,,2024-09-03 14:51:03
 9095,Panier abandonné,M. Hare,1290.0,DHL,2024-09-03 06:16:01
 9094,Panier abandonné,,4308.0,,2024-09-03 05:11:29
-9093,Panier abandonné,,0.0,,2024-09-02 22:12:21
 9092,Panier abandonné,,390.0,,2024-09-02 20:07:08
 9091,Panier abandonné,,490.0,,2024-09-02 16:33:51
 9090,Panier abandonné,,440.0,,2024-09-02 11:24:14
-9089,Panier abandonné,C. Sebon,0.0,,2024-09-02 10:51:38
 9088,Panier abandonné,,540.0,,2024-09-02 01:20:55
 9087,Panier abandonné,,260.0,,2024-09-02 01:15:11
 9085,Panier abandonné,,260.0,,2024-09-02 01:15:02
@@ -1105,21 +459,16 @@ id,order_id,customer,total_amount,carrier,order_date
 9080,Panier abandonné,,396.0,,2024-09-01 17:39:45
 9079,Panier abandonné,,1200.0,,2024-09-01 12:58:22
 9078,Panier abandonné,,550.0,,2024-09-01 04:11:59
-9077,Panier abandonné,,0.0,,2024-08-31 18:40:57
 9076,Panier abandonné,,1560.0,,2024-08-31 17:15:40
 9075,Panier abandonné,,190.0,,2024-08-31 16:42:10
 9074,Panier abandonné,,230.0,,2024-08-31 16:00:50
 9073,Panier abandonné,,580.0,,2024-08-31 15:58:53
-9072,Panier abandonné,F. Vincent,0.0,DHL,2024-08-31 11:40:47
 9071,Panier abandonné,,8350.0,,2024-08-31 09:59:01
 9070,Panier abandonné,,3390.0,,2024-08-31 00:26:42
-9069,Panier abandonné,M. Desclaud,0.0,,2024-08-30 22:23:02
 9068,Panier abandonné,,730.0,,2024-08-30 21:40:29
 9067,1312,J. Šlepikiene,750.0,DHL,2024-08-30 21:08:00
 9066,Panier abandonné,,425.0,,2024-08-30 16:10:18
-9065,Panier abandonné,N. Chauveau,0.0,,2024-08-30 14:43:52
 9064,Panier abandonné,,1680.0,,2024-08-30 12:58:11
-9063,Panier abandonné,A. Pecora,0.0,,2024-08-30 08:41:08
 9062,Panier abandonné,,1728.0,,2024-08-30 06:42:04
 9061,Panier abandonné,,220.0,,2024-08-29 23:04:51
 9060,Panier abandonné,,2172.0,,2024-08-29 21:31:34
@@ -1129,7 +478,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9056,Panier abandonné,,260.0,,2024-08-29 18:53:22
 9055,Panier abandonné,,260.0,,2024-08-29 18:53:15
 9054,Panier abandonné,,260.0,,2024-08-29 18:53:02
-9053,Panier abandonné,A. Larre,0.0,,2024-08-29 11:57:06
 9052,1313,N. Thorez,420.0,DHL,2024-08-29 10:08:58
 9051,Panier abandonné,,200.0,,2024-08-29 06:59:02
 9050,Panier abandonné,,190.0,,2024-08-29 02:35:51
@@ -1137,16 +485,12 @@ id,order_id,customer,total_amount,carrier,order_date
 9048,Panier abandonné,,300.0,,2024-08-28 21:08:33
 9047,Panier abandonné,,730.0,,2024-08-28 13:12:13
 9046,1327,k. maboa mbissa,880.0,DHL,2024-08-28 10:38:04
-9045,Panier abandonné,,0.0,,2024-08-27 20:44:36
-9044,Panier abandonné,,0.0,,2024-08-27 20:44:35
-9043,Panier abandonné,,0.0,,2024-08-27 20:44:28
 9042,Panier abandonné,,2088.0,,2024-08-27 16:02:41
 9041,Panier abandonné,F. Taxil,810.0,DHL,2024-08-27 12:54:48
 9040,Panier abandonné,,810.0,,2024-08-27 12:49:18
 9039,Panier abandonné,F. Taxil,810.0,DHL,2024-08-27 12:49:17
 9038,Panier abandonné,,810.0,,2024-08-27 12:49:11
 9037,Panier abandonné,,1240.0,,2024-08-26 23:36:44
-9036,Panier abandonné,,0.0,,2024-08-26 22:51:18
 9035,Panier abandonné,,880.0,,2024-08-26 22:02:04
 9034,1311,F. zanni,730.0,DHL,2024-08-26 22:00:01
 9033,Panier abandonné,,580.0,,2024-08-26 21:55:09
@@ -1154,15 +498,11 @@ id,order_id,customer,total_amount,carrier,order_date
 9031,1309,Y. WEI,270.0,DHL,2024-08-26 15:07:29
 9030,Panier abandonné,,2620.0,,2024-08-26 13:54:40
 9029,Panier abandonné,,240.0,,2024-08-26 11:14:44
-9028,Panier abandonné,R. Ormándy,0.0,,2024-08-26 08:40:35
 9027,Panier abandonné,A. Waqué,280.0,DHL,2024-08-25 15:27:57
 9026,Panier abandonné,,675.0,,2024-08-25 10:14:10
 9025,1308,C. Sebon,270.0,DHL,2024-08-25 02:07:25
-9024,Panier abandonné,,0.0,,2024-08-24 21:38:23
 9023,Panier abandonné,,830.0,,2024-08-24 20:00:10
-9022,Panier abandonné,,0.0,,2024-08-24 16:20:13
 9021,Panier abandonné,H. Bonabu,490.0,DHL,2024-08-24 14:49:53
-9020,Panier abandonné,k. messaoudi,0.0,,2024-08-24 14:43:06
 9019,1307,C. Lubas,290.0,DHL,2024-08-24 12:54:54
 9018,1306,H. Folliot,390.0,DHL,2024-08-24 10:33:51
 9017,Panier abandonné,,620.0,,2024-08-24 03:14:27
@@ -1185,11 +525,8 @@ id,order_id,customer,total_amount,carrier,order_date
 9000,Panier abandonné,,260.0,,2024-08-22 17:00:43
 8999,Panier abandonné,,260.0,,2024-08-22 17:00:42
 8998,Panier abandonné,,260.0,,2024-08-22 16:56:33
-8997,Panier abandonné,A. BEZY ,0.0,,2024-08-22 15:24:35
 8996,Panier abandonné,,1190.0,,2024-08-22 14:43:01
 8995,Panier abandonné,,1450.0,,2024-08-22 09:07:45
-8994,Panier abandonné,,0.0,,2024-08-22 09:07:37
-8993,Panier abandonné,,0.0,,2024-08-22 09:07:30
 8992,Panier abandonné,,396.0,,2024-08-22 01:24:06
 8991,Panier abandonné,,810.0,,2024-08-21 21:34:19
 8990,Panier abandonné,,810.0,,2024-08-21 16:43:51
@@ -1210,11 +547,8 @@ id,order_id,customer,total_amount,carrier,order_date
 8975,Panier abandonné,,5304.0,,2024-08-17 06:29:27
 8974,Panier abandonné,,490.0,,2024-08-16 16:52:38
 8973,Panier abandonné,,2020.0,,2024-08-16 15:59:29
-8972,Panier abandonné,,0.0,,2024-08-16 15:55:58
 8971,Panier abandonné,,3760.0,,2024-08-16 12:01:14
 8970,Panier abandonné,,1780.0,,2024-08-16 08:03:40
-8969,Panier abandonné,,0.0,,2024-08-15 22:48:49
-8968,Panier abandonné,,0.0,,2024-08-14 21:53:45
 8967,Panier abandonné,,230.0,,2024-08-14 07:58:50
 8966,Panier abandonné,,2620.0,,2024-08-13 23:44:04
 8965,Panier abandonné,,2480.0,,2024-08-13 22:27:07
@@ -1223,21 +557,17 @@ id,order_id,customer,total_amount,carrier,order_date
 8962,Panier abandonné,,270.0,,2024-08-12 09:23:14
 8961,Panier abandonné,,380.0,,2024-08-12 09:02:29
 8960,Panier abandonné,,550.0,,2024-08-12 01:40:40
-8959,Panier abandonné,A. Savoy,0.0,,2024-08-11 18:47:16
 8958,Panier abandonné,,2750.0,,2024-08-11 07:51:27
 8957,Panier abandonné,,2750.0,,2024-08-11 07:51:26
 8956,Panier abandonné,,490.0,,2024-08-10 22:17:38
 8955,Panier abandonné,,230.0,,2024-08-10 19:47:40
 8954,1320,s. hemidi,610.0,DHL,2024-08-10 16:03:32
-8953,Panier abandonné,C. Cohen-Perez,0.0,,2024-08-09 15:25:40
 8952,1303,X. Besse,315.0,DHL,2024-08-09 09:35:07
-8951,Panier abandonné,L. Stephanie,0.0,DHL,2024-08-09 05:45:08
 8950,Panier abandonné,,1872.0,,2024-08-08 21:56:27
 8949,Panier abandonné,,6924.0,,2024-08-08 21:26:37
 8948,Panier abandonné,L. PEREZ,1780.0,,2024-08-08 17:09:07
 8947,Panier abandonné,C. Cohen-Perez,1780.0,,2024-08-08 16:26:05
 8946,Panier abandonné,,785.0,,2024-08-08 13:27:05
-8945,Panier abandonné,N. Chauveau,0.0,,2024-08-08 10:28:43
 8944,Panier abandonné,,1215.0,,2024-08-07 23:28:38
 8943,Panier abandonné,,650.0,,2024-08-07 23:22:43
 8942,Panier abandonné,,444.0,,2024-08-07 15:46:43
@@ -1253,12 +583,10 @@ id,order_id,customer,total_amount,carrier,order_date
 8932,Panier abandonné,,660.0,,2024-08-05 20:33:33
 8931,Panier abandonné,,630.0,,2024-08-05 15:32:57
 8930,Panier abandonné,,630.0,,2024-08-05 08:29:10
-8929,Panier abandonné,M. Oliva,0.0,,2024-08-05 04:01:40
 8928,Panier abandonné,,740.0,,2024-08-05 04:01:20
 8927,1300,k. messaoudi,380.0,DHL,2024-08-04 20:38:29
 8926,Panier abandonné,,380.0,,2024-08-04 20:37:15
 8925,Panier abandonné,,1480.0,,2024-08-04 19:58:42
-8924,Panier abandonné,I. Boga,0.0,,2024-08-04 17:29:36
 8923,Panier abandonné,M. Gilbert,2710.0,DHL,2024-08-04 16:21:07
 8922,Panier abandonné,,220.0,,2024-08-04 06:58:16
 8921,Panier abandonné,,1890.0,,2024-08-03 22:58:03
@@ -1272,22 +600,15 @@ id,order_id,customer,total_amount,carrier,order_date
 8913,Panier abandonné,,220.0,,2024-08-02 14:58:02
 8912,Panier abandonné,,2150.0,,2024-08-02 13:47:10
 8911,Panier abandonné,,2150.0,,2024-08-02 12:50:29
-8910,Panier abandonné,,0.0,,2024-08-02 09:54:48
-8909,Panier abandonné,,0.0,,2024-08-02 01:09:54
 8908,Panier abandonné,,610.0,,2024-08-02 00:39:14
-8907,Panier abandonné,E. Yiacoupis,0.0,,2024-08-02 00:38:24
 8906,Panier abandonné,,6190.0,,2024-08-01 23:18:24
 8905,Panier abandonné,,2360.0,,2024-08-01 18:00:33
-8904,Panier abandonné,R. Ormándy,0.0,,2024-08-01 08:24:44
 8903,1304,S. Oeschger-Delautre,310.0,DHL,2024-08-01 06:50:20
 8902,Panier abandonné,,5904.0,,2024-07-31 21:26:32
 8901,Panier abandonné,,270.0,,2024-07-31 21:25:47
-8900,Panier abandonné,C. Malchrowicz,0.0,,2024-07-31 10:46:48
 8899,Panier abandonné,,3270.0,,2024-07-31 08:22:22
 8898,Panier abandonné,,260.0,,2024-07-30 19:14:45
 8897,Panier abandonné,,260.0,,2024-07-30 19:14:30
-8896,Panier abandonné,,0.0,,2024-07-30 16:41:16
-8895,Panier abandonné,C. Malchrowicz,0.0,,2024-07-30 14:39:15
 8894,Panier abandonné,,1820.0,,2024-07-30 14:06:45
 8893,Panier abandonné,,2620.0,,2024-07-30 12:04:36
 8892,1299,L. Goddard,220.0,DHL,2024-07-30 10:41:24
@@ -1307,7 +628,6 @@ id,order_id,customer,total_amount,carrier,order_date
 8878,Panier abandonné,,9510.0,,2024-07-28 11:06:03
 8877,Panier abandonné,C. Malchrowicz,2670.0,CLICK AND COLLECT ,2024-07-28 10:34:42
 8876,1298,P. HAHN,580.0,DHL,2024-07-28 10:10:48
-8875,Panier abandonné,,0.0,,2024-07-27 21:07:06
 8874,Panier abandonné,,880.0,,2024-07-27 19:30:16
 8873,1295,G. DEROUDILHE,230.0,DHL,2024-07-27 16:02:04
 8872,Panier abandonné,,1930.0,,2024-07-27 15:48:42
@@ -1326,17 +646,13 @@ id,order_id,customer,total_amount,carrier,order_date
 8859,Panier abandonné,,3492.0,,2024-07-26 00:37:37
 8858,Panier abandonné,,660.0,,2024-07-26 00:37:29
 8857,Panier abandonné,,960.0,,2024-07-25 21:55:00
-8856,Panier abandonné,,0.0,,2024-07-25 15:51:50
 8855,Panier abandonné,,672.0,,2024-07-25 13:31:56
-8854,Panier abandonné,G. Cabras,0.0,,2024-07-25 12:20:35
-8853,Panier abandonné,,0.0,,2024-07-25 03:03:19
 8852,Panier abandonné,,850.0,,2024-07-25 03:02:48
 8851,Panier abandonné,,1910.0,,2024-07-24 23:44:28
 8850,Panier abandonné,,470.0,,2024-07-24 23:41:35
 8849,Panier abandonné,,4752.0,,2024-07-24 19:24:04
 8848,Panier abandonné,,230.0,,2024-07-24 16:52:05
 8847,Panier abandonné,,1300.0,,2024-07-24 13:58:44
-8846,Panier abandonné,,0.0,,2024-07-23 21:56:21
 8845,Panier abandonné,G. Montorzi ,1830.0,DHL,2024-07-23 20:08:36
 8844,Panier abandonné,,1830.0,,2024-07-23 19:41:49
 8843,Panier abandonné,,792.0,,2024-07-23 19:05:52
@@ -1348,10 +664,8 @@ id,order_id,customer,total_amount,carrier,order_date
 8837,Panier abandonné,,4848.0,,2024-07-22 18:24:01
 8836,Panier abandonné,,700.0,,2024-07-22 16:11:05
 8835,Panier abandonné,,270.0,,2024-07-22 11:31:53
-8834,Panier abandonné,R. Ormándy,0.0,,2024-07-22 10:24:25
 8833,Panier abandonné,,3480.0,,2024-07-22 10:12:37
 8832,Panier abandonné,,612.0,,2024-07-22 00:17:25
-8831,Panier abandonné,L. Hirschauer,0.0,,2024-07-21 22:00:51
 8830,Panier abandonné,,260.0,,2024-07-21 21:16:34
 8829,Panier abandonné,,690.0,,2024-07-21 20:22:29
 8828,Panier abandonné,,725.0,,2024-07-21 18:57:39
@@ -1360,7 +674,6 @@ id,order_id,customer,total_amount,carrier,order_date
 8825,Panier abandonné,,280.0,,2024-07-21 09:35:34
 8824,Panier abandonné,,3804.0,,2024-07-21 03:08:36
 8823,Panier abandonné,G. Myers,12216.0,,2024-07-20 23:12:30
-8822,Panier abandonné,,0.0,,2024-07-20 00:20:59
 8821,Panier abandonné,Y. Lesaint,1870.0,,2024-07-19 17:31:48
 8820,Panier abandonné,,490.0,,2024-07-19 13:41:10
 8819,Panier abandonné,F. Rebhi,240.0,DHL,2024-07-18 22:13:44
@@ -1370,20 +683,15 @@ id,order_id,customer,total_amount,carrier,order_date
 8815,Panier abandonné,,1040.0,,2024-07-18 16:58:27
 8814,Panier abandonné,L. Pfeffer,1567.0,,2024-07-18 15:49:37
 8813,1289,I. TRZCINSKA,320.0,DHL,2024-07-18 13:21:38
-8812,Panier abandonné,R. Ormándy,0.0,,2024-07-18 13:00:03
 8811,Panier abandonné,,550.0,,2024-07-18 11:37:11
-8810,Panier abandonné,L. Pichot,0.0,,2024-07-18 09:38:08
-8809,Panier abandonné,L. Pichot,0.0,,2024-07-18 09:31:29
 8808,Panier abandonné,,650.0,,2024-07-18 09:23:22
 8807,Panier abandonné,,1200.0,,2024-07-17 20:10:28
-8806,Panier abandonné,L. Pichot,0.0,,2024-07-17 19:54:09
 8805,Panier abandonné,,2540.0,,2024-07-17 17:02:16
 8804,Panier abandonné,,950.0,,2024-07-16 21:39:19
 8803,Panier abandonné,,995.0,,2024-07-16 20:27:42
 8802,Panier abandonné,,280.0,,2024-07-16 19:57:16
 8801,Panier abandonné,,490.0,,2024-07-16 14:31:06
 8800,1287,Z. Burger,1740.0,DHL,2024-07-16 11:08:43
-8799,Panier abandonné,L. LAURENTI,0.0,DHL,2024-07-16 09:38:09
 8798,Panier abandonné,,880.0,,2024-07-16 08:02:05
 8797,Panier abandonné,,230.0,,2024-07-15 22:13:54
 8796,Panier abandonné,,4164.0,,2024-07-15 21:03:44
@@ -1392,8 +700,6 @@ id,order_id,customer,total_amount,carrier,order_date
 8793,Panier abandonné,,2360.0,,2024-07-15 15:41:39
 8792,Panier abandonné,,1120.0,,2024-07-15 15:38:15
 8791,Panier abandonné,,820.0,,2024-07-15 10:15:47
-8790,Panier abandonné,C. Morin,0.0,,2024-07-14 20:53:40
-8789,Panier abandonné,,0.0,,2024-07-14 20:38:46
 8788,Panier abandonné,,3864.0,,2024-07-14 04:17:23
 8787,Panier abandonné,,612.0,,2024-07-14 04:07:36
 8786,Panier abandonné,,3888.0,,2024-07-13 22:58:13
@@ -1409,32 +715,26 @@ id,order_id,customer,total_amount,carrier,order_date
 8775,Panier abandonné,,2100.0,,2024-07-13 14:25:49
 8774,Panier abandonné,,690.0,,2024-07-13 14:23:39
 8772,Panier abandonné,,690.0,,2024-07-13 14:23:37
-8770,Panier abandonné,A. CASSAN,0.0,,2024-07-13 14:13:16
 8769,Panier abandonné,,1845.0,,2024-07-13 09:58:11
 8768,Panier abandonné,,1170.0,,2024-07-12 23:24:48
 8767,Panier abandonné,,280.0,,2024-07-12 22:02:27
 8766,Panier abandonné,A. CANTIN,350.0,DHL,2024-07-12 21:13:05
 8765,Panier abandonné,,260.0,,2024-07-12 19:35:02
 8764,Panier abandonné,C. Vacchiani Marcuzzo,880.0,CLICK AND COLLECT ,2024-07-12 18:48:13
-8763,Panier abandonné,S. Turner,0.0,,2024-07-12 16:43:29
 8762,1284,C. Vacchiani Marcuzzo,880.0,CLICK AND COLLECT ,2024-07-12 14:11:44
 8761,Panier abandonné,,880.0,,2024-07-12 07:01:03
 8760,Panier abandonné,,860.0,,2024-07-11 20:49:28
 8759,Panier abandonné,,750.0,,2024-07-11 18:03:04
-8758,Panier abandonné,Y. Grunberger ,0.0,,2024-07-11 12:22:55
 8757,1283,L. Clara,280.0,DHL,2024-07-11 08:28:30
 8756,Panier abandonné,,852.0,,2024-07-10 21:49:33
 8755,Panier abandonné,,380.0,,2024-07-10 19:52:17
-8754,Panier abandonné,,0.0,,2024-07-10 14:23:28
 8753,Panier abandonné,,785.0,,2024-07-10 12:21:16
 8752,Panier abandonné,,320.0,,2024-07-09 23:39:09
 8751,Panier abandonné,,190.0,,2024-07-09 23:31:09
-8750,Panier abandonné,C. VASNIER,0.0,,2024-07-09 19:47:13
 8749,Panier abandonné,,280.0,,2024-07-09 14:18:52
 8748,1282,L. LAURENTI,280.0,DHL,2024-07-09 09:16:23
 8747,Panier abandonné,,200.0,,2024-07-09 00:06:11
 8746,1285,L. Pichot,250.0,DHL,2024-07-08 23:19:43
-8745,Panier abandonné,,0.0,,2024-07-08 21:48:17
 8744,Panier abandonné,,696.0,,2024-07-08 20:58:38
 8743,Panier abandonné,,1240.0,,2024-07-07 23:10:21
 8742,Panier abandonné,,720.0,,2024-07-07 23:02:08
@@ -1442,8 +742,6 @@ id,order_id,customer,total_amount,carrier,order_date
 8740,Panier abandonné,,1240.0,,2024-07-07 15:46:01
 8739,Panier abandonné,,1880.0,,2024-07-07 11:46:16
 8738,Panier abandonné,,660.0,,2024-07-07 11:43:46
-8737,Panier abandonné,,0.0,,2024-07-07 08:32:08
-8736,Panier abandonné,,0.0,,2024-07-06 21:58:49
 8735,Panier abandonné,,580.0,,2024-07-06 20:50:05
 8734,Panier abandonné,,1240.0,,2024-07-06 19:58:56
 8733,Panier abandonné,,270.0,,2024-07-06 11:05:57
@@ -1454,7 +752,6 @@ id,order_id,customer,total_amount,carrier,order_date
 8728,Panier abandonné,,610.0,,2024-07-05 20:30:52
 8727,Panier abandonné,,580.0,,2024-07-05 15:01:18
 8726,Panier abandonné,C. de Lastelle,350.0,,2024-07-05 13:58:44
-8725,Panier abandonné,A. ELLENA,0.0,,2024-07-04 18:43:50
 8724,Panier abandonné,,3445.0,,2024-07-04 17:36:24
 8723,Panier abandonné,,260.0,,2024-07-04 00:15:44
 8722,Panier abandonné,C. Potiron ,900.0,DHL,2024-07-03 23:26:50
@@ -1470,20 +767,16 @@ id,order_id,customer,total_amount,carrier,order_date
 8712,Panier abandonné,P. Magdelaine,830.0,,2024-07-01 22:03:03
 8711,Panier abandonné,,650.0,,2024-07-01 20:38:50
 8710,Panier abandonné,,12900.0,,2024-07-01 17:41:34
-8709,Panier abandonné,F. zanni,0.0,,2024-07-01 14:42:14
 8708,Panier abandonné,,1660.0,,2024-07-01 13:07:52
 8707,1278,J. Smogorzewska,260.0,DHL,2024-06-30 21:11:22
 8706,Panier abandonné,,310.0,,2024-06-30 17:15:38
 8705,1277,S. Endler,1970.0,DHL,2024-06-30 16:39:34
-8704,Panier abandonné,,0.0,,2024-06-30 12:16:00
 8702,Panier abandonné,,4920.0,,2024-06-30 05:45:34
 8701,Panier abandonné,,320.0,,2024-06-29 22:43:21
 8700,Panier abandonné,A. Rougier,190.0,,2024-06-29 21:53:24
 8699,1276,A. Rougier,285.0,CLICK AND COLLECT ,2024-06-29 21:08:08
-8698,Panier abandonné,,0.0,,2024-06-29 17:10:29
 8697,Panier abandonné,,980.0,,2024-06-29 16:37:25
 8696,Panier abandonné,,600.0,,2024-06-29 16:32:35
-8695,Panier abandonné,,0.0,,2024-06-29 16:01:55
 8694,Panier abandonné,,805.0,,2024-06-29 12:04:32
 8693,Panier abandonné,,220.0,,2024-06-29 09:46:24
 8692,Panier abandonné,,220.0,,2024-06-29 09:46:08
@@ -1497,89 +790,55 @@ id,order_id,customer,total_amount,carrier,order_date
 8684,Panier abandonné,,495.0,,2024-06-27 22:25:20
 8683,Panier abandonné,,1080.0,,2024-06-27 21:27:44
 8681,1274,D. Pollard,1250.0,DHL,2024-06-27 20:21:11
-8680,Panier abandonné,T. Ramos,0.0,,2024-06-27 16:39:43
 8679,1273,D. Scorey,190.0,DHL,2024-06-27 14:56:08
 8678,Panier abandonné,,2520.0,,2024-06-27 14:24:26
-8677,Panier abandonné,,0.0,,2024-06-27 13:18:53
 8676,Panier abandonné,,444.0,,2024-06-27 02:55:10
 8675,Panier abandonné,,1300.0,,2024-06-26 22:52:45
 8674,Panier abandonné,S. Dubois-Zedam,280.0,DHL,2024-06-26 15:31:13
 8673,Panier abandonné,,420.0,,2024-06-26 12:45:11
-8672,Panier abandonné,R. Ormándy,0.0,,2024-06-26 11:09:37
 8671,Panier abandonné,,1780.0,,2024-06-26 00:14:58
 8670,Panier abandonné,,470.0,,2024-06-25 15:26:23
-8669,Panier abandonné,,0.0,,2024-06-25 15:22:34
 8668,Panier abandonné,,2470.0,,2024-06-25 13:24:42
-8667,Panier abandonné,,0.0,,2024-06-24 22:24:52
 8666,Panier abandonné,,190.0,,2024-06-24 21:15:21
 8665,Panier abandonné,,730.0,,2024-06-24 17:38:02
 8664,1272,T. Chassagnard,680.0,DHL,2024-06-24 15:58:47
 8663,Panier abandonné,,690.0,,2024-06-24 13:06:08
-8662,Panier abandonné,,0.0,,2024-06-24 09:36:09
 8661,Panier abandonné,,610.0,,2024-06-24 07:17:15
-8660,Panier abandonné,s. bailly,0.0,,2024-06-24 06:19:18
 8659,Panier abandonné,,5150.0,,2024-06-23 21:33:30
-8658,Panier abandonné,c. chatelin,0.0,,2024-06-23 20:15:18
 8657,Panier abandonné,,1410.0,,2024-06-23 14:26:05
-8656,Panier abandonné,,0.0,,2024-06-23 09:32:49
-8655,Panier abandonné,,0.0,,2024-06-23 09:07:28
 8654,Panier abandonné,,21280.0,,2024-06-23 01:41:04
 8653,Panier abandonné,,450.0,,2024-06-23 00:14:04
-8652,Panier abandonné,,0.0,,2024-06-23 00:00:47
 8651,Panier abandonné,,450.0,,2024-06-22 23:55:59
-8650,Panier abandonné,,0.0,,2024-06-22 23:47:41
 8649,Panier abandonné,,450.0,,2024-06-22 23:33:31
-8648,Panier abandonné,,0.0,,2024-06-22 21:00:17
-8647,Panier abandonné,,0.0,,2024-06-22 20:02:49
-8646,Panier abandonné,,0.0,,2024-06-22 19:48:26
-8645,Panier abandonné,,0.0,,2024-06-22 19:28:38
 8644,Panier abandonné,,6190.0,,2024-06-22 15:19:17
 8643,Panier abandonné,,2480.0,,2024-06-22 14:47:21
-8642,Panier abandonné,,0.0,,2024-06-22 14:29:59
 8641,Panier abandonné,,2480.0,,2024-06-22 14:14:42
 8640,Panier abandonné,,380.0,,2024-06-22 14:04:40
 8639,Panier abandonné,,380.0,,2024-06-22 14:04:24
 8638,1270,S. Massiot,250.0,DHL,2024-06-22 11:55:38
 8637,Panier abandonné,,1055.0,,2024-06-22 11:24:13
-8636,Panier abandonné,A. Jean,0.0,,2024-06-22 08:05:24
-8635,Panier abandonné,A. Jean,0.0,,2024-06-22 07:18:17
 8634,Panier abandonné,,190.0,,2024-06-22 07:02:01
 8633,Panier abandonné,,1300.0,,2024-06-22 03:19:13
-8632,Panier abandonné,,0.0,,2024-06-22 03:06:13
 8631,Panier abandonné,,1300.0,,2024-06-22 02:55:10
 8630,Panier abandonné,,1815.0,,2024-06-21 22:44:36
 8629,Panier abandonné,,400.0,,2024-06-21 22:24:11
 8628,Panier abandonné,,950.0,,2024-06-21 21:45:30
-8627,Panier abandonné,A. Jean,0.0,,2024-06-21 20:42:56
-8625,Panier abandonné,,0.0,,2024-06-21 15:46:11
 8624,Panier abandonné,A. Vernet,1650.0,,2024-06-21 14:18:18
 8623,Panier abandonné,K. Daniela,250.0,DHL,2024-06-21 10:45:06
 8622,Panier abandonné,,260.0,,2024-06-21 00:35:52
 8621,Panier abandonné,,7510.0,,2024-06-20 18:48:01
 8620,Panier abandonné,C. Tailleferd,820.0,,2024-06-20 10:51:58
-8619,Panier abandonné,R. Ormándy,0.0,,2024-06-20 09:53:03
 8618,1269,R. Emanuela,380.0,DHL,2024-06-19 18:43:28
 8617,Panier abandonné,,1020.0,,2024-06-19 15:17:26
 8616,Panier abandonné,,730.0,,2024-06-19 13:51:58
-8615,Panier abandonné,V. Lauer,0.0,,2024-06-19 04:22:04
-8614,Panier abandonné,P. Olson ,0.0,,2024-06-19 00:05:16
 8613,1279,F. zanni,1910.0,DHL,2024-06-18 23:12:28
 8612,Panier abandonné,,1524.0,,2024-06-18 22:18:37
 8611,Panier abandonné,L. Nadiu,880.0,DHL,2024-06-18 19:21:57
 8610,Panier abandonné,,380.0,,2024-06-18 19:18:10
-8609,Panier abandonné,L. Calvi,0.0,DHL,2024-06-18 18:24:37
-8608,Panier abandonné,L. Calvi,0.0,DHL,2024-06-18 18:24:33
-8607,Panier abandonné,L. Calvi,0.0,DHL,2024-06-18 18:24:28
-8606,Panier abandonné,A. Pecora,0.0,,2024-06-18 14:10:32
 8605,Panier abandonné,,690.0,,2024-06-18 13:31:58
 8604,1268,A. Pecora,0.0,CLICK AND COLLECT ,2024-06-18 12:20:47
-8603,Panier abandonné,A. HERVIEU,0.0,,2024-06-18 09:34:23
-8602,Panier abandonné,e. evans,0.0,,2024-06-18 07:31:40
 8601,Panier abandonné,,1044.0,,2024-06-18 07:30:44
 8600,Panier abandonné,,2148.0,,2024-06-18 04:34:34
-8599,Panier abandonné,L. Calvi,0.0,,2024-06-18 00:30:11
-8598,Panier abandonné,,0.0,,2024-06-17 23:30:41
-8597,Panier abandonné,L. Anselmi,0.0,,2024-06-17 21:05:42
 8596,Panier abandonné,,500.0,,2024-06-17 20:26:49
 8595,Panier abandonné,,260.0,,2024-06-17 20:12:30
 8594,Panier abandonné,A. Feuga ,400.0,,2024-06-17 14:47:01
@@ -1587,30 +846,20 @@ id,order_id,customer,total_amount,carrier,order_date
 8592,Panier abandonné,,816.0,,2024-06-17 08:15:04
 8591,Panier abandonné,,260.0,,2024-06-17 08:08:12
 8590,Panier abandonné,,1780.0,,2024-06-17 00:16:56
-8589,Panier abandonné,L. Anselmi,0.0,,2024-06-16 23:52:53
-8588,Panier abandonné,,0.0,,2024-06-16 21:34:17
 8587,Panier abandonné,,1800.0,,2024-06-16 20:19:23
 8586,Panier abandonné,,9670.0,,2024-06-16 01:12:35
-8585,Panier abandonné,C. Malchrowicz,0.0,,2024-06-16 00:08:59
 8584,Panier abandonné,,2480.0,,2024-06-15 22:12:09
 8583,Panier abandonné,,3936.0,,2024-06-15 21:53:43
 8582,Panier abandonné,,600.0,,2024-06-15 20:28:34
-8581,Panier abandonné,,0.0,,2024-06-15 15:56:26
 8580,Panier abandonné,,492.0,,2024-06-15 15:17:55
 8579,Panier abandonné,,1960.0,,2024-06-15 12:48:34
 8578,Panier abandonné,,1440.0,,2024-06-14 19:02:20
 8577,1264,B. Eckenroth,450.0,DHL,2024-06-14 16:54:34
-8576,Panier abandonné,,0.0,,2024-06-14 16:43:26
 8575,Panier abandonné,,1050.0,,2024-06-14 11:55:14
-8574,Panier abandonné,M. Archambault,0.0,,2024-06-14 07:51:44
-8573,Panier abandonné,A. Hordern,0.0,,2024-06-14 00:39:56
 8572,Panier abandonné,,610.0,,2024-06-13 22:59:15
 8571,Panier abandonné,,590.0,,2024-06-13 22:58:13
 8570,Panier abandonné,,220.0,,2024-06-13 22:03:46
-8569,Panier abandonné,C. Pons,0.0,,2024-06-13 12:47:46
-8568,Panier abandonné,C. Pons,0.0,,2024-06-13 12:36:25
 8567,1262,C. Pons,490.0,DHL,2024-06-13 12:29:33
-8566,Panier abandonné,,0.0,,2024-06-13 12:25:23
 8565,Panier abandonné,C. Pons,490.0,DHL,2024-06-13 12:23:58
 8564,Panier abandonné,L. PERRIER-DORON,490.0,,2024-06-13 12:14:42
 8563,Panier abandonné,C. Pons,490.0,DHL,2024-06-13 12:11:53
@@ -1627,7 +876,6 @@ id,order_id,customer,total_amount,carrier,order_date
 8552,Panier abandonné,,468.0,,2024-06-11 21:24:50
 8551,Panier abandonné,,1200.0,,2024-06-11 20:36:53
 8550,Panier abandonné,,190.0,,2024-06-11 18:38:52
-8549,Panier abandonné,R. Ormándy,0.0,,2024-06-11 10:10:42
 8548,1271,S. Roche,510.0,DHL,2024-06-11 09:46:06
 8547,Panier abandonné,,4080.0,,2024-06-11 06:23:57
 8546,Panier abandonné,,1500.0,,2024-06-10 16:23:08
@@ -1637,27 +885,21 @@ id,order_id,customer,total_amount,carrier,order_date
 8542,Panier abandonné,,1596.0,,2024-06-09 23:32:28
 8541,Panier abandonné,,444.0,,2024-06-09 20:13:53
 8540,Panier abandonné,I. CHAN,350.0,DHL,2024-06-09 19:33:56
-8539,Panier abandonné,C. GRANDCLÉMENT,0.0,,2024-06-09 19:31:38
 8538,Panier abandonné,,1068.0,,2024-06-09 19:07:25
-8537,Panier abandonné,P. Viana,0.0,,2024-06-09 18:30:58
-8536,Panier abandonné,,0.0,,2024-06-09 16:23:58
 8535,Panier abandonné,,1190.0,,2024-06-09 11:46:54
 8534,1266,F. Bernardeau,800.0,CLICK AND COLLECT ,2024-06-08 22:31:35
 8533,1260,P. Viana,260.0,DHL,2024-06-08 20:16:06
 8532,1263,C. Hossenbaccus,1050.0,DHL,2024-06-08 16:28:49
 8531,Panier abandonné,,260.0,,2024-06-08 14:40:49
-8530,Panier abandonné,I. Neuray,0.0,,2024-06-08 13:18:52
 8529,Panier abandonné,,250.0,,2024-06-08 00:48:46
 8528,Panier abandonné,,936.0,,2024-06-08 00:38:38
 8527,Panier abandonné,,1930.0,,2024-06-07 17:05:36
 8526,1259,T. HERAULT,240.0,DHL,2024-06-07 16:30:20
-8525,Panier abandonné,I. Salemink,0.0,,2024-06-06 21:42:59
 8524,1257,s. bailly,965.0,DHL,2024-06-06 18:39:06
 8523,Panier abandonné,,5980.0,,2024-06-06 15:45:41
 8522,Panier abandonné,L. Van Damme,1110.0,DHL,2024-06-06 15:34:05
 8521,Panier abandonné,,1290.0,,2024-06-06 13:20:53
 8520,Panier abandonné,,1110.0,,2024-06-06 12:46:25
-8519,Panier abandonné,,0.0,,2024-06-06 02:49:28
 8518,1258,E. COPPOLANI ,270.0,DHL,2024-06-05 20:24:48
 8517,Panier abandonné,,860.0,,2024-06-05 17:51:06
 8516,Panier abandonné,,405.0,,2024-06-05 11:38:50
@@ -1666,11 +908,8 @@ id,order_id,customer,total_amount,carrier,order_date
 8513,Panier abandonné,,795.0,,2024-06-05 10:35:22
 8512,Panier abandonné,,950.0,,2024-06-05 01:27:12
 8511,1254,D. Salaud,0.0,DHL,2024-06-04 17:08:41
-8510,Panier abandonné,,0.0,,2024-06-04 16:37:45
 8509,Panier abandonné,,3590.0,,2024-06-04 06:30:49
-8508,Panier abandonné,,0.0,,2024-06-03 23:15:36
 8507,1255,V. Matton ,1080.0,DHL,2024-06-03 20:53:15
-8506,Panier abandonné,,0.0,,2024-06-03 17:16:36
 8505,Panier abandonné,,280.0,,2024-06-03 09:12:33
 8504,Panier abandonné,,2340.0,,2024-06-02 22:35:14
 8503,Panier abandonné,,2620.0,,2024-06-02 22:18:19
@@ -1690,9 +929,7 @@ id,order_id,customer,total_amount,carrier,order_date
 8489,1253,n. becker,240.0,DHL,2024-05-31 20:38:45
 8488,1251,I. Radi,0.0,DHL,2024-05-31 15:57:13
 8487,Panier abandonné,,390.0,,2024-05-30 21:49:13
-8486,Panier abandonné,S. Provost,0.0,,2024-05-30 21:21:25
 8485,Panier abandonné,,660.0,,2024-05-30 20:48:51
-8484,Panier abandonné,C. De Michiel,0.0,,2024-05-30 20:17:54
 8483,Panier abandonné,,1080.0,,2024-05-30 12:07:06
 8482,Panier abandonné,,2088.0,,2024-05-30 01:37:01
 8481,Panier abandonné,,2270.0,,2024-05-29 22:00:27
@@ -1713,7 +950,6 @@ id,order_id,customer,total_amount,carrier,order_date
 8466,1247,C. Tailleferd,190.0,DHL,2024-05-26 16:51:27
 8465,Panier abandonné,,760.0,,2024-05-26 16:46:59
 8464,Panier abandonné,,260.0,,2024-05-26 14:52:55
-8463,Panier abandonné,,0.0,,2024-05-26 13:18:56
 8462,1246,J. HERY,190.0,DHL,2024-05-26 12:55:40
 8461,Panier abandonné,,925.0,,2024-05-26 12:00:11
 8460,Panier abandonné,,1610.0,,2024-05-26 10:26:25
@@ -1734,37 +970,26 @@ id,order_id,customer,total_amount,carrier,order_date
 8445,Panier abandonné,,650.0,,2024-05-23 17:21:37
 8444,Panier abandonné,,380.0,,2024-05-23 17:15:36
 8443,Panier abandonné,,5000.0,,2024-05-23 08:41:40
-8442,Panier abandonné,N. Compagnon,0.0,,2024-05-22 18:48:41
-8441,Panier abandonné,C. vuillemenot,0.0,,2024-05-22 13:48:04
-8440,Panier abandonné,R. Ormándy,0.0,,2024-05-22 09:16:50
 8439,Panier abandonné,,1150.0,,2024-05-21 22:33:19
 8438,Panier abandonné,,310.0,,2024-05-21 21:42:11
 8437,1244,B. GIAQUINTO,590.0,DHL,2024-05-21 15:40:39
 8436,Panier abandonné,,1355.0,,2024-05-20 23:27:13
-8435,Panier abandonné,k. lounis,0.0,,2024-05-20 22:50:02
 8434,Panier abandonné,,6490.0,,2024-05-20 07:45:20
-8433,Panier abandonné,,0.0,,2024-05-19 23:22:48
 8432,Panier abandonné,,2150.0,,2024-05-19 23:21:26
 8431,Panier abandonné,,372.0,,2024-05-19 21:27:08
 8430,Panier abandonné,,336.0,,2024-05-19 18:58:01
-8429,Panier abandonné,P. Olson ,0.0,,2024-05-19 18:57:12
 8428,1242,C. Dumont,220.0,DHL,2024-05-19 17:59:04
 8427,Panier abandonné,,955.0,,2024-05-19 14:05:03
 8426,Panier abandonné,,2436.0,,2024-05-19 07:56:58
 8425,1241,D. Calvo Mayo,260.0,DHL,2024-05-18 17:44:30
 8424,Panier abandonné,,468.0,,2024-05-18 15:33:22
-8423,Panier abandonné,A. Derain,0.0,,2024-05-18 09:36:33
 8422,1243,F. zanni,1490.0,DHL,2024-05-18 09:28:37
 8421,Panier abandonné,,390.0,,2024-05-17 17:29:14
-8420,Panier abandonné,,0.0,,2024-05-17 13:48:25
 8419,Panier abandonné,M. Aquilina,260.0,DHL,2024-05-17 11:52:02
 8418,1240,M. Wood,350.0,DHL,2024-05-17 04:04:58
-8417,Panier abandonné,I. Andreoli,0.0,,2024-05-17 02:58:53
 8416,Panier abandonné,K. Nguyen,805.0,,2024-05-16 20:27:28
-8415,Panier abandonné,A. Hachmi,0.0,,2024-05-16 18:47:32
 8414,Panier abandonné,,1236.0,,2024-05-16 17:19:49
 8413,Panier abandonné,S. CAILLAT,1830.0,,2024-05-16 15:00:23
-8412,Panier abandonné,F. Flipo,0.0,,2024-05-16 10:54:09
 8411,Panier abandonné,,1770.0,,2024-05-16 10:51:41
 8410,1239,k. lounis,0.0,DHL,2024-05-16 00:47:49
 8409,Panier abandonné,,1780.0,,2024-05-15 23:57:41
@@ -1772,225 +997,39 @@ id,order_id,customer,total_amount,carrier,order_date
 8407,Panier abandonné,,660.0,,2024-05-15 21:19:58
 8406,Panier abandonné,,190.0,,2024-05-15 20:56:06
 8405,Panier abandonné,,840.0,,2024-05-15 18:06:07
-8404,Panier abandonné,R. Ormándy,0.0,,2024-05-15 12:06:14
 8403,Panier abandonné,E. Margalit,740.0,DHL,2024-05-15 05:53:42
 8402,Panier abandonné,,888.0,,2024-05-15 05:36:59
 8401,Panier abandonné,,270.0,,2024-05-15 00:22:59
 8400,Panier abandonné,,1090.0,,2024-05-15 00:02:45
-8399,Panier abandonné,M. Jean,0.0,,2024-05-14 18:53:19
 8398,Panier abandonné,,2650.0,,2024-05-14 18:08:54
 8397,Panier abandonné,Q. De breuvery,260.0,CLICK AND COLLECT ,2024-05-13 22:25:49
-8396,Panier abandonné,A. Van Der Moult,0.0,,2024-05-13 22:10:38
-8394,Panier abandonné,,0.0,,2024-05-13 21:57:54
-8393,Panier abandonné,,0.0,,2024-05-13 21:39:28
-8392,Panier abandonné,,0.0,,2024-05-13 20:54:08
-8391,Panier abandonné,,0.0,,2024-05-13 20:42:52
-8390,Panier abandonné,,0.0,,2024-05-13 20:35:41
-8389,Panier abandonné,,0.0,,2024-05-13 20:16:08
-8388,Panier abandonné,,0.0,,2024-05-13 20:02:49
-8387,Panier abandonné,,0.0,,2024-05-13 19:14:24
 8386,Panier abandonné,,1050.0,,2024-05-13 18:52:30
 8385,1237,T. Rubio,350.0,DHL,2024-05-13 18:26:23
 8384,Panier abandonné,,230.0,,2024-05-13 18:08:38
-8383,Panier abandonné,,0.0,,2024-05-13 18:01:35
-8382,Panier abandonné,,0.0,,2024-05-13 17:56:51
-8381,Panier abandonné,,0.0,,2024-05-13 17:26:31
 8380,Panier abandonné,,1650.0,,2024-05-13 17:19:36
-8379,Panier abandonné,,0.0,,2024-05-13 17:18:24
-8378,Panier abandonné,,0.0,,2024-05-13 16:48:31
-8377,Panier abandonné,,0.0,,2024-05-13 16:46:59
 8376,Panier abandonné,L. Pfeffer,1970.0,DHL,2024-05-13 16:43:20
 8375,Panier abandonné,,550.0,,2024-05-13 12:38:26
 8374,Panier abandonné,D. Jane,800.0,,2024-05-13 12:33:02
-8373,Panier abandonné,,0.0,,2024-05-13 12:08:42
-8372,Panier abandonné,,0.0,,2024-05-13 11:17:57
-8371,Panier abandonné,,0.0,,2024-05-13 11:15:02
-8370,Panier abandonné,,0.0,,2024-05-13 10:49:48
-8369,Panier abandonné,,0.0,,2024-05-13 06:04:57
-8368,Panier abandonné,,0.0,,2024-05-13 05:19:15
-8367,Panier abandonné,,0.0,,2024-05-13 04:59:41
-8366,Panier abandonné,,0.0,,2024-05-13 04:12:33
-8365,Panier abandonné,,0.0,,2024-05-13 02:45:05
-8364,Panier abandonné,,0.0,,2024-05-12 02:25:40
-8363,Panier abandonné,,0.0,,2024-05-12 01:45:41
-8362,Panier abandonné,,0.0,,2024-05-12 01:13:13
-8361,Panier abandonné,,0.0,,2024-05-12 01:11:28
-8360,Panier abandonné,,0.0,,2024-05-11 23:18:24
-8359,Panier abandonné,,0.0,,2024-05-11 23:05:55
-8358,Panier abandonné,,0.0,,2024-05-11 22:44:19
-8357,Panier abandonné,,0.0,,2024-05-11 22:05:04
-8356,Panier abandonné,c. chatelin,0.0,,2024-05-11 20:10:53
-8355,Panier abandonné,,0.0,,2024-05-11 19:04:53
-8354,Panier abandonné,,0.0,,2024-05-11 17:18:03
-8353,Panier abandonné,,0.0,,2024-05-11 16:10:14
-8352,Panier abandonné,,0.0,,2024-05-11 15:00:43
 8351,Panier abandonné,,990.0,,2024-05-11 13:09:56
 8350,Panier abandonné,,3010.0,,2024-05-11 11:43:42
-8349,Panier abandonné,,0.0,,2024-05-11 11:06:45
-8348,Panier abandonné,,0.0,,2024-05-11 09:04:18
-8347,Panier abandonné,,0.0,,2024-05-11 05:08:52
-8346,Panier abandonné,,0.0,,2024-05-11 03:19:19
-8345,Panier abandonné,,0.0,,2024-05-11 01:45:14
-8344,Panier abandonné,,0.0,,2024-05-11 00:58:37
 8343,Panier abandonné,,490.0,,2024-05-10 23:17:08
-8342,Panier abandonné,,0.0,,2024-05-10 19:01:41
 8341,Panier abandonné,,815.0,,2024-05-10 18:30:57
-8340,Panier abandonné,D. Salaud,0.0,,2024-05-10 16:50:07
 8339,Panier abandonné,,280.0,,2024-05-10 16:37:49
-8338,Panier abandonné,,0.0,,2024-05-10 13:06:11
-8337,Panier abandonné,,0.0,,2024-05-10 12:30:10
 8336,Panier abandonné,,380.0,,2024-05-10 10:14:08
-8335,Panier abandonné,,0.0,,2024-05-10 09:08:36
-8334,Panier abandonné,,0.0,,2024-05-10 06:47:22
-8333,Panier abandonné,,0.0,,2024-05-10 04:54:12
-8332,Panier abandonné,,0.0,,2024-05-10 00:41:57
 8331,Panier abandonné,K. Crumpler,280.0,DHL,2024-05-10 00:21:05
 8330,Panier abandonné,,1310.0,,2024-05-10 00:13:38
-8329,Panier abandonné,,0.0,,2024-05-09 22:45:59
-8328,Panier abandonné,,0.0,,2024-05-09 19:48:16
-8327,Panier abandonné,,0.0,,2024-05-09 19:46:41
 8326,Panier abandonné,,540.0,,2024-05-09 18:53:37
-8325,Panier abandonné,,0.0,,2024-05-09 17:12:50
-8324,Panier abandonné,,0.0,,2024-05-09 17:00:07
-8323,Panier abandonné,,0.0,,2024-05-09 16:57:27
-8322,Panier abandonné,,0.0,,2024-05-09 15:51:34
-8321,Panier abandonné,,0.0,,2024-05-09 15:41:38
-8320,Panier abandonné,,0.0,,2024-05-09 15:20:31
-8319,Panier abandonné,A. Charpin,0.0,,2024-05-09 15:15:42
-8318,Panier abandonné,,0.0,,2024-05-09 14:59:27
-8317,Panier abandonné,,0.0,,2024-05-09 14:38:18
-8316,Panier abandonné,,0.0,,2024-05-09 14:26:30
-8315,Panier abandonné,,0.0,,2024-05-09 14:15:38
-8314,Panier abandonné,,0.0,,2024-05-09 14:10:18
-8313,Panier abandonné,,0.0,,2024-05-09 13:50:15
-8312,Panier abandonné,,0.0,,2024-05-09 13:44:02
-8311,Panier abandonné,,0.0,,2024-05-09 13:32:34
-8310,Panier abandonné,,0.0,,2024-05-09 12:07:43
-8309,Panier abandonné,,0.0,,2024-05-09 10:56:30
-8308,Panier abandonné,,0.0,,2024-05-09 10:42:28
 8307,Panier abandonné,,2050.0,,2024-05-09 10:25:14
-8306,Panier abandonné,,0.0,,2024-05-09 09:34:19
-8305,Panier abandonné,,0.0,,2024-05-09 09:33:10
 8304,Panier abandonné,,650.0,,2024-05-09 09:28:45
-8303,Panier abandonné,,0.0,,2024-05-09 08:45:03
-8302,Panier abandonné,,0.0,,2024-05-09 05:31:27
-8301,Panier abandonné,,0.0,,2024-05-09 05:21:46
-8300,Panier abandonné,,0.0,,2024-05-09 04:05:03
-8299,Panier abandonné,,0.0,,2024-05-09 03:35:59
-8298,Panier abandonné,,0.0,,2024-05-09 03:26:41
-8297,Panier abandonné,,0.0,,2024-05-09 03:19:39
-8296,Panier abandonné,,0.0,,2024-05-09 03:09:14
-8295,Panier abandonné,,0.0,,2024-05-09 03:02:10
-8294,Panier abandonné,,0.0,,2024-05-09 02:41:09
-8293,Panier abandonné,,0.0,,2024-05-09 02:27:05
-8292,Panier abandonné,,0.0,,2024-05-09 02:24:08
-8291,Panier abandonné,,0.0,,2024-05-09 02:08:45
-8290,Panier abandonné,,0.0,,2024-05-09 02:03:54
-8289,Panier abandonné,,0.0,,2024-05-09 01:56:36
-8288,Panier abandonné,,0.0,,2024-05-09 01:47:06
-8287,Panier abandonné,,0.0,,2024-05-09 00:48:00
-8286,Panier abandonné,,0.0,,2024-05-09 00:44:24
-8285,Panier abandonné,,0.0,,2024-05-09 00:44:12
-8284,Panier abandonné,,0.0,,2024-05-09 00:03:17
-8283,Panier abandonné,,0.0,,2024-05-09 00:00:06
-8282,Panier abandonné,P. MAMANE,0.0,,2024-05-08 23:47:27
-8281,Panier abandonné,,0.0,,2024-05-08 23:41:27
-8280,Panier abandonné,,0.0,,2024-05-08 23:40:05
-8279,Panier abandonné,,0.0,,2024-05-08 22:53:26
-8278,Panier abandonné,,0.0,,2024-05-08 22:52:29
 8277,Panier abandonné,,2020.0,,2024-05-08 22:47:46
 8276,Panier abandonné,,7290.0,,2024-05-08 22:40:27
-8275,Panier abandonné,,0.0,,2024-05-08 22:27:06
-8274,Panier abandonné,,0.0,,2024-05-08 22:22:17
-8273,Panier abandonné,,0.0,,2024-05-08 21:41:22
-8272,Panier abandonné,,0.0,,2024-05-08 21:13:46
-8271,Panier abandonné,,0.0,,2024-05-08 20:39:35
-8270,Panier abandonné,,0.0,,2024-05-08 20:11:13
-8269,Panier abandonné,,0.0,,2024-05-08 19:58:45
-8268,Panier abandonné,,0.0,,2024-05-08 19:48:30
-8267,Panier abandonné,,0.0,,2024-05-08 19:34:10
 8266,1236,K. Worner,180.0,DHL,2024-05-08 18:57:59
-8265,Panier abandonné,,0.0,,2024-05-08 18:46:29
-8264,Panier abandonné,,0.0,,2024-05-08 17:38:39
-8263,Panier abandonné,,0.0,,2024-05-08 17:21:01
-8262,Panier abandonné,,0.0,,2024-05-08 17:20:27
-8260,Panier abandonné,,0.0,,2024-05-08 16:30:16
-8259,Panier abandonné,,0.0,,2024-05-08 16:25:59
-8258,Panier abandonné,,0.0,,2024-05-08 16:15:16
-8257,Panier abandonné,,0.0,,2024-05-08 15:28:41
-8256,Panier abandonné,,0.0,,2024-05-08 15:02:47
-8255,Panier abandonné,,0.0,,2024-05-08 14:51:16
-8254,Panier abandonné,,0.0,,2024-05-08 13:25:54
-8253,Panier abandonné,,0.0,,2024-05-08 12:09:12
-8252,Panier abandonné,,0.0,,2024-05-08 12:02:09
-8251,Panier abandonné,,0.0,,2024-05-08 11:25:36
-8250,Panier abandonné,,0.0,,2024-05-08 10:48:00
 8249,Panier abandonné,,1930.0,,2024-05-08 10:47:35
-8248,Panier abandonné,,0.0,,2024-05-08 10:40:05
-8247,Panier abandonné,,0.0,,2024-05-08 09:48:28
-8246,Panier abandonné,,0.0,,2024-05-08 08:44:38
-8245,Panier abandonné,,0.0,,2024-05-08 08:24:35
-8244,Panier abandonné,,0.0,,2024-05-08 08:04:57
-8243,Panier abandonné,,0.0,,2024-05-08 07:57:31
 8242,1234,S. Schmitz,255.0,DHL,2024-05-08 07:12:55
-8241,Panier abandonné,,0.0,,2024-05-08 06:54:48
-8240,Panier abandonné,,0.0,,2024-05-08 06:33:25
-8239,Panier abandonné,,0.0,,2024-05-08 05:54:42
-8238,Panier abandonné,,0.0,,2024-05-08 05:50:20
-8237,Panier abandonné,,0.0,,2024-05-08 05:37:11
-8236,Panier abandonné,,0.0,,2024-05-08 05:03:55
-8235,Panier abandonné,,0.0,,2024-05-08 04:53:09
-8234,Panier abandonné,,0.0,,2024-05-08 03:42:15
-8233,Panier abandonné,,0.0,,2024-05-08 02:31:38
-8232,Panier abandonné,,0.0,,2024-05-08 02:13:25
-8231,Panier abandonné,,0.0,,2024-05-08 01:41:42
-8230,Panier abandonné,,0.0,,2024-05-08 01:38:45
-8229,Panier abandonné,,0.0,,2024-05-08 01:08:25
-8228,Panier abandonné,,0.0,,2024-05-08 01:02:10
-8227,Panier abandonné,,0.0,,2024-05-08 00:53:10
-8226,Panier abandonné,,0.0,,2024-05-08 00:48:27
-8225,Panier abandonné,,0.0,,2024-05-08 00:46:28
-8224,Panier abandonné,,0.0,,2024-05-08 00:37:53
-8223,Panier abandonné,,0.0,,2024-05-08 00:03:36
-8222,Panier abandonné,,0.0,,2024-05-07 23:53:55
-8221,Panier abandonné,,0.0,,2024-05-07 23:41:17
-8220,Panier abandonné,,0.0,,2024-05-07 23:31:03
-8219,Panier abandonné,,0.0,,2024-05-07 23:06:29
-8218,Panier abandonné,,0.0,,2024-05-07 22:41:11
-8217,Panier abandonné,,0.0,,2024-05-07 21:51:50
-8216,Panier abandonné,,0.0,,2024-05-07 20:54:16
-8215,Panier abandonné,,0.0,,2024-05-07 20:45:16
-8214,Panier abandonné,,0.0,,2024-05-07 20:23:48
-8213,Panier abandonné,,0.0,,2024-05-07 20:04:43
-8212,Panier abandonné,,0.0,,2024-05-07 19:24:24
-8211,Panier abandonné,,0.0,,2024-05-07 18:49:00
 8210,Panier abandonné,,870.0,,2024-05-07 16:41:34
-8209,Panier abandonné,,0.0,,2024-05-07 16:34:59
-8208,Panier abandonné,,0.0,,2024-05-07 15:50:36
 8207,1235,C. Fournier,590.0,CLICK AND COLLECT ,2024-05-07 15:12:32
-8206,Panier abandonné,,0.0,,2024-05-07 14:48:46
-8205,Panier abandonné,,0.0,,2024-05-07 14:46:57
 8204,Panier abandonné,,390.0,,2024-05-07 13:03:03
-8203,Panier abandonné,,0.0,,2024-05-07 12:12:55
-8202,Panier abandonné,,0.0,,2024-05-07 11:50:06
 8201,1233,P. MAMANE,190.0,DHL,2024-05-07 11:45:50
-8200,Panier abandonné,,0.0,,2024-05-07 10:24:40
-8199,Panier abandonné,,0.0,,2024-05-07 09:18:48
-8198,Panier abandonné,,0.0,,2024-05-07 09:18:20
-8197,Panier abandonné,,0.0,,2024-05-07 08:28:55
-8196,Panier abandonné,,0.0,,2024-05-07 06:58:24
-8195,Panier abandonné,,0.0,,2024-05-07 05:16:46
-8194,Panier abandonné,,0.0,,2024-05-07 04:48:52
-8193,Panier abandonné,,0.0,,2024-05-07 03:55:15
-8192,Panier abandonné,,0.0,,2024-05-07 03:45:22
-8191,Panier abandonné,,0.0,,2024-05-07 02:44:52
-8190,Panier abandonné,,0.0,,2024-05-07 02:07:45
-8189,Panier abandonné,,0.0,,2024-05-07 01:34:49
-8188,Panier abandonné,,0.0,,2024-05-07 01:14:30
-8187,Panier abandonné,V. Lauer,0.0,,2024-05-07 00:30:06
-8186,Panier abandonné,,0.0,,2024-05-07 00:24:47
-8185,Panier abandonné,,0.0,,2024-05-06 23:47:05
-8184,Panier abandonné,,0.0,,2024-05-06 23:02:28
 10187,Non commandé,,285.0,,2024-12-17 15:32:03
 10186,Non commandé,,230.0,,2024-12-17 15:14:58
 10185,Non commandé,,260.0,,2024-12-17 11:48:25
@@ -2013,23 +1052,18 @@ id,order_id,customer,total_amount,carrier,order_date
 10168,Panier abandonné,,280.0,,2024-12-16 15:05:17
 10167,Panier abandonné,,745.0,,2024-12-16 14:57:25
 10166,Panier abandonné,,11440.0,,2024-12-16 12:54:29
-10165,Panier abandonné,S. Oliveró Soldevila,0.0,,2024-12-16 12:01:26
 10164,Panier abandonné,R. Guieu,880.0,CLICK AND COLLECT ,2024-12-16 09:44:08
 10163,1464,S. HOPPE,540.0,DHL,2024-12-16 09:27:34
 10162,Panier abandonné,,2860.0,,2024-12-16 09:23:36
 10161,Panier abandonné,,31092.0,,2024-12-16 06:15:12
 10160,Panier abandonné,,1270.0,,2024-12-16 05:12:27
-10159,Panier abandonné,M. Pullicino,0.0,,2024-12-15 22:12:01
 10158,1463,M. Pullicino,1080.0,DHL,2024-12-15 22:07:00
-10157,Panier abandonné,,0.0,,2024-12-15 21:44:35
 10156,Panier abandonné,,768.0,,2024-12-15 20:35:26
 10155,Panier abandonné,,890.0,,2024-12-15 20:01:14
-10154,Panier abandonné,L. Winka ,0.0,,2024-12-15 19:50:46
 10153,1460,V. Kraujalytė,190.0,DHL,2024-12-15 17:16:48
 10152,1465,J. Imbert,610.0,DHL,2024-12-15 16:35:14
 10151,Panier abandonné,,610.0,,2024-12-15 16:32:49
 10150,Panier abandonné,,155.0,,2024-12-15 16:16:17
-10149,Panier abandonné,m. castells,0.0,,2024-12-15 15:25:01
 10148,1462,L. Chauffaille,650.0,DHL,2024-12-15 14:04:58
 10147,Panier abandonné,,650.0,,2024-12-15 14:04:47
 10146,Panier abandonné,,1160.0,,2024-12-15 04:21:57
@@ -2037,7 +1071,6 @@ id,order_id,customer,total_amount,carrier,order_date
 10144,Panier abandonné,,2088.0,,2024-12-14 20:54:26
 10143,Panier abandonné,,880.0,,2024-12-14 20:33:02
 10142,1459,H. musikas,1300.0,DHL,2024-12-14 20:17:28
-10141,Panier abandonné,H. musikas,0.0,,2024-12-14 20:17:04
 10140,Panier abandonné,,396.0,,2024-12-14 15:23:03
 10139,1458,L. Winka ,705.0,DHL,2024-12-14 13:32:59
 10138,1461,J. Le Borgne,310.0,DHL,2024-12-14 13:01:03
@@ -2050,13 +1083,10 @@ id,order_id,customer,total_amount,carrier,order_date
 10131,Panier abandonné,,4524.0,,2024-12-13 16:39:08
 10130,Panier abandonné,,500.0,,2024-12-13 16:35:59
 10129,1455,M. von Joest,240.0,CLICK AND COLLECT ,2024-12-13 16:33:07
-10128,Panier abandonné,L. RENAUD,0.0,,2024-12-13 13:08:06
-10127,Panier abandonné,L. RENAUD,0.0,,2024-12-13 13:08:05
 10126,1454,L. RENAUD,100.0,DHL,2024-12-13 11:40:40
 10125,Panier abandonné,,420.0,,2024-12-13 09:03:08
 10124,Panier abandonné,A. Thomas,852.0,,2024-12-13 06:39:07
 10123,Panier abandonné,,336.0,,2024-12-13 06:38:24
-10122,Panier abandonné,A. Thomas,0.0,,2024-12-13 01:55:02
 10121,Panier abandonné,S. Freising,270.0,DHL,2024-12-12 22:16:44
 10120,Panier abandonné,,270.0,,2024-12-12 22:16:34
 10119,Panier abandonné,,390.0,,2024-12-12 21:23:02
@@ -2064,23 +1094,18 @@ id,order_id,customer,total_amount,carrier,order_date
 10117,Panier abandonné,,260.0,,2024-12-12 20:29:50
 10116,1453,J. Kronberg,260.0,DHL,2024-12-12 19:33:13
 10115,Panier abandonné,,880.0,,2024-12-12 18:57:56
-10114,Panier abandonné,D. DALTON,0.0,,2024-12-12 18:27:40
 10113,Panier abandonné,,300.0,,2024-12-12 17:33:54
 10112,Panier abandonné,Y. Bahi,1005.0,,2024-12-12 15:17:02
 10111,Panier abandonné,,4110.0,,2024-12-12 13:48:31
 10110,1451,A. Monnier,815.0,DHL,2024-12-12 12:22:55
 10109,1450,G. Kunz,1720.0,DHL,2024-12-12 11:05:21
 10108,Panier abandonné,,270.0,,2024-12-12 00:18:48
-10107,Panier abandonné,P. Kiersted,0.0,,2024-12-11 23:13:44
 10106,Panier abandonné,,840.0,,2024-12-11 22:17:58
 10105,1449,R. Gras,390.0,DHL,2024-12-11 21:56:14
 10104,1448,J. Hartmann,940.0,DHL,2024-12-11 21:43:28
 10103,1447,M. Rios Piñol,580.0,DHL,2024-12-11 19:45:06
 10102,1446,A. Baer,680.0,DHL,2024-12-11 19:42:58
 10101,Panier abandonné,,290.0,,2024-12-11 18:51:11
-10100,Panier abandonné,M. Dokchine,0.0,,2024-12-11 18:14:07
-10099,Panier abandonné,,0.0,,2024-12-11 16:30:40
-10098,Panier abandonné,,0.0,,2024-12-11 16:07:57
 10097,Panier abandonné,,740.0,,2024-12-11 16:07:43
 10096,1444,J. Dr. Brunk,300.0,DHL,2024-12-11 14:03:23
 10095,Panier abandonné,,300.0,,2024-12-11 14:03:15
@@ -2088,14 +1113,11 @@ id,order_id,customer,total_amount,carrier,order_date
 10093,Panier abandonné,,984.0,,2024-12-11 08:56:03
 10092,Panier abandonné,,3270.0,,2024-12-11 08:03:25
 10091,Panier abandonné,,520.0,,2024-12-11 01:01:50
-10090,Panier abandonné,,0.0,,2024-12-10 22:36:38
 10089,1443,M. LE BALC'H,260.0,DHL,2024-12-10 22:08:16
 10088,1445,F. Denglehem,950.0,DHL,2024-12-10 21:49:47
 10087,Panier abandonné,J. Hartmann,1945.0,,2024-12-10 20:11:37
 10086,Panier abandonné,,670.0,,2024-12-10 19:22:23
-10085,Panier abandonné,,0.0,,2024-12-10 18:32:09
 10084,Panier abandonné,,190.0,,2024-12-10 18:31:33
-10083,Panier abandonné,S. Webb,0.0,,2024-12-10 16:27:04
 10082,Panier abandonné,,380.0,,2024-12-10 15:19:09
 10080,Panier abandonné,,1730.0,,2024-12-10 14:17:35
 10079,Panier abandonné,,270.0,,2024-12-10 13:42:13
@@ -2103,7 +1125,6 @@ id,order_id,customer,total_amount,carrier,order_date
 10077,Panier abandonné,,240.0,,2024-12-10 13:21:41
 10076,1439,H. Carmean,1840.0,DHL,2024-12-10 10:50:15
 10075,1441,A. Spreafico,270.0,DHL,2024-12-10 10:17:05
-10074,Panier abandonné,Y. Salles,0.0,,2024-12-10 09:44:00
 10073,1440,Y. Salles,240.0,DHL,2024-12-10 09:43:09
 10072,Panier abandonné,Y. Salles,480.0,CLICK AND COLLECT ,2024-12-10 09:42:34
 10071,1438,F. SALES,470.0,DHL,2024-12-10 08:34:35
@@ -2114,16 +1135,12 @@ id,order_id,customer,total_amount,carrier,order_date
 10066,Panier abandonné,,12768.0,,2024-12-09 22:00:40
 10065,Panier abandonné,,1320.0,,2024-12-09 21:59:36
 10064,Panier abandonné,J. Hartmann,400.0,,2024-12-09 18:40:59
-10063,Panier abandonné,S. TISSOT,0.0,,2024-12-09 18:17:28
 10062,Panier abandonné,,336.0,,2024-12-09 18:12:42
-10061,Panier abandonné,,0.0,,2024-12-09 17:42:07
-10060,Panier abandonné,S. Boucetta,0.0,,2024-12-09 15:40:17
 10059,Panier abandonné,,7100.0,,2024-12-09 15:25:48
 10058,Panier abandonné,,660.0,,2024-12-09 15:17:12
 10057,Panier abandonné,,280.0,,2024-12-09 14:00:37
 10056,Panier abandonné,,240.0,,2024-12-09 13:58:32
 10055,Panier abandonné,,315.0,,2024-12-09 13:51:53
-10054,Panier abandonné,C. HOHLWEG-JOFES,0.0,,2024-12-09 13:22:04
 10053,Panier abandonné,,390.0,,2024-12-09 13:13:29
 10052,Panier abandonné,,1040.0,,2024-12-09 13:01:55
 10051,Panier abandonné,,720.0,,2024-12-09 12:45:09
@@ -2145,9 +1162,7 @@ id,order_id,customer,total_amount,carrier,order_date
 10035,Panier abandonné,,1440.0,,2024-12-08 17:02:02
 10034,Panier abandonné,H. Recheis,1040.0,DHL,2024-12-08 16:57:35
 10033,1435,R. LAFOURCADE,220.0,DHL,2024-12-08 14:23:30
-10032,Panier abandonné,M. Angelakis,0.0,,2024-12-08 14:18:00
 10031,1434,C. Legendre,190.0,DHL,2024-12-08 09:19:10
-10030,Panier abandonné,A.  Munoz,0.0,,2024-12-08 01:26:04
 10029,Panier abandonné,,288.0,,2024-12-08 00:51:41
 10028,Panier abandonné,,1512.0,,2024-12-07 22:53:52
 10027,Panier abandonné,,852.0,,2024-12-07 22:53:05
@@ -2163,32 +1178,24 @@ id,order_id,customer,total_amount,carrier,order_date
 10017,Panier abandonné,,705.0,,2024-12-07 10:31:21
 10016,Panier abandonné,,9732.0,,2024-12-07 04:00:23
 10015,Panier abandonné,,1270.0,,2024-12-06 22:43:13
-10014,Panier abandonné,J. Šlepikiene,0.0,,2024-12-06 22:40:46
 10013,1432,J. Šlepikiene,510.0,DHL,2024-12-06 22:19:10
-10012,Panier abandonné,C. De Michiel,0.0,,2024-12-06 20:06:08
 10011,Panier abandonné,,660.0,,2024-12-06 17:46:56
-10010,Panier abandonné,F. Taxil,0.0,,2024-12-06 17:33:40
 10009,Panier abandonné,,336.0,,2024-12-05 21:17:07
 10008,1431,A. BERTIN,830.0,DHL,2024-12-05 21:16:13
 10007,Panier abandonné,,3180.0,,2024-12-05 20:13:42
 10006,1430,M. Angelakis,1130.0,DHL,2024-12-05 15:47:49
 10005,Panier abandonné,,1356.0,,2024-12-05 15:47:03
-10004,Panier abandonné,S. Cuevas,0.0,,2024-12-05 14:46:49
 10003,Panier abandonné,,1572.0,,2024-12-05 08:19:51
-10002,Panier abandonné,N. Savaria,0.0,,2024-12-04 22:27:39
 10001,1429,D. RENGER,590.0,DHL,2024-12-04 22:00:51
 10000,Panier abandonné,,1370.0,,2024-12-04 21:21:49
-9999,Panier abandonné,R. Ormándy,0.0,,2024-12-04 21:15:14
 9998,1452,P. Kiersted,370.0,DHL,2024-12-04 17:50:32
 9997,Panier abandonné,,444.0,,2024-12-04 17:50:24
 9996,1442,E. Lamoitier,200.0,DHL,2024-12-04 16:11:41
 9995,Panier abandonné,,260.0,,2024-12-04 16:11:23
-9994,Panier abandonné,D. SAFFAR,0.0,,2024-12-04 15:36:10
 9993,Panier abandonné,D. SAFFAR,190.0,CLICK AND COLLECT ,2024-12-04 15:34:43
 9992,Panier abandonné,S. Store,310.0,,2024-12-04 15:34:14
 9991,Panier abandonné,,730.0,,2024-12-04 11:27:37
 9990,Panier abandonné,N. Savaria,3550.0,,2024-12-04 11:08:57
-9989,Panier abandonné,H. OLIVEAU,0.0,,2024-12-04 10:42:01
 9988,Panier abandonné,,300.0,,2024-12-04 09:41:38
 9987,Panier abandonné,,720.0,,2024-12-04 00:49:57
 9986,Panier abandonné,,444.0,,2024-12-03 23:10:42
@@ -2196,7 +1203,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9984,Panier abandonné,,444.0,,2024-12-03 22:26:37
 9983,Panier abandonné,,444.0,,2024-12-03 22:26:24
 9982,Panier abandonné,,390.0,,2024-12-03 19:56:43
-9981,Panier abandonné,I. Jacqué,0.0,,2024-12-03 19:32:08
 9980,Panier abandonné,j. moll,460.0,,2024-12-03 18:07:59
 9979,Panier abandonné,,350.0,,2024-12-03 18:05:46
 9978,Panier abandonné,,350.0,,2024-12-03 18:05:40
@@ -2205,10 +1211,7 @@ id,order_id,customer,total_amount,carrier,order_date
 9975,Panier abandonné,,350.0,,2024-12-03 18:05:22
 9974,Panier abandonné,,460.0,,2024-12-03 15:30:50
 9973,1436,A. Charpin,430.0,DHL,2024-12-03 14:12:23
-9972,Panier abandonné,A. Charpin,0.0,,2024-12-03 14:10:03
-9971,Panier abandonné,m. saroufim,0.0,,2024-12-03 12:11:44
 9970,Panier abandonné,,360.0,,2024-12-03 08:26:49
-9969,Panier abandonné,A. Charpin,0.0,,2024-12-02 22:00:42
 9968,Panier abandonné,A. BERTIN,830.0,DHL,2024-12-02 18:22:17
 9967,Panier abandonné,,1190.0,,2024-12-02 15:11:58
 9966,Panier abandonné,D. Bolzan,510.0,DHL,2024-12-02 14:10:32
@@ -2223,7 +1226,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9957,1427,C. David,835.0,DHL,2024-12-01 15:17:15
 9956,Panier abandonné,,3200.0,,2024-12-01 14:51:27
 9955,1423,E. Faucher,280.0,DHL,2024-12-01 14:41:39
-9954,Panier abandonné,Y. Lesaint,0.0,,2024-12-01 12:35:50
 9953,Panier abandonné,,660.0,,2024-12-01 07:27:53
 9952,Panier abandonné,,470.0,,2024-12-01 05:31:24
 9951,Panier abandonné,,1008.0,,2024-12-01 00:35:15
@@ -2232,9 +1234,7 @@ id,order_id,customer,total_amount,carrier,order_date
 9948,Panier abandonné,,3340.0,,2024-11-29 22:30:25
 9947,Panier abandonné,,324.0,,2024-11-29 22:21:36
 9946,Panier abandonné,,504.0,,2024-11-29 18:16:47
-9945,Panier abandonné,,0.0,,2024-11-29 18:16:44
 9944,Panier abandonné,,390.0,,2024-11-29 17:16:54
-9943,Panier abandonné,I. Fernandez Bessone,0.0,,2024-11-29 12:09:24
 9942,1422,A. Vernet,1650.0,DHL,2024-11-29 11:26:41
 9941,1421,F. Taxil,810.0,DHL,2024-11-29 10:10:35
 9940,Panier abandonné,,785.0,,2024-11-29 09:19:41
@@ -2245,11 +1245,8 @@ id,order_id,customer,total_amount,carrier,order_date
 9935,Panier abandonné,,605.0,,2024-11-28 22:28:16
 9934,Panier abandonné,,8610.0,,2024-11-28 22:21:50
 9933,Panier abandonné,,1570.0,,2024-11-28 21:51:10
-9932,Panier abandonné,I. Fernandez Bessone,0.0,,2024-11-28 20:22:31
-9931,Panier abandonné,m. saroufim,0.0,,2024-11-28 20:06:31
 9930,Panier abandonné,,810.0,,2024-11-28 18:21:07
 9929,Panier abandonné,,864.0,,2024-11-28 13:38:28
-9928,Panier abandonné,V. Savukynas,0.0,,2024-11-28 11:29:29
 9927,Panier abandonné,,550.0,,2024-11-28 10:52:00
 9926,1420,S. Alaimo,550.0,DHL,2024-11-28 08:34:38
 9925,Panier abandonné,,250.0,,2024-11-28 06:08:25
@@ -2260,11 +1257,9 @@ id,order_id,customer,total_amount,carrier,order_date
 9920,Panier abandonné,,3490.0,,2024-11-27 23:15:48
 9919,Panier abandonné,,250.0,,2024-11-27 21:21:43
 9918,Panier abandonné,,660.0,,2024-11-27 18:29:38
-9917,Panier abandonné,T. Ramos,0.0,,2024-11-27 14:56:30
 9915,Panier abandonné,M. Mopal,2530.0,DHL,2024-11-27 14:51:57
 9914,1417,R. Gibbs,560.0,DHL,2024-11-27 14:03:16
 9913,Panier abandonné,,2990.0,,2024-11-27 13:47:39
-9912,Panier abandonné,j. david,0.0,,2024-11-27 12:29:00
 9911,Panier abandonné,,570.0,,2024-11-27 12:03:02
 9910,Panier abandonné,,190.0,,2024-11-27 11:38:10
 9909,Panier abandonné,,190.0,,2024-11-27 11:27:06
@@ -2309,7 +1304,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9869,Panier abandonné,,350.0,,2024-11-22 15:20:31
 9868,Panier abandonné,,250.0,,2024-11-22 14:57:45
 9867,Panier abandonné,,585.0,,2024-11-22 13:56:41
-9866,Panier abandonné,,0.0,,2024-11-22 13:21:35
 9865,Panier abandonné,,4110.0,,2024-11-22 12:50:33
 9864,1411,P. Rueping,1040.0,DHL,2024-11-22 09:45:14
 9863,1410,H. OLIVEAU,1930.0,DHL,2024-11-21 21:41:45
@@ -2328,9 +1322,7 @@ id,order_id,customer,total_amount,carrier,order_date
 9850,Panier abandonné,A. ANDRE,880.0,,2024-11-20 16:47:50
 9849,Panier abandonné,,3960.0,,2024-11-20 16:31:06
 9848,Panier abandonné,,230.0,,2024-11-20 14:56:46
-9847,Panier abandonné,c. silvis,0.0,,2024-11-20 14:55:28
 9846,Panier abandonné,,600.0,,2024-11-20 12:07:42
-9845,Panier abandonné,R. Ormándy,0.0,,2024-11-20 10:38:35
 9844,Panier abandonné,,705.0,,2024-11-20 08:26:45
 9843,Panier abandonné,,705.0,,2024-11-20 08:26:29
 9842,Panier abandonné,,285.0,,2024-11-19 21:25:28
@@ -2343,19 +1335,14 @@ id,order_id,customer,total_amount,carrier,order_date
 9835,1407,j. louvencourt,230.0,CLICK AND COLLECT ,2024-11-19 12:30:17
 9834,Panier abandonné,,230.0,,2024-11-19 12:30:15
 9833,Panier abandonné,,230.0,,2024-11-19 12:30:07
-9832,Panier abandonné,L. Pfeffer,0.0,,2024-11-19 11:09:17
 9831,Panier abandonné,L. Pfeffer,740.0,DHL,2024-11-19 11:08:33
-9830,Panier abandonné,B. Landa,0.0,,2024-11-19 11:07:34
 9829,Panier abandonné,,2870.0,,2024-11-18 22:17:33
 9828,Panier abandonné,,420.0,,2024-11-18 21:33:08
 9827,Panier abandonné,,420.0,,2024-11-18 21:33:07
-9826,Panier abandonné,L. PERRIER-DORON,0.0,,2024-11-18 21:19:19
 9825,Panier abandonné,,230.0,,2024-11-18 20:56:44
-9824,Panier abandonné,C. Nicolaïdis,0.0,,2024-11-18 17:29:12
 9823,Panier abandonné,,830.0,,2024-11-18 14:17:17
 9822,Panier abandonné,,155.0,,2024-11-18 12:43:15
 9821,Panier abandonné,S. Oliveró Soldevila,950.0,,2024-11-18 10:36:37
-9820,Panier abandonné,a. achache,0.0,,2024-11-18 07:59:34
 9819,Panier abandonné,,1840.0,,2024-11-18 02:58:56
 9818,Panier abandonné,,290.0,,2024-11-18 02:30:58
 9817,Panier abandonné,,2640.0,,2024-11-18 00:35:21
@@ -2378,8 +1365,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9800,1403,E. Chapelain,380.0,DHL,2024-11-15 15:44:37
 9799,Panier abandonné,,380.0,,2024-11-15 14:57:36
 9798,Panier abandonné,,1188.0,,2024-11-15 12:44:15
-9797,Panier abandonné,I. qnKhwKbfx,0.0,,2024-11-15 10:34:41
-9796,Panier abandonné,s. fvjjQeCY,0.0,,2024-11-15 01:41:01
 9795,1402,L. Louison,255.0,DHL,2024-11-14 18:54:38
 9794,Panier abandonné,H. OLIVEAU,1930.0,,2024-11-14 09:22:01
 9793,Panier abandonné,C. Verdeau,1930.0,,2024-11-13 20:39:36
@@ -2396,7 +1381,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9782,Panier abandonné,,490.0,,2024-11-13 10:18:04
 9781,Panier abandonné,,490.0,,2024-11-13 10:17:50
 9780,Panier abandonné,,490.0,,2024-11-13 10:17:37
-9779,Panier abandonné,,0.0,,2024-11-13 05:31:37
 9778,Panier abandonné,,1550.0,,2024-11-12 21:35:36
 9777,Panier abandonné,M. DIGNET,1240.0,DHL,2024-11-12 20:23:06
 9776,1400,O. D’ouitremont,885.0,DHL,2024-11-12 19:21:10
@@ -2410,15 +1394,12 @@ id,order_id,customer,total_amount,carrier,order_date
 9768,Panier abandonné,,550.0,,2024-11-11 15:10:21
 9767,Panier abandonné,,1190.0,,2024-11-11 11:16:49
 9766,Panier abandonné,,240.0,,2024-11-11 11:01:21
-9765,Panier abandonné,c. dCkmORZVH,0.0,,2024-11-11 08:37:50
 9764,Panier abandonné,,530.0,,2024-11-10 22:09:17
 9763,Panier abandonné,E. Elkhoury,965.0,DHL,2024-11-10 18:15:37
 9762,Panier abandonné,,260.0,,2024-11-10 17:59:32
 9761,Panier abandonné,,1550.0,,2024-11-10 12:28:49
 9760,Panier abandonné,,4548.0,,2024-11-10 07:42:54
-9759,Panier abandonné,A. Lesquoy,0.0,,2024-11-10 07:42:47
 9758,Panier abandonné,,8352.0,,2024-11-10 05:54:38
-9757,Panier abandonné,,0.0,,2024-11-09 22:48:56
 9756,Panier abandonné,,490.0,,2024-11-09 22:48:30
 9755,Panier abandonné,,1440.0,,2024-11-09 18:43:28
 9754,1397,S. Behnia,190.0,DHL,2024-11-09 12:14:53
@@ -2429,28 +1410,21 @@ id,order_id,customer,total_amount,carrier,order_date
 9749,Panier abandonné,,510.0,,2024-11-08 16:13:25
 9748,Panier abandonné,,510.0,,2024-11-08 13:25:28
 9747,Panier abandonné,H. Greiner Baumgaertner,1070.0,,2024-11-08 13:21:14
-9746,Panier abandonné,C. BEAUFILS,0.0,,2024-11-08 13:19:42
 9745,Panier abandonné,,2110.0,,2024-11-08 10:51:32
 9744,1398,L. Pfeffer,0.0,DHL,2024-11-08 10:38:56
 9743,Panier abandonné,,1380.0,,2024-11-08 01:06:01
 9742,1393,A. Michelassi,900.0,DHL,2024-11-08 01:05:40
 9741,Panier abandonné,A. Michelassi,900.0,DHL,2024-11-08 00:53:33
-9740,Panier abandonné,,0.0,,2024-11-07 18:57:04
 9739,Panier abandonné,,900.0,,2024-11-07 18:48:54
-9738,Panier abandonné,,0.0,,2024-11-07 17:17:53
 9737,Panier abandonné,,900.0,,2024-11-07 17:08:18
-9736,Panier abandonné,,0.0,,2024-11-07 15:14:12
 9735,Panier abandonné,,900.0,,2024-11-07 15:03:24
 9734,Panier abandonné,T. Schiffers,320.0,,2024-11-07 12:22:30
 9733,Panier abandonné,,680.0,,2024-11-07 11:20:00
 9732,Panier abandonné,,9090.0,,2024-11-07 01:41:50
-9731,Panier abandonné,,0.0,,2024-11-06 22:23:38
 9730,Panier abandonné,,240.0,,2024-11-06 22:04:42
 9729,Panier abandonné,,1560.0,,2024-11-06 20:13:07
 9728,Panier abandonné,,835.0,,2024-11-06 20:12:42
 9727,Panier abandonné,,220.0,,2024-11-06 18:48:11
-9726,Panier abandonné,E. Shumilova,0.0,,2024-11-06 18:37:26
-9725,Panier abandonné,E. Shumilova,0.0,,2024-11-06 18:36:43
 9724,Panier abandonné,,8670.0,,2024-11-06 17:54:40
 9723,1395,L. Pfeffer,0.0,DHL,2024-11-06 15:33:27
 9722,1392,L. Pfeffer,0.0,DHL,2024-11-06 13:07:04
@@ -2458,7 +1432,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9720,1391,L. Pfeffer,1540.0,DHL,2024-11-06 12:45:22
 9719,1390,L. Pfeffer,710.0,DHL,2024-11-06 12:33:28
 9718,Panier abandonné,,3625.0,,2024-11-06 10:34:59
-9717,Panier abandonné,S. Mathey,0.0,,2024-11-06 06:43:46
 9716,Panier abandonné,,2076.0,,2024-11-06 01:49:18
 9715,Panier abandonné,,2172.0,,2024-11-05 22:16:30
 9714,1394,S. Mathey,280.0,DHL,2024-11-05 22:14:03
@@ -2476,7 +1449,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9702,1388,L. Pfeffer,1080.0,DHL,2024-11-04 17:04:18
 9701,1387,C. Ollivier,330.0,CLICK AND COLLECT ,2024-11-04 14:20:15
 9700,Panier abandonné,,1450.0,,2024-11-04 13:56:10
-9699,Panier abandonné,L. Pfeffer,0.0,,2024-11-04 12:30:05
 9698,1386,L. Pfeffer,14550.0,DHL,2024-11-04 12:13:30
 9697,Panier abandonné,,240.0,,2024-11-04 11:58:45
 9696,Panier abandonné,,615.0,,2024-11-04 11:35:02
@@ -2498,7 +1470,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9680,Panier abandonné,,2580.0,,2024-11-03 10:14:23
 9679,1384,A. Garlipp,470.0,DHL,2024-11-02 21:37:34
 9678,Panier abandonné,,190.0,,2024-11-02 21:37:17
-9677,Panier abandonné,I. Fernandez Bessone,0.0,,2024-11-02 20:01:05
 9676,1383,C. Morgan,240.0,DHL,2024-11-02 19:22:49
 9675,Panier abandonné,,1300.0,,2024-11-02 17:44:32
 9674,Panier abandonné,,900.0,,2024-11-02 16:16:03
@@ -2510,51 +1481,35 @@ id,order_id,customer,total_amount,carrier,order_date
 9668,Panier abandonné,,1690.0,,2024-11-01 20:23:31
 9667,Panier abandonné,,990.0,,2024-11-01 12:29:06
 9666,Panier abandonné,,295.0,,2024-11-01 12:28:37
-9665,Panier abandonné,,0.0,,2024-11-01 10:35:55
 9664,Panier abandonné,,2568.0,,2024-11-01 03:28:09
 9663,Panier abandonné,,1690.0,,2024-11-01 00:51:21
 9662,1381,F. zanni,1930.0,DHL,2024-10-31 22:27:55
 9661,Panier abandonné,,740.0,,2024-10-31 21:09:49
 9660,Panier abandonné,,6060.0,,2024-10-30 21:29:30
 9659,Panier abandonné,,468.0,,2024-10-30 21:19:00
-9658,Panier abandonné,,0.0,,2024-10-30 19:50:21
 9657,Panier abandonné,,840.0,,2024-10-30 16:58:34
 9656,Panier abandonné,,260.0,,2024-10-30 15:12:58
 9655,Panier abandonné,,444.0,,2024-10-30 15:11:10
-9654,Panier abandonné,E. Templeton,0.0,,2024-10-30 07:21:34
 9653,1382,H. Greiner Baumgaertner,730.0,DHL,2024-10-29 21:57:18
-9652,Panier abandonné,E. Shumilova,0.0,,2024-10-29 21:09:09
-9651,Panier abandonné,G. Foglierini,0.0,,2024-10-29 20:36:35
-9650,Panier abandonné,L. Pfeffer,0.0,,2024-10-29 16:32:01
 9649,1380,L. Pfeffer,350.0,DHL,2024-10-29 16:30:48
-9648,Panier abandonné,L. Pfeffer,0.0,,2024-10-29 15:24:14
 9647,1379,L. Pfeffer,920.0,DHL,2024-10-29 15:21:46
-9646,Panier abandonné,L. Pfeffer,0.0,,2024-10-29 15:03:40
 9645,1378,L. Pfeffer,1030.0,DHL,2024-10-29 15:00:45
-9644,Panier abandonné,L. Pfeffer,0.0,,2024-10-29 13:38:56
 9643,1377,L. Pfeffer,6560.0,DHL,2024-10-29 13:35:34
-9642,Panier abandonné,,0.0,,2024-10-29 12:08:21
-9641,Panier abandonné,,0.0,,2024-10-28 20:59:38
 9640,Panier abandonné,,2050.0,,2024-10-28 20:45:30
 9639,Panier abandonné,,1135.0,,2024-10-28 20:18:32
 9638,Panier abandonné,M. Latorre ,240.0,,2024-10-28 16:49:44
 9637,Panier abandonné,,30270.0,,2024-10-28 15:07:38
 9636,Panier abandonné,,6585.0,,2024-10-28 14:33:17
 9635,1385,V. Kartashkina,315.0,DHL,2024-10-28 14:17:35
-9634,Panier abandonné,S. Ghermaoui,0.0,,2024-10-28 14:04:58
 9633,Panier abandonné,,420.0,,2024-10-28 12:36:28
-9632,Panier abandonné,S. Ropert,0.0,,2024-10-28 09:11:19
 9631,Panier abandonné,,44844.0,,2024-10-28 06:03:12
 9630,Panier abandonné,,1650.0,,2024-10-28 00:26:13
 9629,Panier abandonné,,250.0,,2024-10-27 20:53:52
-9628,Panier abandonné,T. Pavlova,0.0,,2024-10-27 18:13:11
 9627,1374,T. Pavlova,432.0,DHL,2024-10-27 17:59:39
 9626,Panier abandonné,,1390.0,,2024-10-27 13:54:52
 9625,Panier abandonné,,1780.0,,2024-10-27 13:48:48
-9624,Panier abandonné,M. Archambault,0.0,,2024-10-27 09:07:03
 9623,Panier abandonné,A. Germain,190.0,,2024-10-27 02:26:44
 9622,Panier abandonné,,310.0,,2024-10-26 20:32:41
-9621,Panier abandonné,S. LEHUT,0.0,,2024-10-26 20:24:34
 9620,Panier abandonné,,650.0,,2024-10-26 18:53:15
 9619,Panier abandonné,,260.0,,2024-10-26 12:30:51
 9618,Panier abandonné,,540.0,,2024-10-26 12:30:50
@@ -2577,26 +1532,20 @@ id,order_id,customer,total_amount,carrier,order_date
 9601,1372,M. Roche,170.0,DHL,2024-10-24 14:56:20
 9600,Panier abandonné,,480.0,,2024-10-24 10:12:44
 9599,Panier abandonné,,240.0,,2024-10-24 08:43:46
-9598,Panier abandonné,A. Hordern,0.0,,2024-10-24 07:30:47
 9597,Panier abandonné,,960.0,,2024-10-24 02:51:34
 9596,Panier abandonné,A. Harmel,285.0,DHL,2024-10-23 23:37:52
-9595,Panier abandonné,L. Pfeffer,0.0,,2024-10-23 23:36:33
 9594,1371,L. Pfeffer,0.0,DHL,2024-10-23 23:35:55
 9593,Panier abandonné,,830.0,,2024-10-23 21:58:15
 9592,Panier abandonné,,3710.0,,2024-10-23 21:53:20
-9591,Panier abandonné,,0.0,,2024-10-23 21:26:25
 9590,Panier abandonné,,4500.0,,2024-10-23 18:42:42
 9589,Panier abandonné,,14890.0,,2024-10-23 16:33:28
 9588,Panier abandonné,,5710.0,,2024-10-23 14:16:00
 9587,Panier abandonné,,2088.0,,2024-10-23 14:03:56
 9586,Panier abandonné,,490.0,,2024-10-23 13:39:24
 9585,Panier abandonné,,2310.0,,2024-10-23 07:20:59
-9584,Panier abandonné,L. Pfeffer,0.0,,2024-10-22 23:41:59
 9583,1370,L. Pfeffer,183.0,DHL,2024-10-22 23:40:41
-9582,Panier abandonné,L. Pfeffer,0.0,,2024-10-22 23:26:08
 9581,1369,L. Pfeffer,0.0,DHL,2024-10-22 23:19:07
 9580,Panier abandonné,,190.0,,2024-10-22 22:46:08
-9579,Panier abandonné,M. Bernad,0.0,,2024-10-22 18:57:24
 9578,Panier abandonné,,285.0,,2024-10-22 18:53:34
 9577,Panier abandonné,,630.0,,2024-10-22 16:52:07
 9576,Panier abandonné,B. Kahrar,940.0,DHL,2024-10-22 15:13:37
@@ -2620,7 +1569,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9556,Panier abandonné,,3300.0,,2024-10-19 20:39:56
 9555,Panier abandonné,,690.0,,2024-10-19 15:47:02
 9554,Panier abandonné,,230.0,,2024-10-19 08:26:57
-9553,Panier abandonné,,0.0,,2024-10-19 03:04:17
 9552,Panier abandonné,,936.0,,2024-10-19 02:21:38
 9551,Panier abandonné,,432.0,,2024-10-18 20:48:09
 9550,Panier abandonné,,250.0,,2024-10-18 20:40:27
@@ -2629,7 +1577,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9547,Panier abandonné,,1310.0,,2024-10-17 21:25:21
 9546,Panier abandonné,,500.0,,2024-10-17 20:17:34
 9545,Panier abandonné,K. Scorey,1780.0,,2024-10-17 17:47:15
-9544,Panier abandonné,,0.0,,2024-10-17 14:19:50
 9543,Panier abandonné,,1640.0,,2024-10-17 11:51:24
 9542,Panier abandonné,,1640.0,,2024-10-17 11:51:23
 9541,Panier abandonné,,1640.0,,2024-10-17 11:51:06
@@ -2670,19 +1617,14 @@ id,order_id,customer,total_amount,carrier,order_date
 9506,Panier abandonné,,396.0,,2024-10-15 11:27:51
 9505,Panier abandonné,,396.0,,2024-10-15 11:27:50
 9504,Panier abandonné,,396.0,,2024-10-15 11:27:33
-9503,Panier abandonné,,0.0,,2024-10-15 10:22:19
 9502,Panier abandonné,,540.0,,2024-10-15 10:21:13
 9501,Panier abandonné,C. Francisco,830.0,DHL,2024-10-15 08:32:29
 9500,Panier abandonné,,830.0,,2024-10-15 08:32:06
 9499,Panier abandonné,,372.0,,2024-10-15 07:34:51
-9498,Panier abandonné,A. Closon,0.0,,2024-10-15 07:21:23
 9497,1367,M. Bernad,690.0,DHL,2024-10-15 00:49:11
-9496,Panier abandonné,I. Merger,0.0,,2024-10-14 23:56:11
 9495,Panier abandonné,,8562.0,,2024-10-14 23:22:43
 9494,Panier abandonné,,690.0,,2024-10-14 23:01:18
 9493,Panier abandonné,,1390.0,,2024-10-14 21:52:55
-9492,Panier abandonné,R. Michaïlesco,0.0,,2024-10-14 19:30:37
-9491,Panier abandonné,,0.0,,2024-10-14 18:58:38
 9490,Panier abandonné,,1580.0,,2024-10-14 17:19:34
 9489,Panier abandonné,,4270.0,,2024-10-14 17:06:20
 9488,Panier abandonné,,190.0,,2024-10-14 16:14:49
@@ -2692,7 +1634,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9484,Panier abandonné,,820.0,,2024-10-14 12:49:14
 9483,Panier abandonné,,1260.0,,2024-10-14 11:57:29
 9482,Panier abandonné,,1260.0,,2024-10-14 11:57:28
-9481,Panier abandonné,J. SANTANA CLIMENT,0.0,,2024-10-14 09:49:42
 9480,Panier abandonné,,5688.0,,2024-10-14 00:55:31
 9479,Panier abandonné,,220.0,,2024-10-14 00:08:52
 9478,Panier abandonné,,1505.0,,2024-10-13 23:28:39
@@ -2735,10 +1676,7 @@ id,order_id,customer,total_amount,carrier,order_date
 9441,1359,L. Pfeffer,60.0,CLICK AND COLLECT ,2024-10-08 15:59:59
 9440,Panier abandonné,,230.0,,2024-10-08 15:32:39
 9439,1352,M. Lefebvre,230.0,DHL,2024-10-08 15:15:55
-9438,Panier abandonné,,0.0,,2024-10-08 14:41:24
 9437,Panier abandonné,,660.0,,2024-10-08 14:33:40
-9436,Panier abandonné,p. LEMPEREUR,0.0,,2024-10-08 10:15:58
-9435,Panier abandonné,p. LEMPEREUR,0.0,,2024-10-08 10:00:47
 9434,1351,S. Gorton,2080.0,DHL,2024-10-08 05:22:38
 9433,1362,n. becker,460.0,DHL,2024-10-07 23:06:33
 9432,Panier abandonné,,588.0,,2024-10-07 21:35:56
@@ -2757,7 +1695,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9419,Panier abandonné,,205.0,,2024-10-06 21:00:02
 9418,Panier abandonné,,205.0,,2024-10-06 21:00:01
 9417,Panier abandonné,,205.0,,2024-10-06 20:36:16
-9416,Panier abandonné,m. bonelli,0.0,,2024-10-06 20:07:04
 9415,Panier abandonné,,680.0,,2024-10-06 19:42:05
 9414,Panier abandonné,,4272.0,,2024-10-06 19:26:07
 9413,Panier abandonné,,200.0,,2024-10-06 17:48:53
@@ -2766,30 +1703,23 @@ id,order_id,customer,total_amount,carrier,order_date
 9410,Panier abandonné,,3270.0,,2024-10-06 15:47:29
 9409,Panier abandonné,,3270.0,,2024-10-06 15:46:50
 9408,1350,H. Gnann,255.0,DHL,2024-10-05 17:57:06
-9407,Panier abandonné,,0.0,,2024-10-05 14:18:45
 9406,Panier abandonné,,260.0,,2024-10-05 02:57:04
 9405,Panier abandonné,,1716.0,,2024-10-05 01:15:42
 9404,Panier abandonné,,620.0,,2024-10-04 22:46:44
 9403,Panier abandonné,A. Raulet,5150.0,DHL,2024-10-04 20:42:48
 9402,Panier abandonné,A. Raulet,3270.0,,2024-10-04 15:17:56
-9401,Panier abandonné,N. Guillemin,0.0,,2024-10-04 14:33:36
 9400,Panier abandonné,L. Cherfaoui,240.0,DHL,2024-10-04 12:43:15
 9399,1349,L. Lequeux,880.0,DHL,2024-10-04 11:08:21
-9398,Panier abandonné,N. Veillot,0.0,,2024-10-04 00:02:32
 9397,Panier abandonné,,240.0,,2024-10-03 23:59:29
-9396,Panier abandonné,F. zanni,0.0,,2024-10-03 22:44:12
 9395,Panier abandonné,,630.0,,2024-10-03 21:34:17
 9394,1348,R. FREMINET,1090.0,DHL,2024-10-03 20:57:28
 9393,Panier abandonné,c. PROMPSAUD,295.0,DHL,2024-10-03 16:50:32
 9392,1347,G. Taillandier,1780.0,CLICK AND COLLECT ,2024-10-03 10:04:03
 9391,Panier abandonné,,1870.0,,2024-10-02 21:38:38
-9390,Panier abandonné,A. Hordern,0.0,,2024-10-02 21:37:59
 9389,Panier abandonné,,350.0,,2024-10-02 16:42:39
 9388,Panier abandonné,,885.0,,2024-10-02 15:15:49
-9387,Panier abandonné,i. loidi,0.0,,2024-10-02 14:08:15
 9386,Panier abandonné,,390.0,,2024-10-02 11:40:04
 9385,1344,M. Echevarria,900.0,DHL,2024-10-02 11:12:21
-9384,Panier abandonné,,0.0,,2024-10-01 22:52:10
 9383,Panier abandonné,,260.0,,2024-10-01 22:35:40
 9382,Panier abandonné,,720.0,,2024-10-01 22:10:33
 9381,Panier abandonné,m. bonelli,720.0,,2024-10-01 22:09:47
@@ -2802,12 +1732,10 @@ id,order_id,customer,total_amount,carrier,order_date
 9374,Panier abandonné,,7330.0,,2024-10-01 18:25:26
 9373,Panier abandonné,,420.0,,2024-10-01 17:19:43
 9372,Panier abandonné,,1935.0,,2024-10-01 14:31:56
-9371,Panier abandonné,I. Fernandez Bessone,0.0,,2024-10-01 13:20:00
 9370,Panier abandonné,,2290.0,,2024-10-01 12:24:10
 9369,Panier abandonné,,1068.0,,2024-10-01 09:07:14
 9367,Panier abandonné,,1068.0,,2024-10-01 09:06:59
 9366,Panier abandonné,,1068.0,,2024-10-01 09:06:46
-9365,Panier abandonné,L. Brueckner,0.0,,2024-10-01 01:29:54
 9364,Panier abandonné,,1272.0,,2024-09-30 22:43:45
 9363,Panier abandonné,,1188.0,,2024-09-30 22:20:07
 9362,Panier abandonné,R. Methodios,460.0,,2024-09-30 21:49:44
@@ -2818,31 +1746,24 @@ id,order_id,customer,total_amount,carrier,order_date
 9357,Panier abandonné,,550.0,,2024-09-30 19:23:54
 9356,1346,m. bonelli,720.0,DHL,2024-09-30 18:09:41
 9355,Panier abandonné,,4110.0,,2024-09-30 15:51:40
-9354,Panier abandonné,,0.0,,2024-09-30 15:24:24
 9353,Panier abandonné,,190.0,,2024-09-30 15:21:32
 9352,Panier abandonné,,190.0,,2024-09-30 15:21:22
-9351,Panier abandonné,R. Ormándy,0.0,,2024-09-30 15:00:11
 9350,Panier abandonné,,948.0,,2024-09-30 14:33:20
 9349,Panier abandonné,,220.0,,2024-09-30 13:46:38
 9348,Panier abandonné,,1272.0,,2024-09-30 13:26:33
 9347,Panier abandonné,,948.0,,2024-09-30 13:22:55
 9346,Panier abandonné,,948.0,,2024-09-30 13:22:47
-9344,Panier abandonné,A. Mukhanchikov,0.0,,2024-09-30 13:03:35
 9343,Panier abandonné,,2240.0,,2024-09-30 11:14:54
 9342,Panier abandonné,A. Harmel,285.0,DHL,2024-09-30 01:43:14
 9341,Panier abandonné,,710.0,,2024-09-29 23:13:59
 9340,Panier abandonné,,710.0,,2024-09-29 23:13:49
-9339,Panier abandonné,A. Monteiro,0.0,,2024-09-29 23:02:54
 9338,1342,A. Monteiro,260.0,CLICK AND COLLECT ,2024-09-29 22:44:35
 9337,Panier abandonné,,260.0,,2024-09-29 22:44:34
 9336,Panier abandonné,A. Mukhanchikov,1960.0,DHL,2024-09-29 22:35:08
-9335,Panier abandonné,A. Mukhanchikov,0.0,,2024-09-29 22:35:07
 9334,Panier abandonné,,825.0,,2024-09-29 21:16:05
 9333,Panier abandonné,,450.0,,2024-09-29 15:08:49
-9332,Panier abandonné,P. Olson ,0.0,,2024-09-29 12:29:31
 9331,Panier abandonné,,2160.0,,2024-09-29 10:58:12
 9330,Panier abandonné,,570.0,,2024-09-29 09:37:56
-9329,Panier abandonné,,0.0,,2024-09-29 09:37:55
 9328,Panier abandonné,,570.0,,2024-09-29 09:37:50
 9327,Panier abandonné,,200.0,,2024-09-28 23:27:11
 9326,Panier abandonné,,1090.0,,2024-09-28 22:02:16
@@ -2865,7 +1786,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9308,Panier abandonné,,880.0,,2024-09-27 14:09:39
 9307,Panier abandonné,,880.0,,2024-09-27 14:09:35
 9306,Panier abandonné,,1830.0,,2024-09-27 13:32:11
-9305,Panier abandonné,,0.0,,2024-09-27 12:24:40
 9304,Panier abandonné,A. Verschelde ,1360.0,DHL,2024-09-27 07:11:39
 9303,Panier abandonné,,1090.0,,2024-09-26 19:35:37
 9302,Panier abandonné,,500.0,,2024-09-26 18:26:36
@@ -2874,9 +1794,7 @@ id,order_id,customer,total_amount,carrier,order_date
 9299,1340,L. Barbe,550.0,DHL,2024-09-26 11:23:40
 9298,1341,Y. Grunberger,1030.0,DHL,2024-09-26 11:08:43
 9297,Panier abandonné,,250.0,,2024-09-26 08:26:17
-9296,Panier abandonné,G. Taillandier,0.0,,2024-09-26 06:50:25
 9295,Panier abandonné,,14645.0,,2024-09-26 00:20:11
-9294,Panier abandonné,M. Carrasco,0.0,,2024-09-25 18:27:47
 9293,Panier abandonné,,1960.0,,2024-09-25 16:38:30
 9292,Panier abandonné,,1960.0,,2024-09-25 16:38:29
 9291,Panier abandonné,,1960.0,,2024-09-25 16:38:15
@@ -2885,11 +1803,8 @@ id,order_id,customer,total_amount,carrier,order_date
 9288,Panier abandonné,,660.0,,2024-09-25 16:12:03
 9287,Panier abandonné,,660.0,,2024-09-25 16:11:50
 9286,1338,A. Huet,0.0,CLICK AND COLLECT ,2024-09-25 13:15:29
-9285,Panier abandonné,A. Huet,0.0,CLICK AND COLLECT ,2024-09-25 13:06:14
-9284,Panier abandonné,,0.0,,2024-09-25 12:41:56
 9283,1368,T. Ramos,550.0,DHL,2024-09-24 23:20:48
 9282,1337,M. Carrasco,380.0,DHL,2024-09-24 23:06:50
-9281,Panier abandonné,T. Ramos,0.0,,2024-09-24 09:55:22
 9280,Panier abandonné,,1780.0,,2024-09-23 22:56:14
 9279,Panier abandonné,H. Boselli ,1570.0,,2024-09-23 22:47:33
 9278,Panier abandonné,,500.0,,2024-09-23 06:07:56
@@ -2897,15 +1812,12 @@ id,order_id,customer,total_amount,carrier,order_date
 9276,Panier abandonné,,500.0,,2024-09-23 05:40:54
 9275,Panier abandonné,,2604.0,,2024-09-23 00:12:18
 9274,Panier abandonné,,220.0,,2024-09-22 21:44:22
-9273,Panier abandonné,,0.0,,2024-09-22 21:36:34
 9272,Panier abandonné,,220.0,,2024-09-22 21:23:47
 9271,Panier abandonné,,220.0,,2024-09-22 21:16:12
 9270,Panier abandonné,,2640.0,,2024-09-22 20:27:48
 9269,Panier abandonné,,2640.0,,2024-09-22 19:58:53
-9268,Panier abandonné,M. Pecina,0.0,,2024-09-22 19:39:36
 9267,Panier abandonné,,1240.0,,2024-09-22 18:22:34
 9266,Panier abandonné,,672.0,,2024-09-22 15:43:59
-9265,Panier abandonné,M. Varidel,0.0,,2024-09-22 13:21:26
 9264,Panier abandonné,,380.0,,2024-09-22 11:52:39
 9263,Panier abandonné,,1020.0,,2024-09-22 08:21:42
 9262,Panier abandonné,,1020.0,,2024-09-22 08:21:33
@@ -2925,11 +1837,9 @@ id,order_id,customer,total_amount,carrier,order_date
 9248,Panier abandonné,,280.0,,2024-09-20 22:30:56
 9247,Panier abandonné,A. Diehl-Kosiorek,390.0,,2024-09-20 21:07:34
 9246,Panier abandonné,,350.0,,2024-09-20 17:50:47
-9245,Panier abandonné,A. Tournerie ,0.0,,2024-09-20 13:40:37
 9244,Panier abandonné,,430.0,,2024-09-20 12:33:48
 9243,Panier abandonné,,1572.0,,2024-09-19 22:27:20
 9242,Panier abandonné,,790.0,,2024-09-19 17:02:08
-9241,Panier abandonné,R. Ormándy,0.0,,2024-09-19 16:11:12
 9240,Panier abandonné,,390.0,,2024-09-19 09:47:35
 9239,Panier abandonné,,390.0,,2024-09-19 09:47:33
 9238,1333,R. Baillis,390.0,DHL,2024-09-19 09:46:55
@@ -2948,7 +1858,6 @@ id,order_id,customer,total_amount,carrier,order_date
 9225,Panier abandonné,,672.0,,2024-09-17 22:24:58
 9224,Panier abandonné,,672.0,,2024-09-17 22:23:33
 9223,Panier abandonné,,390.0,,2024-09-17 17:13:29
-9222,Panier abandonné,F. Faurie,0.0,,2024-09-17 14:38:22
 9221,Panier abandonné,,220.0,,2024-09-17 14:30:27
 9220,Panier abandonné,,2856.0,,2024-09-17 14:00:13
 9219,Panier abandonné,,1980.0,,2024-09-17 13:51:06
@@ -2958,23 +1867,17 @@ id,order_id,customer,total_amount,carrier,order_date
 9215,Panier abandonné,,1220.0,,2024-09-16 12:58:56
 9214,1336,T. TAUPIN,1095.0,DHL,2024-09-16 10:20:57
 9213,Panier abandonné,,1644.0,,2024-09-16 09:21:06
-9212,Panier abandonné,,0.0,,2024-09-16 09:21:04
 9211,Panier abandonné,,1644.0,,2024-09-16 09:20:12
 9210,Panier abandonné,,1644.0,,2024-09-16 09:19:58
-9209,Panier abandonné,,0.0,,2024-09-16 09:15:33
 9208,1331,A. Zengarini,500.0,DHL,2024-09-16 09:14:13
-9207,Panier abandonné,A. Rolland ,0.0,,2024-09-16 09:08:31
 9206,Panier abandonné,,200.0,,2024-09-16 09:07:19
 9205,Panier abandonné,,200.0,,2024-09-16 09:07:18
 9204,Panier abandonné,,200.0,,2024-09-16 09:06:48
 9203,Panier abandonné,,200.0,,2024-09-16 09:06:25
 9202,Panier abandonné,,200.0,,2024-09-16 09:06:07
 9201,1330,M. Brodier,0.0,DHL,2024-09-16 08:47:46
-9200,Panier abandonné,,0.0,,2024-09-16 08:47:15
-9199,Panier abandonné,,0.0,,2024-09-16 08:46:56
 9198,Panier abandonné,,310.0,,2024-09-15 23:59:52
 9197,Panier abandonné,,830.0,,2024-09-15 21:26:00
-9196,Panier abandonné,s. veziat,0.0,,2024-09-15 20:56:56
 9195,Panier abandonné,,2590.0,,2024-09-15 19:11:13
 9194,Panier abandonné,,2690.0,,2024-09-15 16:54:48
 9193,Panier abandonné,,220.0,,2024-09-15 15:02:17

@@ -148,3 +148,17 @@ def clean_currency_column(df: pd.DataFrame, col: str) -> pd.DataFrame:
         f"[INFO] Cleaned '{col}' from currency format. Valid non-null: {nonnull_after}/{nonnull_before}."
     )
     return df
+
+
+# def transform_abandoned_cart_order_id(df: pd.DataFrame) -> pd.DataFrame:
+#     """
+#     Transform 'Panier abandonné' to 0 in the 'order_id' column.
+#     """
+#     pass
+# if "order_id" not in df.columns:
+#     print(f"[WARN] Column 'order_id' not found.")
+#     return df
+
+# df["order_id"] = df["order_id"].apply(lambda x: 0 if x == "Panier abandonné" else x)
+# print("[INFO] Transformed 'Panier abandonné' to 0 in 'order_id' column.")
+# return df

@@ -36,6 +36,7 @@ from backend.data_preprocessing.cleaners import (
     remove_missing_required,
     remove_duplicates,
     clean_currency_column,
+    # transform_abandoned_cart_order_id,  # Import the new function
 )
 from backend.data_preprocessing.validators import validate_schema
 from backend.data_preprocessing.schemas import (
@@ -72,6 +73,10 @@ def preprocess_cart_data(df: pd.DataFrame) -> pd.DataFrame:
     existing_cols = set(df.columns) & set(column_mapping.keys())
     df = df.rename(columns={col: column_mapping[col] for col in existing_cols})
 
+    # Transform into float
+    if "total_amount" in df.columns:
+        df = clean_currency_column(df, "total_amount")
+
     # Remove abandoned carts
     if "order_id" in df.columns and "total_amount" in df.columns:
         df = remove_abandoned_carts(df, id_col="order_id", total_col="total_amount")
@@ -91,10 +96,6 @@ def preprocess_cart_data(df: pd.DataFrame) -> pd.DataFrame:
     subset_cols = [col for col in ["order_id", "order_date"] if col in df.columns]
     if subset_cols:
         df = remove_duplicates(df, subset=subset_cols)
-
-    # Transform into float
-    if "total_amount" in df.columns:
-        df = clean_currency_column(df, "total_amount")
 
     return df
 
@@ -212,6 +213,7 @@ def run_pipeline() -> Tuple[Optional[pd.DataFrame], ...]:
     # 2. Preprocess datasets
     print("[INFO] Preprocessing Cart data...")
     cart_df = preprocess_cart_data(cart_df)
+    # cart_df = transform_abandoned_cart_order_id(cart_df)  # Apply the new transformation
 
     print("[INFO] Preprocessing Order data...")
     order_df = preprocess_order_data(order_df)
