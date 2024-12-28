@@ -79,3 +79,26 @@ def plot_on_time_delivery_rate(otd_values: pd.Series):
     plt.xlabel("On-Time Delivery Rate (%)")
     plt.ylabel("Frequency")
     plt.show()
+
+
+if __name__ == "__main__":
+    import sys
+
+    sys.path.append(
+        "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre/"
+    )
+    from backend.data_preprocessing.pipeline import run_pipeline
+    from backend.core.metrics.operation import *
+
+    cart_df, order_df, inventory_df, retail_df = run_pipeline()
+    clv_values = calculate_clv(order_df)
+    cac_values = calculate_cac(order_df)
+    # rfm_df = calculate_rfm(order_df)
+    rpr_values = calculate_repeat_purchase_rate(order_df)
+    otd_values = calculate_on_time_delivery_rate(order_df)
+
+    plot_clv(clv_values)
+    plot_cac(cac_values)
+    # plot_rfm_distribution(rfm_df)
+    plot_repeat_purchase_rate(rpr_values)
+    plot_on_time_delivery_rate(otd_values)

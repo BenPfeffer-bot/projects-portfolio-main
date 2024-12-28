@@ -478,9 +478,7 @@ import logging
 import pandas as pd
 
 
-def calculate_clv(
-    aov: float, purchase_frequency: float, customer_lifespan: float
-) -> float:
+def calculate_clv(order_df: pd.DataFrame) -> float:
     """
     Calculates the Customer Lifetime Value (CLV) using a simplified model.
 
@@ -495,6 +493,10 @@ def calculate_clv(
     Returns:
         float: The Customer Lifetime Value. Returns 0.0 if any argument is non-positive.
     """
+    order_df = order_df.copy()
+    aov = calculate_avg_order_value(order_df)
+    purchase_frequency = calculate_repeat_purchase_rate(order_df)
+    customer_lifespan = 10
     try:
         if aov <= 0 or purchase_frequency <= 0 or customer_lifespan <= 0:
             logging.warning("One of the input parameters is non-positive.")
@@ -505,7 +507,7 @@ def calculate_clv(
         return 0.0
 
 
-def calculate_cac(total_marketing_expense: float, new_customers: int) -> float:
+def calculate_cac(order_df: pd.DataFrame) -> float:
     """
     Calculates the Customer Acquisition Cost (CAC).
 
@@ -519,6 +521,9 @@ def calculate_cac(total_marketing_expense: float, new_customers: int) -> float:
     Returns:
         float: The Customer Acquisition Cost. Returns 0.0 if new_customers is zero or negative.
     """
+    order_df = order_df.copy()
+    total_marketing_expense = 10000
+    new_customers = order_df["client"].nunique()
     try:
         if new_customers <= 0:
             logging.warning(
@@ -580,9 +585,7 @@ def calculate_rfm_distribution(df: pd.DataFrame) -> pd.DataFrame:
         return pd.DataFrame()
 
 
-def calculate_repeat_purchase_rate(
-    returning_customers: int, total_customers: int
-) -> float:
+def calculate_repeat_purchase_rate(order_df: pd.DataFrame) -> float:
     """
     Calculates the Repeat Purchase Rate (RPR).
 
@@ -596,6 +599,14 @@ def calculate_repeat_purchase_rate(
     Returns:
         float: The Repeat Purchase Rate as a percentage. Returns 0.0 if total_customers is zero or negative.
     """
+    order_customers = order_df.copy()
+    order_customers["returning_customer"] = 0
+    order_customers["returning_customer"] = order_customers["nouveau_client"].apply(
+        lambda x: 1 if x == 0 else 0
+    )
+    returning_customers = order_customers["returning_customer"].sum()
+    total_customers = order_customers["client"].nunique()
+
     try:
         if total_customers <= 0:
             logging.warning(
