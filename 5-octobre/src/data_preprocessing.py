@@ -7,9 +7,7 @@ from pydantic import BaseModel, Field, validator
 from typing import Optional, List
 from decimal import Decimal
 
-sys.path.append(
-    "/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre"
-)
+sys.path.append("/Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/projects-portfolio-main/5-octobre")
 from src.config import (
     PROCESSED_DATA_DIR,
     CLEANED_DATA_DIR,
@@ -142,14 +140,7 @@ def clean_total_column(df, total_col="Total"):
             return np.nan
         if isinstance(x, str):
             # Remove currency symbols and various whitespace/formatting characters
-            cleaned = (
-                x.replace("€", "")
-                .replace("$", "")
-                .replace("£", "")
-                .replace("¥", "")
-                .replace("\xa0", "")
-                .replace(" ", "")
-            )
+            cleaned = x.replace("€", "").replace("$", "").replace("£", "").replace("¥", "").replace("\xa0", "").replace(" ", "")
             cleaned = cleaned.replace(",", ".")
             # Attempt float conversion
             try:
@@ -162,9 +153,7 @@ def clean_total_column(df, total_col="Total"):
     original_nonnull_count = df[total_col].notnull().sum()
     df[total_col] = df[total_col].apply(clean_amount)
     converted_nonnull_count = df[total_col].notnull().sum()
-    print(
-        f"Converted {converted_nonnull_count}/{original_nonnull_count} non-null '{total_col}' values to float successfully."
-    )
+    print(f"Converted {converted_nonnull_count}/{original_nonnull_count} non-null '{total_col}' values to float successfully.")
 
     return df
 
@@ -188,9 +177,7 @@ def convert_date_column(df, date_col="Date"):
     # Count invalid dates
     invalid_dates = df[date_col].isna().sum()
     if invalid_dates > 0:
-        print(
-            f"Warning: {invalid_dates} rows have invalid or missing {date_col} and will be dropped."
-        )
+        print(f"Warning: {invalid_dates} rows have invalid or missing {date_col} and will be dropped.")
         df = df.dropna(subset=[date_col])
 
     return df
@@ -253,9 +240,7 @@ def remove_abandoned_carts(df, id_col="ID commande", total_col="Total"):
     Logs how many rows were removed.
     """
     if id_col not in df.columns or total_col not in df.columns:
-        print(
-            "Warning: Cannot remove abandoned carts since required columns are missing."
-        )
+        print("Warning: Cannot remove abandoned carts since required columns are missing.")
         return df
 
     condition = (df[id_col] == "Panier abandonné") & (df[total_col] == 0)
@@ -278,9 +263,7 @@ def handle_missing_values(df, required_columns):
     final_count = df.shape[0]
     dropped = initial_count - final_count
     if dropped > 0:
-        print(
-            f"Dropped {dropped} rows due to missing required columns: {required_columns}"
-        )
+        print(f"Dropped {dropped} rows due to missing required columns: {required_columns}")
     return df
 
 
@@ -386,9 +369,7 @@ def check_data_quality(df, required_cols=None, numeric_cols=None, date_cols=None
                 Q1 = df[col].quantile(0.25)
                 Q3 = df[col].quantile(0.75)
                 IQR = Q3 - Q1
-                outliers = (
-                    (df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))
-                ).sum()
+                outliers = ((df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))).sum()
                 if outliers == 0:
                     checks_passed += 1
                 else:
@@ -417,9 +398,7 @@ def check_data_quality(df, required_cols=None, numeric_cols=None, date_cols=None
                         issues.append(f"Found {old_dates} dates before 2020 in {col}")
                 except Exception as e:
                     issues.append(f"Error processing dates in column {col}: {str(e)}")
-                    total_checks -= (
-                        2  # Subtract these checks since they couldn't be performed
-                    )
+                    total_checks -= 2  # Subtract these checks since they couldn't be performed
 
     quality_score = checks_passed / total_checks if total_checks > 0 else 0
     return quality_score, issues
@@ -495,9 +474,7 @@ def preprocess_data():
     # Process inventory data
     inventory_df = standardize_column_names(inventory_df)
     inventory_df = preprocess_inventory_data(inventory_df)
-    inventory_df = handle_missing_values(
-        inventory_df, ["id", "factory_price", "retail"]
-    )
+    inventory_df = handle_missing_values(inventory_df, ["id", "factory_price", "retail"])
     inventory_df = remove_duplicates(inventory_df)
 
     # Process cart and order data
@@ -536,3 +513,67 @@ def preprocess_data():
 
 if __name__ == "__main__":
     preprocess_data()
+# src/config.py
+
+import os
+import logging
+
+# Attempt to locate project directories and handle errors
+try:
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    RAW_DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
+    PROCESSED_DATA_DIR = "data/processed"
+    CLEANED_DATA_DIR = "data/cleaned"
+
+    # Check existence of directories
+    for d in [RAW_DATA_DIR, PROCESSED_DATA_DIR, CLEANED_DATA_DIR]:
+        if not os.path.exists(d):
+            raise FileNotFoundError(f"Required directory not found: {d}")
+
+    # Filenames
+    CART_FILENAME = "cart.csv"
+    ORDER_FILENAME = "order.csv"
+    INVENTORY_FILENAME = "inventory.csv"
+    RETAIL_FILENAME = "retail.csv"
+
+except Exception as e:
+    print(f"Error in config setup: {e}")
+    # Depending on the project needs, we could exit or handle differently.
+    # For now, just print the error.
+
+
+def load_logger():
+    logs_dir = os.path.join(BASE_DIR, "logs")
+    if not os.path.exists(logs_dir):
+        os.makedirs(logs_dir)
+    log_file = os.path.join(logs_dir, "app.log")
+    logging.basicConfig(filename=log_file, level=logging.DEBUG)
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.DEBUG)
+    return logger
+
+
+def load_config():
+    """
+    Load configuration from env.yaml file.
+    Returns a dictionary containing configuration values.
+    """
+    import yaml
+
+    try:
+        config_path = os.path.join(BASE_DIR, "env.yaml")
+        with open(config_path, "r") as f:
+            config = yaml.safe_load(f)
+        return config
+    except FileNotFoundError:
+        logger = load_logger()
+        logger.error("env.yaml configuration file not found")
+        return {}
+    except yaml.YAMLError as e:
+        logger = load_logger()
+        logger.error(f"Error parsing env.yaml: {e}")
+        return {}
+    except Exception as e:
+        logger = load_logger()
+        logger.error(f"Unexpected error loading config: {e}")
+        return {}

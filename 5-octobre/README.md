@@ -1,134 +1,105 @@
-# Tableau de Bord d'Analyse E-commerce
+# 5 Octobre Analytics Platform
 
-Ce tableau de bord fournit des informations sur les indicateurs de performance e-commerce et l'analyse du comportement client.
+## Project Overview
 
-## Explication des Métriques Clés
+This platform provides advanced analytics and forecasting capabilities for 5 Octobre, including:
 
-### Métriques de Vente
+- Revenue and customer forecasting
+- RAG-based chatbot for business insights
+- Web scraping utilities
+- Customer analytics and segmentation
 
-**Panier Moyen (PM)**
-- Définition : Le montant moyen dépensé par commande finalisée
-- Calcul : Chiffre d'affaires total / Nombre de commandes finalisées
-- Signification : Tendances des dépenses clients et efficacité de la stratégie tarifaire
+## Project Structure
 
-**Taux de Conversion**
-- Définition : Pourcentage de paniers convertis en commandes finalisées
-- Calcul : (Commandes finalisées / Total des paniers) × 100
-- Signification : Efficacité du processus de paiement et de l'expérience utilisateur globale
+```
+5-octobre/
+├── src/                    # Core source code
+│   ├── data/              # Data processing utilities
+│   ├── models/            # ML model implementations
+│   └── utils/             # Shared utilities
+├── projects/              # Specific project implementations
+│   ├── forecast/          # Forecasting models
+│   ├── chatbot/          # RAG chatbot implementation
+│   └── webscraping/      # Web scraping utilities
+├── data/                  # Data storage
+│   ├── raw/              # Raw data files
+│   ├── processed/        # Processed datasets
+│   ├── analysis/         # Analysis outputs
+│   └── embeddings/       # Vector embeddings
+├── notebooks/            # Jupyter notebooks for analysis
+├── tests/                # Test suite
+├── config/               # Configuration files
+├── docs/                 # Documentation
+│   ├── api/             # API documentation
+│   └── guides/          # User guides
+├── frontend/            # Frontend application
+├── backend/             # Backend services
+└── logs/                # Application logs
 
-**Taux d'Abandon de Panier**
-- Définition : Pourcentage de paniers abandonnés
-- Calcul : (Paniers abandonnés / Total des paniers) × 100
-- Signification : Problèmes potentiels de tarification, processus de paiement ou expérience utilisateur
+## Setup Instructions
 
-### Métriques de Comportement Client
+1. Clone the repository
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-**Abandon de Panier par Valeur**
-- Contenu : Distribution des valeurs des paniers abandonnés
-- Importance : Aide à identifier les seuils de prix où les clients sont plus susceptibles d'abandonner
+3. Install dependencies:
 
-**Distribution Géographique**
-- Contenu : Répartition des commandes par pays
-- Importance : Aide à comprendre la performance des marchés internationaux et les modèles d'expédition
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**Distribution des Moyens de Paiement**
-- Contenu : Méthodes de paiement préférées
-- Importance : Aide à optimiser les options de paiement et réduire les frictions
+4. Set up environment variables:
+   - Copy `env.yaml.example` to `env.yaml`
+   - Fill in required API keys and configurations
 
-## Questions Fréquentes
+## Development Guidelines
 
-### Questions Générales
+1. **Code Style**
+   - Follow PEP 8 guidelines
+   - Use type hints
+   - Document functions and classes
 
-**Q : Qu'est-ce qu'un panier abandonné ?**
-R : Un panier est considéré comme abandonné lorsque des articles sont ajoutés mais que le processus de paiement n'est pas finalisé dans les 24 heures.
+2. **Git Workflow**
+   - Create feature branches from `develop`
+   - Use meaningful commit messages
+   - Submit PRs for review
 
-**Q : Comment le chiffre d'affaires est-il calculé ?**
-R : Le chiffre d'affaires est calculé uniquement sur les commandes finalisées, excluant les commandes annulées ou remboursées.
+3. **Testing**
+   - Write unit tests for new features
+   - Run tests before committing
+   - Maintain test coverage
 
-### Questions sur les Données
+## Components
 
-**Q : À quelle fréquence les données sont-elles mises à jour ?**
-R : Les données sont mises à jour en temps réel pour les nouvelles commandes et l'activité des paniers.
+### Forecasting Module
 
-**Q : Pourquoi peut-il y avoir des écarts dans les valeurs monétaires ?**
-R : Les commandes peuvent être passées dans différentes devises (EUR, USD). Toutes les métriques sont normalisées en EUR pour la cohérence.
+- Revenue forecasting
+- Customer growth prediction
+- Multi-metric forecasting
 
-### Questions Techniques
+### RAG Chatbot
 
-**Q : Comment la saisonnalité est-elle prise en compte dans les métriques ?**
-R : Les tendances sont analysées sur une base annuelle et mensuelle pour tenir compte des variations saisonnières.
+- Business insights
+- Data analysis
+- Custom knowledge base
 
-**Q : Comment les valeurs aberrantes sont-elles traitées ?**
-R : Les valeurs extrêmes (ex : commandes inhabituellement importantes) sont signalées mais incluses dans les calculs sauf si manifestement erronées.
+### Web Scraping
 
-## Dictionnaire des Données
+- Competitor analysis
+- Market research
+- Product tracking
 
-### Statut de Commande
-- `Livré` : Commande livrée
-- `Annulée` : Commande annulée
-- `Remboursé` : Commande remboursée
-- `Panier abandonné` : Panier non finalisé
+## Contributing
 
-### Moyens de Paiement
-- `Card via Stripe` : Paiement par carte bancaire
-- `Alma - Paiement en 3 fois` : Paiement en trois fois
-- `Transfert bancaire` : Virement bancaire
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-### Modes de Livraison
-- `DHL` : Livraison standard DHL
-- `CLICK AND COLLECT` : Retrait en magasin
+## License
 
-## Bonnes Pratiques d'Analyse
-
-1. **Comparer des Périodes Similaires**
-   - Utiliser des comparaisons d'une année sur l'autre quand possible
-   - Tenir compte des variations saisonnières
-
-2. **Considérer Plusieurs Métriques**
-   - Examiner les métriques connexes ensemble
-   - Exemple : Un panier moyen élevé mais un faible taux de conversion peut indiquer des problèmes de tarification
-
-3. **Le Contexte est Important**
-   - Prendre en compte les facteurs externes (promotions, jours fériés)
-   - Rechercher des modèles dans le comportement client
-
-## Support
-
-Pour des questions supplémentaires ou un support technique, veuillez contacter l'équipe d'analyse.
-
-## Contribution
-
-Pour suggérer des améliorations ou signaler des problèmes :
-1. Ouvrir une issue décrivant l'amélioration/problème
-2. Fournir des exemples spécifiques si possible
-3. Inclure des échantillons de données pertinents si applicable
-
-## Chatbot Integration
-
-This dashboard includes a natural language chatbot powered by the Mistral LLM. Users can ask questions about sales, revenue trends, CLV, RFM segments, and more.
-
-### Features
-
-- **Natural Language Queries:** Ask questions in plain English and receive insightful answers.
-- **Retrieval-Augmented Generation (RAG):** When enabled, the chatbot retrieves relevant documents to provide accurate and context-aware responses.
-- **Interactive Chat Interface:** Seamlessly integrated within the Streamlit dashboard.
-
-### How to Use
-
-1. Navigate to the **Ask a Question** section in the dashboard.
-2. Enter your query in the input box.
-3. Click **Get Insights** to receive an answer.
-4. Optionally, enable **Retrieval (RAG)** to include additional context from your data.
-
-### Fine-Tuning the Model
-
-To fine-tune the Mistral model with your domain-specific data:
-
-1. Ensure you have the necessary GPU resources.
-2. Prepare your QA pairs in `training_data.jsonl`.
-3. Run the fine-tuning script using Hugging Face's transformers library with PEFT/LoRA.
-4. Update the `MistralClient` with the new model checkpoint.
-
-### Contributing
-
-For contributions, please refer to the [Contribution Guidelines](CONTRIBUTING.md).
+Proprietary - All rights reserved

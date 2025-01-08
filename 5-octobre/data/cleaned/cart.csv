@@ -1,4 +1,4 @@
-id,ID commande,Client,Total,Transporteur,Date
+id,order_id,customer,total_amount,carrier,order_date
 8177,Panier abandonné,,720.0,,2024-05-06 21:40:17
 8176,1232,L. Zourray,0.0,DHL,2024-05-06 20:38:47
 8158,Panier abandonné,S. Naamneh,880.0,,2024-05-06 16:30:35
@@ -78,6 +78,7 @@ id,ID commande,Client,Total,Transporteur,Date
 7895,Panier abandonné,,190.0,,2024-04-23 23:47:05
 7893,Panier abandonné,,830.0,,2024-04-23 21:56:20
 7892,Panier abandonné,,220.0,,2024-04-23 16:07:46
+7891,Panier abandonné,M. Vincent,2670.0,,2024-04-23 15:17:14
 7890,1221,c. lemarquand,490.0,DHL,2024-04-23 14:06:55
 7885,Panier abandonné,,260.0,,2024-04-22 23:33:20
 7883,Panier abandonné,,6220.0,,2024-04-22 18:50:38
@@ -331,12 +332,14 @@ id,ID commande,Client,Total,Transporteur,Date
 6977,Panier abandonné,,4284.0,,2024-03-08 03:53:26
 6976,Panier abandonné,,2300.0,,2024-03-07 15:02:49
 6975,Panier abandonné,,260.0,,2024-03-07 13:09:03
+6974,1222,L. Pfeffer,59.0,DHL,2024-03-07 10:36:48
 6972,1187,J. BARRÈS,610.0,DHL,2024-03-07 10:04:21
 6971,Panier abandonné,,2885.0,,2024-03-07 04:15:24
 6970,Panier abandonné,,590.0,,2024-03-06 22:18:42
 6965,Panier abandonné,,2150.0,,2024-03-05 22:54:19
 6964,Panier abandonné,,1150.0,,2024-03-05 16:54:57
 6962,1186,F. zanni,510.0,DHL,2024-03-05 16:42:18
+6961,1185,L. Pfeffer,60.0,CLICK AND COLLECT ,2024-03-05 15:37:06
 6960,1203,C. Tailleferd,1000.0,DHL,2024-03-05 14:01:40
 6959,Panier abandonné,,1272.0,,2024-03-05 13:12:10
 6958,Panier abandonné,,285.0,,2024-03-05 12:35:51
@@ -678,6 +681,7 @@ id,ID commande,Client,Total,Transporteur,Date
 8817,Panier abandonné,,7110.0,,2024-07-18 19:48:26
 8816,Panier abandonné,,1428.0,,2024-07-18 17:57:19
 8815,Panier abandonné,,1040.0,,2024-07-18 16:58:27
+8814,Panier abandonné,L. Pfeffer,1567.0,,2024-07-18 15:49:37
 8813,1289,I. TRZCINSKA,320.0,DHL,2024-07-18 13:21:38
 8811,Panier abandonné,,550.0,,2024-07-18 11:37:11
 8808,Panier abandonné,,650.0,,2024-07-18 09:23:22
@@ -1003,6 +1007,7 @@ id,ID commande,Client,Total,Transporteur,Date
 8385,1237,T. Rubio,350.0,DHL,2024-05-13 18:26:23
 8384,Panier abandonné,,230.0,,2024-05-13 18:08:38
 8380,Panier abandonné,,1650.0,,2024-05-13 17:19:36
+8376,Panier abandonné,L. Pfeffer,1970.0,DHL,2024-05-13 16:43:20
 8375,Panier abandonné,,550.0,,2024-05-13 12:38:26
 8374,Panier abandonné,D. Jane,800.0,,2024-05-13 12:33:02
 8351,Panier abandonné,,990.0,,2024-05-11 13:09:56
@@ -1268,6 +1273,7 @@ id,ID commande,Client,Total,Transporteur,Date
 9901,Panier abandonné,D. Correll,740.0,,2024-11-27 08:09:03
 9900,Panier abandonné,D. Correll,740.0,,2024-11-27 08:08:49
 9899,Panier abandonné,,220.0,,2024-11-27 07:51:51
+9898,Panier abandonné,M. Vincent,336.0,DHL,2024-11-26 23:16:31
 9897,Panier abandonné,M. Mopal,310.0,DHL,2024-11-26 23:14:38
 9896,Panier abandonné,,1310.0,,2024-11-26 22:08:40
 9895,Panier abandonné,,1656.0,,2024-11-26 21:50:03
@@ -1324,10 +1330,12 @@ id,ID commande,Client,Total,Transporteur,Date
 9840,Panier abandonné,,1505.0,,2024-11-19 16:43:17
 9839,Panier abandonné,,1550.0,,2024-11-19 16:29:17
 9838,Panier abandonné,,3560.0,,2024-11-19 16:29:16
+9837,Panier abandonné,M. Vincent,292.0,,2024-11-19 16:19:57
 9836,1408,C. Van hintum ,710.0,DHL,2024-11-19 14:32:00
 9835,1407,j. louvencourt,230.0,CLICK AND COLLECT ,2024-11-19 12:30:17
 9834,Panier abandonné,,230.0,,2024-11-19 12:30:15
 9833,Panier abandonné,,230.0,,2024-11-19 12:30:07
+9831,Panier abandonné,L. Pfeffer,740.0,DHL,2024-11-19 11:08:33
 9829,Panier abandonné,,2870.0,,2024-11-18 22:17:33
 9828,Panier abandonné,,420.0,,2024-11-18 21:33:08
 9827,Panier abandonné,,420.0,,2024-11-18 21:33:07
@@ -1362,6 +1370,8 @@ id,ID commande,Client,Total,Transporteur,Date
 9793,Panier abandonné,C. Verdeau,1930.0,,2024-11-13 20:39:36
 9792,1401,D. Correll,490.0,DHL,2024-11-13 11:54:10
 9791,Panier abandonné,,490.0,,2024-11-13 11:30:18
+9790,Panier abandonné,L. Pfeffer,490.0,,2024-11-13 11:13:11
+9789,Panier abandonné,L. Pfeffer,760.0,,2024-11-13 11:11:49
 9788,Panier abandonné,,490.0,,2024-11-13 10:52:09
 9787,Panier abandonné,,490.0,,2024-11-13 10:27:53
 9786,Panier abandonné,,490.0,,2024-11-13 10:19:35
@@ -1401,6 +1411,7 @@ id,ID commande,Client,Total,Transporteur,Date
 9748,Panier abandonné,,510.0,,2024-11-08 13:25:28
 9747,Panier abandonné,H. Greiner Baumgaertner,1070.0,,2024-11-08 13:21:14
 9745,Panier abandonné,,2110.0,,2024-11-08 10:51:32
+9744,1398,L. Pfeffer,0.0,DHL,2024-11-08 10:38:56
 9743,Panier abandonné,,1380.0,,2024-11-08 01:06:01
 9742,1393,A. Michelassi,900.0,DHL,2024-11-08 01:05:40
 9741,Panier abandonné,A. Michelassi,900.0,DHL,2024-11-08 00:53:33
@@ -1415,7 +1426,11 @@ id,ID commande,Client,Total,Transporteur,Date
 9728,Panier abandonné,,835.0,,2024-11-06 20:12:42
 9727,Panier abandonné,,220.0,,2024-11-06 18:48:11
 9724,Panier abandonné,,8670.0,,2024-11-06 17:54:40
+9723,1395,L. Pfeffer,0.0,DHL,2024-11-06 15:33:27
+9722,1392,L. Pfeffer,0.0,DHL,2024-11-06 13:07:04
 9721,Panier abandonné,,2340.0,,2024-11-06 12:52:30
+9720,1391,L. Pfeffer,1540.0,DHL,2024-11-06 12:45:22
+9719,1390,L. Pfeffer,710.0,DHL,2024-11-06 12:33:28
 9718,Panier abandonné,,3625.0,,2024-11-06 10:34:59
 9716,Panier abandonné,,2076.0,,2024-11-06 01:49:18
 9715,Panier abandonné,,2172.0,,2024-11-05 22:16:30
@@ -1430,8 +1445,11 @@ id,ID commande,Client,Total,Transporteur,Date
 9706,Panier abandonné,,1600.0,,2024-11-05 05:13:01
 9705,Panier abandonné,,1584.0,,2024-11-04 21:45:01
 9704,Panier abandonné,S. Bauw,260.0,,2024-11-04 20:22:12
+9703,1389,L. Pfeffer,1740.0,DHL,2024-11-04 17:04:43
+9702,1388,L. Pfeffer,1080.0,DHL,2024-11-04 17:04:18
 9701,1387,C. Ollivier,330.0,CLICK AND COLLECT ,2024-11-04 14:20:15
 9700,Panier abandonné,,1450.0,,2024-11-04 13:56:10
+9698,1386,L. Pfeffer,14550.0,DHL,2024-11-04 12:13:30
 9697,Panier abandonné,,240.0,,2024-11-04 11:58:45
 9696,Panier abandonné,,615.0,,2024-11-04 11:35:02
 9695,Panier abandonné,,1600.0,,2024-11-04 11:19:17
@@ -1473,6 +1491,10 @@ id,ID commande,Client,Total,Transporteur,Date
 9656,Panier abandonné,,260.0,,2024-10-30 15:12:58
 9655,Panier abandonné,,444.0,,2024-10-30 15:11:10
 9653,1382,H. Greiner Baumgaertner,730.0,DHL,2024-10-29 21:57:18
+9649,1380,L. Pfeffer,350.0,DHL,2024-10-29 16:30:48
+9647,1379,L. Pfeffer,920.0,DHL,2024-10-29 15:21:46
+9645,1378,L. Pfeffer,1030.0,DHL,2024-10-29 15:00:45
+9643,1377,L. Pfeffer,6560.0,DHL,2024-10-29 13:35:34
 9640,Panier abandonné,,2050.0,,2024-10-28 20:45:30
 9639,Panier abandonné,,1135.0,,2024-10-28 20:18:32
 9638,Panier abandonné,M. Latorre ,240.0,,2024-10-28 16:49:44
@@ -1512,6 +1534,7 @@ id,ID commande,Client,Total,Transporteur,Date
 9599,Panier abandonné,,240.0,,2024-10-24 08:43:46
 9597,Panier abandonné,,960.0,,2024-10-24 02:51:34
 9596,Panier abandonné,A. Harmel,285.0,DHL,2024-10-23 23:37:52
+9594,1371,L. Pfeffer,0.0,DHL,2024-10-23 23:35:55
 9593,Panier abandonné,,830.0,,2024-10-23 21:58:15
 9592,Panier abandonné,,3710.0,,2024-10-23 21:53:20
 9590,Panier abandonné,,4500.0,,2024-10-23 18:42:42
@@ -1520,6 +1543,8 @@ id,ID commande,Client,Total,Transporteur,Date
 9587,Panier abandonné,,2088.0,,2024-10-23 14:03:56
 9586,Panier abandonné,,490.0,,2024-10-23 13:39:24
 9585,Panier abandonné,,2310.0,,2024-10-23 07:20:59
+9583,1370,L. Pfeffer,183.0,DHL,2024-10-22 23:40:41
+9581,1369,L. Pfeffer,0.0,DHL,2024-10-22 23:19:07
 9580,Panier abandonné,,190.0,,2024-10-22 22:46:08
 9578,Panier abandonné,,285.0,,2024-10-22 18:53:34
 9577,Panier abandonné,,630.0,,2024-10-22 16:52:07
@@ -1648,6 +1673,7 @@ id,ID commande,Client,Total,Transporteur,Date
 9444,Panier abandonné,,2880.0,,2024-10-08 20:00:57
 9443,1365,M. DE RAFELIS,550.0,DHL,2024-10-08 18:05:13
 9442,Panier abandonné,,640.0,,2024-10-08 16:16:24
+9441,1359,L. Pfeffer,60.0,CLICK AND COLLECT ,2024-10-08 15:59:59
 9440,Panier abandonné,,230.0,,2024-10-08 15:32:39
 9439,1352,M. Lefebvre,230.0,DHL,2024-10-08 15:15:55
 9437,Panier abandonné,,660.0,,2024-10-08 14:33:40

@@ -1,4 +1,4 @@
-id,Référence,Nouveau client,Livraison,Client,Total,Paiement,État,Date
+id,référence,nouveau_client,livraison,client,total,paiement,état,date
 468,EOCSEVOVW,1,Lituanie,K. Kybartaite,205.0,Card via Stripe,Livré,2022-04-29 12:52:00
 467,YKNOEEZEX,1,Suisse,F. zanni,1542.0,Card via Stripe,Livré,2022-04-28 21:22:45
 466,LHCRAEYPL,1,Belgique,O. Voortman,780.0,Transfert bancaire,Livré,2022-04-26 13:57:29
